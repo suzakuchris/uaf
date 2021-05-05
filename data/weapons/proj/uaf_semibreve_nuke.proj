@@ -1,0 +1,41 @@
+{
+	"id":"uaf_semibreve_nuke",
+	"specClass":"missile",	
+	"missileType":"ROCKET",
+	"sprite":"graphics/weapons/Semibreve/missile_semibreve_tacticalnuke.png",
+	"size":[14,40],	
+	"center":[0,0],
+	"collisionRadius":50,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[100,100,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":2500, # purely visual
+	"explosionSpec":{"duration":5f, # not visual
+					 "radius":2000,
+					 "coreRadius":1800, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS,
+					 "particleSizeMin":10.0,
+					 "particleSizeRange":5.0,
+					 "particleDuration":6.5,
+					 "particleCount":1000,
+					 "particleColor":[255,155,155,255]},
+	"flameoutTime":3, # total time from flameout to full fadeout
+	"armingTime":0.5,
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration
+#	"engineSpec":{"turnAcc":140,
+#				  "turnRate":35,
+#				  "acc":200,
+#				  "dec":100},
+	"engineSpec":{"turnAcc":300,
+				  "turnRate":5,
+				  "acc":250,
+				  "dec":5},
+	"engineSlots":[{"id":"ES1",
+					"loc":[0, -7],
+				    "style":"MISSILE_HIGH_TECH",
+				    "width":10.0,
+				    "length":60.0,
+				    "angle":180.0},
+				    ]
+}

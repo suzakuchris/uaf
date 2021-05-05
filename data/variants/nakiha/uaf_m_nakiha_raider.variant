@@ -1,0 +1,38 @@
+{
+  "variantId": "uaf_m_nakiha_raider",
+  "hullId": "uaf_m_nakiha",
+  "displayName": "Raider",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_claris_cn",
+        "WS0002": "uaf_claris_cn",
+        "WS0003": "uaf_hikone_quad",
+        "WS0005": "uaf_vocals_swarmer_base",
+        "WS0006": "uaf_vocals_swarmer_base"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_pd_reina"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

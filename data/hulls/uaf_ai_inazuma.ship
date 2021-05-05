@@ -1,0 +1,148 @@
+{
+  "hullName": "Inazuma(AI)",
+  "hullId": "uaf_ai_inazuma",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Inazuma_AI.png",
+  "style": "MIDLINE",
+  "height": 227,
+  "width": 136,
+  "center": [68, 113.5],
+  "collisionRadius": 118,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 135,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_automataSpec"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 180,
+      "locations": [-79.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 0,
+      "locations": [41.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 0,
+      "locations": [76.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 253,
+      "angle": -62,
+      "locations": [1.5, -48]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 253,
+      "angle": 62,
+      "locations": [1.5, 48]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 307,
+      "angle": -153.5,
+      "locations": [-63.5, -50]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 307,
+      "angle": 153.5,
+      "locations": [-63.5, 50]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [51, 31.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [51, -31.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-26, 49],
+      "length": 22.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-26, -49],
+      "length": 22.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36, 34],
+      "length": 27,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-36, -34],
+      "length": 27,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -2, -67,
+    -64, -21.5,
+    -52.5, -55.5,
+    -66, -63,
+    -103.5, -14.5,
+    -103.5, 14.5,
+    -66, 63,
+    -52.5, 55.5,
+    -64, 21.5,
+    -2, 67,
+    112, -0
+  ]
+}

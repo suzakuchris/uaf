@@ -1,0 +1,78 @@
+{
+  "variantId": "uaf_novaeria_elite",
+  "hullId": "uaf_novaeria",
+  "displayName": "Elite",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_tona_iii",
+        "WS0006": "uaf_tona_iii",
+        "WS0021": "uaf_tona_iii",
+        "WS0022": "uaf_tona_iii",
+        "WS0024": "uaf_medlav_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0023": "uaf_weiss_iii_flk",
+        "WS0007": "uaf_weiss_flk",
+        "WS0008": "uaf_weiss_flk",
+        "WS0009": "uaf_weiss_flk",
+        "WS0010": "uaf_weiss_flk",
+        "WS0015": "uaf_weiss_flk",
+        "WS0016": "uaf_weiss_flk",
+        "WS0017": "uaf_weiss_flk",
+        "WS0018": "uaf_weiss_flk",
+        "WS0019": "uaf_weiss_flk",
+        "WS0020": "uaf_weiss_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_pd_reina",
+        "WS0002": "uaf_pd_reina",
+        "WS0003": "uaf_pd_reina",
+        "WS0004": "uaf_pd_reina",
+        "WS0011": "uaf_claris_cn",
+        "WS0012": "uaf_claris_cn",
+        "WS0013": "uaf_pd_reina",
+        "WS0014": "uaf_pd_reina",
+      }
+    }
+  ],
+  "modules": [
+    {
+      "HANGAR01": "uaf_novaeria_right_hangar_standard"
+    },
+    {
+      "HANGAR02": "uaf_novaeria_left_hangar_standard"
+    },
+    {
+      "ENGINE01": "uaf_novaeria_engine_standard"
+    },
+    {
+      "FORE01": "uaf_novaeria_right_fore_standard"
+    },
+    {
+      "FORE02": "uaf_novaeria_left_fore_standard"
+    }
+  ],
+  "wings": [
+    "uaf_wing_forlorn",
+    "uaf_wing_forlorn",
+    "uaf_wing_forlorn",
+    "uaf_wing_forlorn",
+  ]
+}

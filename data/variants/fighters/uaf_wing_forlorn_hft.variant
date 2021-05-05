@@ -1,0 +1,32 @@
+{
+  "variantId": "uaf_wing_forlorn_hft",
+  "hullId": "uaf_wing_forlorn",
+  "displayName": "Forlorn HFT",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_40mm_ap_gatling",
+        "WS0002": "uaf_40mm_ap_gatling",
+        "WS0003": "uaf_30mm_emp_gatling"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_light_missile_pods",
+        "WS0005": "uaf_light_missile_pods"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": "uaf_missile_barrage",
+  "specClass": "projectile",
+  "projectileSpecId": "uaf_barrage_torp",
+  "type": "MISSILE",
+  "size": "LARGE",
+  #"turretSprite": "graphics/weapons/mock/misspam.png",
+  "turretSprite": "graphics/weapons/null.png",
+  "hardpointSprite": "graphics/weapons/null.png",
+  "renderAboveAllWeapons": 0,
+  "turretOffsets": [
+    -1,
+    -7.5,
+    -1,
+    -4.5,
+    -1,
+    -1.5,
+    -1,
+    1.5,
+    -1,
+    4.5,
+    -1,
+    7.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    -2,
+    2,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    16,
+    -8,
+    16,
+    8,
+    16,
+    -4,
+    16,
+    4
+  ],
+  "hardpointAngleOffsets": [
+    -6,
+    6,
+    -2,
+    2
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 12,
+    "particleSizeRange": 12,
+    "cloudParticleCount": 6,
+    "cloudDuration": 1.5,
+    "cloudRadius": 10,
+    "blowbackParticleCount": 4,
+    "blowbackDuration": 2,
+    "blowbackLength": 22,
+    "blowbackSpread": 15,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "harpoon_fire"
+}

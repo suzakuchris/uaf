@@ -1,0 +1,277 @@
+{
+	# Should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# For example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		"uaf_m_nakiha_standard":1,
+		"uaf_m_nakiha_suppressor":1,
+		"uaf_m_nakiha_raider":1,
+		"uaf_m_nakiha_multirole":1,
+
+		"uaf_nakiha_standard":0.3,
+		"uaf_nakiha_multirole":0.3,
+		"uaf_nakiha_suppressor":0.3,
+		"uaf_nakiha_assault":0.3,
+
+		"uaf_ai_nakiha_standard":0.1,
+		"uaf_ai_nakiha_assault":0.1,
+		"uaf_ai_nakiha_escort":0.1,
+		"uaf_ai_nakiha_support":0.1,
+		"uaf_ai_nakiha_suppressor":0.1,
+
+		"uaf_m_rama_corvette_standard":1,
+		"uaf_m_rama_corvette_multirole":1,
+		"uaf_m_rama_corvette_raider":1,
+		"uaf_m_rama_corvette_suppressor":1,
+
+		"uaf_rama_corvette_standard":0.3,
+		"uaf_rama_corvette_raider":0.3,
+		"uaf_rama_corvette_suppressor":0.3,
+
+		"uaf_ai_rama_corvette_standard":0.1,
+		"uaf_ai_rama_corvette_assault":0.1,
+		"uaf_ai_rama_corvette_defense":0.1,
+		"uaf_ai_rama_corvette_suppressor":0.1,
+
+		"uaf_m_perwira_standard":1,
+
+	},
+
+	"combatSmall":{
+		"uaf_m_nakiha_standard":1,
+		"uaf_m_nakiha_suppressor":1,
+		"uaf_m_nakiha_raider":1,
+		"uaf_m_nakiha_multirole":1,
+
+		"uaf_nakiha_standard":0.3,
+		"uaf_nakiha_multirole":0.3,
+		"uaf_nakiha_suppressor":0.3,
+		"uaf_nakiha_assault":0.3,
+
+		"uaf_ai_nakiha_standard":0.1,
+		"uaf_ai_nakiha_assault":0.1,
+		"uaf_ai_nakiha_escort":0.1,
+		"uaf_ai_nakiha_support":0.1,
+		"uaf_ai_nakiha_suppressor":0.1,
+
+		"uaf_m_rama_corvette_standard":1,
+		"uaf_m_rama_corvette_multirole":1,
+		"uaf_m_rama_corvette_raider":1,
+		"uaf_m_rama_corvette_suppressor":1,
+
+		"uaf_rama_corvette_standard":0.3,
+		"uaf_rama_corvette_raider":0.3,
+		"uaf_rama_corvette_suppressor":0.3,
+
+		"uaf_ai_rama_corvette_standard":0.1,
+		"uaf_ai_rama_corvette_assault":0.1,
+		"uaf_ai_rama_corvette_defense":0.1,
+		"uaf_ai_rama_corvette_suppressor":0.1,
+
+		"uaf_m_perwira_standard":1,
+
+	},
+
+	"combatMedium":{
+		"uaf_m_sentry_prototype":1,
+
+		"uaf_m_inazuma_standard":1,
+		"uaf_m_inazuma_assault":1,
+		"uaf_m_inazuma_support":1,
+		"uaf_m_inazuma_suppressor":1,
+
+		"uaf_inazuma_standard":0.3,
+		"uaf_inazuma_defense":0.3,
+		"uaf_inazuma_assault":0.3,
+		"uaf_inazuma_suppressor":0.3,
+
+		"uaf_ai_inazuma_standard":0.1,
+		"uaf_ai_inazuma_support":0.1,
+		"uaf_ai_inazuma_suppressor":0.1,
+
+		"uaf_m_lovela_standard":1,
+		"uaf_m_lovela_multirole":1,
+		"uaf_m_lovela_assault":1,
+		"uaf_m_lovela_suppressor":1,
+
+		"uaf_lovela_standard":0.3,
+		"uaf_lovela_strike":0.3,
+		"uaf_lovela_suppression":0.3,
+		"uaf_lovela_assault":0.3,
+
+		"uaf_ai_lovela_standard":0.1,
+		"uaf_ai_lovela_support":0.1,
+		"uaf_ai_lovela_assault":0.1,
+		"uaf_ai_lovela_suppressor":0.1,
+	},
+
+	"combatLarge":{
+		"uaf_m_reisen_standard":1,
+		"uaf_m_reisen_support":1,
+		"uaf_m_reisen_assault":1,
+		"uaf_m_reisen_suppressor":1,
+		"uaf_reisen_standard":0.3,
+		"uaf_reisen_assault":0.3,
+		"uaf_reisen_suppression":0.3,
+
+		"uaf_rillaru_standard":0.8,
+		"uaf_rillaru_defense":0.8,
+		"uaf_rillaru_assault":0.8,
+		"uaf_rillaru_suppression":0.8,
+
+		"uaf_ai_rillaru_standard":0.3,
+		"uaf_ai_rillaru_assault":0.3,
+		"uaf_ai_rillaru_suppressor":0.3,
+
+		"uaf_isenoria_prototype_standard":0.2,
+		"uaf_isenoria_prototype_assault":0.2,
+		"uaf_isenoria_prototype_surgical":0.2,
+		"uaf_isenoria_prototype_bomber":0.2
+	},
+	"combatCapital":{
+		"uaf_slvv_core_elite":1,
+
+	},
+
+	# Hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+	},
+
+	"combatFreighterMedium":{
+	},
+
+	"combatFreighterLarge":{
+	},
+
+	"civilianRandom":{
+		"uaf_m_nebula_bravo_runner":1,
+	},
+
+	# Carriers
+	"carrierSmall":{
+
+		"uaf_m_minoria_standard":1,
+		"uaf_m_minoria_bomber":1,
+		"uaf_m_minoria_strike":1,
+		"uaf_m_minoria_superiority":1,
+
+		"uaf_minoria_standard":0.8,
+		"uaf_minoria_superiority":0.8,
+		"uaf_minoria_surgical":0.8,
+		"uaf_minoria_bomber":0.8,
+
+		"uaf_ai_minoria_standard":0.3,
+		"uaf_ai_minoria_strategic":0.3,
+		"uaf_ai_minoria_strike":0.3,
+		"uaf_ai_minoria_superiority":0.3,
+		"uaf_ai_minoria_surgical":0.3,
+
+	},
+	"carrierMedium":{
+		
+		"uaf_m_exoria_standard":1,
+		"uaf_m_exoria_bomber":1,
+		"uaf_m_exoria_strike":1,
+		"uaf_m_exoria_superiority":1,
+
+		"uaf_exoria_standard":0.8,
+		"uaf_exoria_surgical":0.8,
+		"uaf_exoria_superiority":0.8,
+		"uaf_exoria_bomber":0.8,
+
+		"uaf_shinoria_superiority":0.7,
+		"uaf_shinoria_standard":0.7,
+		"uaf_shinoria_strike":0.7,
+		"uaf_shinoria_surgical":0.7,
+
+		"uaf_ai_shinoria_standard":0.4,
+		"uaf_ai_shinoria_superiority":0.4,
+		"uaf_ai_shinoria_strike":0.4,
+		"uaf_ai_shinoria_suppressor":0.4,
+		"uaf_ai_shinoria_surgical":0.4,
+
+	},
+	"carrierLarge":{
+		
+		"uaf_ai_neuxoria_suppressor":0.8,
+		"uaf_ai_neuxoria_standard":0.8,
+		"uaf_ai_neuxoria_bomber":0.8,
+		"uaf_ai_neuxoria_strategic":0.8,
+		"uaf_ai_neuxoria_superiority":0.8,
+		"uaf_ai_neuxoria_surgical":0.8,
+
+		"uaf_m_zepporia_standard":1,
+		"uaf_m_zepporia_multirole":1,
+		"uaf_m_zepporia_superiority":1,
+		"uaf_m_zepporia_strike":1,
+		"uaf_m_zepporia_bomber":1,
+
+		"uaf_isenoria_prototype_standard":0.2,
+		"uaf_isenoria_prototype_bomber":0.2,
+		"uaf_isenoria_prototype_assault":0.2,
+		"uaf_isenoria_prototype_surgical":0.2
+
+	},
+
+
+	#"phaseSmall":{},
+
+	#"phaseMedium":{},
+
+	#"phaseLarge":{},
+
+	#"phaseCapital":{},
+
+	"freighterSmall":{
+		"uaf_sekai_s_standard":1
+	},
+
+	"freighterMedium":{
+		"uaf_wo_m_standard":1
+	},
+
+	"freighterLarge":{
+		"uaf_tsutsumu_l_standard":1,
+		"uaf_m_nebula_bravo_runner":2,
+	},
+
+	"tankerSmall":{
+		"uaf_sekai_s_standard":1
+	},
+
+	"tankerMedium":{
+		"uaf_wo_m_standard":1
+	},
+
+	"tankerLarge":{
+		"uaf_tsutsumu_l_standard":1
+	},
+
+	#"personnelSmall":{},
+
+	#"personnelMedium":{},
+
+	"personnelLarge":{
+		"uaf_machi_apa_transport":1,
+		"uaf_m_machi_apa_transport":3,
+	},
+
+	#"linerSmall":{},
+
+	#"linerMedium":{},
+
+	"linerLarge":{
+		"uaf_m_nebula_bravo_runner":1,
+	},
+
+	#"tug":{},
+
+	#"crig":{},
+
+	"utility":{
+		"uaf_eyeseau_standard":0.2,
+		"uaf_eyeseau_defense":0.2,
+		"uaf_eyeseau_offensive":0.2,
+		"uaf_osela_suv_standard":1
+	},
+
+}

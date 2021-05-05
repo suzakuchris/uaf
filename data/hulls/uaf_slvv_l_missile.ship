@@ -1,0 +1,77 @@
+{
+  "hullName": "Left Missile",
+  "hullId": "uaf_slvv_l_missile",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/SLV/uaf_solverniav_left_missile_section.png",
+  "style": "MIDLINE",
+  "height": 78,
+  "width": 128,
+  "center": [65, 71],
+  "collisionRadius": 92,
+  "shieldCenter": [-33.5, 1],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInMods": [
+    "never_detaches",
+    "uaf_noExplosion"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 90,
+      "locations": [-44.5, -0.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 90,
+      "locations": [-8.5, -0.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-44, -28]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -45,
+      "locations": [-47, -49]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -45,
+      "locations": [-26, -49]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -69, 61,
+    -61, 13.5,
+    -61.5, -61,
+    -18, -60.5,
+    -28.5, -10.5,
+    1.5, -9.5,
+    0.5, 14.5,
+    -31.5, 16.5,
+    -43.5, 55
+  ]
+}

@@ -1,0 +1,31 @@
+{
+	"id":"uaf_phenex_lrg",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"displayArcRadius":650,
+	"turretSprite":"graphics/weapons/Phenex XLRG/xl_phenex_turret.png",
+	"turretGunSprite":"graphics/weapons/Phenex XLRG/xl_phenex_recoil.png",
+	"hardpointSprite":"graphics/weapons/Phenex XLRG/xl_phenex_turret.png",
+	"hardpointGunSprite":"graphics/weapons/Phenex XLRG/xl_phenex_recoil.png",	
+	"visualRecoil":8.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[16.5, 14.5, 16.5, 0.5, 16.5, -13.5],
+	"turretAngleOffsets":[0, 0],
+	"hardpointOffsets":[16.5, 14.5, 16.5, 0.5, 16.5, -13.5],
+	"hardpointAngleOffsets":[0, 0],
+	"specialWeaponGlowWidth":35,
+	"specialWeaponGlowHeight":60,
+	"barrelMode":"ALTERNATING", # or LINKED/ALTERNATING.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":60.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":36,
+					   "particleSizeMin":5.0,
+					   "particleSizeRange":32.0,
+					   "particleDuration":0.5,
+					   "particleCount":20,
+					  "particleColor":[165,225,185,175]},
+	"projectileSpecId":"uaf_shot_heavy",  # projectile that will be fired
+	"fireSoundTwo":"cyrexa_cannon3",
+	"everyFrameEffect":"data.scripts.weapons.uaf_laserPrecannon",	
+}

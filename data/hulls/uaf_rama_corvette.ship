@@ -1,0 +1,101 @@
+{
+  "hullName": "Rama",
+  "hullId": "uaf_rama_corvette",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Rama_Corvette_Standard.png",
+  "style": "MIDLINE",
+  "height": 115,
+  "width": 72,
+  "center": [36, 57.5],
+  "collisionRadius": 68.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 60,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 276,
+      "angle": 0,
+      "locations": [7.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-21.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8.5, -25]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-43.5, -9],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-43.5, 9],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-42.5, -0],
+      "length": 43.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-29, -21.5],
+      "length": 13.798167,
+      "width": 9.134675,
+      "angle": -157.5,
+      "contrailSize": 9.134675,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-29, 21.5],
+      "length": 13.798167,
+      "width": 9.134675,
+      "angle": 157.5,
+      "contrailSize": 9.134675,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    17, -28.5,
+    -20, -26.5,
+    -27.5, -14.5,
+    -52.5, -11.5,
+    -52.5, 11.5,
+    -27.5, 14.5,
+    -20, 26.5,
+    17, 28.5,
+    16, 11,
+    56.5, -4.5,
+    25, -6.5
+  ]
+}

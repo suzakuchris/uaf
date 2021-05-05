@@ -1,0 +1,51 @@
+{        
+	#CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK 
+	"music":{
+		"northern_cross":[
+			#{"file":"Northern Cross.ogg","source":"sounds/ost","volume":0.6}, 
+		],
+		
+	},
+	"rubia":[
+		#{"file":"sounds/ost/rubia2.ogg", "pitch":1, "volume":0.3},
+	],
+	"245mm_Blast":[
+		{"file":"sounds/weapons/245mm_Blast.ogg","pitch":1, "volume":0.13},
+		#{"file":"sounds/weapons/245mm_Blast.ogg","pitch":0.95, "volume":0.14},
+		#{"file":"sounds/weapons/245mm_Blast.ogg","pitch":0.90, "volume":0.15}
+	],
+	"cyrexa_cannon4":[
+		{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":1, "volume":0.95},
+		{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":0.95, "volume":0.85},
+		{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":0.9, "volume":0.75},
+		{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":0.85, "volume":0.85}
+	],
+	"cyrexa_cannon3":[
+		{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":1, "volume":0.95},
+		{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":0.95, "volume":0.85},
+		{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":0.9, "volume":0.75}
+	],
+	"medium_cannons":[
+		{"file":"sounds/weapons/med_cannons.ogg", "pitch":1, "volume":0.85},
+		{"file":"sounds/weapons/med_cannons.ogg", "pitch":0.9, "volume":0.75},
+		{"file":"sounds/weapons/med_cannons.ogg", "pitch":0.8, "volume":0.95}
+	],
+	"75mm_Blast":[
+		{"file":"sounds/weapons/75mm_Blast.ogg", "pitch":1, "volume": 0.15}
+	],
+	"Railgun_small":[
+		{"file":"sounds/weapons/uaf_railgun_fire.ogg", "pitch":1, "volume":0.25}
+	],
+	"Railgun_medium":[
+		{"file":"sounds/weapons/uaf_railgun_fire.ogg", "pitch":1.2, "volume":0.65},
+	],
+	"Railgun_large":[
+		{"file":"sounds/weapons/uaf_railgun_fire.ogg", "pitch":0.5, "volume":1.5},
+	],
+	"Flak_fire_medium":[
+		{"file":"sounds/weapons/uaf_flak_fire.ogg", "pitch":1, "volume":0.25}
+	],
+	"Flak_fire_large":[
+		{"file":"sounds/weapons/uaf_flak_fire.ogg", "pitch":0.5, "volume":0.6},
+	],
+}

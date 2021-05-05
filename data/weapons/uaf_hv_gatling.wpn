@@ -1,0 +1,35 @@
+{
+	"id":"uaf_hv_gatling",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"MEDIUM",
+	#"turretSprite":"graphics/weapons/null.png",
+	#"turretGunSprite":"graphics/weapons/null.png",
+	#"hardpointSprite":"graphics/weapons/null.png",
+	#"hardpointGunSprite":"graphics/weapons/null.png",	
+	#"visualRecoil":4.0,  # the gun sprites are only used if this is non-0
+	#"renderHints":[RENDER_BARREL_BELOW],
+	"turretSprite":"graphics/weapons/null.png",
+	"hardpointSprite":"graphics/weapons/null.png",	
+	#"numFrames":4,	
+	#"frameRate":20,
+	"turretOffsets":[18, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[29, 0],
+	"hardpointAngleOffsets":[0],	
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":35.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":5.0,
+					   "particleSizeMin":6.0,
+					   "particleSizeRange":14.0,
+					   "particleDuration":0.15,
+					   "particleCount":11,
+					   "particleColor":[255,240,165,200]},	
+	"projectileSpecId":"uaf_pu_ash_sm",  # projectile that will be fired
+	#"noImpactSounds":true,
+	#"noShieldImpactSounds":true,
+	#"noNonShieldImpactSounds":true,
+	#"fireSoundOne":"chaingun_intro",	
+	"fireSoundTwo":"chaingun_fire",	
+}

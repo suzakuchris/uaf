@@ -1,0 +1,3 @@
+id,name,faction,desc,script,icon,order
+uaf_special_limited_logistics,Special Limited Logistics,,Trade high-end UAF ships,com.fs.starfarer.api.impl.campaign.submarkets.MilitarySubmarketPlugin,,100
+uaf_central_navy_dockyards,Central Navy Dockyards,,Trade both military and high-end UAF ships,com.fs.starfarer.api.impl.campaign.submarkets.MilitarySubmarketPlugin,,100

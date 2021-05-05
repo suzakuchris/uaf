@@ -1,0 +1,32 @@
+{
+  "variantId": "uaf_vernya_drone",
+  "hullId": "uaf_vernya",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "annihilator",
+        "WS0003": "annihilator",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_hv_gatling",
+        "WS0005": "uaf_hv_gatling",
+        "WS0006": "uaf_hv_kinetic_railgun"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

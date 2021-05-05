@@ -1,0 +1,47 @@
+{
+  "variantId": "uaf_m_reisen_suppressor",
+  "hullId": "uaf_m_reisen",
+  "displayName": "Suppressor",
+  "goalVariant": true,
+  "fluxCapacitors": 30,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_tona_ii",
+        "WS0002": "uaf_tona_ii",
+        "WS0003": "uaf_tona_i",
+        "WS0004": "uaf_tona_i",
+        "WS0005": "uaf_pd_reina",
+        "WS0006": "uaf_pd_reina",
+        "WS0011": "uaf_tona_iii",
+        "WS0012": "uaf_tona_iii",
+        "WS0013": "uaf_tona_iii",
+        "WS0014": "uaf_tona_iii",
+        "WS0015": "uaf_tona_ii",
+        "WS0016": "uaf_ivory",
+        "WS0019": "uaf_rhythm_base",
+        "WS0020": "uaf_rhythm_base"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_weiss_flk",
+        "WS0008": "uaf_weiss_flk",
+        "WS0009": "uaf_pd_reina",
+        "WS0010": "uaf_pd_reina",
+        "WS0017": "uaf_weiss_flk",
+        "WS0018": "uaf_weiss_flk"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

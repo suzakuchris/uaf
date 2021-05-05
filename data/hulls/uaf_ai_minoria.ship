@@ -1,0 +1,126 @@
+{
+  "hullName": "Minoria(AI)",
+  "hullId": "uaf_ai_minoria",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Minoria_AI.png",
+  "style": "MIDLINE",
+  "height": 190,
+  "width": 119,
+  "center": [59, 95],
+  "collisionRadius": 205,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 105,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_automataSpec"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-9, 28]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-9, -28]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [21, 33]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [21, -33]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-67.5, 18],
+      "length": 50.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-67.5, -18],
+      "length": 50.5,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-75.5, -0],
+      "length": 61.5,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-54, 37],
+      "length": 30,
+      "width": 10,
+      "angle": 156,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-54, -37],
+      "length": 30,
+      "width": 10,
+      "angle": -156,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    79.5, -6,
+    93.5, -10.5,
+    53.5, -25,
+    33, -37,
+    12, -38,
+    12, -31,
+    -3, -40.5,
+    -14.5, -40.5,
+    -20, -36,
+    -50.5, -45.5,
+    -72.5, -36.5,
+    -94.5, -26.5,
+    -84, -12.5,
+    -84, 11.5,
+    -94.5, 25.5,
+    -72.5, 35.5,
+    -50.5, 44.5,
+    -20, 35,
+    -14.5, 39.5,
+    -3, 39.5,
+    12, 30,
+    12, 38,
+    33, 37,
+    53.5, 25,
+    93.5, 9.5,
+    79.5, 5
+  ]
+}

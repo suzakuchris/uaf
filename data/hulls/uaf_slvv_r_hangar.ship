@@ -1,0 +1,103 @@
+{
+  "hullName": "Right Hangar",
+  "hullId": "uaf_slvv_r_hangar",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/SLV/uaf_solverniav_right_hangar_section.png",
+  "style": "MIDLINE",
+  "height": 142,
+  "width": 143,
+  "center": [68.5, 121],
+  "collisionRadius": 107.5,
+  "shieldCenter": [-50, -3],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInMods": [
+    "never_detaches",
+    "uaf_linkedHangar",
+    "uaf_noExplosion",
+    "uaf_flagship_exthangar"
+  ],
+  "builtInWeapons": {
+    "WS0002": "uaf_decor_mg",
+    "WS0003": "uaf_decor_mg"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 268,
+      "angle": -90,
+      "locations": [-61, -60]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [-72.5, 6.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [-52.5, 6.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [
+        -73.5, -30.5,
+        -76, -34.5
+      ]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 268,
+      "angle": -83.5,
+      "locations": [
+        -15, -36.5,
+        -14.5, -41.5
+      ]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -45,
+      "locations": [-38.5, 29]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -103.5, 45,
+    -73, 31.5,
+    -59.5, 56.5,
+    -33.5, 63.5,
+    -11.5, 56.5,
+    -25.5, 19,
+    21, -1.5,
+    7.5, -61,
+    -30.5, -60.5,
+    -47.5, -73.5,
+    -75, -71,
+    -101, -36.5,
+    -87, 7.5,
+    -111.5, 23
+  ]
+}

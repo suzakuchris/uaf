@@ -1,0 +1,23 @@
+{
+  "variantId": "uaf_wing_minersky_interceptor",
+  "hullId": "uaf_wing_minersky",
+  "displayName": "Minersky Wing",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_rhythm",
+        "WS0001": "uaf_40mm_ap_gatling"
+      }
+    },
+  ],
+  "modules": [],
+  "wings": []
+}

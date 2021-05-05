@@ -1,0 +1,26 @@
+{
+  "variantId": "uaf_m_minoria_strike",
+  "hullId": "uaf_m_minoria",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_weiss_flk",
+        "WS0002": "uaf_weiss_flk"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_nekoyan",
+    "uaf_wing_exoscar"
+  ]
+}

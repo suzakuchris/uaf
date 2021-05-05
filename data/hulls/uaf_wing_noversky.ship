@@ -1,0 +1,79 @@
+{
+  "hullName": "UAF Noversky",
+  "hullId": "uaf_wing_noversky",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/noversky_atk.png",
+  "style": "MIDLINE",
+  "height": 52,
+  "width": 50,
+  "center": [25, 26],
+  "collisionRadius": 55,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 28,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10.5, 8.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [10.5, -8.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [9.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18, 18],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-18, -18],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    13, -3.5,
+    23.5, -5,
+    23.5, -11.5,
+    -0.5, -14,
+    -15.5, -23,
+    -22.5, -12,
+    -18, -10.5,
+    -22.5, -4,
+    -22.5, 4,
+    -18, 10.5,
+    -22.5, 12,
+    -15.5, 23,
+    -0.5, 14,
+    23.5, 11.5,
+    23.5, 5,
+    13, 3.5
+  ]
+}

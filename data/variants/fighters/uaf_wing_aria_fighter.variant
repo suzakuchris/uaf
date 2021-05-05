@@ -1,0 +1,30 @@
+{
+  "variantId": "uaf_wing_aria_fighter",
+  "hullId": "uaf_wing_aria",
+  "displayName": "UAF Aria Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_20mm_autocannon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_rhythm",
+        "WS0003": "uaf_rhythm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

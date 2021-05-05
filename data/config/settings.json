@@ -1,0 +1,54 @@
+{
+    "plugins":{
+        "uaf_map_field":"data.scripts.plugins.uaf_map_field"
+    },
+    "ruleCommandPackages":[
+        "data.campaign.rulecmd",
+    ],
+    "graphics":{
+        "uaf_person":{
+            "uafnia":"graphics/portraits/uaf_nia_128.png",
+            "uafroboqueen":"graphics/portraits/uaf_roboqueen.png",
+            "uafqueen":"graphics/portraits/uaf_queen.png",
+            "nia2":"graphics/portraits/LN.png"
+        },
+        "uaf_turret_base":{
+            "cargo_base":"graphics/weapons/uaf_cargo.png"
+        },
+        "emp":{
+            "uaf_eyeseau_pulse":"graphics/fx/uaf_eyeseau_suv_radar_ring.png",
+            "uaf_secondary_pulse":"graphics/fx/uaf_eyeseau_suv_radar_ring_2.png",
+        },
+        "muzzle":{
+            "uaf_cyrexase_0":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_00.png",
+            "uaf_cyrexase_1":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_01.png",
+            "uaf_cyrexase_2":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_02.png",
+            "uaf_cyrexase_3":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_03.png",
+            "uaf_cyrexase_4":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_04.png",
+            "uaf_cyrexase_5":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_05.png",
+            "uaf_cyrexase_6":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_06.png",
+            "uaf_cyrexase_7":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_07.png",
+            "uaf_cyrexase_8":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_08.png",
+            "uaf_cyrexase_9":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_09.png",
+            "uaf_cyrexase_10":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_10.png",
+            "uaf_cyrexase_11":"graphics/weapons/Cyrexa Single/muzzles/uaf_cyrexase_11.png",
+            "triyia_pdx_fire_glow_1":"graphics/weapons/Triyia PDX/animation/triyia_pdx_fire_glow_1.png",
+            "triyia_pdx_fire_glow_2":"graphics/weapons/Triyia PDX/animation/triyia_pdx_fire_glow_2.png",
+            "triyia_pdx_fire_glow_3":"graphics/weapons/Triyia PDX/animation/triyia_pdx_fire_glow_3.png",
+            "triyia_pdx_fire_glow_4":"graphics/weapons/Triyia PDX/animation/triyia_pdx_fire_glow_4.png",
+            "triyia_pdx_fire_glow_5":"graphics/weapons/Triyia PDX/animation/triyia_pdx_fire_glow_5.png",
+        },
+        "flak_puff":{
+            "puff_sprite1":"graphics/fx/flak_explosion.png",
+            "puff_sprite2":"graphics/fx/flak_explosion_2.png"
+        },
+        "trail":{
+            "uaf_melody_trail":"graphics/fx/uaf_melody_trail.png",
+        },
+        "glow":{
+            #"reisen_reactor":"graphics/ships/fx/reisen_g_a.png",
+            "triyia_pdx_glow":"graphics/weapons/Triyia PDX/triyia_pdx_glow.png"
+
+        }
+    }
+}

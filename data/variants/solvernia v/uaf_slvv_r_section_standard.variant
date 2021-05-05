@@ -1,0 +1,25 @@
+{
+  "variantId": "uaf_slvv_r_section_standard",
+  "hullId": "uaf_slvv_r_section",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_cyrexa_triple",
+        "WS0002": "uaf_cyrexa_triple",
+        "WS0003": "uaf_weiss_flk",
+        "WS0004": "uaf_weiss_flk"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

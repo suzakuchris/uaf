@@ -1,0 +1,37 @@
+{
+  "variantId": "uaf_ai_nakiha_support",
+  "hullId": "uaf_ai_nakiha",
+  "displayName": "Support",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_claris_cn",
+        "WS0002": "uaf_claris_cn",
+        "WS0003": "uaf_weiss_ii_flk",
+        "WS0004": "uaf_weiss_flk",
+        "WS0005": "uaf_rhythm_base_triple",
+        "WS0006": "uaf_rhythm_base_triple"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

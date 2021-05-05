@@ -1,0 +1,178 @@
+{
+  "hullName": "uaf_wing_lynx",
+  "hullId": "uaf_wing_lynx",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/lynx_ace.png",
+  "style": "MIDLINE",
+  "height": 85,
+  "width": 67,
+  "center": [33.5, 42.5],
+  "collisionRadius": 100,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInMods":[
+    "uaf_experimental_fighter",
+  ],
+  "builtInWeapons":{
+    "BLINKER1": "blinker_green",
+    "BLINKER2": "blinker_green",
+    "BLINKER_FRONT": "blinker_red",
+    "BLINKER_ASYNC": "blinker_red",
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-2.5, 16]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-2.5, -16]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-12, 24.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-12, -24.5]
+    },
+    {
+      "id": "SWARMER1",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-18, 16]
+    },
+    {
+      "id": "SWARMER2",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-18, -16]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [36.5, -0]
+    },
+    {
+      "id": "CYREXA",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 17,
+      "angle": 0,
+      "locations": [-4, -7.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-23.5, -0]
+    },
+    {
+      "id": "BLINKER1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-22.5, 30.5]
+    },
+    {
+      "id": "BLINKER2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-22.5, -30.5]
+    },
+    {
+      "id": "BLINKER_FRONT",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [39, -0]
+    },
+    {
+      "id": "BLINKER_ASYNC",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8, 9]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-34, 9.5],
+      "length": 9,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 25,
+      "style": "MELODY_ENGINE"
+    },
+    {
+      "location": [-34, -9.5],
+      "length": 9,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "MELODY_ENGINE"
+    }
+  ],
+  "bounds": [
+    37.5, -1.5,
+    14, -5.5,
+    6, -8,
+    -23, -34,
+    -28, -16,
+    -35, -16.5,
+    -38.5, -4.5,
+    -26, -4,
+    -26, 4,
+    -38.5, 4.5,
+    -35, 16.5,
+    -28, 16,
+    -23, 34,
+    6, 8,
+    14, 5.5,
+    37.5, 1.5
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "hullName": "Minoria(M)",
+  "hullId": "uaf_m_minoria",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Minoria_Military.png",
+  "style": "MIDLINE",
+  "height": 190,
+  "width": 119,
+  "center": [59, 95],
+  "collisionRadius": 128,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 110.5,
+  "viewOffset": 80,
+  "builtInMods": [
+    "uaf_melodyEngine",
+    "uaf_auroranEngineering",
+    "uaf_militaryGrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-9.5, 28]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-9.5, -28]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-3.5, 3.5]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-4, -3.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-67.5, -18],
+      "length": 40.5,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-67.5, 18],
+      "length": 40.5,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-74.5, -0],
+      "length": 59,
+      "width": 26,
+      "angle": -180,
+      "contrailSize": 26,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-55, 36.5],
+      "length": 26.5,
+      "width": 11,
+      "angle": 157.5,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-55, -36.5],
+      "length": 26.5,
+      "width": 11,
+      "angle": -157.5,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    76, 6,
+    93, 8,
+    12.5, 38,
+    -49.5, 46.5,
+    -93, 26,
+    -77, 19,
+    -77, -20,
+    -93, -27,
+    -49.5, -45.5,
+    12.5, -37.5,
+    92, -9,
+    76, -7
+  ]
+}

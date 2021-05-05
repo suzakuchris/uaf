@@ -1,0 +1,112 @@
+{
+  "hullName": "Rama(M)",
+  "hullId": "uaf_m_rama_corvette",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Rama_Corvette_Military.png",
+  "style": "MIDLINE",
+  "height": 115,
+  "width": 72,
+  "center": [36, 57.5],
+  "collisionRadius": 69.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 60,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_melodyEngine",
+    "uaf_auroranEngineering",
+    "uaf_militaryGrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 276,
+      "angle": 0,
+      "locations": [7.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-21.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8.5, 24]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [8.5, -25]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-43.5, -9],
+      "length": 41,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-43.5, 9],
+      "length": 41,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-42.5, -0],
+      "length": 58.5,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-26, -20],
+      "length": 31.860245,
+      "width": 13.405186,
+      "angle": -157.5,
+      "contrailSize": 13.405186,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-26, 20],
+      "length": 31.860245,
+      "width": 13.405186,
+      "angle": 157.5,
+      "contrailSize": 13.405186,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    17, -28.5,
+    -20, -26.5,
+    -27.5, -14.5,
+    -52.5, -11.5,
+    -52.5, 11.5,
+    -27.5, 14.5,
+    -20, 26.5,
+    17, 28.5,
+    16, 11,
+    56.5, -4.5,
+    25, -6.5
+  ]
+}

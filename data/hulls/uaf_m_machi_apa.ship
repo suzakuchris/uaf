@@ -1,0 +1,131 @@
+{
+  "hullName": "Machi APA(M)",
+  "hullId": "uaf_m_machi_apa",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Machi_APA_Military.png",
+  "style": "MIDLINE",
+  "height": 293,
+  "width": 118,
+  "center": [58.5, 131],
+  "collisionRadius": 300,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 200,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_melodyEngine",
+    "uaf_auroranEngineering",
+    "uaf_militaryGrade"
+  ],
+  "builtInWings": [
+    "uaf_ravenya"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 166,
+      "angle": 90,
+      "locations": [-43, 48.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 164,
+      "angle": -90,
+      "locations": [-43, -48.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [37.5, -24.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [37.5, 24.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "LAUNCH_BAY",
+      "mount": "TURRET",
+      "arc": 166,
+      "angle": 0,
+      "locations": [
+        -74, -0,
+        -52, 0.5,
+        -64.5, 0.5,
+        -74, -5.5,
+        -74, 8
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-109.5, 28],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-109.5, -28],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-110, 37.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-110, -37.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-117, -0],
+      "length": 38,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    122.5, -22.5,
+    81.5, -30.5,
+    33, -36,
+    -19.5, -37,
+    -95.5, -53,
+    -112.5, -44.5,
+    -112.5, 44.5,
+    -95.5, 53,
+    -19.5, 37,
+    33, 36,
+    81.5, 30.5,
+    122.5, 22.5
+  ]
+}

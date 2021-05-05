@@ -1,0 +1,124 @@
+{
+  "hullName": "Right Gun Platform",
+  "hullId": "uaf_slvv_r_gun",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/SLV/uaf_solverniav_right_gun_section.png",
+  "style": "MIDLINE",
+  "height": 249,
+  "width": 128,
+  "center": [73, 122.5],
+  "collisionRadius": 150,
+  "shieldCenter": [-2.5, 9],
+  "shieldRadius": 145,
+  "viewOffset": 0,
+  "builtInMods": [
+    "never_detaches",
+    "uaf_noExplosion",
+    "uaf_flagship_armouring"
+  ],
+  "builtInWeapons": {
+    "WS0001": "uaf_decor_mg",
+    "WS0002": "uaf_decor_mg",
+    "WS0007": "uaf_decor_mg"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-49, -25.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-25, -20.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -45,
+      "locations": [-35.5, 11]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 45,
+      "locations": [-35.5, 45]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [8, 28]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-66, 28]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [43, -4.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [80.5, 28]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -45,
+      "locations": [-90.5, -34]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -45,
+      "locations": [9.5, -9]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -119, -45.5,
+    -106, 36,
+    -70.5, 70.5,
+    116, 39.5,
+    101.5, 2.5
+  ]
+}

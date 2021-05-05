@@ -1,0 +1,22 @@
+{
+  "variantId": "uaf_wing_sakurai_bomber",
+  "hullId": "uaf_wing_sakurai",
+  "displayName": "Sakurai Wing",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_bombs_medium",
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,33 @@
+{
+	"MELODY_1":{
+		#"glowSprite":"graphics/fx/engineglow32.png", # not implemented
+		#"glowShape":"graphics/fx/engineflame32.png",
+		"engineColor":[238,130,238,255],
+		"engineCampaignColor":[0,0,139,255],
+		"contrailParticleSizeMult":3,
+		"contrailParticleDuration":10,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0.5,
+		"contrailColor":[0,0,139,50],
+		"engineGlowGlowMult":3,
+		"contrailCampaignColor":[0,0,139,75],
+		#"contrailCampaignColor":[120,50,50,50],
+		"type":"GLOW" # GLOW or SMOKE
+	},
+	"MELODY_ENGINE":{
+		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"engineColor":[238,130,238,255],
+		"contrailDuration":5,
+		"contrailWidthMult":1,
+		"contrailParticleSizeMult":2.5,
+		"contrailParticleDuration":10,
+		"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":2, # min segment length, in pixels
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0.5f,
+		"contrailColor":[0,0,139,75],
+		"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+	}
+}
+

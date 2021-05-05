@@ -1,0 +1,44 @@
+{
+  "variantId": "uaf_ai_neuxoria_bomber",
+  "hullId": "uaf_ai_neuxoria",
+  "displayName": "Bomber",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_medlav_dual",
+        "WS0002": "uaf_ivory",
+        "WS0003": "uaf_weiss_ii_flk",
+        "WS0004": "uaf_weiss_ii_flk",
+        "WS0005": "uaf_pd_reina",
+        "WS0006": "uaf_pd_reina",
+        "WS0009": "uaf_pd_reina",
+        "WS0012": "uaf_weiss_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_weiss_flk",
+        "WS0008": "uaf_weiss_flk",
+        "WS0010": "uaf_pd_reina"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_sakurai",
+    "uaf_wing_sakurai",
+    "uaf_wing_hyacinth",
+    "uaf_wing_hyacinth",
+    "uaf_wing_superaria"
+  ]
+}

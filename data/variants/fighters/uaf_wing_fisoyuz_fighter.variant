@@ -1,0 +1,24 @@
+{
+  "variantId": "uaf_wing_fisoyuz_fighter",
+  "hullId": "uaf_wing_fisoyuz",
+  "displayName": "Fisoyuz Wing",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_20mm_autocannon",
+        "WS0002": "uaf_light_missile_pods",
+        "WS0001": "uaf_light_missile_pods"
+      }
+    },
+  ],
+  "modules": [],
+  "wings": []
+}

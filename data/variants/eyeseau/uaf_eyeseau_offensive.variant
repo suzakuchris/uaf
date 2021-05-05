@@ -1,0 +1,34 @@
+{
+  "variantId": "uaf_eyeseau_offensive",
+  "hullId": "uaf_eyeseau",
+  "displayName": "Offensive",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "SATELITE_SYSTEM": "uaf_eyeseau_radar",
+        "WS0001": "uaf_tona_ii",
+        "WS0002": "uaf_tona_ii",
+        "WS0003": "uaf_medlav_dual",
+        "WS0004": "uaf_ivory",
+        "WS0005": "uaf_weiss_ii_flk",
+        "WS0006": "uaf_weiss_ii_flk",
+        "WS0007": "uaf_weiss_ii_flk",
+        "WS0008": "uaf_weiss_ii_flk",
+        "WS0009": "uaf_pd_reina",
+        "WS0010": "uaf_pd_reina",
+        "WS0011": "uaf_pd_reina",
+        "WS0012": "uaf_pd_reina"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

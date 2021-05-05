@@ -1,0 +1,30 @@
+{
+  "variantId": "uaf_m_rama_corvette_raider",
+  "hullId": "uaf_m_rama_corvette",
+  "displayName": "Raider",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_pd_reina",
+        "WS0002": "uaf_hikone_quad",
+        "WS0003": "uaf_exoscar_torpedo_base",
+        "WS0004": "uaf_exoscar_torpedo_base"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

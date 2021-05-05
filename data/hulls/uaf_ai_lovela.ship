@@ -1,0 +1,118 @@
+{
+  "hullName": "Lovela(AI)",
+  "hullId": "uaf_ai_lovela",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Lovela_AI.png",
+  "style": "MIDLINE",
+  "height": 154,
+  "width": 114,
+  "center": [57, 77],
+  "collisionRadius": 90,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 99,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_automataSpec"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 258,
+      "angle": 0,
+      "locations": [26, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 253,
+      "angle": 45,
+      "locations": [1, 17]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 253,
+      "angle": -45,
+      "locations": [1, -17]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [12, -40.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [12, 40.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [32.5, -24]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [32.5, 24]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-33, -29.5],
+      "length": 28.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-33, 29.5],
+      "length": 28.5,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    44, -19,
+    25, -31.5,
+    23.5, -46.5,
+    -9.5, -46,
+    -33.5, -31.5,
+    -74, -9,
+    -74, 9,
+    -33.5, 31.5,
+    -9.5, 46,
+    23.5, 46.5,
+    25, 31.5,
+    44, 19,
+    75, 17,
+    75, 6,
+    65.5, -0.5
+  ]
+}

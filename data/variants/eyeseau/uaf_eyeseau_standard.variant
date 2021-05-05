@@ -1,0 +1,34 @@
+{
+  "variantId": "uaf_eyeseau_standard",
+  "hullId": "uaf_eyeseau",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "SATELITE_SYSTEM": "uaf_eyeseau_radar",
+        "WS0001": "uaf_medlav_quad",
+        "WS0002": "uaf_medlav_quad",
+        "WS0003": "uaf_weiss_ii_flk",
+        "WS0004": "uaf_weiss_ii_flk",
+        "WS0005": "uaf_ivory",
+        "WS0006": "uaf_ivory",
+        "WS0007": "uaf_weiss_ii_flk",
+        "WS0008": "uaf_weiss_ii_flk",
+        "WS0009": "uaf_weiss_flk",
+        "WS0010": "uaf_weiss_flk",
+        "WS0011": "uaf_pd_reina",
+        "WS0012": "uaf_pd_reina"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,10 @@
+{
+	"id":"uaf", # internal id
+	"name":"United Aurora Federation", # displayed to the player
+	"version":"0.0.1a",
+	"description":"This is an attempt to revive UAF ",
+	"gameVersion":"0.95a-RC12",
+	"modPlugin":"data.scripts.plugins.uaf_baseModPlugin",
+	"jars":["jars/UAF.jar"]
+	
+}

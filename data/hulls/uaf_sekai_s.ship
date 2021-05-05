@@ -1,0 +1,70 @@
+{
+  "hullName": "Sekai",
+  "hullId": "uaf_sekai_s",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Sekai_S.png",
+  "style": "MIDLINE",
+  "height": 180,
+  "width": 160,
+  "center": [80, 90],
+  "collisionRadius": 106.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 85,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_increased_explosion",
+    "uaf_auroranEngineering"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [44, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-53, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [12.5, -42],
+      "length": 35,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [12.5, 42],
+      "length": 35,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    44, -22,
+    28, -53.5,
+    1, -52,
+    -50, -34.5,
+    -73, -10,
+    -73, 8,
+    -50, 32.5,
+    1, 50,
+    28, 51.5,
+    44, 20,
+    65, 17.5,
+    64.5, 4.5
+  ]
+}

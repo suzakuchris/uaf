@@ -1,0 +1,28 @@
+{
+  "variantId": "uaf_ai_lovela_standard",
+  "hullId": "uaf_ai_lovela",
+  "displayName": "Assault",
+  "goalVariant": false,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_claris_cn",
+        "WS0002": "uaf_rhythm_base_triple",
+        "WS0003": "uaf_rhythm_base_triple",
+        "WS0004": "uaf_medlav_dual",
+        "WS0005": "uaf_medlav_dual",
+        "WS0006": "uaf_ivory",
+        "WS0007": "uaf_ivory"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

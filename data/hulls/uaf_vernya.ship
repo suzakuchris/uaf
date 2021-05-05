@@ -1,0 +1,93 @@
+{
+  "hullName": "Vernya ASGP",
+  "hullId": "uaf_vernya",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/vernya_asgp.png",
+  "style": "MIDLINE",
+  "height": 41,
+  "width": 35,
+  "center": [17.5, 20.5],
+  "collisionRadius": 45,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 307,
+      "angle": 0,
+      "locations": [17, 1]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [12, 12.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [12, -12.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 307,
+      "angle": 0,
+      "locations": [17, -1]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 221,
+      "angle": 0,
+      "locations": [14, -5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [1, 12.5],
+      "length": 5.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [1, -12.5],
+      "length": 5.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    19, -2,
+    11.5, -14.5,
+    -0.5, -16,
+    -0.5, -7,
+    -5, -3,
+    -18.5, -7,
+    -18.5, 7,
+    -5, 3,
+    -0.5, 7,
+    -0.5, 16,
+    11.5, 14.5,
+    19, 2
+  ]
+}

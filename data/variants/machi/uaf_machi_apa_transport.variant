@@ -1,0 +1,25 @@
+{
+  "variantId": "uaf_machi_apa_transport",
+  "hullId": "uaf_machi_apa",
+  "displayName": "Transport",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_weiss_flk",
+        "WS0002": "uaf_weiss_flk",
+        "WS0003": "uaf_pd_reina",
+        "WS0004": "uaf_pd_reina"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,42 @@
+{
+  "variantId": "uaf_novaeria_right_hangar_standard",
+  "hullId": "uaf_novaeria_right_hangar",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_weiss_flk",
+        "WS0002": "uaf_claris_cn",
+        "WS0003": "uaf_weiss_ii_flk",
+        "WS0004": "uaf_tona_i",
+        "WS0005": "uaf_decor_mg",
+        "WS0006": "uaf_decor_mg",
+        "WS0007": "uaf_decor_mg",
+        "WS0008": "uaf_decor_mg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "uaf_missile_barrage",
+        "WS0010": "uaf_missile_barrage"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_forlorn",
+    "uaf_wing_forlorn",
+    "uaf_wing_forlorn",
+    "uaf_wing_forlorn",
+  ]
+}

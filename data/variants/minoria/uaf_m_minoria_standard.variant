@@ -1,0 +1,26 @@
+{
+  "variantId": "uaf_m_minoria_standard",
+  "hullId": "uaf_m_minoria",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_weiss_flk",
+        "WS0002": "uaf_weiss_flk"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_mitsurei",
+    "uaf_wing_aria"
+  ]
+}

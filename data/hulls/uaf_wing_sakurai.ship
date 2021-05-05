@@ -1,0 +1,49 @@
+{
+  "hullName": "Sakurai Wing",
+  "hullId": "uaf_wing_sakurai",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/sakurai.png",
+  "style": "MIDLINE",
+  "height": 58,
+  "width": 59,
+  "center": [29.5, 29],
+  "collisionRadius": 65,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [20, 0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18, -0],
+      "length": 18,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    21.5, -1,
+    -0.5, -26,
+    -4.5, -25,
+    -12.5, -10.5,
+    -17.5, -5,
+    -24, -6.5,
+    -24, 6.5,
+    -17.5, 5,
+    -12.5, 10.5,
+    -4.5, 25,
+    -0.5, 26,
+    21.5, 1
+  ]
+}

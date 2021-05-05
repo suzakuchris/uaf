@@ -1,0 +1,32 @@
+{
+  "variantId": "uaf_wing_superaria_aft",
+  "hullId": "uaf_wing_superaria",
+  "displayName": "UAF Superaria AFT",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_30mm_gatling",
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_vocals_swarmer",
+        "WS0003": "uaf_vocals_swarmer",
+        "WS0004": "uaf_vocals_swarmer",
+        "WS0005": "uaf_vocals_swarmer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,28 @@
+{
+  "variantId": "uaf_m_minoria_bomber",
+  "hullId": "uaf_m_minoria",
+  "displayName": "Bomber",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_weiss_flk",
+        "WS0002": "uaf_weiss_flk",
+        "LB 1": "uaf_vocals_swarmer_base",
+        "LB 2": "uaf_vocals_swarmer_base"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_hyacinth",
+    "uaf_wing_sakurai"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "variantId": "uaf_wing_hyacinth_hbmb",
+  "hullId": "uaf_wing_hyacinth",
+  "displayName": "Hyacinth HBMB",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_bombs_medium",
+        "WS0005": "uaf_bombs_medium",
+        "WS0006": "uaf_bombs_heavy",
+        "WS0007": "uaf_bombs_heavy"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_weiss_flk",
+        "WS0002": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "flarelauncher2"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

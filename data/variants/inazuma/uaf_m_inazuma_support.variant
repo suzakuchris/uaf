@@ -1,0 +1,40 @@
+{
+  "variantId": "uaf_m_inazuma_support",
+  "hullId": "uaf_m_inazuma",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_weiss_ii_flk",
+        "WS0002": "uaf_medlav_quad",
+        "WS0003": "uaf_hikone_quad",
+        "WS0004": "uaf_rhythm_base",
+        "WS0005": "uaf_rhythm_base",
+        "WS0006": "uaf_weiss_flk",
+        "WS0007": "uaf_weiss_flk",
+        "WS0008": "uaf_medlav_dual",
+        "WS0009": "uaf_medlav_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

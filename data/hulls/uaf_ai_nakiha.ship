@@ -1,0 +1,134 @@
+{
+  "hullName": "Nakiha(AI)",
+  "hullId": "uaf_ai_nakiha",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Nakiha_AI.png",
+  "style": "MIDLINE",
+  "height": 153,
+  "width": 104,
+  "center": [52, 71.5],
+  "collisionRadius": 104,
+  "shieldCenter": [0, 2],
+  "shieldRadius": 87.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+    "uaf_automataSpec"
+  ],
+  "builtInWeapons": {
+    "WS0007": "uaf_clemente_nakiha",
+    "WS0008": "uaf_clemente_nakiha"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 256,
+      "angle": 90,
+      "locations": [-11.5, 24]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 256,
+      "angle": -90,
+      "locations": [-11.5, -24]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [20.5, 0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [49, 0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -45,
+      "locations": [7, -24]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 45,
+      "locations": [7, 24]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [56, 12]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [56, -12]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-54.5, 0],
+      "length": 55,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-29.5, 26.5],
+      "length": 27,
+      "width": 14,
+      "angle": 153.5,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-30, -27.5],
+      "length": 27,
+      "width": 14,
+      "angle": -153.5,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    77.5, -5,
+    -8.5, -31,
+    -26, -30.5,
+    -36.5, -16,
+    -50.5, -10,
+    -50.5, 10,
+    -37.5, 15,
+    -27, 30.5,
+    -8.5, 31,
+    77.5, 4
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "id":"uaf_melodyOvercharge",
+    "type":"ENGINE_MOD",
+    #"aiType":"CUSTOM",
+    "aiType":"MANEUVERING_JETS",
+
+    #"aiScript":"data.shipsystems.scripts.ai.uaf_melodyOvercharge",
+    "statsScript":"data.shipsystems.scripts.uaf_melodyOvercharge",
+
+    "engineGlowLengthMult":1.5,
+	"engineGlowWidthMult":1,
+	"engineGlowGlowMult":1,
+
+    "flameoutOnImpactChance":0,
+
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":false,
+
+	"useSound":"system_maneuvering_jets",
+	"loopSound":"system_maneuvering_jets_loop",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":65,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":35,
+	}
+}

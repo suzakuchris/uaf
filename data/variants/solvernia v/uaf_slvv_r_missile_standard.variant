@@ -1,0 +1,26 @@
+{
+  "variantId": "uaf_slvv_r_missile_standard",
+  "hullId": "uaf_slvv_r_missile",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS0001": "uaf_missile_barrage",
+            "WS0002": "uaf_missile_barrage",
+            "WS0003": "uaf_weiss_flk",
+            "WS0004": "uaf_exoscar_torpedo_base_shield",
+            "WS0005": "uaf_exoscar_torpedo_base_shield",
+        }
+    },
+  ],
+  "modules": [],
+  "wings": []
+}

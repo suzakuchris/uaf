@@ -1,0 +1,59 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "displayArcRadius": 650,
+  "fireSoundTwo": "medium_cannons",
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointGunSprite": "graphics/weapons/Medlav 254 mm Quad/med_medlav_254mm_quad_hardpoint_recoil.png",
+  "hardpointOffsets": [
+    30.5,
+    6.5,
+    31.5,
+    2.5,
+    31.5,
+    -2.5,
+    30.5,
+    -6.5
+  ],
+  "hardpointSprite": "graphics/weapons/Medlav 254 mm Quad/med_medlav_254mm_quad_hardpoint_base.png",
+  "id": "uaf_medlav_quad",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "particleColor": [100,165,255,175],
+    "particleCount": 35,
+    "particleDuration": 0.13,
+    "particleSizeMin": 12,
+    "particleSizeRange": 32,
+    "spread": 36
+  },
+  "projectileSpecId": "uaf_pu_ash_md",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "MEDIUM",
+  "specClass": "projectile",
+  "specialWeaponGlowHeight": 40,
+  "specialWeaponGlowWidth": 15,
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretGunSprite": "graphics/weapons/Medlav 254 mm Quad/med_medlav_254mm_quad_turret_recoil.png",
+  "turretOffsets": [
+    20,
+    6.5,
+    21,
+    2.5,
+    21,
+    -2.5,
+    20,
+    -6.5
+  ],
+  "turretSprite": "graphics/weapons/Medlav 254 mm Quad/med_medlav_254mm_quad_triple_turret.png",
+  "type": "BALLISTIC",
+  "visualRecoil": 10
+}

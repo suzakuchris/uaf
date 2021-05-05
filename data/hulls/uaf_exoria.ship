@@ -1,0 +1,190 @@
+{
+  "hullName": "Exoria",
+  "hullId": "uaf_exoria",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Exoria.png",
+  "style": "MIDLINE",
+  "height": 292,
+  "width": 122,
+  "center": [61, 146],
+  "collisionRadius": 192.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 179.5,
+  "viewOffset": 100,
+  "builtInMods": [
+    "uaf_auroranEngineering"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 208,
+      "angle": -108.5,
+      "locations": [-60, -18.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 208,
+      "angle": 108.5,
+      "locations": [-60, 18.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 212,
+      "angle": -90,
+      "locations": [-27, -28]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 212,
+      "angle": 90,
+      "locations": [-27, 28]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 259,
+      "angle": -61.5,
+      "locations": [70.5, -25.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 259,
+      "angle": 61.5,
+      "locations": [71, 26]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 300,
+      "angle": -0,
+      "locations": [13, 0.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        29, 3.5,
+        29, -4
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        40.5, -28,
+        56, -28
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        41, 29.5,
+        56, 30
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        62.5, 3,
+        62, -2.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-119, 0.5],
+      "length": 85,
+      "width": 33,
+      "angle": 180,
+      "contrailSize": 33,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-86.5, -50.5],
+      "length": 40.40033,
+      "width": 12.134821,
+      "angle": -155.5,
+      "contrailSize": 12.134821,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-86.5, 50.5],
+      "length": 40.40033,
+      "width": 12.134821,
+      "angle": 155.5,
+      "contrailSize": 12.134821,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-110.5, -16.5],
+      "length": 75.5,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-110.5, 16.5],
+      "length": 75.5,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    131, 9.5,
+    140, 23.5,
+    87, 36.5,
+    -23, 48.5,
+    -41, 58.5,
+    -102, 47.5,
+    -147, 30.5,
+    -114, 14.5,
+    -114, -14.5,
+    -147, -30.5,
+    -102, -47.5,
+    -41, -58.5,
+    -23, -48.5,
+    87, -36.5,
+    140, -23.5,
+    131, -9.5
+  ]
+}

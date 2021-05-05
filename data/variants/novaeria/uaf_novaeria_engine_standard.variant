@@ -1,0 +1,27 @@
+{
+  "variantId": "uaf_novaeria_engine_standard",
+  "hullId": "uaf_novaeria_engine",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_weiss_flk",
+        "WS0002": "uaf_weiss_flk",
+        "WS0003": "uaf_claris_cn",
+        "WS0004": "uaf_claris_cn",
+        "WS0005": "uaf_pd_reina",
+        "WS0006": "uaf_pd_reina"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

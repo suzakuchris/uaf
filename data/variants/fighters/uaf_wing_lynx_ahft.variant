@@ -1,0 +1,45 @@
+{
+  "variantId": "uaf_wing_lynx_ahft",
+  "hullId": "uaf_wing_lynx",
+  "displayName": "Lynx Experimental Artillery Fighter",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "CYREXA":"uaf_cyrexa_single_experimental"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        
+        "WS0003": "uaf_yum9_missile",
+        "WS0004": "uaf_yum9_missile"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_30mm_emp_gatling"
+      }
+    }, 
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "flarelauncher2"
+      }
+    },
+  ],
+  "modules": [],
+  "wings": []
+}

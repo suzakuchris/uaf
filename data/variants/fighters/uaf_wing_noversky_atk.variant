@@ -1,0 +1,30 @@
+{
+  "variantId": "uaf_wing_noversky_atk",
+  "hullId": "uaf_wing_noversky",
+  "displayName": "Noversy Attack",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_hv_kinetic_railgun",
+        "WS0002": "uaf_hv_kinetic_railgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_30mm_gatling"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,19 @@
+{
+	#this is for pd small-green color
+	"id":"uaf_pu_pd_sm",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":80.0,
+	"hitGlowRadius":10,
+	"width":6.5,
+	"fadeTime":0.30,
+	#"fringeColor":[255,255,100,255],
+	#"coreColor":[255,255,200,150],
+	"fringeColor":[140, 239, 117,240],
+	"coreColor":[198, 255, 171,240],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_small.png"
+}

@@ -1,0 +1,38 @@
+{
+  "variantId": "uaf_wing_nekoyan_sft",
+  "hullId": "uaf_wing_nekoyan",
+  "displayName": "Nekoyan SFT",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_30mm_emp_gatling",
+        "WS0002": "uaf_30mm_emp_gatling"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_light_missile_pods",
+        "WS0004": "uaf_light_missile_pods"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_he_missile_pods"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

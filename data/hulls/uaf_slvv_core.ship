@@ -1,0 +1,328 @@
+{
+  "hullName": "Solvernia V",
+  "hullId": "uaf_slvv_core",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/SLV/uaf_solverniav_core.png",
+  "style": "MIDLINE",
+  "height": 286,
+  "width": 314,
+  "center": [157, 217.5],
+  "collisionRadius": 700.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 455,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_parentEngine",
+    "never_detaches",
+    "uaf_noExplosion",
+    "uaf_flagship_eccm",
+    "uaf_flagship",
+    "uaf_auroranEngineering",
+  ],
+  "builtInWeapons": {
+    "SYSTEM_ENGINE": "uaf_solvernia_reactor",
+    "SYSTEM_ENGINE2": "uaf_solvernia_reactor2",
+    "XL_MOUNT1": "uaf_phenex_lrg",
+    "XL_MOUNT2": "uaf_phenex_lrg",
+    "XL_MOUNT3": "uaf_phenex_lrg",
+    "XL_MOUNT4": "uaf_phenex_lrg"
+  },
+  "weaponSlots": [
+    {
+      "id": "SLVV_ENGINE_LEFT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-178, 150]
+    },
+    {
+      "id": "SLVV_ENGINE_RIGHT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-178, -150]
+    },
+    {
+      "id": "SLVV_SECTION_RIGHT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [135.5, -120]
+    },
+    {
+      "id": "SLVV_SECTION_LEFT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [135.5, 120]
+    },
+    {
+      "id": "SLVV_MISSILE_RIGHT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [201, -107]
+    },
+    {
+      "id": "SLVV_MISSILE_LEFT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [201, 107]
+    },
+    {
+      "id": "SLVV_GUN_RIGHT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [276, -105]
+    },
+    {
+      "id": "SLVV_GUN_LEFT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [276, 107.5]
+    },
+    {
+      "id": "SLVV_HANGAR_RIGHT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-4.5, -153.5]
+    },
+    {
+      "id": "SLVV_HANGAR_LEFT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-4.5, 153.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 296,
+      "angle": 0,
+      "locations": [-24.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 277,
+      "angle": 0,
+      "locations": [10.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 196,
+      "angle": 36,
+      "locations": [-32, 55.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 196,
+      "angle": -36,
+      "locations": [-32, -55.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 276,
+      "angle": 91.5,
+      "locations": [-83, 107]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 276,
+      "angle": -91.5,
+      "locations": [-83.5, -107]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 196,
+      "angle": -144.5,
+      "locations": [-145.5, -65]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 196,
+      "angle": 144.5,
+      "locations": [-145, 65]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 282,
+      "angle": 0,
+      "locations": [47, -0]
+    },
+    {
+      "id": "XL_MOUNT2",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 79,
+      "angle": 25,
+      "locations": [28, 75.5]
+    },
+    {
+      "id": "XL_MOUNT3",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 79,
+      "angle": -25,
+      "locations": [28.5, -76]
+    },
+    {
+      "id": "XL_MOUNT1",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 79,
+      "angle": 25,
+      "locations": [4, 126.5]
+    },
+    {
+      "id": "XL_MOUNT4",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 79,
+      "angle": -25,
+      "locations": [5.5, -126]
+    },
+    {
+      "id": "WS0014",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 216,
+      "angle": -45,
+      "locations": [-80, -68.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 216,
+      "angle": 45,
+      "locations": [-80, 68.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 196,
+      "angle": 180,
+      "locations": [-123, 32]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 196,
+      "angle": -180,
+      "locations": [-123, -32]
+    },
+    {
+      "id": "SYSTEM_ENGINE",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 277,
+      "angle": 0,
+      "locations": [-75, -0]
+    },
+    {
+      "id": "SYSTEM_ENGINE2",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 277,
+      "angle": 0,
+      "locations": [-75, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    65.5, -4.5,
+    -17.5, -32,
+    -19, -44.5,
+    33.5, -39,
+    61, -66,
+    17.5, -156.5,
+    -30.5, -134,
+    -17.5, -97.5,
+    -55, -93.5,
+    -80, -123,
+    -103, -109.5,
+    -133, -111,
+    -156, -82,
+    -151, -52.5,
+    -193, -51,
+    -214.5, -32.5,
+    -214.5, 32.5,
+    -193, 51,
+    -151, 52.5,
+    -156, 82,
+    -133, 111,
+    -103, 109.5,
+    -80, 123,
+    -55, 93.5,
+    -17.5, 97.5,
+    -30.5, 134,
+    17.5, 156.5,
+    61, 66,
+    33.5, 39,
+    -19, 44.5,
+    -17.5, 32,
+    65.5, 4.5
+  ]
+}

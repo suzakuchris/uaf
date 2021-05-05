@@ -1,0 +1,135 @@
+{
+  "hullName": "Nakiha(M)",
+  "hullId": "uaf_m_nakiha",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Nakiha_Military.png",
+  "style": "MIDLINE",
+  "height": 153,
+  "width": 104,
+  "center": [52, 74],
+  "collisionRadius": 91,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 80.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_melodyEngine",
+    "uaf_auroranEngineering",
+    "uaf_militaryGrade"
+  ],
+  "builtInWeapons": {
+    "WS0007": "uaf_clemente_nakiha",
+    "WS0008": "uaf_clemente_nakiha"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 231,
+      "angle": 45,
+      "locations": [-14, 24]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 231,
+      "angle": -45,
+      "locations": [-14, -24]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [18, 0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [47, 0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -45,
+      "locations": [3, -23]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 45,
+      "locations": [3, 23]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [56, 12]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [56, -12]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-57, -0],
+      "length": 67,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-32.5, 26.5],
+      "length": 27,
+      "width": 14,
+      "angle": 153.5,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-32.5, -26],
+      "length": 27,
+      "width": 14,
+      "angle": -153.5,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -40, 14,
+    -29, 30.5,
+    -12, 30.5,
+    75.5, 5,
+    75.5, -5,
+    -12, -30.5,
+    -29, -30.5,
+    -40, -14,
+    -52.5, -8.5,
+    -52.5, 8.5
+  ]
+}

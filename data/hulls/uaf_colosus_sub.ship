@@ -1,0 +1,110 @@
+{
+  "hullName": "Colosus",
+  "hullId": "uaf_colosus_sub",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/colosus.png",
+  "style": "LOW_TECH",
+  "height": 292,
+  "width": 122,
+  "center": [61, 146],
+  "collisionRadius": 150,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 147,
+  "viewOffset": 0,
+  "builtInWeapons":{
+    "WS0001": "uaf_phase_missile",
+    "WS0002": "uaf_phase_missile",
+    "WS0003": "flarelauncher2",
+    "WS0004": "flarelauncher2",
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [130, 9],
+      "renderOrderMod":50
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [130, -9],
+      "renderOrderMod":50
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-75, -5.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-75, 5.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-137, -6],
+      "length": 7.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-137, 6],
+      "length": 7.5,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-128.5, -1.5],
+      "length": 7.5,
+      "width": 2,
+      "angle": 180,
+      "contrailSize": 2,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-128.5, 2.5],
+      "length": 7.5,
+      "width": 2,
+      "angle": -180,
+      "contrailSize": 2,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    143, -11,
+    100.5, -20,
+    -107, -10,
+    -112, -19,
+    -122, -20,
+    -123.5, -12,
+    -137, -9.5,
+    -137, 9.5,
+    -123.5, 12,
+    -122, 20,
+    -112, 19,
+    -107, 10,
+    100.5, 20,
+    143, 11
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "hullName": "Sentry(CY)",
+  "hullId": "uaf_m_sentry",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Sentry_arty_cyrille.png",
+  "style": "MIDLINE",
+  "height": 293,
+  "width": 120,
+  "center": [60, 146.5],
+  "collisionRadius": 265,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 160,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_melodyEngine",
+    "uaf_auroranEngineering",
+    "uaf_militaryGrade"
+  ],
+  "builtInWeapons": {
+    "WS0006": "uaf_tona_iv",
+    "WS0007": "uaf_missile_barrage",
+    "WS0008": "uaf_missile_barrage",
+    "WS0009": "uaf_missile_barrage",
+    "WS0010": "uaf_missile_barrage"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-84.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 247,
+      "angle": 45,
+      "locations": [-94, 41.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 247,
+      "angle": -45,
+      "locations": [-94, -41.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 196,
+      "angle": -45,
+      "locations": [-9, -20.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 196,
+      "angle": 45,
+      "locations": [-9, 20.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [131, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-29, -23]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-29, 23]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-40, 23]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-40, -23]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-132.5, -41.5],
+      "length": 60.5,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-132.5, 41.5],
+      "length": 60.5,
+      "width": 25,
+      "angle": -180,
+      "contrailSize": 25,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-134.5, -9.5],
+      "length": 60.5,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-134.5, 9.5],
+      "length": 60.5,
+      "width": 25,
+      "angle": -180,
+      "contrailSize": 25,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    144, -10.5,
+    83.5, -11.5,
+    54.5, -21.5,
+    -13, -32.5,
+    -46.5, -33.5,
+    -70, -53.5,
+    -134.5, -55.5,
+    -143, -21,
+    -143, 21,
+    -134.5, 55.5,
+    -70, 53.5,
+    -46.5, 33.5,
+    -13, 32.5,
+    54.5, 21.5,
+    83.5, 11.5,
+    144, 10.5
+  ]
+}

@@ -1,0 +1,105 @@
+30/07/2020 - ver 0.0.1a
+-First iteration alpha version
+-Added Runnable ships without weapons
+-Added Virtual field mission to test ship's maneuverability
+-Added compatibility with newest starsector version
+-Fighter wings TBA on next iteration
+-Ship Weapons TBA on next iteration
+-Cake ingrediants TBA on next iteration
+
+05/09/2020 - ver 0.9.1.a
+-Second iteration of alpha version
+-Added more ships and fighters
+-Added more effects on ships
+-Added choco lava
+-UAF Keycard implemented
+-Aoi-Ayama star system implemented
+-UAF Faction implemented
+-Added modular ship
+-Fixed wrong gun placements
+-Added more sounds
+
+25/09/2020 - ver 0.9.2.a
+-Third iteration of alpha version
+-Added sekai tanker class
+-Added wo tanker class
+-Added tsutsumu tanker class
+-Added machi apa class
+-Added solvernia V modular ship
+-Added modular engine hullmod, as well as many other buffs hullmod
+-Adjusting the sounds and putting in extra sounds for cyrexa, medlav, tona, and weiss
+-Added new flak weapons, weiss I, weiss II, weiss III
+-Added special proximity fuse and fragmentation mechanic for weiss III
+-Added new railgun weapons, tona I, tona II, tona III
+-Added new graphical laser sight to tona I, tona II, tona III, Quad cyrexa, triple cyrexa
+-Added new medium mount weapon, hikone
+-Added turret version of exoscar, rhythm, clemente, selene and vocals
+-Added xs weapon mount decorative MG
+-Added missile barrage weapon for solvernia V
+-Adjusted missile barrage stats for solvernia V
+-Rebalancing escort mission to make it harder and test the solvernia V
+-Fixed some bugs regarding third weiss new mechanic
+-Fixed some bugs that causes crash in campaign
+-Improved gfx for weiss III fragmentation, adding randomity into the subminition
+-Added custom sprite for weiss III explosion
+-Buffed some old weapons
+-Adding dozens of description to various entity in game (weapons, planets, faction) (wip)
+-Added diced dried pineapple
+-Added working Nexerelin dependencies
+-Adding an experimental shielded torpedo
+
+22/02/2021
+-Added Lovela assault frigate
+-Added Sentry class artillery destroyer
+-Added RAVENYA and VERNYA drones
+-Added Rama Corvette
+-Replaced nakiha frigate sprites
+-Added egg pudding
+-Added Isenoria hybrid battleship
+-Added Novaeria class command dreadnought
+-Added foundation for blinker decoration systems
+-Added Osela light exploration vessel
+-Added Eyeseau command vessel
+-Experimental Sonar pulse with song abroad Eyeseau
+-Experimental extreme hull modifications for Eyeseau
+-Added a few portraits
+-Shielded Torpedo message Fix
+-Fixed bug existing in Weiss III
+-Replaced Auroria planet's sprite with the new one
+
+
+22/03/2021
+-Added Shinoria and the variants
+-Added Zepporia and variants
+-Added donuts
+-Added Semibreve weapon
+-Added Triyia PDX
+-Added Herexa
+-Updated some ship sprites to the remade one
+-Added new 8 sprites
+
+26/04/2021
+-Added more portraits
+-Remade Aoi-Ayama star system
+-Remake the market into a workable market
+-Added choco lava (real)
+-Adjusted uaf as a faction
+-Readjusted uaf with nex
+-Added dynamic starting relation of uaf and various factions
+-Remaking gfx for lower tier weiss
+-Remaking laser of cannons and railguns
+-Remaking projectile of various versions
+-Discarded all missions and added two mission for warship and carrier each
+-Added CY's rebalancing
+
+04/05/2021
+-Adjusted stations and station names
+-Added Cy's hulls
+-Added Cy's Variants
+-Rebalanced a few weapons
+-Rebalanced fighters
+-Added shipsystem to the ships
+-Added keycard to droprates
+-Fixed Triyia
+-Nerfed reisen system
+-Correcting automata and military spec descriptions

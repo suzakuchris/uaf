@@ -1,0 +1,69 @@
+{
+  "variantId": "uaf_rillaru_suppression",
+  "hullId": "uaf_rillaru",
+  "displayName": "Suppression",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_claris_cn",
+        "WS0004": "uaf_claris_cn",
+        "WS0005": "uaf_tona_ii",
+        "WS0006": "uaf_tona_ii",
+        "WS0007": "uaf_weiss_flk",
+        "WS0008": "uaf_weiss_flk",
+        "WS0009": "uaf_weiss_flk",
+        "WS0010": "uaf_weiss_flk",
+        "WS0011": "uaf_weiss_flk",
+        "WS0012": "uaf_weiss_flk",
+        "WS0013": "uaf_tona_i",
+        "WS0014": "uaf_tona_i",
+        "WS0015": "uaf_tona_i",
+        "WS0016": "uaf_tona_i",
+        "WS0017": "uaf_rhythm_base_triple",
+        "WS0019": "uaf_selemene_base_single",
+        "WS0020": "uaf_selemene_base_single",
+        "WS0021": "uaf_pd_reina",
+        "WS0023": "uaf_tona_iii",
+        "WS0024": "uaf_tona_iv",
+        "WS0025": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0022": "uaf_medlav_dual"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "uaf_rhythm_base_triple"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_deco_mg",
+        "WS0002": "uaf_deco_mg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,31 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    "startingFaction":true,
+    
+    "startRelationships":{
+        "independent":0.5,
+        "player":0.5,
+        "pirates":-0.5,
+        "hegemony":-1,
+        "luddic_church":-0.15,
+        "luddic_path":-0.15,
+        "persean":-0.15,
+        "tritachyon":-0.15,
+        "sindrian_diktat":-0.35
+    },
+    "morality":"good",
+    "alignments":{
+        "militarist":1,
+        "diplomatic":1,
+        "corporate":1,
+        "technocratic":1
+    },
+    "diplomacyTraits":["pacifist", "stalwart", "helps_allies", "likes_ai"],
+    "startShipsSolo":[
+        ["uaf_m_nakiha_standard"]
+    ],
+    "startShipsCarrierSmall":[
+        ["uaf_m_minoria_standard"]
+    ]
+}

@@ -1,0 +1,26 @@
+{
+  "variantId": "uaf_slvv_l_gun_standard",
+  "hullId": "uaf_slvv_l_gun",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_tona_i",
+        "WS0004": "uaf_tona_i",
+        "WS0005": "uaf_medlav_dual",
+        "WS0006": "uaf_medlav_quad",
+        "WS0008": "uaf_tona_i"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

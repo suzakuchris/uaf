@@ -1,0 +1,37 @@
+{
+  "variantId": "uaf_m_nebula_bravo_runner",
+  "hullId": "uaf_m_nebula_bravo",
+  "displayName": "Runner",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_ivory",
+        "WS0003": "uaf_weiss_flk",
+        "WS0004": "uaf_tona_i",
+        "WS0005": "uaf_tona_i",
+        "WS0010": "uaf_rhythm_base"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_weiss_flk",
+        "WS0006": "uaf_weiss_flk",
+        "WS0007": "uaf_weiss_flk",
+        "WS0008": "uaf_weiss_flk",
+        "WS0009": "uaf_pd_reina"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

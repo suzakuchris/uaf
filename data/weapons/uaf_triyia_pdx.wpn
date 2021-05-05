@@ -1,0 +1,47 @@
+{
+	"id":"uaf_triyia_pdx",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	#"turretSprite":"graphics/weapons/assault_chaingun_turret_base.png",
+	#"turretGunSprite":"graphics/weapons/assault_chaingun_turret_recoil.png",
+	#"hardpointSprite":"graphics/weapons/assault_chaingun_hardpoint_base.png",
+	#"hardpointGunSprite":"graphics/weapons/assault_chaingun_hardpoint_recoil.png",	
+	#"visualRecoil":4.0,  # the gun sprites are only used if this is non-0
+	#"renderHints":[RENDER_BARREL_BELOW],
+	"turretSprite":"graphics/weapons/Triyia PDX/triyia_pdx_base.png",
+	"turretGlowSprite":"graphics/weapons/Triyia PDX/triyia_pdx_glow.png",
+	"hardpointSprite":"graphics/weapons/Triyia PDX/triyia_pdx_base.png",
+	"hardpointGlowSprite":"graphics/weapons/Triyia PDX/triyia_pdx_glow.png",		
+	"numFrames":0,	
+	"frameRate":0,
+	"turretOffsets":[
+		12, 4.5,
+		12, -4.5	
+	],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[
+		12, 4.5,
+		12, -4.5	
+	],
+	"hardpointAngleOffsets":[0],	
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"SMOKE",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"smokeSpec":{"particleSizeMin":1.0,
+				 "particleSizeRange":1.0,
+				 "cloudParticleCount":3,
+				 "cloudDuration":0.2,
+				 "cloudRadius":1.5,
+				 "blowbackParticleCount":4,
+				 "blowbackDuration":0.3,
+				 "blowbackLength":20.0,
+				 "blowbackSpread":10.0,
+				 "particleColor":[170,160,150,130]},
+	"projectileSpecId":"uaf_pu_pd_sm",  # projectile that will be fired
+	#"noImpactSounds":true,
+	#"noShieldImpactSounds":true,
+	#"noNonShieldImpactSounds":true,
+	#"fireSoundOne":"chaingun_intro",	
+	"fireSoundTwo":"chaingun_fire",	
+	"everyFrameEffect": "data.scripts.weapons.uaf_Triyiagfx",
+}

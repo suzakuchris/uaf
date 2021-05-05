@@ -1,0 +1,23 @@
+{
+  "variantId": "uaf_slvv_r_engine_standard",
+  "hullId": "uaf_slvv_r_engine",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_weiss_flk",
+        "WS0002": "uaf_weiss_ii_flk"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,10 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,icon
+Assume Wing Control,uaf_Override,,,,,,,,,,0.1,30,0.1,15,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
+#Salvo Breaker,uaf_salvoBreaker,,,,,,,,,,,,,,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
+Melody Frequency Overcharge,uaf_melodyOvercharge,,,,,,,,,,0.1,10,0.1,10,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png
+#Detach Ship,uaf_detachShip,,,,,,,,,,0.1,50,0.1,2,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png
+Ravenya Troop Carrier,uaf_ravenya_troop_carrier,,,,,,,,10,,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+EMP Pulse,uaf_emp,1,,,,,,,,,1,,1,1,TRUE,,,,,,,,TRUE,TRUE,graphics/icons/hullsys/infernium_injector.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+UAF FCS Rangefinder,uaf_rangeFinder,,,,,,0.5,,,,0.5,20,0.5,10,,,,,,,,,,,

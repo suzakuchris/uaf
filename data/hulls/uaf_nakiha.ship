@@ -1,0 +1,109 @@
+{
+  "hullName": "Nakiha",
+  "hullId": "uaf_nakiha",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Nakiha_Standard.png",
+  "style": "MIDLINE",
+  "height": 153,
+  "width": 104,
+  "center": [52, 74],
+  "collisionRadius": 96.5,
+  "shieldCenter": [-2.5, 2],
+  "shieldRadius": 84.5,
+  "viewOffset": 70,
+  "builtInMods": [
+    "uaf_auroranEngineering",
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 253,
+      "angle": -90,
+      "locations": [-14, -24]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 253,
+      "angle": 90,
+      "locations": [-14, 24]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 302,
+      "angle": 0,
+      "locations": [47, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 309,
+      "angle": 0,
+      "locations": [18, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -45,
+      "locations": [3, -23]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 45,
+      "locations": [3, 23]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-64, 2],
+      "length": 60.5,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-39, -25],
+      "length": 33.631252,
+      "width": 11.651438,
+      "angle": -158,
+      "contrailSize": 11.651438,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-39, 29],
+      "length": 33.631252,
+      "width": 11.651438,
+      "angle": 158,
+      "contrailSize": 11.651438,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -21.5, 32,
+    -34.5, 19,
+    -52.5, 10.5,
+    -52.5, -10.5,
+    -34.5, -19,
+    -21.5, -32,
+    75, -5,
+    75, 5
+  ]
+}

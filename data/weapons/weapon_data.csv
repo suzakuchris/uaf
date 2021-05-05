@@ -1,0 +1,127 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+Deco MG,uaf_deco_mg,1,1,300,300,,10,,1,75,1,,,,FRAGMENTATION,1,,0,0.33,4,0.3,3,5,2,10,,700,,,10,SYSTEM,"pd15, SR, remnant",,,,Backup Point Defense,,,,,,,,,,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Hikone 125 AP(Q),uaf_hikone_quad,1,2,1600,850,,75,,15,10,10,100,5,20,KINETIC,55,,0,0.5,4,0.1,0,10,1,3,,700,,,300,,he1,,,,General Purpose,,,,,,,,,,1
+Ivory 254 HE(D),uaf_ivory,1,0,700,850,,300,,50,3,10,100,0.3,20,HIGH_EXPLOSIVE,220,,0,1,2,0.2,0,10,1,3,,680,,,300,,he1,,,,Anti Armor,,,,,,,,,,1
+Medlav 254 AP(D),uaf_medlav_dual,1,0,1200,850,,225,50,30,3,10,100,0.3,20,KINETIC,125,,0,1,2,0.3,0,10,1,3,,750,,,300,,he1,,,,Anti Shield,,,,,,,,,,1
+Medlav 254 AP(Q),uaf_medlav_quad,1,2,2400,850,,225,50,30,3,15,100,0.3,20,KINETIC,150,,0,1,4,0.2,0,10,0.5,3,,750,,,300,,he2,,,,Anti Shield,,,,,,,,,,1
+Claris 50 AP(CN),uaf_claris_cn,1,,450,600,,55,50,3,15,5,,,,KINETIC,40,,0,0.3,1,0.2,0,5,3,5,,800,,,20,,he2,,,,Anti Shield,,,,,,,,,,2
+Reina 20 PD(MG),uaf_pd_reina,0,,600,400,,30,,3,50,5,,,,KINETIC,5,,0,0.4,10,0.1,0,4,1,10,,550,,,10,PD,"pd6, kinetic3, SR",,,,Point Defense,,,,,,,,,,0.5
+20mm Autocannon,uaf_20mm_autocannon,1,5,200,300,,25,,1,75,4,,,,FRAGMENTATION,1,,0,0.33,1,,0,10,2,10,,700,,,10,SYSTEM,"pd15, SR, remnant",,,,,,,,,,,,,,1
+Weiss I 50 PD(FK),uaf_weiss_flk,1,1,800,400,,50,,35,45,5,,,,FRAGMENTATION,5,,0,0.15,1,0.5,0,15,3,,,800,,,20,PD,pd1,,,,Point Defense (Suppression),,,,,A Flak cannon that fires a shell that causes multiple explosives around the first shell explosion.,,,,,2
+Weiss II 254 PD(FK),uaf_weiss_ii_flk,2,1,1550,400,,100,,50,30,10,,,,FRAGMENTATION,85,,0,0.3,1,0.5,0,15,3,,,700,,,20,PD,pd1,,,,Point Defense (Area),,,,,A Flak cannon that fires a shell that causes multiple explosives around the first shell explosion.,,,,,2
+Weiss III 452 PD(FK),uaf_weiss_iii_flk,5,5,6000,1200,,200,,150,15,20,,,,FRAGMENTATION,100,,0,0.5,2,0.5,0,15,3,,,650,,,20,PD,pd1,,,,Point Defense (Suppression),,,,,"A Flak cannon that fires a shell with a fuse that split with random fuse times, resulting in area suppression",,,,,2
+Weiss Split 600,uaf_weiss_iii_flk_split0,0,,300,600,,100,,150,0,0,,,,FRAGMENTATION,,,,,1,,0,15,3,,,700,,,20,"PD, SYSTEM",pd1,,,,Dual-barrel Flak Gun,,,,,,,,,,2
+Weiss Split 500,uaf_weiss_iii_flk_split1,0,,300,500,,100,,150,0,0,,,,FRAGMENTATION,,,,,1,,0,15,3,,,700,,,20,"PD, SYSTEM",pd1,,,,Dual-barrel Flak Gun,,,,,,,,,,2
+Weiss Split 400,uaf_weiss_iii_flk_split2,0,,300,400,,100,,150,0,0,,,,FRAGMENTATION,,,,,1,,0,15,3,,,700,,,20,"PD, SYSTEM",pd1,,,,Dual-barrel Flak Gun,,,,,,,,,,2
+Weiss Split 300,uaf_weiss_iii_flk_split3,0,,300,300,,100,,150,0,0,,,,FRAGMENTATION,,,,,1,,0,15,3,,,700,,,20,"PD, SYSTEM",pd1,,,,Dual-barrel Flak Gun,,,,,,,,,,2
+Weiss Split 200,uaf_weiss_iii_flk_split4,0,,300,200,,100,,150,0,0,,,,FRAGMENTATION,,,,,1,,0,15,3,,,700,,,20,"PD, SYSTEM",pd1,,,,Dual-barrel Flak Gun,,,,,,,,,,2
+Weiss Split 100,uaf_weiss_iii_flk_split5,0,,300,100,,100,,150,0,0,,,,FRAGMENTATION,,,,,1,,0,15,3,,,700,,,20,"PD, SYSTEM",pd1,,,,Dual-barrel Flak Gun,,,,,,,,,,2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Phenex LRG 608 AP(XL),uaf_phenex_lrg,6,6,150000,1450,,1500,1000,3000,1.5,0,50,0.1,3,KINETIC,900,,1,12,3,0.45,0,1,1,,,1500,,,400,"SYSTEM,SHOW_IN_CODEX","kinetic20, LR, remnant",,,,Anti Capital,,,,,,,,,,6
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cyrexa 452 AP(Q),uaf_cyrexa,5,5,6420,1050,,500,100,300,2,30,50,0.1,4,KINETIC,500,,1,2,4,0.25,0,1,1,,,950,,,550,,"kinetic20, LR, remnant",,,,Anti Capital (Shield),,,,,,,,,,6
+Cyrexa 452 AP(T),uaf_cyrexa_triple,4,4,4210,1000,,500,100,300,2,25,50,0.1,4,KINETIC,440,,1,2,3,0.2,0,1,1,,,950,,,550,,"kinetic20, LR, remnant",,,,Anti Capital (Shield),,,,,,,,,,6
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Herexa 608 HE(D),uaf_herexa,5,5,5550,1050,,995,0,1000,2,25,30,0.1,2,KINETIC,350,,1,4,2,0.4,0,1,1,,,550,,,400,,"kinetic20, LR, remnant",,,,Anti Capital (Armor),,,,,,,,,,6
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Triyia 30 PD(QX),uaf_triyia_pdx,3,5,6655,650,,50,20,20,60,25,100,0.1,10,FRAGMENTATION,12,,0.2,0.05,5,,0,5,1,10,,780,,,30,PD,pd1,,,,Point Defense (Suppression),,,,,,,,,,4.5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cyrexa Single Experimental,uaf_cyrexa_single,4,4,14210,900,,450,100,300,5,25,10,5,1,KINETIC,150,,0.1,2,1,0,0,0,1,,,1750,,,400,SYSTEM,"kiNetic20, LR, remnant",,,,,,,,,,,,,,6
+Cyrexa Improved Experimental,uaf_cyrexa_single_experimental,4,4,14210,1250,,450,350,400,5,25,5,1,1,KINETIC,250,,0.5,2,3,0.3,0,0,1,,,1800,,,450,"SYSTEM, SHOW_IN_CODEX","kiNetic20, LR, remnant",,,,,,,,,,,,,,6
+Tona I 125 AP(S),uaf_tona_i,1,0.5,800,1000,,150,125,100,15,10,,,,KINETIC,200,,1,0.5,1,0,0,1,1,,,1000,,,20,,,,,,Anti Shield,,,,,,,,,,2
+Tona II 254 AP(M),uaf_tona_ii,2,3,1600,1000,,350,250,200,5,15,,,,KINETIC,400,,1,1.5,1,0,0,1,1,,,1250,,,20,,,,,,Anti Shield,,,,,,,,,,2
+Tona III 452 AP(L),uaf_tona_iii,5,5,6000,1350,,550,500,700,2,20,,,,KINETIC,550,,1,2,1,0,0,1,1,,,1500,,,20,,,,,,Anti Shield,,,,,,,,,,2
+Tona IV 608 AP(XL),uaf_tona_iv,5,5,145000,3000,,2500,500,2500,1,0,,,,KINETIC,2250,,2,3,1,0,0,1,1,,,2000,,,20,,,,,,Anti Capital,,,,,,,,,,2
+Decorative MG,uaf_decor_mg,1,5,200,1000,,5,,1,75,4,,,,FRAGMENTATION,1,,0,0.1,1,,5,30,4,10,,700,,,10,"SYSTEM, PD","pd15, SR, remnant",,,,,,,,,,,,,,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Clemente (Built-in),uaf_clemente_nakiha,1,,400,2500,,800,,17,30,4,3,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,,,300,150,13,150,"SYSTEM, DO_NOT_AIM","missile1, strike1",,,,Finisher,Medium,Medium,,,,,,,,10
+YUM-9 Anti-Fighter,uaf_yum9_missile,1,,500,1200,,140,,25,50,5,,,,HIGH_EXPLOSIVE,125,,0,7,1,,0,0,0,0,,150,50,7,100,"SYSTEM, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE",aa,,,,,,,,,,,,,,11
+DEL-9 Unguided,uaf_del9_missile,1,,500,1500,,200,,20,30,10,,,,HIGH_EXPLOSIVE,0,,1,12,4,0.5,0,0,0,0,,600,50,3,50,"SYSTEM, STRIKE, DO_NOT_AIM, DO_NOT_CONSERVE",as,,,,,,,,,,,,,,12
+Rhythm HE LRM(MS),uaf_rhythm,0,,900,1500,,450,,85,15,10,16,0.1,,HIGH_EXPLOSIVE,0,,0,12,3,0.2,0,0,0,0,,750,300,15,75,"SYSTEM, STRIKE, GUIDED_POOR","strike7, missile0",,,,,,,,,,,,,,12.5
+Vocals,uaf_vocals_mrm,1,,,2500,,200,100,25,,10,15,0.1,6,HIGH_EXPLOSIVE,0,,0,8,3,0.3,0,0,10,1,,400,100,30,75,"DO_NOT_AIM, DO_NOT_CONSERVE, SYSTEM","utility10, missile1, uaf_bp",,,,,,,,,,,,,,12.5
+Mini Vocals,uaf_mini_vocals_mrm,1,,,2500,,100,50,10,,10,6,,,HIGH_EXPLOSIVE,0,,0,8,6,0.1,10,20,10,1,,300,50,20,25,"DO_NOT_AIM, DO_NOT_CONSERVE, SYSTEM","utility10, missile1, uaf_bp",,,,,,,,,,,,,,12.5
+Vocals Swarmer,uaf_vocals_swarmer,1,,250,1000,,75,,15,50,4,60,,,HIGH_EXPLOSIVE,0,,0,5,4,0.2,0,0,0,0,,300,100,5,50,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE, SYSTEM","utility8, missile0, missile_bp",,,,Anti Small Craft,Fast,Excellent,,,,,,,,10
+Missile Barrage,uaf_missile_barrage,0,,1250,3500,,150,50,30,0,20,24,5,,HIGH_EXPLOSIVE,0,,0.2,2,12,0.2,6,50,50,12,,300,100,25,50,"SYSTEM, STRIKE, GUIDED_POOR","strike7, missile0",,,,,Fast,Excellent,,,,,,,TRUE,16.4
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rhythm HE LRM(MS)(SU),uaf_rhythm_base_single,0,,900,1500,,450,,85,15,1,5,,,HIGH_EXPLOSIVE,0,,0,3,1,0.4,0,0,0,0,,300,650,15,75,"STRIKE, GUIDED_POOR","strike1, missile1",,,,Long Range Support,Medium,Good,,,,,,,,12.5
+Rhythm HE LRM(MS)(SU)x3,uaf_rhythm_base_triple,0,,3000,1500,,450,,85,15,4,9,,,HIGH_EXPLOSIVE,0,,0,12,3,0.4,0,0,0,0,,300,650,15,75,"STRIKE, GUIDED_POOR","strike3, missile3",,,,Long Range Support,Medium,Good,,,,,,,,12.5
+Rhythm HE LRM(MS),uaf_rhythm_base,0,,900,1500,,450,,85,15,6,18,1,,HIGH_EXPLOSIVE,0,,0,6,3,0.6,0,0,0,0,,300,650,15,75,"STRIKE, GUIDED_POOR","strike3, missile6",,,,Long Range Support,Medium,Good,,,,,,,,12.5
+Selemene MRM,uaf_selemene_base_single,1,,1200,2000,,300,2000,15,10,3,5,0.1,,FRAGMENTATION,0,,0,25,1,0.25,0,0,0,,,400,50,15,150,"DO_NOT_AIM, HEATSEEKER","utility13, missile_bp",,,,Anti Engine,Fast,Excellent,,,,,,,TRUE,12.2
+Exoscar Torpedo,uaf_exoscar_torpedo_base,4,,800,2000,,3000,,500,5,1,1,0.1,,HIGH_EXPLOSIVE,0,,0,,1,,0,0,0,,,350,100,10,500,"STRIKE, DO_NOT_CONSERVE","strike8, rocket3, missile_bp",,,,Torpedo,Fast,None,,,,,,,TRUE,9
+Exoscar Torpedo (Shield),uaf_exoscar_torpedo_base_shield,4,,800,2000,,3000,,500,5,5,1,,,HIGH_EXPLOSIVE,0,,0,,1,,0,0,0,,,350,100,10,500,"STRIKE, DO_NOT_CONSERVE","strike8, rocket3, missile_bp",,,,Torpedo,Fast,None,,,"Exoscar torpedo fitted with a shield generator, capable to protect the torpedo for short amount of time.",,,,TRUE,9
+Exoscar Torpedo x4,uaf_exoscar_torpedo_quad,4,,800,2000,,3000,,500,5,25,16,,,HIGH_EXPLOSIVE,0,,0,5,4,0.5,0,0,0,,,350,100,10,500,"STRIKE, DO_NOT_CONSERVE","strike8, rocket3, missile_bp",,,,Torpedo,Fast,None,,,,,,,TRUE,9
+Vocals Swarmer SRM,uaf_vocals_swarmer_base,1,,250,1000,,75,,15,50,3,12,2,,HIGH_EXPLOSIVE,0,,0,5,6,0.1,0,0,0,0,,300,100,5,50,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, missile_bp",,,,Anti Small Craft,Fast,Excellent,,,,,,,,10
+Clemente MRM(MS),uaf_clemente_base,1,,400,2500,,800,,17,30,6,3,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,,,300,150,13,150,DO_NOT_AIM,"missile1, strike3",,,,Anti Ship Torpedo,Medium,Medium,,,,,,,,10
+Semibreve TNS(MS),uaf_semibreve_base,6,6,15000,200,500,8000,,8000,5,15,2,0.001,,HIGH_EXPLOSIVE,0,,2,10,1,,0,0,0,,,1200,15,30,10000,STRIKE,"strike8, rocket3, missile_bp",,,,Anti Capital Torpedo,Fast,None,,,,,,,TRUE,9
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Phase Missile Launcher,uaf_phase_missile,1,,4500,2500,,500,,50,10,25,10,,,HIGH_EXPLOSIVE,0,,0,15,1,,0,0,0,0,,250,50,12,350,"DO_NOT_AIM, CONSERVE_5","strike8, rocket3, missile_bp",,,,Finisher,Medium,Good,,,,,,,TRUE,16
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,uaf_overridesystem,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Crescendo,uaf_crescendo,,,,1,1,,,,,,,,,,,,1,2,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+#Swan song,uaf_songAttack,,,,1,1,,,,,,,,,,,,1,44,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HEHE AC Torpedo,uaf_heheac_torpedo,6,6,800,2000,,5600,,50,5,2,1,,,HIGH_EXPLOSIVE,0,,1,,1,,0,0,0,,,1000,800,10,500,"STRIKE, DO_NOT_CONSERVE, SYSTEM","strike8, rocket3, missile_bp",,,,Anti Capital (Armor),Fast,None,,,,,,,TRUE,9
+APSB EMP Torpedo,uaf_apsbemp_torpedo,4,6,800,2200,,4000,1500,50,5,2,2,,,ENERGY,0,,0.5,0.25,1,0,0,0,0,,,1000,800,10,500,"STRIKE, DO_NOT_CONSERVE, SYSTEM","strike8, rocket2, missile_bp",,,,Anti Capital (Shield),Fast,None,,,,,,,TRUE,9
+Exoscar Torpedo,uaf_exoscar_torpedo,4,6,800,2000,,3500,1000,500,5,2,1,,,HIGH_EXPLOSIVE,0,,1,,1,,0,0,0,,,750,150,10,500,"STRIKE, DO_NOT_CONSERVE, SYSTEM","strike8, rocket3, missile_bp",,,,Anti Ship,Fast,None,,,,,,,TRUE,9
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Heavy Ordnance Bomb Bay,uaf_bombs_heavy,4,,750,1500,,600,,90,1,4,5,,,HIGH_EXPLOSIVE,0,,0,,5,0.1,10,50,5,,,30,30,60,150,"STRIKE, BOMB, DO_NOT_CONSERVE, SYSTEM","he0, no_drop, no_drop_salvage",,,,Suppression,,,,,,,,,,3.5
+Medium Ordnance Bomb Bay,uaf_bombs_medium,4,,600,1500,,400,,65,1,4,10,,,HIGH_EXPLOSIVE,0,,0,,5,0.1,10,50,5,,,50,30,60,125,"STRIKE, BOMB, DO_NOT_CONSERVE, SYSTEM","he0, no_drop, no_drop_salvage",,,,Suppression,,,,,,,,,,3.5
+Small Ordnance Bomb Bay,uaf_bombs_small,4,,450,1500,,300,,30,1,4,15,,,HIGH_EXPLOSIVE,0,,0,,5,0.1,10,50,5,,,80,30,60,100,"STRIKE, BOMB, DO_NOT_CONSERVE, SYSTEM","he0, no_drop, no_drop_salvage",,,,Suppression,,,,,,,,,,3.5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+High Velocity Kinetic Railgun,uaf_hv_kinetic_railgun,4,,500,750,,150,,200,45,10,35,1,,KINETIC,75,,,,1,,0,0,0,,,1000,,,50,SYSTEM,"kinetic8, LR, remnant",,,,General,,,,,,,,,,3.75
+#30mm Gatling Gun,uaf_30mm_gatling,4,,300,350,,80,,10,50,15,100,1,,KINETIC,35,,,,1,,0,0,0,,,800,,,30,SYSTEM,"kinetic1, SR, remnant",,,,General,,,,,,,,,,3.86
+30mm Gatling Gun,uaf_30mm_gatling,3,,1200,600,,40,10,1,60,6,200,,,FRAGMENTATION,5,,,0.3,4,0.1,1,4,1,15,,1000,,,60,SYSTEM,"energy8, no_drop, deserter_bp",,,,,,,,,,,,,,
+High Velocity Gatling,uaf_hv_gatling,3,,1200,600,,25,10,1,60,6,200,,,FRAGMENTATION,1,,,2,3,0.1,4,10,3,15,,1000,,,60,SYSTEM,"energy8, no_drop, deserter_bp",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Light Missile Pods,uaf_light_missile_pods,4,,400,1000,,85,,30,15,4,10,,,HIGH_EXPLOSIVE,0,,,,5,0.1,0,0,0,,,300,100,5,50,"STRIKE, DO_NOT_CONSERVE, SYSTEM","utility8, missile0",,,,Strike,Fast,Excellent,,,,,,,,10
+HE Missile Pods,uaf_he_missile_pods,4,,400,1000,,70,,30,15,4,10,,,HIGH_EXPLOSIVE,0,,,,5,0.1,0,0,0,,,300,100,5,50,"STRIKE, DO_NOT_CONSERVE, SYSTEM","utility7, missile0",,,,Strike,Fast,Excellent,,,,,,,,10
+30mm EMP Gatling Gun,uaf_30mm_emp_gatling,4,,300,350,,50,60,10,50,15,100,1,,KINETIC,10,,,0.3,4,0.1,0,0,0,,,750,,,30,SYSTEM,"kinetic1, SR, remnant",,,,General,,,,,,,,,,3.87
+40mm AP Gatling Gun,uaf_40mm_ap_gatling,4,,400,350,,100,,15,50,15,85,1,,KINETIC,10,,,0.2,1,0.3,0,0,0,,,800,,,40,SYSTEM,"kinetic2, SR, remnant",,,,General,,,,,,,,,,3.88
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Radar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Eyeseau Radar,uaf_eyeseau_radar,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#catapult,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#blinkers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sirene Blinkers Red,uaf_blinker_sirene_1,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sirene Blinkers Blue,uaf_blinker_sirene_2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Right Forward Blinkers #1,uaf_blinker_right_forward_1,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Right Forward Blinkers #2,uaf_blinker_right_forward_2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Right Forward Blinkers #3,uaf_blinker_right_forward_3,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Right Forward Blinkers #4,uaf_blinker_right_forward_4,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Right Forward Blinkers #5,uaf_blinker_right_forward_5,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Left Forward Blinkers #1,uaf_blinker_left_forward_1,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Left Forward Blinkers #2,uaf_blinker_left_forward_2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Left Forward Blinkers #3,uaf_blinker_left_forward_3,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Left Forward Blinkers #4,uaf_blinker_left_forward_4,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Left Forward Blinkers #5,uaf_blinker_left_forward_5,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Foremost Blinkers #1,uaf_blinker_foremost_1,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Foremost Blinkers #2,uaf_blinker_foremost_2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Foremost Blinkers #3,uaf_blinker_foremost_3,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bottom Blinkers #1,uaf_blinker_bottom_1,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bottom Blinkers #2,uaf_blinker_bottom_2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#engine reactors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Novaeria Reactor,uaf_novaeria_reactor,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Novaeria Engine Reactor,uaf_novaeria_engine_reactor,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Reisen Engine Reactor,uaf_reisen_reactor,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Solvernia Engine Reactor,uaf_solvernia_reactor,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Solvernia Engine Reactor,uaf_solvernia_reactor2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Solvernia Left Engine Reactor,uaf_solvernia_left_engine_reactor,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Solvernia Right Engine Reactor,uaf_solvernia_right_engine_reactor,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Radar Dish,uaf_radar_dish,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,43
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Frequency Shield,uaf_frequency_barrier,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,

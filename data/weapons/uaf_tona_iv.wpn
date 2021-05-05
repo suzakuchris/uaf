@@ -1,0 +1,32 @@
+{
+	"id":"uaf_tona_iv",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"turretSprite":"graphics/weapons/Tona III RG/med_tonaiii_rg_turret_base.png",
+	"turretGunSprite":"graphics/weapons/Tona III RG/med_tonaiii_rg_dual_recoil.png",
+	"hardpointSprite":"graphics/weapons/Tona III RG/med_tonaiii_rg_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/weapons/Tona III RG/med_tonaiii_rg_hardpoint_recoil.png",
+	"visualRecoil":10.0,  # the gun sprites are only used if this is non-0
+	"turretOffsets":[-6, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[-6, 0],
+	"hardpointAngleOffsets":[0],
+	"renderHints":[RENDER_BARREL_BELOW],
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"SMOKE",
+	"smokeSpec":{"particleSizeMin":20.0,
+				 "particleSizeRange":20.0,
+				 "cloudParticleCount":5,
+				 "cloudDuration":1.0,
+				 "cloudRadius":25.0,
+				 "blowbackParticleCount":50,
+				 "blowbackDuration":2.5,
+				 "blowbackLength":80.0,
+				 "blowbackSpread":15.0,
+				 "particleColor":[100,100,100,200]},
+	"projectileSpecId":"uaf_railgun_large",  # projectile that will be fired
+	"fireSoundOne":"laser_intro",
+	"fireSoundTwo":"Railgun_large",
+	"everyFrameEffect":"data.scripts.weapons.uaf_laserPrerailgun",	
+}

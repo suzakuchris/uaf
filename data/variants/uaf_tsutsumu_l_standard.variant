@@ -1,0 +1,43 @@
+{
+  "variantId": "uaf_tsutsumu_l_standard",
+  "hullId": "uaf_tsutsumu_l",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_triyia_pdx",
+        "WS0005": "uaf_pd_reina",
+        "WS0006": "uaf_pd_reina",
+        "WS0009": "uaf_tona_i",
+        "WS0010": "uaf_tona_i"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_ivory",
+        "WS0002": "uaf_weiss_flk",
+        "WS0003": "uaf_weiss_flk",
+        "WS0007": "uaf_weiss_flk",
+        "WS0008": "uaf_weiss_flk",
+        "WS0011": "uaf_weiss_flk",
+        "WS0012": "uaf_weiss_flk",
+        "WS0015": "uaf_pd_reina",
+        "WS0016": "uaf_pd_reina"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "uaf_wing_aria"
+  ]
+}

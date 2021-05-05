@@ -1,0 +1,210 @@
+{
+  "hullName": "Right Engine",
+  "hullId": "uaf_slvv_r_engine",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/SLV/uaf_solverniav_right_engine_section.png",
+  "style": "MIDLINE",
+  "height": 292,
+  "width": 233,
+  "center": [113.5, 222],
+  "collisionRadius": 231.5,
+  "shieldCenter": [-76, -3],
+  "shieldRadius": 0,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_linkedEngine",
+    "never_detaches",
+    "uaf_noExplosion",
+    "uaf_melodyEngine",
+    "uaf_auroranEngineering",
+    "uaf_flagship_armouring"
+  ],
+  "builtInWeapons": {
+    "WS0003": "uaf_decor_mg",
+    "WS0004": "uaf_decor_mg",
+    "WS0005": "uaf_decor_mg",
+    "SYSTEM_ENGINE": "uaf_solvernia_right_engine_reactor"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -145.5,
+      "locations": [-61, -35]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 264,
+      "angle": -45,
+      "locations": [38, 5.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 275,
+      "angle": -53,
+      "locations": [-3.5, -56.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 275,
+      "angle": -53,
+      "locations": [12.5, -49.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 275,
+      "angle": -53,
+      "locations": [28.5, -43.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -135,
+      "locations": [-94.5, -58]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [-61, -75]
+    },
+    {
+      "id": "SYSTEM_ENGINE",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-75, -2.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-88.5, 92],
+      "length": 55,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-94.5, 64],
+      "length": 49,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-91, 77.5],
+      "length": 72,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-168, -6.5],
+      "length": 49,
+      "width": 11,
+      "angle": -171.5,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-172, 17],
+      "length": 49,
+      "width": 11,
+      "angle": -172.5,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-139.5, 11],
+      "length": 62.028042,
+      "width": 28.949776,
+      "angle": -171,
+      "contrailSize": 28.949776,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-187, -36],
+      "length": 49,
+      "width": 11,
+      "angle": -168.5,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-180.5, -72.5],
+      "length": 49,
+      "width": 11,
+      "angle": -169.5,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-182.5, -55.5],
+      "length": 104.532372,
+      "width": 47.884613,
+      "angle": -171,
+      "contrailSize": 47.884613,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-164, -102.5],
+      "length": 49,
+      "width": 11,
+      "angle": -169,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-166.5, -95],
+      "length": 49,
+      "width": 11,
+      "angle": -169,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -184.5, 23.5,
+    -173.5, -19,
+    -220, -40,
+    -212, -80,
+    -198.5, -82,
+    -182.5, -88.5,
+    -174.5, -109.5,
+    -126.5, -114,
+    41, -46,
+    68, 40,
+    47.5, 42,
+    24, 68,
+    34.5, 99.5,
+    -106.5, 102,
+    -111, 60,
+    -98.5, 43.5
+  ]
+}
