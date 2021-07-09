@@ -4,15 +4,92 @@
 		"northern_cross":[
 			#{"file":"Northern Cross.ogg","source":"sounds/ost","volume":0.6}, 
 		],
-		
+		"narumi_30":[
+			{"file":"loop3_30sec_x2.ogg","source":"sounds/music","volume":0.7}
+		],
+		"narumi_60":[
+			{"file":"loop3_60sec_x2.ogg","source":"sounds/music","volume":0.7}
+		],
+		"narumi_market_friendly":[
+			{"file":"uaf_final_friendly_market_loop1.ogg", "source":"sounds/music","volume":0.7}
+			#{"file":"uaf_final_friendly_market_loop2.ogg", "source":"sounds/music","volume":0.7}
+		],
+		"narumi_market_hostile":[
+			{"file":"uaf_final_hostile_market_loop1.ogg", "source":"sounds/music","volume":0.7}
+			#{"file":"uaf_final_hostile_market_loop2.ogg", "source":"sounds/music","volume":0.7}
+		],
+		"narumi_market_neutral":[
+			{"file":"uaf_final_neutral_market_loop1.ogg", "source":"sounds/music","volume":0.7}
+			#{"file":"uaf_final_neutral_market_loop2.ogg", "source":"sounds/music","volume":0.7}
+		],
 	},
+	"uaf_nuke_semibreve":[
+		#{"file":"sounds/weapons/nuke_ex.ogg", "pitch":1, "volume":0.3},
+		{"file":"sounds/weapons/Nuke1.ogg", "pitch":1, "volume":0.3},
+		#{"file":"sounds/weapons/Nuke2.ogg", "pitch":1, "volume":0.3},
+		#{"file":"sounds/weapons/Nuke3.ogg", "pitch":1, "volume":0.3},
+		
+	],
+	"uaf_nuke_semibreve_second":[
+		{"file":"sounds/weapons/nuke_ex.ogg", "pitch":1, "volume":0.6},
+		#{"file":"sounds/weapons/Nuke1.ogg", "pitch":1, "volume":0.3},
+		#{"file":"sounds/weapons/Nuke2.ogg", "pitch":1, "volume":0.7},
+		#{"file":"sounds/weapons/Nuke3.ogg", "pitch":1, "volume":0.3},
+		
+	],
+	"uaf_nuke_fake":[
+		{"file":"sounds/weapons/nuke_ex_fake.ogg", "pitch":1, "volume":0.3},
+	],
 	"rubia":[
 		#{"file":"sounds/ost/rubia2.ogg", "pitch":1, "volume":0.3},
+	],
+	"phenex":[
+		{"file":"sounds/weapons/BBgun.ogg", "pitch":1, "volume":0.3},
+	],
+	"phenex_ready":[
+		{"file":"sounds/weapons/BBgun_ready.ogg", "pitch":1, "volume":0.3},
 	],
 	"245mm_Blast":[
 		{"file":"sounds/weapons/245mm_Blast.ogg","pitch":1, "volume":0.13},
 		#{"file":"sounds/weapons/245mm_Blast.ogg","pitch":0.95, "volume":0.14},
 		#{"file":"sounds/weapons/245mm_Blast.ogg","pitch":0.90, "volume":0.15}
+	],
+	"yimies_flak_large":[
+		{"file":"sounds/weapons/antiair/Large AA shot 1.ogg","pitch":1,"volume":0.15},
+		{"file":"sounds/weapons/antiair/Large AA shot 2.ogg","pitch":1,"volume":0.15},
+		{"file":"sounds/weapons/antiair/Large AA shot 3.ogg","pitch":1,"volume":0.15},
+	],
+	"yimies_flak_large_explosion":[
+		{"file":"sounds/weapons/antiair/Large AA exp 1.ogg","pitch":1,"volume":0.15},
+		{"file":"sounds/weapons/antiair/Large AA exp 2.ogg","pitch":1,"volume":0.15},
+		{"file":"sounds/weapons/antiair/Large AA exp 3.ogg","pitch":1,"volume":0.15},
+	],
+	"yimies_flak_medium":[
+		{"file":"sounds/weapons/antiair/Mid AA fire 1.ogg","pitch":1,"volume":0.15},
+		{"file":"sounds/weapons/antiair/Mid AA fire 2.ogg","pitch":1,"volume":0.15},
+		{"file":"sounds/weapons/antiair/Mid AA fire 3.ogg","pitch":1,"volume":0.15},
+	],
+	"yimies_flak_medium_explosion":[
+		{"file":"sounds/weapons/antiair/Mid AA Exp 1.ogg","pitch":1,"volume":0.15},
+		{"file":"sounds/weapons/antiair/Mid AA Exp 2.ogg","pitch":1,"volume":0.15},
+		{"file":"sounds/weapons/antiair/Mid AA Exp 3.ogg","pitch":1,"volume":0.15},
+		#{"file":"sounds/weapons/antiair/verka/Mid AA Exp 1.ogg","pitch":1,"volume":0.15},
+		#{"file":"sounds/weapons/antiair/verka/Mid AA Exp 2.ogg","pitch":1,"volume":0.3},
+		#{"file":"sounds/weapons/antiair/verka/Mid AA Exp 3.ogg","pitch":1,"volume":0.3},
+
+	],
+	"yimies_flak_small":[
+		{"file":"sounds/weapons/antiair/Small AA fire 1.ogg","pitch":1,"volume":0.15},
+		{"file":"sounds/weapons/antiair/Small AA fire 2.ogg","pitch":1,"volume":0.15},
+		{"file":"sounds/weapons/antiair/Small AA fire 3.ogg","pitch":1,"volume":0.15},
+		{"file":"sounds/weapons/antiair/verka/Small AA fire 1.ogg","pitch":1,"volume":0.15},
+		#{"file":"sounds/weapons/antiair/verka/Small AA fire 2.ogg","pitch":1,"volume":0.3},
+		#{"file":"sounds/weapons/antiair/verka/Small AA fire 3.ogg","pitch":1,"volume":0.3},
+	],
+	"yimies_flak_small_explosion":[
+		{"file":"sounds/weapons/antiair/Small AA Exp 1.ogg","pitch":1,"volume":0.15},
+		{"file":"sounds/weapons/antiair/Small AA Exp 2.ogg","pitch":1,"volume":0.15},
+		{"file":"sounds/weapons/antiair/Small AA Exp 3.ogg","pitch":1,"volume":0.15},
 	],
 	"cyrexa_cannon4":[
 		{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":1, "volume":0.95},

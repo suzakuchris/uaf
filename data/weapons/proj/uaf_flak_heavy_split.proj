@@ -30,6 +30,6 @@
 									 "particleCount":25,
 									 "particleColor":[215,215,200,225],
 									 "explosionColor":[215,150,75,20],
-									 "sound":"explosion_flak"},
+									 "sound":"yimies_flak_large_explosion"},
 					}
 }

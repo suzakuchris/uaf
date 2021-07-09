@@ -23,7 +23,7 @@ Phenex LRG 608 AP(XL),uaf_phenex_lrg,6,6,150000,1450,,1500,1000,3000,1.5,0,50,0.
 Cyrexa 452 AP(Q),uaf_cyrexa,5,5,6420,1050,,500,100,300,2,30,50,0.1,4,KINETIC,500,,1,2,4,0.25,0,1,1,,,950,,,550,,"kinetic20, LR, remnant",,,,Anti Capital (Shield),,,,,,,,,,6
 Cyrexa 452 AP(T),uaf_cyrexa_triple,4,4,4210,1000,,500,100,300,2,25,50,0.1,4,KINETIC,440,,1,2,3,0.2,0,1,1,,,950,,,550,,"kinetic20, LR, remnant",,,,Anti Capital (Shield),,,,,,,,,,6
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Herexa 608 HE(D),uaf_herexa,5,5,5550,1050,,995,0,1000,2,25,30,0.1,2,KINETIC,350,,1,4,2,0.4,0,1,1,,,550,,,400,,"kinetic20, LR, remnant",,,,Anti Capital (Armor),,,,,,,,,,6
+Herexa 608 HE(D),uaf_herexa,5,5,5550,1050,,995,0,1000,2,25,30,0.1,2,HIGH_EXPLOSIVE,350,,1,4,2,0.4,0,1,1,,,550,,,400,,"kinetic20, LR, remnant",,,,Anti Capital (Armor),,,,,,,,,,6
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Triyia 30 PD(QX),uaf_triyia_pdx,3,5,6655,650,,50,20,20,60,25,100,0.1,10,FRAGMENTATION,12,,0.2,0.05,5,,0,5,1,10,,780,,,30,PD,pd1,,,,Point Defense (Suppression),,,,,,,,,,4.5
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -32,10 +32,9 @@ Cyrexa Improved Experimental,uaf_cyrexa_single_experimental,4,4,14210,1250,,450,
 Tona I 125 AP(S),uaf_tona_i,1,0.5,800,1000,,150,125,100,15,10,,,,KINETIC,200,,1,0.5,1,0,0,1,1,,,1000,,,20,,,,,,Anti Shield,,,,,,,,,,2
 Tona II 254 AP(M),uaf_tona_ii,2,3,1600,1000,,350,250,200,5,15,,,,KINETIC,400,,1,1.5,1,0,0,1,1,,,1250,,,20,,,,,,Anti Shield,,,,,,,,,,2
 Tona III 452 AP(L),uaf_tona_iii,5,5,6000,1350,,550,500,700,2,20,,,,KINETIC,550,,1,2,1,0,0,1,1,,,1500,,,20,,,,,,Anti Shield,,,,,,,,,,2
-Tona IV 608 AP(XL),uaf_tona_iv,5,5,145000,3000,,2500,500,2500,1,0,,,,KINETIC,2250,,2,3,1,0,0,1,1,,,2000,,,20,,,,,,Anti Capital,,,,,,,,,,2
+Tona IV 608 AP(XL),uaf_tona_iv,5,5,145000,3000,,2500,500,2500,1,0,,,,KINETIC,2250,,2,3,1,0,0,1,1,,,2000,,,20,SYSTEM,,,,,Anti Capital,,,,,,,,,,2
 Decorative MG,uaf_decor_mg,1,5,200,1000,,5,,1,75,4,,,,FRAGMENTATION,1,,0,0.1,1,,5,30,4,10,,700,,,10,"SYSTEM, PD","pd15, SR, remnant",,,,,,,,,,,,,,1
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Clemente (Built-in),uaf_clemente_nakiha,1,,400,2500,,800,,17,30,4,3,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,,,300,150,13,150,"SYSTEM, DO_NOT_AIM","missile1, strike1",,,,Finisher,Medium,Medium,,,,,,,,10
 YUM-9 Anti-Fighter,uaf_yum9_missile,1,,500,1200,,140,,25,50,5,,,,HIGH_EXPLOSIVE,125,,0,7,1,,0,0,0,0,,150,50,7,100,"SYSTEM, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE",aa,,,,,,,,,,,,,,11
 DEL-9 Unguided,uaf_del9_missile,1,,500,1500,,200,,20,30,10,,,,HIGH_EXPLOSIVE,0,,1,12,4,0.5,0,0,0,0,,600,50,3,50,"SYSTEM, STRIKE, DO_NOT_AIM, DO_NOT_CONSERVE",as,,,,,,,,,,,,,,12
 Rhythm HE LRM(MS),uaf_rhythm,0,,900,1500,,450,,85,15,10,16,0.1,,HIGH_EXPLOSIVE,0,,0,12,3,0.2,0,0,0,0,,750,300,15,75,"SYSTEM, STRIKE, GUIDED_POOR","strike7, missile0",,,,,,,,,,,,,,12.5
@@ -44,19 +43,42 @@ Mini Vocals,uaf_mini_vocals_mrm,1,,,2500,,100,50,10,,10,6,,,HIGH_EXPLOSIVE,0,,0,
 Vocals Swarmer,uaf_vocals_swarmer,1,,250,1000,,75,,15,50,4,60,,,HIGH_EXPLOSIVE,0,,0,5,4,0.2,0,0,0,0,,300,100,5,50,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE, SYSTEM","utility8, missile0, missile_bp",,,,Anti Small Craft,Fast,Excellent,,,,,,,,10
 Missile Barrage,uaf_missile_barrage,0,,1250,3500,,150,50,30,0,20,24,5,,HIGH_EXPLOSIVE,0,,0.2,2,12,0.2,6,50,50,12,,300,100,25,50,"SYSTEM, STRIKE, GUIDED_POOR","strike7, missile0",,,,,Fast,Excellent,,,,,,,TRUE,16.4
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Rhythm HE LRM(MS)(SU),uaf_rhythm_base_single,0,,900,1500,,450,,85,15,1,5,,,HIGH_EXPLOSIVE,0,,0,3,1,0.4,0,0,0,0,,300,650,15,75,"STRIKE, GUIDED_POOR","strike1, missile1",,,,Long Range Support,Medium,Good,,,,,,,,12.5
-Rhythm HE LRM(MS)(SU)x3,uaf_rhythm_base_triple,0,,3000,1500,,450,,85,15,4,9,,,HIGH_EXPLOSIVE,0,,0,12,3,0.4,0,0,0,0,,300,650,15,75,"STRIKE, GUIDED_POOR","strike3, missile3",,,,Long Range Support,Medium,Good,,,,,,,,12.5
-Rhythm HE LRM(MS),uaf_rhythm_base,0,,900,1500,,450,,85,15,6,18,1,,HIGH_EXPLOSIVE,0,,0,6,3,0.6,0,0,0,0,,300,650,15,75,"STRIKE, GUIDED_POOR","strike3, missile6",,,,Long Range Support,Medium,Good,,,,,,,,12.5
-Selemene MRM,uaf_selemene_base_single,1,,1200,2000,,300,2000,15,10,3,5,0.1,,FRAGMENTATION,0,,0,25,1,0.25,0,0,0,,,400,50,15,150,"DO_NOT_AIM, HEATSEEKER","utility13, missile_bp",,,,Anti Engine,Fast,Excellent,,,,,,,TRUE,12.2
+Rhythm HE LRM(MS)(SU),uaf_rhythm_base_single,0,,900,1500,,450,,85,15,1,5,,,HIGH_EXPLOSIVE,0,,0,3,1,0.4,0,0,0,0,,250,125,15,75,"STRIKE, GUIDED_POOR","strike1, missile1",,,,Long Range Support,Medium,Good,,,,,,,,12.5
+Rhythm HE LRM(MS)(SU)x3,uaf_rhythm_base_triple,0,,3000,1500,,450,,85,15,4,9,0.06,3,HIGH_EXPLOSIVE,0,,0,12,3,0.4,0,0,0,0,,250,125,20,75,"STRIKE, GUIDED_POOR","strike3, missile3",,,,Long Range Support,Medium,Poor,,,,,,,,12.5
+Rhythm HE LRM(MS),uaf_rhythm_base,0,,900,1500,,450,,85,15,6,18,1,,HIGH_EXPLOSIVE,0,,0,6,3,0.6,0,0,0,0,,250,125,15,75,"STRIKE, GUIDED_POOR","strike3, missile6",,,,Long Range Support,Medium,Good,,,,,,,,12.5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Selemene MSM(M),uaf_selemene_m_mrm,1,,1200,2000,,300,2000,15,10,3,2,0.06,2,FRAGMENTATION,0,,0,15,2,0.25,0,0,0,,,500,250,8,75,"STRIKE, GUIDED_POOR","utility13, missile_bp",,,,EMP Missile,Fast,Excellent,,,,,,,TRUE,12.2
+Selemene MSM(S),uaf_selemene_s_mrm,1,,1200,2000,,300,2000,15,10,3,1,0.1,1,FRAGMENTATION,0,,0,10,1,,0,0,0,,,500,250,8,75,"STRIKE, GUIDED_POOR","utility13, missile_bp",,,,EMP Missile,Fast,Excellent,,,,,,,TRUE,12.2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Exoscar Torpedo,uaf_exoscar_torpedo_base,4,,800,2000,,3000,,500,5,1,1,0.1,,HIGH_EXPLOSIVE,0,,0,,1,,0,0,0,,,350,100,10,500,"STRIKE, DO_NOT_CONSERVE","strike8, rocket3, missile_bp",,,,Torpedo,Fast,None,,,,,,,TRUE,9
 Exoscar Torpedo (Shield),uaf_exoscar_torpedo_base_shield,4,,800,2000,,3000,,500,5,5,1,,,HIGH_EXPLOSIVE,0,,0,,1,,0,0,0,,,350,100,10,500,"STRIKE, DO_NOT_CONSERVE","strike8, rocket3, missile_bp",,,,Torpedo,Fast,None,,,"Exoscar torpedo fitted with a shield generator, capable to protect the torpedo for short amount of time.",,,,TRUE,9
 Exoscar Torpedo x4,uaf_exoscar_torpedo_quad,4,,800,2000,,3000,,500,5,25,16,,,HIGH_EXPLOSIVE,0,,0,5,4,0.5,0,0,0,,,350,100,10,500,"STRIKE, DO_NOT_CONSERVE","strike8, rocket3, missile_bp",,,,Torpedo,Fast,None,,,,,,,TRUE,9
 Vocals Swarmer SRM,uaf_vocals_swarmer_base,1,,250,1000,,75,,15,50,3,12,2,,HIGH_EXPLOSIVE,0,,0,5,6,0.1,0,0,0,0,,300,100,5,50,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, missile_bp",,,,Anti Small Craft,Fast,Excellent,,,,,,,,10
-Clemente MRM(MS),uaf_clemente_base,1,,400,2500,,800,,17,30,6,3,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,,,300,150,13,150,DO_NOT_AIM,"missile1, strike3",,,,Anti Ship Torpedo,Medium,Medium,,,,,,,,10
-Semibreve TNS(MS),uaf_semibreve_base,6,6,15000,200,500,8000,,8000,5,15,2,0.001,,HIGH_EXPLOSIVE,0,,2,10,1,,0,0,0,,,1200,15,30,10000,STRIKE,"strike8, rocket3, missile_bp",,,,Anti Capital Torpedo,Fast,None,,,,,,,TRUE,9
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Vocal SRM(S),uaf_vocal_s_srm,1,,250,1000,,75,,15,50,3,6,0.2,6,HIGH_EXPLOSIVE,0,,0,5,6,0.1,0,0,0,0,,300,100,5,50,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, missile_bp",,,,Anti Small Craft,Fast,Excellent,,,,,,,,10
+Vocal SRM(M),uaf_vocal_m_srm,1,,250,1000,,75,,15,50,3,8,0.16,8,HIGH_EXPLOSIVE,0,,0,6,8,0.1,0,0,0,0,,300,100,5,50,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, missile_bp",,,,Anti Small Craft,Fast,Excellent,,,,,,,,10
+Vocal SRM(L),uaf_vocal_l_srm,1,,250,1000,,75,,15,50,3,12,0.14,12,HIGH_EXPLOSIVE,0,,0,7,12,0.1,0,0,0,0,,300,100,5,50,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, missile_bp",,,,Anti Small Craft,Fast,Excellent,,,,,,,,10
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Phase Missile Launcher,uaf_phase_missile,1,,4500,2500,,500,,50,10,25,10,,,HIGH_EXPLOSIVE,0,,0,15,1,,0,0,0,0,,250,50,12,350,"DO_NOT_AIM, CONSERVE_5","strike8, rocket3, missile_bp",,,,Finisher,Medium,Good,,,,,,,TRUE,16
+Clemente MRM(S),uaf_clemente_base,1,,400,2500,,800,,17,30,6,1,0.06,1,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,,,300,150,13,150,DO_NOT_AIM,"missile1, strike3",,,,Anti Ship Torpedo,Medium,Medium,,,,,,,,10
+Clemente (Built-in),uaf_clemente_nakiha,1,,400,2500,,800,,17,30,4,3,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,,,300,150,13,150,"SYSTEM, DO_NOT_AIM","missile1, strike1",,,,Finisher,Medium,Medium,,,,,,,,10
+Clemente MRM(M),uaf_clemente_s_mrm_double,2,,200,2500,,750,,15,30,4,4,0.1,1,HIGH_EXPLOSIVE,0,,0.1,3,1,0.1,0,0,0,,,300,100,12.5,150,,,DO_NOT_AIM,"missile8, strike3, missile_bp, merc",,,,Finisher,Medium,Medium,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Typhoon AST(L),uaf_typhoon_l_sasm,1,,200,1200,,4000,,75,10,6,8,0.02,2,HIGH_EXPLOSIVE,0,,0,2,2,0.1,0,0,0,0,,400,100,3.5,500,,,STRIKE,"strike8, rocket3, missile_bp, merc",,,,Torpedo,Fast,None,,,,,,
+Typhoon AST(S),uaf_typhoon_s_sasm,1,,200,1200,,4000,,75,10,2,1,0.03,1,HIGH_EXPLOSIVE,0,,0,30,1,0.1,0,0,0,0,,400,100,3.5,500,,,STRIKE,"strike8, rocket3, missile_bp, merc",,,,Torpedo,Fast,None,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Semibreve TNMS(L),uaf_semibreve_base,6,6,15000,3500,500,8000,,8000,5,15,4,,,HIGH_EXPLOSIVE,0,,1,5,1,,0,0,0,,,1200,15,30,10000,STRIKE,"strike8, rocket3, missile_bp",,,,Anti Capital Torpedo,Fast,None,,,,,,,TRUE,9
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Phase Missile Launcher,uaf_phase_missile,1,,4500,2500,,500,,50,10,25,10,,,HIGH_EXPLOSIVE,0,,0,15,1,,0,0,0,0,,250,50,12,350,"DO_NOT_AIM, DO_NOT_CONSERVE","strike8, rocket3, missile_bp",,,,Finisher,Medium,Good,,,,,,,TRUE,16
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Amazoch Light ASRM(M),uaf_amazoch_light_asrm_dual,3,,900,1500,,450,,85,15,5,6,0.2,2,HIGH_EXPLOSIVE,0,,0,10,2,0.4,0,0,0,0,,300,650,15,75,"STRIKE, GUIDED_POOR","strike1, missile1",,,,Long Range Support,Medium,Good,,,,,,,,12.5
+Amazoch Heavy ASRM(S),uaf_amazoch_s_asrm_single,3,,900,1500,,450,,85,15,5,1,0.05,1,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,0,,300,650,15,75,"STRIKE, GUIDED_POOR","strike1, missile1",,,,Long Range Support,Medium,Good,,,,,,,,12.5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Chorus AAM(L),uaf_chorus_l_amm,5,,1500,1000,,350,50,75,50,5,8,0.1,8,FRAGMENTATION,0,,0,0.5,1,0.25,0,0,0,0,,650,850,4,85,"PD, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, missile_bp",,,,PD Missile,Fast,Good,,,,,,,,
+Chorus AAM(M),uaf_chorus_m_amm,3,,1500,1000,,350,50,75,50,5,4,0.1,4,FRAGMENTATION,0,,0,0.5,1,0.3,0,0,0,0,,650,850,4,85,"PD, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, missile_bp",,,,PD Missile,Fast,Good,,,,,,,,
+Chorus AAM(S),uaf_chorus_s_amm,1,,1500,1000,,350,50,75,50,5,2,0.1,2,FRAGMENTATION,0,,0,0.5,1,2,0,0,0,0,,650,850,4,85,"PD, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, missile_bp",,,,PD Missile,Fast,Good,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Minirest ASM(L),uaf_minirest_asm_l,3,,900,2500,,450,,85,15,5,2,0.1,2,HIGH_EXPLOSIVE,0,,0,10,2,0.4,0,0,0,0,,350,650,15,75,"DO_NOT_AIM, DO_NOT_CONSERVE","utility13, missile0, missile_bp, merc",,,,Long Range Support,Medium,Good,,,,,,,,12.5
+,uaf_minirest_ss,3,,900,2500,,500,,85,15,5,2,0.1,2,HIGH_EXPLOSIVE,0,,0,10,2,0.4,0,0,0,0,,1000,350,2,75,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE","utility13, missile0, missile_bp, merc",,,,Long Range Support,Medium,Good,,,,,,,,12.5
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,uaf_overridesystem,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -14,8 +14,8 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "uaf_tona_i",
-        "WS0002": "uaf_selemene_base_single",
-        "WS0003": "uaf_selemene_base_single",
+        "WS0002": "uaf_selemene_s_mrm",
+        "WS0003": "uaf_selemene_s_mrm",
         "WS0004": "uaf_tona_ii",
         "WS0005": "uaf_tona_ii",
         "WS0006": "uaf_ivory",

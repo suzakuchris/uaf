@@ -24,7 +24,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		
 		// Set up the player's fleet
 		api.addToFleet(FleetSide.PLAYER, "uaf_novaeria_elite", FleetMemberType.SHIP, "UAF Novaeria", true);
-
+		api.addToFleet(FleetSide.PLAYER, "uaf_wing_lynx_ahft", FleetMemberType.SHIP, "UAF Raptor", true);
 		//exorias
 		api.addToFleet(FleetSide.PLAYER, "uaf_exoria_standard", FleetMemberType.SHIP, "UAF Exoria", false);
 		api.addToFleet(FleetSide.PLAYER, "uaf_exoria_bomber", FleetMemberType.SHIP, "UAF Exoria Bomber", false);

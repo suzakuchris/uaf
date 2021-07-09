@@ -1,19 +1,30 @@
 {
     "plugins":{
-        "uaf_map_field":"data.scripts.plugins.uaf_map_field"
+        "uaf_map_field":"data.scripts.plugins.uaf_mapField"
     },
     "ruleCommandPackages":[
         "data.campaign.rulecmd",
     ],
     "graphics":{
+        "uaf_nuke":{
+            "aftermath_1":"graphics/fx/semibreve_gfx/nuke_aftermath_1.png",
+            "aftermath_2":"graphics/fx/semibreve_gfx/nuke_aftermath_2.png",
+            "explosion_1":"graphics/fx/semibreve_gfx/nuke_explosion_1.png",
+            "explosion_2":"graphics/fx/semibreve_gfx/nuke_explosion_2.png",
+            "glow_1":"graphics/fx/semibreve_gfx/nuke_glow_1.png",
+            "glow_2":"graphics/fx/semibreve_gfx/nuke_glow_2.png",
+            "glow_3":"graphics/fx/semibreve_gfx/nuke_glow_3.png",
+            "particle_1":"graphics/fx/semibreve_gfx/nuke_particle_1.png",
+            "particle_2":"graphics/fx/semibreve_gfx/nuke_particle_2.png",
+            "shockwave_1":"graphics/fx/semibreve_gfx/nuke_shockwave_1.png",
+            "shockwave_2":"graphics/fx/semibreve_gfx/nuke_shockwave_2.png",
+            "shockwave_3":"graphics/fx/semibreve_gfx/nuke_shockwave_3.png"
+        },
         "uaf_person":{
             "uafnia":"graphics/portraits/uaf_nia_128.png",
             "uafroboqueen":"graphics/portraits/uaf_roboqueen.png",
             "uafqueen":"graphics/portraits/uaf_queen.png",
             "nia2":"graphics/portraits/LN.png"
-        },
-        "uaf_turret_base":{
-            "cargo_base":"graphics/weapons/uaf_cargo.png"
         },
         "emp":{
             "uaf_eyeseau_pulse":"graphics/fx/uaf_eyeseau_suv_radar_ring.png",

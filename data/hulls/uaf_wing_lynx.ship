@@ -11,14 +11,14 @@
   "shieldCenter": [0, 0],
   "shieldRadius": 0,
   "viewOffset": 0,
-  "builtInMods":[
-    "uaf_experimental_fighter",
+  "builtInMods": [
+    "uaf_experimental_fighter"
   ],
-  "builtInWeapons":{
+  "builtInWeapons": {
     "BLINKER1": "blinker_green",
     "BLINKER2": "blinker_green",
-    "BLINKER_FRONT": "blinker_red",
     "BLINKER_ASYNC": "blinker_red",
+    "BLINKER_FRONT": "blinker_red"
   },
   "weaponSlots": [
     {

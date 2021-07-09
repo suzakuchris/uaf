@@ -36,5 +36,5 @@
 	#"noShieldImpactSounds":true,
 	#"noNonShieldImpactSounds":true,
 	#"fireSoundOne":"chaingun_intro",	
-	"fireSoundTwo":"Flak_fire_medium",	
+	"fireSoundTwo":"yimies_flak_medium",	
 }

@@ -24,6 +24,10 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		// Solvy
 		api.addToFleet(FleetSide.PLAYER, "uaf_slvv_core_elite", FleetMemberType.SHIP, "UAF Solvernia", true);
 		
+		//Purcellyra
+		api.addToFleet(FleetSide.PLAYER, "uaf_purcellyra_standard", FleetMemberType.SHIP, "Shield-I", false);
+		api.addToFleet(FleetSide.PLAYER, "uaf_scinaut_suv_standard", FleetMemberType.SHIP, "Scinaut-I", false);
+
 		//Rillaru
 		api.addToFleet(FleetSide.PLAYER, "uaf_rillaru_standard", FleetMemberType.SHIP, "Sword-I", false);
 		api.addToFleet(FleetSide.PLAYER, "uaf_rillaru_defense", FleetMemberType.SHIP, "Sword-II", false);

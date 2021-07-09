@@ -103,3 +103,12 @@
 -Fixed Triyia
 -Nerfed reisen system
 -Correcting automata and military spec descriptions
+
+07/07/2021
+-Added minirest
+-Added chorus
+-Minor adjustments to missile stats
+-Added purcyllera
+-Added scinaut
+-Added music
+-Added new sfx

@@ -37,5 +37,5 @@
 	"projectileSpecId":"uaf_pu_ash_lg",  # projectile that will be fired
     "fireSoundOne":"245mm_Blast",
 	"fireSoundTwo":"grand_cannon_1",
-	"everyFrameEffect":"data.scripts.weapons.uaf_cyrexa_muzzle",	
+	#"everyFrameEffect":"data.scripts.weapons.uaf_cyrexa_muzzle",	
 }

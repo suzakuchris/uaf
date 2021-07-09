@@ -33,6 +33,8 @@ Neuxoria(SP),uaf_ai_neuxoria,Supercarrier,Auroran Tech,uaf_Override,28,12000,910
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Perwira(M),uaf_m_perwira,Combat Shuttle,Auroran Tech,flarelauncher,3,1000,180,1600,1250,150,30,,180,175,100,75,70,200,FRONT,,30,0.5,0.7,,,10,30,70,30,1,30,10,7500,5,10,240,0.25,3,3,,uaf_m_ship_bp,,0.7,3,4,208
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Purcellya,uaf_purcellyra,Battlecruiser,Auroran Tech,forgevats,20,12000,950,22500,15500,1250,220,,85,35,25,15,10,3000,FRONT,,270,0.2,1,,,120,240,160,350,8,45,8,235000,3,15,720,0.25,40,40,,uaf_ship_bp,,0.5,1,2,503
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Rillaru,uaf_rillaru,Battlecruiser,Auroran Tech,uaf_melodyOvercharge,20,10500,1100,22500,15500,1250,220,2,70,25,20,10,8,3200,FRONT,,270,0.2,1,,,120,240,160,350,8,45,8,235000,3,15,720,0.25,40,40,,uaf_ship_bp,,0.5,1,2,503
 Rillaru(SP),uaf_ai_rillaru,Battlecruiser,Experimental Auroran Tech,uaf_melodyOvercharge,25,10500,1000,24500,16000,1330,250,2,65,23,23,9,7,3450,FRONT,,270,0.2,1,,,100,240,160,400,6.5,45,9,276500,3,15,720,0.25,40,40,,uaf_ai_ship_bp,,0.5,1,2,503
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -56,6 +58,7 @@ Sekai,uaf_sekai_s,S-Tanker,Auroran Tech,microburn,3,800,225,1400,1250,125,30,,12
 Wo,uaf_wo_m,M-Tanker,Auroran Tech,microburn,6,3000,600,4000,2750,350,60,,50,70,50,25,60,5000,OMNI,,90,0.5,1.2,,,25,50,750,750,2,300,8,25400,16,20,180,0.25,2,2,"CIVILIAN, TANKER",uaf_ship_bp,,0.7,2,4,209
 Tsutsumu,uaf_tsutsumu_l,L-Tanker,Auroran Tech,burndrive,12,13000,1600,8000,4500,600,120,1,25,30,20,15,60,8000,OMNI,,90,0.5,1.2,,,40,80,3250,3250,4.5,300,7,111800,25,20,180,0.25,2,2,"CIVILIAN, TANKER",uaf_ship_bp,,0.7,2,4,209
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Scinaut,uaf_scinaut_suv,Exploration Craft,Auroran Tech,flarelauncher,4,550,65,850,450,300,50,2,140,75,35,15,30,800,FRONT,,310,0.3,1.2,,,5,15,50,35,1,350,9,4500,7,20,180,0.25,2,2,CIVILIAN,uaf_ship_bp,,1,3,3,199
 Osela,uaf_osela_suv,Exploration Craft,Auroran Tech,flarelauncher,3,300,50,750,450,300,20,,150,95,50,15,30,650,FRONT,,310,0.3,1.2,,,5,15,50,35,1,350,9,4500,7,20,180,0.25,2,2,CIVILIAN,uaf_ship_bp,,1,3,3,199
 Eyeseau,uaf_eyeseau,Auxillary Command Vessel,Auroran Tech,uaf_emp,20,8000,600,16200,450,1050,150,,75,50,25,15,30,3000,FRONT,,310,0.3,1.2,,,5,15,50,35,1,350,9,4500,7,20,180,0.25,2,2,,uaf_ship_bp,,1,3,3,199
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -93,7 +96,7 @@ Mitsurei,uaf_wing_mitsurei,Light Interceptor,Auroran Tech,flarelauncher_single,,
 Sakurai,uaf_wing_sakurai,Medium Bomber,Auroran Tech,flarelauncher_fighter,,800,200,600,,100,0,,135,95,60,45,45,65,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,0,,,105
 Hibiscus,uaf_wing_hibiscus,Light Bomber,Auroran Tech,flarelauncher_single,,700,100,400,,100,0,,140,100,60,45,45,50,NONE,,0,0,0,,,1,1,,,,,,,,,,,,,,,,0,,,105
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Lynx ACE(P),uaf_wing_lynx,Multi-Role Fighter,Auroran Tech,uaf_emp,5,1500,125,1000,,250,120,1,180,400,300,80,180,100,PHASE,phasecloak,180,0,0,,,1,1,5,15,1,25,10,,,,,,,,,,,0,,,110
+Lynx ACE(P),uaf_wing_lynx,Multi-Role Fighter,Auroran Tech,maneuveringjets,5,1500,125,1000,,250,120,1,180,400,300,80,180,100,PHASE,phasecloak,180,0,0,,,1,1,5,15,1,25,10,,,,,,,,SHIP_WITH_MODULES,,,0,,,110
 Forlorn,uaf_wing_forlorn,Superiority Fighter,Auroran Tech,maneuveringjets,,1200,100,1000,,300,0,,250,400,360,150,360,85,FRONT,,30,0,0,,,1,1,,,,,,,,,,,,,,,,0,,,110
 Noversky,uaf_wing_noversky,Heavy Attacker,Auroran Tech,flarelauncher_fighter,,1200,95,1000,,100,0,,200,150,100,45,35,100,FRONT,,60,0,0,,,1,1,,,,,,,,,,,,,,,,0,,,107
 Hyacinth,uaf_wing_hyacinth,Strategic Bomber,Auroran Tech,flarelauncher_fighter,,2250,400,1200,,50,0,,125,100,30,75,45,150,FRONT,,120,0,0,,,1,1,,,,,,,,,,,,,,,,0,,,105

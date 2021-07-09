@@ -27,5 +27,5 @@
 					   "particleCount":7,
 					  "particleColor":[255, 184, 66,175]},
 	"projectileSpecId":"uaf_flak_small",
-	"fireSoundTwo":"chaingun_fire",
+	"fireSoundTwo":"yimies_flak_small",
 }

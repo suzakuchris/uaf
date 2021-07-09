@@ -1,0 +1,38 @@
+{
+	"id":"uaf_missile_chorus_s",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/weapons/Missiles/chorus_s_amm/missile_chorus_s.png",
+	"glowColor":[255,255,255,75],
+	"size":[8,18],	
+	"center":[4,9],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[216,191,216,35],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":35, # purely visual
+	"engineSpec":{"turnAcc":360,
+				  "turnRate":500,
+				  "acc":2500,
+				  "dec":800},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-4.5, 0],
+					#"loc":[-1, -2.5],
+				    #"style":"TORPEDO",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[220,20,60,150],
+						"contrailDuration":0.5,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":7, # min segment length, in pixels
+						"contrailMaxSpeedMult":0f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailSpawnDistMult":0f, # how far away from engine it starts
+						"contrailColor":[255,255,255,100],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":8.0,
+				    "length":30.0,
+				    "angle":180.0}],
+}
