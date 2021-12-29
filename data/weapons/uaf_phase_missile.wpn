@@ -30,5 +30,5 @@
 				 "blowbackSpread":10.0,
 				 "particleColor":[100,100,100,200]},
 	"projectileSpecId":"uaf_phased_missile",
-	"fireSoundTwo":"hurricane_mirv_fire",
+	"fireSoundTwo":"uaf_missile_4",
 }

@@ -1,149 +1,188 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
-Deco MG,uaf_deco_mg,1,1,300,300,,10,,1,75,1,,,,FRAGMENTATION,1,,0,0.33,4,0.3,3,5,2,10,,700,,,10,SYSTEM,"pd15, SR, remnant",,,,Backup Point Defense,,,,,,,,,,1
+Deco MG,uaf_deco_mg,0,1,300,300,,10,,1,75,1,,,,FRAGMENTATION,1,,0,0.33,4,0.3,3,5,2,10,,700,,,10,SYSTEM,pd,,United Aurora Federation,,Backup Point Defense,,,,,,,,,,1
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Hikone 125 AP(Q),uaf_hikone_quad,1,2,1600,850,,75,,15,10,10,100,5,20,KINETIC,55,,0,0.5,4,0.1,0,10,1,3,,700,,,300,,he1,,,,General Purpose,,,,,,,,,,1
-Ivory 254 HE(D),uaf_ivory,1,0,700,850,,300,,50,3,10,100,0.3,20,HIGH_EXPLOSIVE,220,,0,1,2,0.2,0,10,1,3,,680,,,300,,he1,,,,Anti Armor,,,,,,,,,,1
-Medlav 254 AP(D),uaf_medlav_dual,1,0,1200,850,,225,50,30,3,10,100,0.3,20,KINETIC,125,,0,1,2,0.3,0,10,1,3,,750,,,300,,he1,,,,Anti Shield,,,,,,,,,,1
-Medlav 254 AP(Q),uaf_medlav_quad,1,2,2400,850,,225,50,30,3,15,100,0.3,20,KINETIC,150,,0,1,4,0.2,0,10,0.5,3,,750,,,300,,he2,,,,Anti Shield,,,,,,,,,,1
-Claris 50 AP(CN),uaf_claris_cn,1,,450,600,,55,50,3,15,5,,,,KINETIC,40,,0,0.3,1,0.2,0,5,3,5,,800,,,20,,he2,,,,Anti Shield,,,,,,,,,,2
-Reina 20 PD(MG),uaf_pd_reina,0,,600,400,,30,,3,50,5,,,,KINETIC,5,,0,0.4,10,0.1,0,4,1,10,,550,,,10,PD,"pd6, kinetic3, SR",,,,Point Defense,,,,,,,,,,0.5
-20mm Autocannon,uaf_20mm_autocannon,1,5,200,300,,25,,1,75,4,,,,FRAGMENTATION,1,,0,0.33,1,,0,10,2,10,,700,,,10,SYSTEM,"pd15, SR, remnant",,,,,,,,,,,,,,1
-Weiss I 50 PD(FK),uaf_weiss_flk,1,1,800,400,,50,,35,45,5,,,,FRAGMENTATION,5,,0,0.15,1,0.5,0,15,3,,,800,,,20,PD,pd1,,,,Point Defense (Suppression),,,,,A Flak cannon that fires a shell that causes multiple explosives around the first shell explosion.,,,,,2
-Weiss II 254 PD(FK),uaf_weiss_ii_flk,2,1,1550,400,,100,,50,30,10,,,,FRAGMENTATION,85,,0,0.3,1,0.5,0,15,3,,,700,,,20,PD,pd1,,,,Point Defense (Area),,,,,A Flak cannon that fires a shell that causes multiple explosives around the first shell explosion.,,,,,2
-Weiss III 452 PD(FK),uaf_weiss_iii_flk,5,5,6000,1200,,200,,150,15,20,,,,FRAGMENTATION,100,,0,0.5,2,0.5,0,15,3,,,650,,,20,PD,pd1,,,,Point Defense (Suppression),,,,,"A Flak cannon that fires a shell with a fuse that split with random fuse times, resulting in area suppression",,,,,2
-Weiss Split 600,uaf_weiss_iii_flk_split0,0,,300,600,,100,,150,0,0,,,,FRAGMENTATION,,,,,1,,0,15,3,,,700,,,20,"PD, SYSTEM",pd1,,,,Dual-barrel Flak Gun,,,,,,,,,,2
-Weiss Split 500,uaf_weiss_iii_flk_split1,0,,300,500,,100,,150,0,0,,,,FRAGMENTATION,,,,,1,,0,15,3,,,700,,,20,"PD, SYSTEM",pd1,,,,Dual-barrel Flak Gun,,,,,,,,,,2
-Weiss Split 400,uaf_weiss_iii_flk_split2,0,,300,400,,100,,150,0,0,,,,FRAGMENTATION,,,,,1,,0,15,3,,,700,,,20,"PD, SYSTEM",pd1,,,,Dual-barrel Flak Gun,,,,,,,,,,2
-Weiss Split 300,uaf_weiss_iii_flk_split3,0,,300,300,,100,,150,0,0,,,,FRAGMENTATION,,,,,1,,0,15,3,,,700,,,20,"PD, SYSTEM",pd1,,,,Dual-barrel Flak Gun,,,,,,,,,,2
-Weiss Split 200,uaf_weiss_iii_flk_split4,0,,300,200,,100,,150,0,0,,,,FRAGMENTATION,,,,,1,,0,15,3,,,700,,,20,"PD, SYSTEM",pd1,,,,Dual-barrel Flak Gun,,,,,,,,,,2
-Weiss Split 100,uaf_weiss_iii_flk_split5,0,,300,100,,100,,150,0,0,,,,FRAGMENTATION,,,,,1,,0,15,3,,,700,,,20,"PD, SYSTEM",pd1,,,,Dual-barrel Flak Gun,,,,,,,,,,2
+Hikone 125 AP(Q),uaf_hikone_quad,0,0,1600,850,,105,,15,25,10,,,,KINETIC,55,,0,0.5,4,0.1,0,5,0.1,3,,700,,,300,,"he1, uaf_weapon_bp",,United Aurora Federation,,Anti Armor,,,,,,,,,,1
+Ivory 254 HE(D),uaf_ivory,0,0,1500,850,,245,,50,10,10,,,,HIGH_EXPLOSIVE,100,,0,1,2,0.2,0,10,1,3,,680,,,300,,"he1, uaf_weapon_bp",,United Aurora Federation,,Anti Armor,,,,,,,,,,1
+Medlav 254 AP(D),uaf_medlav_dual,0,0,1200,850,,245,50,30,10,10,,,,KINETIC,100,,0,1,2,0.3,0,10,1,3,,750,,,300,,"he1, uaf_weapon_bp",,United Aurora Federation,,Anti Shield,,,,,,,,,,1
+Medlav 254 AP(Q),uaf_medlav_quad,0,1,2400,850,,245,50,30,10,13,,,,KINETIC,100,,0,1,4,0.2,0,10,0.5,3,,750,,,300,,"he2, uaf_weapon_bp",,United Aurora Federation,,Anti Shield,,,,,,,,,,1
+Claris 50 AP(CN),uaf_claris_cn,0,0,450,600,,55,50,3,45,5,,,,KINETIC,40,,0,0.3,1,0.2,0,5,3,5,,800,,,20,,"he2, uaf_weapon_bp",,United Aurora Federation,,Anti Shield,,,,,,,,,,2
+Reina 20 PD(MG),uaf_pd_reina,0,0,600,400,,30,,3,75,5,,,,KINETIC,2,,0,0.5,10,0.0.5,0,4,1,10,,550,,,10,PD,"pd6, kinetic3, SR, uaf_weapon_bp",,United Aurora Federation,,Point Defense,,,,,,,,,,0.5
+20mm Autocannon,uaf_20mm_autocannon,1,5,200,300,,25,,1,75,4,,,,FRAGMENTATION,1,,0,0.20,1,,0,10,2,10,,700,,,10,SYSTEM,"pd15, SR, remnant",,United Aurora Federation,,,,,,,,,,,,1
+Weiss I 50 PD(FK),uaf_weiss_flk,0,1,800,500,,100,,35,65,5,,,,FRAGMENTATION,3,,0,0.15,1,0.5,0,10,3,,,800,,,20,PD,"pd1, uaf_weapon_bp",,United Aurora Federation,,Point Defense (Suppression),,,,,A Flak cannon that fires a shell that causes multiple explosives around the first shell explosion.,,,,,2
+Weiss II 254 PD(FK),uaf_weiss_ii_flk,0,1,1550,600,,150,,50,35,10,,,,FRAGMENTATION,85,,0,0.3,1,0.5,0,15,3,,,700,,,20,PD,"pd1, uaf_weapon_bp",,United Aurora Federation,,Point Defense (Area),,,,,A Flak cannon that fires a shell that causes multiple explosives around the first shell explosion.,,,,,2
+Weiss III 452 PD(FK),uaf_weiss_iii_flk,3,3,5800,1200,,250,,150,20,20,,,,FRAGMENTATION,100,,0,0.5,2,0.5,0,15,3,,,650,,,20,PD,"pd1, uaf_weapon_bp",,United Aurora Federation,,Point Defense (Suppression),,,,,"A Flak cannon that fires a shell with a fuse that split with random fuse times, resulting in area suppression",,,,,2
+Weiss Split 600,uaf_weiss_iii_flk_split0,0,,300,600,,150,,150,0,0,,,,FRAGMENTATION,,,,,1,,0,15,3,,,700,,,20,"PD, SYSTEM",pd1,,United Aurora Federation,,Dual-barrel Flak Gun,,,,,,,,,,2
+Weiss Split 500,uaf_weiss_iii_flk_split1,0,,300,500,,150,,150,0,0,,,,FRAGMENTATION,,,,,1,,0,15,3,,,700,,,20,"PD, SYSTEM",pd1,,United Aurora Federation,,Dual-barrel Flak Gun,,,,,,,,,,2
+Weiss Split 400,uaf_weiss_iii_flk_split2,0,,300,400,,150,,150,0,0,,,,FRAGMENTATION,,,,,1,,0,15,3,,,700,,,20,"PD, SYSTEM",pd1,,United Aurora Federation,,Dual-barrel Flak Gun,,,,,,,,,,2
+Weiss Split 300,uaf_weiss_iii_flk_split3,0,,300,300,,150,,150,0,0,,,,FRAGMENTATION,,,,,1,,0,15,3,,,700,,,20,"PD, SYSTEM",pd1,,United Aurora Federation,,Dual-barrel Flak Gun,,,,,,,,,,2
+Weiss Split 200,uaf_weiss_iii_flk_split4,0,,300,200,,150,,150,0,0,,,,FRAGMENTATION,,,,,1,,0,15,3,,,700,,,20,"PD, SYSTEM",pd1,,United Aurora Federation,,Dual-barrel Flak Gun,,,,,,,,,,2
+Weiss Split 100,uaf_weiss_iii_flk_split5,0,,300,100,,150,,150,0,0,,,,FRAGMENTATION,,,,,1,,0,15,3,,,700,,,20,"PD, SYSTEM",pd1,,United Aurora Federation,,Dual-barrel Flak Gun,,,,,,,,,,2
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Phenex LRG 608 AP(XL),uaf_phenex_lrg,6,6,150000,1450,,1500,1000,3000,1.5,0,50,0.1,3,KINETIC,900,,1,12,3,0.45,0,1,1,,,1500,,,400,"SYSTEM,SHOW_IN_CODEX","kinetic20, LR, remnant",,,,Anti Capital,,,,,,,,,,6
+Phenex LRG 608 AP(XL),uaf_phenex_lrg,6,6,300000,1450,,825,1000,1200,3,0,50,0.3,3,KINETIC,900,,0.8,12,3,0.5,0,2,1,,,1000,,,400,"SYSTEM,SHOW_IN_CODEX","kinetic20, LR, no_drop, no_drop_salvage",,United Aurora Federation,,Anti Capital,,,,,,,,,,6
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Cyrexa 452 AP(Q),uaf_cyrexa,5,5,6420,1050,,500,100,300,2,30,50,0.1,4,KINETIC,500,,1,2,4,0.25,0,1,1,,,950,,,550,,"kinetic20, LR, remnant",,,,Anti Capital (Shield),,,,,,,,,,6
-Cyrexa 452 AP(T),uaf_cyrexa_triple,4,4,4210,1000,,500,100,300,2,25,50,0.1,4,KINETIC,440,,1,2,3,0.2,0,1,1,,,950,,,550,,"kinetic20, LR, remnant",,,,Anti Capital (Shield),,,,,,,,,,6
+Cyrexa 452 AP(Q),uaf_cyrexa,3,3,6420,1150,,550,100,300,5,25,50,0.4,4,KINETIC,500,,0.8,2,4,0.25,0,1,1,,,550,,,400,,"kinetic20, LR, uaf_weapon_bp",,United Aurora Federation,,Anti Capital (Shield),,,,,,,,,,6
+Cyrexa 452 AP(T),uaf_cyrexa_triple,2,1,4210,1000,,550,100,300,5,20,50,0.4,4,KINETIC,440,,0.8,2,3,0.2,0,1,1,,,550,,,400,,"kinetic20, LR, uaf_weapon_bp",,United Aurora Federation,,Anti Capital (Shield),,,,,,,,,,6
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Herexa 608 HE(D),uaf_herexa,5,5,5550,1050,,995,0,1000,2,25,30,0.1,2,HIGH_EXPLOSIVE,350,,1,4,2,0.4,0,1,1,,,550,,,400,,"kinetic20, LR, remnant",,,,Anti Capital (Armor),,,,,,,,,,6
+Herexa 608 HE(D),uaf_herexa,2,1,5550,700,,780,200,556,5,20,30,0.2,2,HIGH_EXPLOSIVE,350,,0.8,4,2,0.4,0,1,1,,,550,,,400,,"kinetic20, LR, uaf_weapon_bp",,United Aurora Federation,,Anti Capital (Armor),,,,,,,,,,6
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Triyia 30 PD(QX),uaf_triyia_pdx,3,5,6655,650,,50,20,20,60,25,100,0.1,10,FRAGMENTATION,12,,0.2,0.05,5,,0,5,1,10,,780,,,30,PD,pd1,,,,Point Defense (Suppression),,,,,,,,,,4.5
+Triyia 30 PD(QX),uaf_triyia_pdx,2,4,6655,650,,35,20,20,100,15,2000,100,200,FRAGMENTATION,4,,,,0,,3,15,3,10,,650,,,50,"ANTI_FTR, PD","utility10, pd1, uaf_weapon_bp",,United Aurora Federation,,Point Defense (Suppression),,,,,,,,,,4.5
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Cyrexa Single Experimental,uaf_cyrexa_single,4,4,14210,900,,450,100,300,5,25,10,5,1,KINETIC,150,,0.1,2,1,0,0,0,1,,,1750,,,400,SYSTEM,"kiNetic20, LR, remnant",,,,,,,,,,,,,,6
-Cyrexa Improved Experimental,uaf_cyrexa_single_experimental,4,4,14210,1250,,450,350,400,5,25,5,1,1,KINETIC,250,,0.5,2,3,0.3,0,0,1,,,1800,,,450,"SYSTEM, SHOW_IN_CODEX","kiNetic20, LR, remnant",,,,,,,,,,,,,,6
-Tona I 125 AP(S),uaf_tona_i,1,0.5,800,1000,,150,125,100,15,10,,,,KINETIC,200,,1,0.5,1,0,0,1,1,,,1000,,,20,,,,,,Anti Shield,,,,,,,,,,2
-Tona II 254 AP(M),uaf_tona_ii,2,3,1600,1000,,350,250,200,5,15,,,,KINETIC,400,,1,1.5,1,0,0,1,1,,,1250,,,20,,,,,,Anti Shield,,,,,,,,,,2
-Tona III 452 AP(L),uaf_tona_iii,5,5,6000,1350,,550,500,700,2,20,,,,KINETIC,550,,1,2,1,0,0,1,1,,,1500,,,20,,,,,,Anti Shield,,,,,,,,,,2
-Tona IV 608 AP(XL),uaf_tona_iv,5,5,145000,3000,,2500,500,2500,1,0,,,,KINETIC,2250,,2,3,1,0,0,1,1,,,2000,,,20,SYSTEM,,,,,Anti Capital,,,,,,,,,,2
-Decorative MG,uaf_decor_mg,1,5,200,1000,,5,,1,75,4,,,,FRAGMENTATION,1,,0,0.1,1,,5,30,4,10,,700,,,10,"SYSTEM, PD","pd15, SR, remnant",,,,,,,,,,,,,,1
+Cyrexa Single Experimental,uaf_cyrexa_single,4,4,14210,900,,450,100,300,5,25,10,5,1,KINETIC,150,,0.1,2,1,0,0,0,1,,,1750,,,400,SYSTEM,"kiNetic20, LR, no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,6
+Cyrexa Improved Experimental,uaf_cyrexa_single_experimental,4,4,14210,1250,,450,350,400,5,25,5,1,1,KINETIC,250,,0.5,2,3,0.3,0,0,1,,,1800,,,450,"SYSTEM, SHOW_IN_CODEX","kiNetic20, LR, no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,6
+Tona I 125 AP(S),uaf_tona_i,1,0.5,1000,700,,150,95,100,20,10,,,,KINETIC,125,,0.5,1.2,1,0,0,1,1,,,850,,,20,,"kinetic20, LR, uaf_weapon_bp",,United Aurora Federation,,Anti Shield,,,,,,,,,,2
+Tona II 254 AP(M),uaf_tona_ii,2,2,2300,750,,350,150,200,8,15,,,,KINETIC,250,,0.5,1.5,1,0,0,1,1,,,900,,,20,,"kinetic20, LR, uaf_weapon_bp",,United Aurora Federation,,Anti Shield,,,,,,,,,,2
+Tona III 452 AP(L),uaf_tona_iii,3,2,6000,900,,550,350,700,5,20,,,,KINETIC,400,,0.5,2,1,0,0,1,1,,,950,,,20,,"kinetic20, LR, uaf_weapon_bp",,United Aurora Federation,,Anti Shield,,,,,,,,,,2
+Tona IV 608 AP(XL),uaf_tona_iv,4,5,145000,1250,,1095,500,500,2,0,10,0.5,10,KINETIC,4000,,0.5,6,2,1,0,1,1,,,1450,,,20,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,Anti Capital,,,,,,,,,,2
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-YUM-9 Anti-Fighter,uaf_yum9_missile,1,,500,1200,,140,,25,50,5,,,,HIGH_EXPLOSIVE,125,,0,7,1,,0,0,0,0,,150,50,7,100,"SYSTEM, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE",aa,,,,,,,,,,,,,,11
-DEL-9 Unguided,uaf_del9_missile,1,,500,1500,,200,,20,30,10,,,,HIGH_EXPLOSIVE,0,,1,12,4,0.5,0,0,0,0,,600,50,3,50,"SYSTEM, STRIKE, DO_NOT_AIM, DO_NOT_CONSERVE",as,,,,,,,,,,,,,,12
-Rhythm HE LRM(MS),uaf_rhythm,0,,900,1500,,450,,85,15,10,16,0.1,,HIGH_EXPLOSIVE,0,,0,12,3,0.2,0,0,0,0,,750,300,15,75,"SYSTEM, STRIKE, GUIDED_POOR","strike7, missile0",,,,,,,,,,,,,,12.5
-Vocals,uaf_vocals_mrm,1,,,2500,,200,100,25,,10,15,0.1,6,HIGH_EXPLOSIVE,0,,0,8,3,0.3,0,0,10,1,,400,100,30,75,"DO_NOT_AIM, DO_NOT_CONSERVE, SYSTEM","utility10, missile1, uaf_bp",,,,,,,,,,,,,,12.5
-Mini Vocals,uaf_mini_vocals_mrm,1,,,2500,,100,50,10,,10,6,,,HIGH_EXPLOSIVE,0,,0,8,6,0.1,10,20,10,1,,300,50,20,25,"DO_NOT_AIM, DO_NOT_CONSERVE, SYSTEM","utility10, missile1, uaf_bp",,,,,,,,,,,,,,12.5
-Vocals Swarmer,uaf_vocals_swarmer,1,,250,1000,,75,,15,50,4,60,,,HIGH_EXPLOSIVE,0,,0,5,4,0.2,0,0,0,0,,300,100,5,50,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE, SYSTEM","utility8, missile0, missile_bp",,,,Anti Small Craft,Fast,Excellent,,,,,,,,10
-Missile Barrage,uaf_missile_barrage,0,,1250,3500,,150,50,30,0,20,24,5,,HIGH_EXPLOSIVE,0,,0.2,2,12,0.2,6,50,50,12,,300,100,25,50,"SYSTEM, STRIKE, GUIDED_POOR","strike7, missile0",,,,,Fast,Excellent,,,,,,,TRUE,16.4
+Sakura ASSVLMS,uaf_missile_barrage,0,,1250,3500,,150,50,30,0,0,100,10,50,HIGH_EXPLOSIVE,0,,0.2,5,15,0.01,6,50,50,12,,300,50,10,75,"SYSTEM, STRIKE, GUIDED_POOR, DO_NOT_CONSERVE","strike7, missile0, no_drop, no_drop_salvage",,United Aurora Federation,,Suppressive Support,Fast,Excellent,,,,,,,TRUE,16.4
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Rhythm HE LRM(MS)(SU),uaf_rhythm_base_single,0,,900,1500,,450,,85,15,1,5,,,HIGH_EXPLOSIVE,0,,0,3,1,0.4,0,0,0,0,,250,125,15,75,"STRIKE, GUIDED_POOR","strike1, missile1",,,,Long Range Support,Medium,Good,,,,,,,,12.5
-Rhythm HE LRM(MS)(SU)x3,uaf_rhythm_base_triple,0,,3000,1500,,450,,85,15,4,9,0.06,3,HIGH_EXPLOSIVE,0,,0,12,3,0.4,0,0,0,0,,250,125,20,75,"STRIKE, GUIDED_POOR","strike3, missile3",,,,Long Range Support,Medium,Poor,,,,,,,,12.5
-Rhythm HE LRM(MS),uaf_rhythm_base,0,,900,1500,,450,,85,15,6,18,1,,HIGH_EXPLOSIVE,0,,0,6,3,0.6,0,0,0,0,,250,125,15,75,"STRIKE, GUIDED_POOR","strike3, missile6",,,,Long Range Support,Medium,Good,,,,,,,,12.5
+Rhythm HE LRM(S),uaf_rhythm_base_triple,0,,3000,8000,,450,,85,15,4,9,0.2,3,HIGH_EXPLOSIVE,0,,0,10,3,0.4,0,0,0,0,,250,50,60,120,"GUIDED_POOR, DO_NOT_CONSERVE","strike3, missile3, uaf_missile_bp",,United Aurora Federation,,Long Range Support,Medium,Poor,,,,,,,,12.5
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Selemene MSM(M),uaf_selemene_m_mrm,1,,1200,2000,,300,2000,15,10,3,2,0.06,2,FRAGMENTATION,0,,0,15,2,0.25,0,0,0,,,500,250,8,75,"STRIKE, GUIDED_POOR","utility13, missile_bp",,,,EMP Missile,Fast,Excellent,,,,,,,TRUE,12.2
-Selemene MSM(S),uaf_selemene_s_mrm,1,,1200,2000,,300,2000,15,10,3,1,0.1,1,FRAGMENTATION,0,,0,10,1,,0,0,0,,,500,250,8,75,"STRIKE, GUIDED_POOR","utility13, missile_bp",,,,EMP Missile,Fast,Excellent,,,,,,,TRUE,12.2
+Selemene MSM(M),uaf_selemene_m_mrm,0,,2400,2000,,300,2000,15,10,6,2,0.06,2,ENERGY,0,,0,15,2,0.25,0,0,0,,,500,60,8,75,"STRIKE, DO_NOT_CONSERVE, DO_NOT_AIM","missile5, strike5, uaf_missile_bp",,United Aurora Federation,,EMP Missile,Fast,Excellent,,,,,,,TRUE,12.2
+Selemene MSM(S),uaf_selemene_s_mrm,0,,1200,2000,,300,2000,15,10,3,1,0.1,1,ENERGY,0,,0,10,1,,0,0,0,,,500,60,8,75,"STRIKE, DO_NOT_CONSERVE, DO_NOT_AIM","missile5, strike5, uaf_missile_bp",,United Aurora Federation,,EMP Missile,Fast,Excellent,,,,,,,TRUE,12.2
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Exoscar Torpedo,uaf_exoscar_torpedo_base,4,,800,2000,,3000,,500,5,1,1,0.1,,HIGH_EXPLOSIVE,0,,0,,1,,0,0,0,,,350,100,10,500,"STRIKE, DO_NOT_CONSERVE","strike8, rocket3, missile_bp",,,,Torpedo,Fast,None,,,,,,,TRUE,9
-Exoscar Torpedo (Shield),uaf_exoscar_torpedo_base_shield,4,,800,2000,,3000,,500,5,5,1,,,HIGH_EXPLOSIVE,0,,0,,1,,0,0,0,,,350,100,10,500,"STRIKE, DO_NOT_CONSERVE","strike8, rocket3, missile_bp",,,,Torpedo,Fast,None,,,"Exoscar torpedo fitted with a shield generator, capable to protect the torpedo for short amount of time.",,,,TRUE,9
-Exoscar Torpedo x4,uaf_exoscar_torpedo_quad,4,,800,2000,,3000,,500,5,25,16,,,HIGH_EXPLOSIVE,0,,0,5,4,0.5,0,0,0,,,350,100,10,500,"STRIKE, DO_NOT_CONSERVE","strike8, rocket3, missile_bp",,,,Torpedo,Fast,None,,,,,,,TRUE,9
-Vocals Swarmer SRM,uaf_vocals_swarmer_base,1,,250,1000,,75,,15,50,3,12,2,,HIGH_EXPLOSIVE,0,,0,5,6,0.1,0,0,0,0,,300,100,5,50,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, missile_bp",,,,Anti Small Craft,Fast,Excellent,,,,,,,,10
+Exoscar ASM(S),uaf_exoscar_torpedo_base,1,,3000,2000,,2750,,500,5,1,1,0.02,1,HIGH_EXPLOSIVE,0,,0,,1,,0,0,0,,,350,100,10,500,"STRIKE, DO_NOT_CONSERVE","strike8, rocket3, uaf_missile_bp",,United Aurora Federation,,Torpedo,Fast,Medium,,,,,,,TRUE,9
+Exoscar Torpedo (Shield),uaf_exoscar_torpedo_base_shield,3,,4300,2000,,2750,,500,5,5,1,0.02,1,HIGH_EXPLOSIVE,0,,0,,1,,0,0,0,,,350,100,10,500,"STRIKE, DO_NOT_CONSERVE","strike8, rocket3, uaf_missile_bp",,United Aurora Federation,,Torpedo,Fast,Medium,,,"Exoscar torpedo fitted with a shield generator, capable to protect the torpedo for short amount of time.",,,,TRUE,9
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Vocal SRM(S),uaf_vocal_s_srm,1,,250,1000,,75,,15,50,3,6,0.2,6,HIGH_EXPLOSIVE,0,,0,5,6,0.1,0,0,0,0,,300,100,5,50,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, missile_bp",,,,Anti Small Craft,Fast,Excellent,,,,,,,,10
-Vocal SRM(M),uaf_vocal_m_srm,1,,250,1000,,75,,15,50,3,8,0.16,8,HIGH_EXPLOSIVE,0,,0,6,8,0.1,0,0,0,0,,300,100,5,50,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, missile_bp",,,,Anti Small Craft,Fast,Excellent,,,,,,,,10
-Vocal SRM(L),uaf_vocal_l_srm,1,,250,1000,,75,,15,50,3,12,0.14,12,HIGH_EXPLOSIVE,0,,0,7,12,0.1,0,0,0,0,,300,100,5,50,"ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, missile_bp",,,,Anti Small Craft,Fast,Excellent,,,,,,,,10
+Vocal SRM(S),uaf_vocal_s_srm,1,,650,1000,,90,,15,50,5,50,3,10,HIGH_EXPLOSIVE,0,,0.2,5,6,0.1,0,0,0,0,,350,50,5,50,"ANTI_FTR, USE_VS_FRIGATES, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, uaf_missile_bp",,United Aurora Federation,,Anti Small Craft,Fast,Excellent,,,,,,,,10
+Vocal SRM(M),uaf_vocal_m_srm,1,,3500,1000,,100,,15,50,8,100,6,20,HIGH_EXPLOSIVE,0,,0.2,10,14,0.1,0,0,0,0,,350,50,7,50,"ANTI_FTR, USE_VS_FRIGATES, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, uaf_missile_bp",,United Aurora Federation,,Anti Small Craft,Fast,Excellent,,,,,,,,10
+Vocal SRM(L),uaf_vocal_l_srm,1,,6000,1000,,110,,15,50,12,200,9,30,HIGH_EXPLOSIVE,0,,0.2,15,26,0.1,0,0,0,0,,350,50,10,50,"ANTI_FTR, USE_VS_FRIGATES, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, uaf_missile_bp",,United Aurora Federation,,Anti Small Craft,Fast,Excellent,,,,,,,,10
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Clemente MRM(S),uaf_clemente_base,1,,400,2500,,800,,17,30,6,1,0.06,1,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,,,300,150,13,150,DO_NOT_AIM,"missile1, strike3",,,,Anti Ship Torpedo,Medium,Medium,,,,,,,,10
-Clemente (Built-in),uaf_clemente_nakiha,1,,400,2500,,800,,17,30,4,3,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,,,300,150,13,150,"SYSTEM, DO_NOT_AIM","missile1, strike1",,,,Finisher,Medium,Medium,,,,,,,,10
-Clemente MRM(M),uaf_clemente_s_mrm_double,2,,200,2500,,750,,15,30,4,4,0.1,1,HIGH_EXPLOSIVE,0,,0.1,3,1,0.1,0,0,0,,,300,100,12.5,150,,,DO_NOT_AIM,"missile8, strike3, missile_bp, merc",,,,Finisher,Medium,Medium,,,,,,
+Clemente MRM(S),uaf_clemente_base,1,,800,2500,,800,,75,30,6,1,0.05,1,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,,,300,30,5.5,150,DO_NOT_AIM,"missile1, strike3, uaf_missile_bp",,United Aurora Federation,,Anti Ship Torpedo,Medium,Medium,,,,,,,,10
+Clemente (Built-in),uaf_clemente_nakiha,1,,400,2500,,800,,75,30,4,2,0.2,2,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,,,300,30,5.5,150,"SYSTEM, DO_NOT_AIM","missile1, strike1, no_drop, no_drop_salvage",,United Aurora Federation,,Finisher,Medium,Medium,,,,,,,,10
+Clemente MRM(M),uaf_clemente_s_mrm_double,2,,4000,2500,,750,,75,30,8,4,0.2,2,HIGH_EXPLOSIVE,0,,0.1,3,1,0.1,0,0,0,,,300,30,5.5,150,DO_NOT_AIM,"missile1, strike3, uaf_missile_bp",DO_NOT_AIM,United Aurora Federation,,Finisher,Medium,Medium,Medium,Medium,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Typhoon AST(L),uaf_typhoon_l_sasm,1,,200,1200,,4000,,75,10,6,8,0.02,2,HIGH_EXPLOSIVE,0,,0,2,2,0.1,0,0,0,0,,400,100,3.5,500,,,STRIKE,"strike8, rocket3, missile_bp, merc",,,,Torpedo,Fast,None,,,,,,
-Typhoon AST(S),uaf_typhoon_s_sasm,1,,200,1200,,4000,,75,10,2,1,0.03,1,HIGH_EXPLOSIVE,0,,0,30,1,0.1,0,0,0,0,,400,100,3.5,500,,,STRIKE,"strike8, rocket3, missile_bp, merc",,,,Torpedo,Fast,None,,,,,,
+Typhoon AST(L),uaf_typhoon_l_sasm,1,,8250,1200,,4000,,200,10,25,4,0.04,4,ENERGY,0,,0.3,2,2,0.1,0,0,0,0,,400,100,3.5,500,"STRIKE, CONSERVE_2","strike2, uaf_missile_bp",STRIKE,United Aurora Federation,,,,Torpedo,Fast,None,,,,,,
+Typhoon AST(S),uaf_typhoon_s_sasm,1,,400,1200,,4000,,200,10,2,1,0.03,1,ENERGY,0,,0.3,2,1,0.1,0,0,0,0,,400,100,3.5,500,"STRIKE, CONSERVE_2","strike2, uaf_missile_bp",STRIKE,United Aurora Federation,,,,Torpedo,Fast,None,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Semibreve TNMS(L),uaf_semibreve_base,6,6,15000,3500,500,8000,,8000,5,15,4,,,HIGH_EXPLOSIVE,0,,1,5,1,,0,0,0,,,1200,15,30,10000,STRIKE,"strike8, rocket3, missile_bp",,,,Anti Capital Torpedo,Fast,None,,,,,,,TRUE,9
+Semibreve TNMS(L),uaf_semibreve_base,3,3,25000,3500,500,8000,1000,4000,10,30,4,0.05,2,HIGH_EXPLOSIVE,0,,0.5,60,1,,0,0,0,,,500,15,10,2000,"STRIKE, CONSERVE_2, GUIDED_POOR","strike8, rocket3, uaf_missile_bp",STRIKE,United Aurora Federation,,AOE Finisher,Fast,Poor,,,,,,,TRUE,9
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Phase Missile Launcher,uaf_phase_missile,1,,4500,2500,,500,,50,10,25,10,,,HIGH_EXPLOSIVE,0,,0,15,1,,0,0,0,0,,250,50,12,350,"DO_NOT_AIM, DO_NOT_CONSERVE","strike8, rocket3, missile_bp",,,,Finisher,Medium,Good,,,,,,,TRUE,16
+Phase Missile Launcher,uaf_phase_missile,1,,4500,2500,,500,,50,10,25,10,,,HIGH_EXPLOSIVE,0,,0,15,1,,0,0,0,0,,250,50,12,350,"DO_NOT_AIM, DO_NOT_CONSERVE","strike8, rocket3, uaf_missile_bp",,United Aurora Federation,,Finisher,Medium,Good,,,,,,,TRUE,16
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Amazoch Light ASRM(M),uaf_amazoch_light_asrm_dual,3,,900,1500,,450,,85,15,5,6,0.2,2,HIGH_EXPLOSIVE,0,,0,10,2,0.4,0,0,0,0,,300,650,15,75,"STRIKE, GUIDED_POOR","strike1, missile1",,,,Long Range Support,Medium,Good,,,,,,,,12.5
-Amazoch Heavy ASRM(S),uaf_amazoch_s_asrm_single,3,,900,1500,,450,,85,15,5,1,0.05,1,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,0,,300,650,15,75,"STRIKE, GUIDED_POOR","strike1, missile1",,,,Long Range Support,Medium,Good,,,,,,,,12.5
+Amazoch Light ASRM(M),uaf_amazoch_light_asrm_dual,3,,900,5000,,1000,,200,15,5,6,0.2,2,HIGH_EXPLOSIVE,0,,0,10,2,0.4,0,0,0,0,,500,100,6,200,"STRIKE, GUIDED_POOR, DO_NOT_CONSERVE","strike1, missile1, uaf_missile_bp",,United Aurora Federation,,Long Range Support,Medium,Good,,,,,,,,12.5
+Amazoch Heavy ASRM(S),uaf_amazoch_s_asrm_single,3,,900,5000,,1300,,200,15,5,1,0.05,1,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,0,,500,100,6,200,"STRIKE, GUIDED_POOR, DO_NOT_CONSERVE","strike1, missile1, uaf_missile_bp",,United Aurora Federation,,Long Range Support,Medium,Good,,,,,,,,12.5
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Chorus AAM(L),uaf_chorus_l_amm,5,,1500,1000,,350,50,75,50,5,8,0.1,8,FRAGMENTATION,0,,0,0.5,1,0.25,0,0,0,0,,650,850,4,85,"PD, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, missile_bp",,,,PD Missile,Fast,Good,,,,,,,,
-Chorus AAM(M),uaf_chorus_m_amm,3,,1500,1000,,350,50,75,50,5,4,0.1,4,FRAGMENTATION,0,,0,0.5,1,0.3,0,0,0,0,,650,850,4,85,"PD, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, missile_bp",,,,PD Missile,Fast,Good,,,,,,,,
-Chorus AAM(S),uaf_chorus_s_amm,1,,1500,1000,,350,50,75,50,5,2,0.1,2,FRAGMENTATION,0,,0,0.5,1,2,0,0,0,0,,650,850,4,85,"PD, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, missile_bp",,,,PD Missile,Fast,Good,,,,,,,,
+Chorus AAM(L),uaf_chorus_l_amm,3,2,1500,1000,,500,50,75,50,9,16,1,8,FRAGMENTATION,0,,0,2,2,0.5,0,0,0,0,,425,50,12,100,"PD, ANTI_FTR, DO_NOT_CONSERVE","utility8, missile0, uaf_missile_bp",,United Aurora Federation,,Point Defense (Guided),Fast,Good,,,,,,,,
+Chorus AAM(M),uaf_chorus_m_amm,2,1,1500,1000,,350,50,75,50,7,12,0.7,8,FRAGMENTATION,0,,0,2,2,0.5,0,0,0,0,,400,50,10,85,"PD, ANTI_FTR, DO_NOT_CONSERVE","utility8, missile0, uaf_missile_bp",,United Aurora Federation,,Point Defense (Guided),Fast,Good,,,,,,,,
+Chorus AAM(S),uaf_chorus_s_amm,1,,1500,1000,,350,50,75,50,5,8,0.5,8,FRAGMENTATION,0,,0,2,2,0.5,0,0,0,0,,400,50,7,85,"PD, ANTI_FTR, DO_NOT_CONSERVE","utility8, missile0, uaf_missile_bp",,United Aurora Federation,,Point Defense (Guided),Fast,Good,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Minirest ASM(L),uaf_minirest_asm_l,3,,900,2500,,450,,85,15,5,2,0.1,2,HIGH_EXPLOSIVE,0,,0,10,2,0.4,0,0,0,0,,350,650,15,75,"DO_NOT_AIM, DO_NOT_CONSERVE","utility13, missile0, missile_bp, merc",,,,Long Range Support,Medium,Good,,,,,,,,12.5
-,uaf_minirest_ss,3,,900,2500,,500,,85,15,5,2,0.1,2,HIGH_EXPLOSIVE,0,,0,10,2,0.4,0,0,0,0,,1000,350,2,75,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE","utility13, missile0, missile_bp, merc",,,,Long Range Support,Medium,Good,,,,,,,,12.5
+Minirest ASM(L),uaf_minirest_asm_l,3,,7000,2500,,1450,,200,15,5,2,0.2,2,HIGH_EXPLOSIVE,0,,0,10,2,0.4,0,0,0,0,,350,650,15,200,"DO_NOT_AIM, DO_NOT_CONSERVE","utility13, missile0, merc, uaf_missile_bp",,United Aurora Federation,,Anti Capital,Medium,Good,,,,,,,,12.5
+,uaf_minirest_ss,3,,900,2500,,1450,,200,15,5,2,0.2,2,HIGH_EXPLOSIVE,0,,0,10,2,0.4,0,0,0,0,,1000,350,2,200,"SYSTEM, DO_NOT_AIM, DO_NOT_CONSERVE","utility13, missile0, merc, no_drop, no_drop_salvage",,United Aurora Federation,,Anti Capital,Medium,Good,,,,,,,,12.5
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,uaf_overridesystem,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+,uaf_overridesystem,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-#Crescendo,uaf_crescendo,,,,1,1,,,,,,,,,,,,1,2,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
-#Swan song,uaf_songAttack,,,,1,1,,,,,,,,,,,,1,44,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Flare,uaf_shipflare,,,,1000,,10,100,,,,,0,,ENERGY,0,0,0,0.1,16,0.1,60,60,0,0,,150,300,3,1,,,SYSTEM,,,,,,,,,,,,,
+Fighter Flare,uaf_fighterflare,,,,1000,,10,100,,,,,0,,ENERGY,0,0,0,0.1,8,0.1,60,60,0,0,,150,300,3,1,,,SYSTEM,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Crescendo,uaf_crescendo,,,,1,1,,,,,,,,,,,,1,2,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+#Swan song,uaf_songAttack,,,,1,1,,,,,,,,,,,,1,44,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HEHE AC Torpedo,uaf_heheac_torpedo,6,6,800,2000,,5600,,50,5,2,1,,,HIGH_EXPLOSIVE,0,,1,,1,,0,0,0,,,1000,800,10,500,"STRIKE, DO_NOT_CONSERVE, SYSTEM","strike8, rocket3, missile_bp",,,,Anti Capital (Armor),Fast,None,,,,,,,TRUE,9
-APSB EMP Torpedo,uaf_apsbemp_torpedo,4,6,800,2200,,4000,1500,50,5,2,2,,,ENERGY,0,,0.5,0.25,1,0,0,0,0,,,1000,800,10,500,"STRIKE, DO_NOT_CONSERVE, SYSTEM","strike8, rocket2, missile_bp",,,,Anti Capital (Shield),Fast,None,,,,,,,TRUE,9
-Exoscar Torpedo,uaf_exoscar_torpedo,4,6,800,2000,,3500,1000,500,5,2,1,,,HIGH_EXPLOSIVE,0,,1,,1,,0,0,0,,,750,150,10,500,"STRIKE, DO_NOT_CONSERVE, SYSTEM","strike8, rocket3, missile_bp",,,,Anti Ship,Fast,None,,,,,,,TRUE,9
+#Fighters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Decorative MG,uaf_decor_mg,1,5,200,1000,,5,,1,75,4,,,,FRAGMENTATION,1,,0,0.1,1,,5,30,4,10,,700,,,10,"SYSTEM, PD","pd15, SR, remnant, no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,1
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Heavy Ordnance Bomb Bay,uaf_bombs_heavy,4,,750,1500,,600,,90,1,4,5,,,HIGH_EXPLOSIVE,0,,0,,5,0.1,10,50,5,,,30,30,60,150,"STRIKE, BOMB, DO_NOT_CONSERVE, SYSTEM","he0, no_drop, no_drop_salvage",,,,Suppression,,,,,,,,,,3.5
-Medium Ordnance Bomb Bay,uaf_bombs_medium,4,,600,1500,,400,,65,1,4,10,,,HIGH_EXPLOSIVE,0,,0,,5,0.1,10,50,5,,,50,30,60,125,"STRIKE, BOMB, DO_NOT_CONSERVE, SYSTEM","he0, no_drop, no_drop_salvage",,,,Suppression,,,,,,,,,,3.5
-Small Ordnance Bomb Bay,uaf_bombs_small,4,,450,1500,,300,,30,1,4,15,,,HIGH_EXPLOSIVE,0,,0,,5,0.1,10,50,5,,,80,30,60,100,"STRIKE, BOMB, DO_NOT_CONSERVE, SYSTEM","he0, no_drop, no_drop_salvage",,,,Suppression,,,,,,,,,,3.5
+30mm MG Class I,uaf_fw_30mm_class_i,0,,1200,600,,35,2,1,1,6,,,,HIGH_EXPLOSIVE,5,,,0.2,4,0.1,1,4,1,15,,1000,,,60,SYSTEM,"energy8, no_drop, deserter_bp, no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+30mm MG Class II,uaf_fw_30mm_class_ii,1,,1500,550,,40,40,5,1,6,,,,KINETIC,5,,,0.2,4,0.1,1,4,1,15,,1100,,,60,SYSTEM,"kinetic1, SR, no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-High Velocity Kinetic Railgun,uaf_hv_kinetic_railgun,4,,500,750,,150,,200,45,10,35,1,,KINETIC,75,,,,1,,0,0,0,,,1000,,,50,SYSTEM,"kinetic8, LR, remnant",,,,General,,,,,,,,,,3.75
-#30mm Gatling Gun,uaf_30mm_gatling,4,,300,350,,80,,10,50,15,100,1,,KINETIC,35,,,,1,,0,0,0,,,800,,,30,SYSTEM,"kinetic1, SR, remnant",,,,General,,,,,,,,,,3.86
-30mm Gatling Gun,uaf_30mm_gatling,3,,1200,600,,40,10,1,60,6,200,,,FRAGMENTATION,5,,,0.3,4,0.1,1,4,1,15,,1000,,,60,SYSTEM,"energy8, no_drop, deserter_bp",,,,,,,,,,,,,,
-High Velocity Gatling,uaf_hv_gatling,3,,1200,600,,25,10,1,60,6,200,,,FRAGMENTATION,1,,,2,3,0.1,4,10,3,15,,1000,,,60,SYSTEM,"energy8, no_drop, deserter_bp",,,,,,,,,,,,,,
+40mm CN Class I,uaf_fw_40mm_class_i,1,,1500,750,,45,5,1,1,6,,,,KINETIC,8,,,0.3,5,0.1,1,6,1,15,,950,,,75,SYSTEM,"kinetic2, SR, no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Light Missile Pods,uaf_light_missile_pods,4,,400,1000,,85,,30,15,4,10,,,HIGH_EXPLOSIVE,0,,,,5,0.1,0,0,0,,,300,100,5,50,"STRIKE, DO_NOT_CONSERVE, SYSTEM","utility8, missile0",,,,Strike,Fast,Excellent,,,,,,,,10
-HE Missile Pods,uaf_he_missile_pods,4,,400,1000,,70,,30,15,4,10,,,HIGH_EXPLOSIVE,0,,,,5,0.1,0,0,0,,,300,100,5,50,"STRIKE, DO_NOT_CONSERVE, SYSTEM","utility7, missile0",,,,Strike,Fast,Excellent,,,,,,,,10
-30mm EMP Gatling Gun,uaf_30mm_emp_gatling,4,,300,350,,50,60,10,50,15,100,1,,KINETIC,10,,,0.3,4,0.1,0,0,0,,,750,,,30,SYSTEM,"kinetic1, SR, remnant",,,,General,,,,,,,,,,3.87
-40mm AP Gatling Gun,uaf_40mm_ap_gatling,4,,400,350,,100,,15,50,15,85,1,,KINETIC,10,,,0.2,1,0.3,0,0,0,,,800,,,40,SYSTEM,"kinetic2, SR, remnant",,,,General,,,,,,,,,,3.88
+76mm RG Class I,uaf_fw_76mm_class_i,1,,800,1000,,145,125,100,15,5,,,,KINETIC,75,,0.1,1,1,0.01,0,1,1,,,1500,,,20,SYSTEM,"kinetic2, SR, no_drop, no_drop_salvage",,United Aurora Federation,,Anti Shield,,,,,,,,,,2
+76mm RG Class II,uaf_fw_76mm_class_ii,2,,800,1100,,200,150,100,15,5,,,,KINETIC,100,,0.1,1,1,0.01,0,1,1,,,1500,,,20,SYSTEM,"kinetic2, SR, no_drop, no_drop_salvage",,United Aurora Federation,,Anti Shield,,,,,,,,,,2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVAR Class I,uaf_fw_hvar_class_i,2,,1200,1500,,150,,5,30,10,8,,,HIGH_EXPLOSIVE,0,,0.8,1,4,0.1,0,0,0,0,,400,50,3.75,50,SYSTEM,"rocket13, strike8, merc, no_drop, no_drop_salvage",,United Aurora Federation,,,,Pressure,Fast,None,,,,,,
+HVAR Class II,uaf_fw_hvar_class_ii,3,,1500,1500,,200,,5,30,10,12,,,HIGH_EXPLOSIVE,0,,0.5,1,4,0.1,0,0,0,0,,400,50,3.75,50,SYSTEM,"rocket13, strike8, merc, no_drop, no_drop_salvage",,United Aurora Federation,,,,Pressure,Fast,None,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AMSSM Class I,uaf_fw_amssm_class_i,2,,1800,2000,,150,50,75,50,5,4,0.05,4,FRAGMENTATION,0,,,3.5,,,0,0,0,0,,400,50,7,85,"SYSTEM, PD, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, no_drop, no_drop_salvage",,United Aurora Federation,,PD Missile,Fast,Good,,,,,,,,
+AMSSM Class II,uaf_fw_amssm_class_ii,3,,2000,2000,,150,50,75,50,5,6,0.10,6,FRAGMENTATION,0,,,3,,,0,0,0,0,,400,50,7,85,"SYSTEM, PD, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, no_drop, no_drop_salvage",,United Aurora Federation,,PD Missile,Fast,Good,,,,,,,,
+AMSSM Class III,uaf_fw_amssm_class_iii,3,,2000,350,,270,50,75,50,5,8,0.10,8,FRAGMENTATION,0,,,3,,,0,0,0,0,,400,50,7,85,"SYSTEM, PD, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","utility8, missile0, no_drop, no_drop_salvage",,United Aurora Federation,,PD Missile,Fast,Good,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ASMR Class I,uaf_fw_asmr_class_i,1,,800,2500,,800,,75,30,6,1,0.05,1,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,,,300,30,5.5,150,DO_NOT_AIM,"missile1, strike3",,United Aurora Federation,,Anti Ship Torpedo,Medium,Medium,,,,,,,,10
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Exoscar Class I,uaf_fw_exoscar_class_i,3,,800,1550,,1950,1500,500,5,1,1,,,HIGH_EXPLOSIVE,350,,,,1,,0,0,0,,,400,100,10,750,"STRIKE, DO_NOT_CONSERVE","strike8, rocket3, no_drop, no_drop_salvage",,United Aurora Federation,,Torpedo,Fast,None,,,,,,,TRUE,9
+Exoscar Class II,uaf_fw_exoscar_class_ii,4,,800,1550,,2555,1500,500,5,1,2,,,HIGH_EXPLOSIVE,350,,,0.1,2,0.8,0,0,0,,,400,100,10,750,"STRIKE, DO_NOT_CONSERVE","strike8, rocket3, no_drop, no_drop_salvage",,United Aurora Federation,,Torpedo,Fast,None,,,,,,,TRUE,9
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+USB Class I,uaf_fw_usb_class_i,1,,450,1500,,150,,30,1,4,10,,,HIGH_EXPLOSIVE,0,,0,,5,0.3,10,50,5,,,80,30,60,150,"STRIKE, BOMB, SYSTEM","he0, no_drop, no_drop_salvage",,United Aurora Federation,,Suppression,,,,,,,,,,3.5
+USB Class II,uaf_fw_usb_class_ii,2,,600,1500,,750,,65,1,4,4,,,HIGH_EXPLOSIVE,0,,0,,5,0.3,10,50,5,,,50,30,60,250,"STRIKE, BOMB, SYSTEM","he0, no_drop, no_drop_salvage",,United Aurora Federation,,Suppression,,,,,,,,,,3.5
+USB Class III,uaf_fw_usb_class_iii,3,,750,1500,,2000,,90,1,4,2,,,HIGH_EXPLOSIVE,0,,0,,5,0.3,10,50,5,,,30,30,60,400,"STRIKE, BOMB, SYSTEM","he0, no_drop, no_drop_salvage",,United Aurora Federation,,Suppression,,,,,,,,,,3.5
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Radar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Eyeseau Radar,uaf_eyeseau_radar,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Eyeseau Radar,uaf_eyeseau_radar,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Osela Radar,uaf_pulse_generator,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #catapult,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Catapult,uaf_catapult,0,,100,2500,,750,,15,30,1,3,,,HIGH_EXPLOSIVE,0,,0,1,3,2,0,0,0,,,300,100,12.5,150,"DO_NOT_AIM, DO_NOT_CONSERVE","no_drop, no_drop_salvage",,United Aurora Federation,,Finisher,Medium,Medium,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #blinkers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sirene Blinkers Red,uaf_blinker_sirene_1,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sirene Blinkers Blue,uaf_blinker_sirene_2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sirene Blinkers Red,uaf_blinker_sirene_1,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Sirene Blinkers Blue,uaf_blinker_sirene_2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Right Forward Blinkers #1,uaf_blinker_right_forward_1,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Right Forward Blinkers #2,uaf_blinker_right_forward_2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Right Forward Blinkers #3,uaf_blinker_right_forward_3,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Right Forward Blinkers #4,uaf_blinker_right_forward_4,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Right Forward Blinkers #5,uaf_blinker_right_forward_5,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Right Forward Blinkers #1,uaf_blinker_right_forward_1,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Right Forward Blinkers #2,uaf_blinker_right_forward_2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Right Forward Blinkers #3,uaf_blinker_right_forward_3,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Right Forward Blinkers #4,uaf_blinker_right_forward_4,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Right Forward Blinkers #5,uaf_blinker_right_forward_5,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Left Forward Blinkers #1,uaf_blinker_left_forward_1,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Left Forward Blinkers #2,uaf_blinker_left_forward_2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Left Forward Blinkers #3,uaf_blinker_left_forward_3,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Left Forward Blinkers #4,uaf_blinker_left_forward_4,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Left Forward Blinkers #5,uaf_blinker_left_forward_5,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Left Forward Blinkers #1,uaf_blinker_left_forward_1,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Left Forward Blinkers #2,uaf_blinker_left_forward_2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Left Forward Blinkers #3,uaf_blinker_left_forward_3,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Left Forward Blinkers #4,uaf_blinker_left_forward_4,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Left Forward Blinkers #5,uaf_blinker_left_forward_5,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Foremost Blinkers #1,uaf_blinker_foremost_1,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Foremost Blinkers #2,uaf_blinker_foremost_2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Foremost Blinkers #3,uaf_blinker_foremost_3,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Foremost Blinkers #1,uaf_blinker_foremost_1,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Foremost Blinkers #2,uaf_blinker_foremost_2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Foremost Blinkers #3,uaf_blinker_foremost_3,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Bottom Blinkers #1,uaf_blinker_bottom_1,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Bottom Blinkers #2,uaf_blinker_bottom_2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Bottom Blinkers #1,uaf_blinker_bottom_1,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Bottom Blinkers #2,uaf_blinker_bottom_2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-#engine reactors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Novaeria Reactor,uaf_novaeria_reactor,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Novaeria Engine Reactor,uaf_novaeria_engine_reactor,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Vertical Blinkers #0,uaf_blinker_forward_vertical_1,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Vertical Blinkers #1,uaf_blinker_forward_vertical_2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Vertical Blinkers #2,uaf_blinker_forward_vertical_3,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Vertical Blinkers #3,uaf_blinker_forward_vertical_4,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Vertical Blinkers #4,uaf_blinker_forward_vertical_5,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Reisen Engine Reactor,uaf_reisen_reactor,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
-Solvernia Engine Reactor,uaf_solvernia_reactor,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
-Solvernia Engine Reactor,uaf_solvernia_reactor2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+#Rillaru Blinkers,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rillaru L Blinkers #0,uaf_rillaru_blinker_forward_left_0,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Rillaru L Blinkers #1,uaf_rillaru_blinker_forward_left_1,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Rillaru L Blinkers #2,uaf_rillaru_blinker_forward_left_2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Rillaru L Blinkers #3,uaf_rillaru_blinker_forward_left_3,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Rillaru L Blinkers #4,uaf_rillaru_blinker_forward_left_4,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Solvernia Left Engine Reactor,uaf_solvernia_left_engine_reactor,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
-Solvernia Right Engine Reactor,uaf_solvernia_right_engine_reactor,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+Rillaru R Blinkers #0,uaf_rillaru_blinker_forward_right_0,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Rillaru R Blinkers #1,uaf_rillaru_blinker_forward_right_1,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Rillaru R Blinkers #2,uaf_rillaru_blinker_forward_right_2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Rillaru R Blinkers #3,uaf_rillaru_blinker_forward_right_3,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Rillaru R Blinkers #4,uaf_rillaru_blinker_forward_right_4,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Capital Foremost Blinkers #1,uaf_capital_blinker_foremost_1,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Capital Foremost Blinkers #2,uaf_capital_blinker_foremost_2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Capital Foremost Blinkers #3,uaf_capital_blinker_foremost_3,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Radar Dish,uaf_radar_dish,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,43
+Capital Bottom Blinkers #1,uaf_capital_blinker_bottom_1,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Capital Bottom Blinkers #2,uaf_capital_blinker_bottom_2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-#Frequency Shield,uaf_frequency_barrier,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
+#engine reactors,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Novaeria Reactor,uaf_novaeria_reactor,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Novaeria Engine Reactor,uaf_novaeria_engine_reactor,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Reisen Engine Reactor,uaf_reisen_reactor,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rillaru Engine Reactor,uaf_rillaru_reactor,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Zepporia Engine Reactor,uaf_zepporia_reactor,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Solvernia Engine Reactor,uaf_solvernia_reactor,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Solvernia Engine Reactor,uaf_solvernia_reactor2,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Solvernia Left Engine Reactor,uaf_solvernia_left_engine_reactor,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+Solvernia Right Engine Reactor,uaf_solvernia_right_engine_reactor,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#extras,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Radar Dish,uaf_radar_dish,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,43
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Radar Dish,uaf_zepporia_radar_dish,,,,,,,,,1.5,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,43
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Radar Dome,uaf_zepporia_radar_dome,,,,,,,,,0.04,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,43
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#Frequency Shield,uaf_frequency_barrier,0,,0,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,"no_drop, no_drop_salvage",,United Aurora Federation,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+A.N.G.E.L System,uaf_angel_system,0,,0,1500,,500,,90,,,,,,HIGH_EXPLOSIVE,0,,0,,12,0.1,10,50,5,,,100,100,10,150,SYSTEM,"he0, no_drop, no_drop_salvage",,United Aurora Federation,,Suppression,,,,,,,,,,3.5

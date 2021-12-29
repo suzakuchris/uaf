@@ -11,10 +11,10 @@
   "weaponGroups": [
     {
       "autofire": false,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
-        "WS0001": "uaf_exoscar_torpedo",
-        "WS0002": "uaf_exoscar_torpedo"
+        "WS0001": "uaf_fw_exoscar_class_i",
+        "WS0002": "uaf_fw_exoscar_class_i"
       }
     }
   ],

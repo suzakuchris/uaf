@@ -5,7 +5,7 @@
 	"collisionClass":"PROJECTILE_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
 	#"onHitEffect":"uaf.data.scripts.weapons.APOnHit",
-	"length":70.0,
+	"length":35.0,
 	"hitGlowRadius":38,
 	"width":8.5,
 	"fadeTime":0.20,

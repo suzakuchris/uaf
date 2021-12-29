@@ -7,7 +7,7 @@
   "height": 293,
   "width": 120,
   "center": [60, 146.5],
-  "collisionRadius": 265,
+  "collisionRadius": 178.5,
   "shieldCenter": [0, 0],
   "shieldRadius": 160,
   "viewOffset": 0,
@@ -18,16 +18,16 @@
   ],
   "builtInWeapons": {
     "WS0006": "uaf_tona_iv",
-    "WS0007": "uaf_missile_barrage",
-    "WS0008": "uaf_missile_barrage",
-    "WS0009": "uaf_missile_barrage",
-    "WS0010": "uaf_missile_barrage"
+    "WS0007": "uaf_chorus_l_amm",
+    "WS0008": "uaf_chorus_l_amm",
+    "WS0009": "uaf_vocal_l_srm",
+    "WS0010": "uaf_vocal_l_srm"
   },
   "weaponSlots": [
     {
       "id": "WS0001",
       "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "type": "UNIVERSAL",
       "mount": "TURRET",
       "arc": 360,
       "angle": 0,
@@ -36,7 +36,7 @@
     {
       "id": "WS0002",
       "size": "SMALL",
-      "type": "BALLISTIC",
+      "type": "SYNERGY",
       "mount": "TURRET",
       "arc": 247,
       "angle": 45,
@@ -45,7 +45,7 @@
     {
       "id": "WS0003",
       "size": "SMALL",
-      "type": "BALLISTIC",
+      "type": "SYNERGY",
       "mount": "TURRET",
       "arc": 247,
       "angle": -45,
@@ -54,7 +54,7 @@
     {
       "id": "WS0004",
       "size": "SMALL",
-      "type": "BALLISTIC",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 196,
       "angle": -45,
@@ -63,7 +63,7 @@
     {
       "id": "WS0005",
       "size": "SMALL",
-      "type": "BALLISTIC",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 196,
       "angle": 45,
@@ -118,35 +118,35 @@
   "engineSlots": [
     {
       "location": [-132.5, -41.5],
-      "length": 60.5,
-      "width": 25,
+      "length": 96,
+      "width": 26,
       "angle": 180,
-      "contrailSize": 25,
-      "style": "LOW_TECH"
+      "contrailSize": 26,
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-132.5, 41.5],
-      "length": 60.5,
-      "width": 25,
+      "length": 96,
+      "width": 26,
       "angle": -180,
-      "contrailSize": 25,
-      "style": "LOW_TECH"
+      "contrailSize": 26,
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-134.5, -9.5],
-      "length": 60.5,
-      "width": 25,
+      "length": 123,
+      "width": 31,
       "angle": 180,
-      "contrailSize": 25,
-      "style": "LOW_TECH"
+      "contrailSize": 31,
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-134.5, 9.5],
-      "length": 60.5,
-      "width": 25,
+      "length": 123,
+      "width": 31,
       "angle": -180,
-      "contrailSize": 25,
-      "style": "LOW_TECH"
+      "contrailSize": 31,
+      "style": "MELODY_ENGINE"
     }
   ],
   "bounds": [

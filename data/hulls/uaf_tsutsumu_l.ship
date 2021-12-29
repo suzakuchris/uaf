@@ -13,7 +13,8 @@
   "viewOffset": 0,
   "builtInMods": [
     "uaf_increased_explosion",
-    "uaf_auroranEngineering"
+    "uaf_auroranEngineering",
+    "uaf_fighterManager"
   ],
   "weaponSlots": [
     {
@@ -46,7 +47,7 @@
     {
       "id": "WS0004",
       "size": "LARGE",
-      "type": "HYBRID",
+      "type": "UNIVERSAL",
       "mount": "TURRET",
       "arc": 342,
       "angle": 180,
@@ -109,7 +110,7 @@
     {
       "id": "WS0011",
       "size": "SMALL",
-      "type": "BALLISTIC",
+      "type": "COMPOSITE",
       "mount": "TURRET",
       "arc": 130,
       "angle": 45,
@@ -118,7 +119,7 @@
     {
       "id": "WS0012",
       "size": "SMALL",
-      "type": "BALLISTIC",
+      "type": "COMPOSITE",
       "mount": "TURRET",
       "arc": 130,
       "angle": -51.5,
@@ -169,68 +170,68 @@
   ],
   "engineSlots": [
     {
-      "location": [148.5, -72],
-      "length": 30,
-      "width": 10,
+      "location": [140.5, -73],
+      "length": 59,
+      "width": 16,
       "angle": 180,
-      "contrailSize": 30,
-      "style": "LOW_TECH"
+      "contrailSize": 16,
+      "style": "TUNE_ENGINE"
     },
     {
-      "location": [148.5, 73],
-      "length": 30,
-      "width": 10,
+      "location": [141, 72.5],
+      "length": 67.5,
+      "width": 14,
       "angle": -180,
-      "contrailSize": 30,
-      "style": "LOW_TECH"
+      "contrailSize": 14,
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [152.5, -60],
-      "length": 30,
-      "width": 10,
+      "length": 68,
+      "width": 19,
       "angle": 180,
-      "contrailSize": 30,
-      "style": "LOW_TECH"
+      "contrailSize": 19,
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [152.5, 61],
-      "length": 30,
-      "width": 10,
+      "length": 81,
+      "width": 26,
       "angle": -180,
-      "contrailSize": 30,
-      "style": "LOW_TECH"
+      "contrailSize": 26,
+      "style": "TUNE_ENGINE"
     },
     {
-      "location": [155.5, -48],
-      "length": 30,
-      "width": 10,
+      "location": [152, -50],
+      "length": 79.5,
+      "width": 24,
       "angle": 180,
-      "contrailSize": 30,
-      "style": "LOW_TECH"
+      "contrailSize": 24,
+      "style": "TUNE_ENGINE"
     },
     {
-      "location": [155.5, 49],
-      "length": 30,
-      "width": 10,
+      "location": [152.5, 49.5],
+      "length": 81,
+      "width": 17,
       "angle": -180,
-      "contrailSize": 30,
-      "style": "LOW_TECH"
+      "contrailSize": 17,
+      "style": "TUNE_ENGINE"
     },
     {
-      "location": [144.5, -81],
-      "length": 30,
-      "width": 10,
+      "location": [141, -80.5],
+      "length": 58,
+      "width": 15,
       "angle": 180,
-      "contrailSize": 30,
-      "style": "LOW_TECH"
+      "contrailSize": 15,
+      "style": "TUNE_ENGINE"
     },
     {
-      "location": [144.5, 81],
-      "length": 30,
-      "width": 10,
+      "location": [141, 80.5],
+      "length": 58,
+      "width": 15,
       "angle": -180,
-      "contrailSize": 30,
-      "style": "LOW_TECH"
+      "contrailSize": 15,
+      "style": "TUNE_ENGINE"
     }
   ],
   "bounds": [

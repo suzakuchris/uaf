@@ -1,5 +1,7 @@
 id,trigger,conditions,script,text,options,notes
-#UAF Fleet Greeting Lines,,,,,,
+#RULESET_NAME UAF,,,,,,
+,,,,,,
+# UAF Fleet Greeting Lines,,,,,,
 greetingUAFFriendly,OpenCommLink,"$faction.id == uaf
 $faction.friendlyToPlayer","$menuState = fleetConvMain 0
 FireAll PopulateOptions","""UAF-type DNS Code received and confirmed over secured channel, greetings $playerName - I bid you good luck and fair sea.""",,
@@ -26,12 +28,24 @@ $id == uaf_station_vermilion score:1000","AddText""Port Vermillion is the UAF's 
 flavorTextMarketEntiaris,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $id == uaf_ryoko score:1000","AddText""Not everything is bright and shine in the Aoi Ayama system obviously. Entiaris is a world dedicated for miners to reside in while mining volatiles at the neighboring gas giant. However, piracy and other sort of criminal oddities have infested this world and make themselves known due to far distance and remote nature. Stolen ships are being stripped apart and cannibalized as black market thrives in a place such as this."" textGraycolor",,,
 ,,,,,,
+cmsn_meetsCriteria_uaf,DialogOptionSelected,"$option == cmsn_askCommission
+$faction.id == uaf
+Commission playerMeetsCriteria",FireAll CMSNAskNia,,"0:cutCommLinkPolite:""Thanks for the recommendation, $PersonRank""",
 ,,,,,,
+UAFCMSNAskNia,CMSNAskNia,$faction.id == uaf,"$player.hasUAFRecommendation = true
+UAFRecommendation SetRecommendation
+AddTextSmall ""You received recommendation from $PersonRank $personLastName""","""Ah, I see - you're certainly qualified to participate in our program according to your most recent contribution and friendly actions towards our cause. I'm sure the Queen would be pleased to know there's a local Domain starship captain who wished to serve and assist her."" 
+
+""If you are interested in having a UAF Commission, you can go to ""Aurora Diplomatic Bureau"" in Vermilion Station and issue the commission permit from there. You'll have my recommendation.""
+
+",,
+UAFCMSNAskNiaAlso,CMSNAskNia,"$faction.id == uaf
+$market.id == uaf_eva_station_market",,"""One last thing, you might want to get a cake down in the station market as a gift to The Bureau's Admin, she would appreciate that.""",,
 CMSNTextRejectHostile_uaf,CMSNTextRejectHostile,$faction.id == uaf,,"""You do realize that we are known for out vast Intelligence network right? And that there is no way we wouldn't be aware of your are against $TheFaction right?""",,
 CMSNTextHasOther_uaf,CMSNTextHasOther,$faction.id == uaf,,"""Your file mention a current association with $theOtherCommissionFaction, and frankly there is no way we would ever work with someone that has such obvious ties to another authority.""",,
 CMSNTextUnsuited_uaf,CMSNTextUnsuited,$faction.id == uaf,,"""While expanding our network of collaborators is of utmost importance to $TheFaction, we cannot allow individuals we do not fully trust in our ranks.""",,
 CMSNTextSuitedPart1_uaf,CMSNTextSuitedPart1,$faction.id == uaf,,"""Ah, I see - you're certainly qualified to participate in our program according to your most recent contribution and friendly actions towards our cause. I'm sure the Queen would be pleased to know there's a local Domain starship captain who wished to serve and assist her."" ",,
-CMSNTextSuitedPart2_uaf,CMSNTextSuitedPart2,$faction.id == uaf,,"""However, due to our 'out-of-this-sector' nature - the local politics and relations might change at anytime which will affect you as well. You will receive our standard monthly stipent of #incomehere and accessibility to our facilities throughout the sector.""",,
+CMSNTextSuitedPart2_uaf,CMSNTextSuitedPart2,$faction.id == uaf,,"""However, due to our 'out-of-this-sector' nature - the local politics and relations might change at anytime which will affect you as well. You will receive our standard monthly stipent and accessibility to our facilities throughout the sector.""",,
 CMSNTextWelcomePart1_uaf,CMSNTextWelcomePart1,$faction.id == uaf,,"""Splendid! Welcome to the UAF and thank you for joining us. In return, you will be given access to our more military facilities and equipment stockpiles. Please help yourselves to our quartermasters for further enquiries."" ",,
 CMSNTextWelcomePart2_uaf,CMSNTextWelcomePart2,$faction.id == uaf,,"""Ah hold on, I've received a message.. Aeria Charlotte wishes to send her personal gratitude to you and good luck in the Sector. Is there anything else I could help you with?""",,
 CMSNTextChangeMind_uaf,CMSNTextChangeMind,$faction.id == uaf,,"""Understandable, this option would remain open for you. Should you ever return in foreseeable future - of course.""",,
@@ -44,10 +58,767 @@ uafkeycard_turnInOption,PopulateOptions,"$isPerson
 UAFKeycard personCanAcceptKeys",FireBest DisableTurnInUAFKeycardOptionIfNeeded,,"10:UAFKeycard_startTurnIn:""I'd like to turn in these UAF Keycards that I've acquired...""",
 uafkeycard_disableTurnInOption,DisableTurnInUAFKeycardOptionIfNeeded,!AICores playerHasKeys,"SetTooltip UAFKeycard_startTurnIn ""You do not have any Keycard in your posession.""
 SetEnabled UAFKeycard_startTurnIn false",,,
-uafkeycard_turnInOptionSelGeneric,DialogOptionSelected,"$option == UAFKeycard_startTurnIn
-$faction.id == uaf",FireAll PopulateUAFKeycardTurnInOptions,"""A fascinating offer. Why, if one of the major factions caught you with these, they might just seize them outright. Tell you what - I'll do you a favour and give you a good price.""",,
+uafkeycard_turnInOptionSelGeneric,DialogOptionSelected,$option == UAFKeycard_startTurnIn,FireAll PopulateUAFKeycardTurnInOptions,"""A fascinating offer. Why, if one of the major factions caught you with these, they might just seize them outright. Tell you what - I'll do you a favour and give you a good price.""",,
 uafkeycard_playerHasOption,PopulateUAFKeycardTurnInOptions,,,,0:UAFKeycard_selectKeys:Select Keycard to turn in,
 uafkeycard_turnInOptionSelected,DialogOptionSelected,$option == UAFKeycard_selectKeys,UAFKeycard selectKeys,,,
 uafkeycard_turnInResponseDefault,UAFKeycardTurnedIn,,FireAll PopulateOptions,$PersonRank $personLastName thanks you and the conversation moves on to other matters.,,
 uafkeycard_neverMindOption,PopulateUAFKeycardTurnInOptions,,,,"100:UAFKeycard_neverMind:""Never mind, I don't actually have any.""",
-uafkeycard_neverMindOptionSelected,DialogOptionSelected,$option == UAFKeycard_neverMind,FireAll PopulateOptions,,,
+uafkeycard_neverMindOptionSelected,DialogOptionSelected,$option == UAFKeycard_neverMind,FireAll PopulateOptions,"""Well, too bad then.""",,
+#END UAF Fleet Greeting Lines,,,,,,
+,,,,,,
+#Yimie's start!,,,,,,
+UAFTiltedDaggerInit,AddBarEvents,"$market.id == uaf_lunamun_market
+!$player.UAFHasMetYimie
+RepIsAtWorst $faction.id COOPERATIVE
+","AddBarEvent UAFTiltedDagger_startBar ""Approach the female in UAF Officer's uniform."" ""A blonde female with UAF Officer's uniform is sitting at the corner of the bar."" highlight",,,
+UAFTiltedDaggerOptionStart,DialogOptionSelected,$option == UAFTiltedDagger_startBar,"$missionId = uaftilteddagger
+UAFTiltedDagger SetActive
+ShowPersonVisual","You are trying to approach this female pilot officer
+
+""What do you want?"" She asked as she noticed you approaching her.
+
+The female pilot officer looked frustrated, eyes glistened with tears. You take a look on the table, it is scattered with empty bottles and other items. Among those stuffs there was a pile of dogtags, you realized that this pilot officer just lost her comrades not long ago.
+
+""You can leave now if you are here to hit on me, I'm not in the mood right now."" You can sense the female pilot officer's caution towards you.","UAFTiltedDagger_introStart:Tell her who you are
+UAFTiltedDagger_exit:Leave",
+UAFTiltedDaggerOptionStart1,DialogOptionSelected,$option == UAFTiltedDagger_introStart,,"""$playerName...., I've heard a lot of rumors about you recently..."" She eased her caution after your brief introduction, cleaned up the table and asked you to take a seat.
+
+""$playerName, please be seated. My name is Yimie, I think the fact that I'm a pilot officer of UAF is self-explanatory.""
+
+""I've ran into some troubles and I was trying to solve them by myself. But due to the orders from my superiors, now I'm grounded and unable to do anything.. I wonder if you are interested in it.""
+
+At the end of the conversation, she put down the glass cup and looked at you straight in the eyes, almost like pleading for help.","UAFTiltedDagger_a3:You expressed the interest.
+UAFTiltedDagger_b2:You expressed the interest, and ask for reward.
+UAFTiltedDagger_exit:You are not interested in this",
+UAFTiltedDaggerOptionB2,DialogOptionSelected,$option == UAFTiltedDagger_b2,"UAFTiltedDagger RewardCredits
+SetTextHighlights $UAFTiltedDaggerRewardMoney","""Still a merc, after all eh... just as expected.""
+
+She sighed.
+
+""Since I'm under investigation by UAF Military Police Department, my personal bank account was temporarily frozen which causes me to not be able to withdraw any large amount of cash... how about $UAFTiltedDaggerRewardMoney for now, but I won't pay unless any further information was provided, you know how this goes.""","UAFTiltedDagger_b3:Accept the deal.
+UAFTiltedDagger_a3:Accept the deal, but refuse the payment.
+UAFTiltedDagger_exit:Reject the deal.",
+UAFTiltedDaggerOptionB3,DialogOptionSelected,$option == UAFTiltedDagger_b3,,"""Allow me to apologize for my previous rudeness... It was due to the things I've been through.."" 
+
+She wiped the tear stains off her cheek and waved at the waiter. The waiter Nodded and bring a bottle of red wine, looks like she's a regular customer of this bar.",UAFTiltedDagger_b3_2:Continue,
+UAFTiltedDaggerOptionB3_2,DialogOptionSelected,$option == UAFTiltedDagger_b3_2,,"""This one is on me, I hope you can accept my apology..""
+
+She slapped her own cheek to keep herself sober, grabbed the tri-pod and starts briefing about the mission.
+
+""Not long ago, the fleet which I served in defected, we were engaging with another rogue fleet which also defected from UAF. Suddenly I received the intelligence that the captain of the ship I stationed in surrendered and was going to join the defecting fleet. I was shocked and confused. Soon I ordered my squad to escape from the battlefield, during which the rogue fleet hunted us down.. my wingman.. and other squadmates.. they were all killed in action.. I'm the only survivor and because of this I'm currently under investigation and not able to leave this space station.""
+
+Tears are about to fall from her eyes again, however she managed to hold it back.",UAFTiltedDagger_b3_3:Continue,
+UAFTiltedDaggerOptionB3_3,DialogOptionSelected,$option == UAFTiltedDagger_b3_3,"AddText ""\""During that engagement, we managed to take down as many ships as possible, their wreckages should still be there and not being dragged by gravitational forces of nearby planets yet. See if you can acquire any valuable information from those shipwrecks. The area of engagement happened at:\""""
+
+UAFTiltedDagger ShowRewardB
+
+AddText ""\""I will stay in this space station for a while, please let me know if you have any further informations.\""""
+$player.UAFTDAskedReward = true",,"UAFTiltedDagger_b4:Accept the mission.
+UAFTiltedDagger_exit:Reject.",
+UAFTiltedDaggerOptionB4,DialogOptionSelected,$option == UAFTiltedDagger_b4,UAFTiltedDagger SpawnTiltedDaggerWreckage,"""$playerName, thank you for your help, I will repay your favor in the future... I'm afraid I have to leave in advance.""
+
+She packed up her stuffs and leave the bar.",UAFTiltedDagger_safeExit:Leave,
+,,,,,,
+UAFTiltedDaggerOptionA3,DialogOptionSelected,$option == UAFTiltedDagger_a3,AdjustRepActivePerson COOPERATIVE 5,"""Allow me to apologize for my previous rudeness... It was due to the things I've been through.."" 
+
+She wiped the tear stains off her cheek and waved at the waiter. The waiter Nodded and bring a bottle of red wine, looks like she's a regular customer of this bar.",UAFTiltedDagger_a3_2:Continue,
+UAFTiltedDaggerOptionA3_2,DialogOptionSelected,$option == UAFTiltedDagger_a3_2,,"""This one is on me, I hope you can accept my apology..""
+
+She slapped her own cheek to keep herself sober, grabbed the tri-pod and starts briefing about the mission.
+
+""Not long ago, the fleet which I served in defected, we were engaging with another rogue fleet which also defected from UAF. Suddenly I received the intelligence that the captain of the ship I stationed in surrendered and was going to join the defecting fleet. I was shocked and confused. Soon I ordered my squad to escape from the battlefield, during which the rogue fleet hunted us down.. my wingman.. and other squadmates.. they were all killed in action.. I'm the only survivor and because of this I'm currently under investigation and not able to leave this space station.""
+
+Tears are about to fall from her eyes again, however she managed to hold it back.",UAFTiltedDagger_a3_3:Continue,
+UAFTiltedDaggerOptionA3_3,DialogOptionSelected,$option == UAFTiltedDagger_a3_3,"AddText ""\""During that engagement, we managed to take down as many ships as possible, their wreckages should still be there and not being dragged by gravitational forces of nearby planets yet. See if you can acquire any valuable information from those shipwrecks. The area of engagement happened at:\""""
+
+UAFTiltedDagger ShowRewardA
+
+AddText ""\""I will stay in this space station for a while, please let me know if you have any further informations.\""""",,"UAFTiltedDagger_a4:Accept the mission.
+UAFTiltedDagger_exit:Reject.",
+UAFTiltedDaggerOptionA4,DialogOptionSelected,$option == UAFTiltedDagger_a4,"AdjustRepActivePerson COOPERATIVE 5
+UAFTiltedDagger SpawnTiltedDaggerWreckage","""$playerName, thank you for your help, I will repay your favor in the future..I'm afraid I have to leave in advance.""
+
+She packed up her stuffs and leave the bar, her steps looked clumsy, it seemed like she's drunk.","UAFTiltedDagger_a5:Follow her in case something happens.
+UAFTiltedDagger_safeExit:Leave",
+UAFTiltedDaggerOptionA5,DialogOptionSelected,$option == UAFTiltedDagger_a5,AdjustRepActivePerson COOPERATIVE 5,"You saw her walking in the crowds clumsily, almost about to fall, you step up and held her from the back without second thoughts.
+
+""Can you get your hands off me..?""
+
+She moved your hand away gently and looked back with a frowning face.
+
+""Alright... thank you for being such a caring person, since you came this far, I don't mind if we walk together to the train station.""
+
+She sighed and bumped your chest with her fist lightly.","UAFTiltedDagger_a6:Agree
+UAFTiltedDagger_safeExit:Say goodbye to her and leave",
+UAFTiltedDaggerOptionA6,DialogOptionSelected,$option == UAFTiltedDagger_a6,AdjustRepActivePerson COOPERATIVE 5,"On your way to the station, there was an awkward silence between you and her.
+
+""Although those rumors I heard about you were all positive, I still think you are just another guns for hire.""
+
+Her voice struck your ear after some time of silence.
+
+""But my impression of you changed a bit when I know you were going to accept my request, well, but we both know that verbal agreements don't mean a thing, right..?""
+
+She kept her head low, muttering with low voices
+
+""I cant accept my former captain had betrayed UAF... betrayed my squad members... betrayed me..""","UAFTiltedDagger_a7:Comfort her that she won't meet this kind of superior again.
+UAFTiltedDagger_a7_2:Remain Silent",
+UAFTiltedDaggerOptionA7,DialogOptionSelected,$option == UAFTiltedDagger_a7,AdjustRepActivePerson COOPERATIVE 5,"She didn't reply, you keep staying beside her all the way to the station without another word. As she boarded the train, she waved at you and gradually disappeared from your vision.
+
+The mission she gave you beeps in your intel tab.",UAFTiltedDagger_safeExit:Leave,
+UAFTiltedDaggerOptionA7_2,DialogOptionSelected,$option == UAFTiltedDagger_a7_2,,"She didn't reply, you keep staying beside her all the way to the station without another word. As she boarded the train, she waved at you and gradually disappeared from your vision.
+
+The mission she gave you beeps in your intel tab.",UAFTiltedDagger_safeExit:Leave,
+,,,,,,
+UAFTiltedDaggerExitBad,DialogOptionSelected,$option == UAFTiltedDagger_exit,"$player.UAFHasMetYimie = true
+FireAll PopulateOptions
+ShowDefaultVisual",,,
+UAFTiltedDaggerExitSafe,DialogOptionSelected,$option == UAFTiltedDagger_safeExit,"$player.UAFHasMetYimie = true
+FireAll PopulateOptions
+ShowDefaultVisual",,,
+,,,,,,
+UAFDefectorFleetWreck,OpenInteractionDialog,$id == uaf_tilted_dagger_wreckage,ShowDefaultVisual,"An autonomous warning beacon has been left emitting a distorted wail between official channels. Whatever message it was meant to convey has been corrupted among this wrecked ships, it appear to be quite a big fleet, causing such a mass destruction like this seems like a too good of a feat even for a similar sized fleet.","0:UAFTDWreckInspect:Inspect the wreckage
+10:UAFTDWreckLeave:Leave",
+UAFDefectorFleetWreckInspect,DialogOptionSelected,"$option == UAFTDWreckInspect
+!$player.TiltedDaggerWreckFound","UAFTiltedDagger InteractedWithWreckage
+AddCredits 7500
+$player.TiltedDaggerWreckFound = true","There are an almost broken green keycard still stuck inside the wailing emergency transmiter, along with burnt corpses and disfigured what once was a lifeform, the ship is badly damaged and probably would only be a scrap metal in the hands of space scrapper.
+
+You took the keycard and take notes of all the info you can get in the wreckage.",10:UAFTDWreckLeave:Leave,
+UAFDefectorFleetWreckLeave,DialogOptionSelected,$option == UAFTDWreckLeave,DismissDialog,,,
+,,,,,,
+UAFYimieCommGreetingOnGoing,PickGreeting,"$id == uaf_yimie score:100
+$player.UAFTDMS2OnGoing
+!$global.UAFDefectorDestroyed","ShowPersonVisual
+FireAll PopulateOptions","""I'll be waiting for a good news.1""",0:cutCommLinkPolite:Cut the comm link,
+UAFYimieCommGreeting,PickGreeting,"$id == uaf_yimie score:100
+!$player.UAFTDTellYimieWreckage",ShowPersonVisual,"""Hello, do you get any information regarding of what I asked??""","0:UAFTDTellWreckage:Send the information found in wreckage to her.
+10:cutCommLinkPolite:Nothing yet for now.",
+UAFYimieTellWreckage_withReward,DialogOptionSelected,"$option == UAFTDTellWreckage
+$player.UAFTDAskedReward","AddCredits 10000
+$player.UAFTDTellYimieWreckage = true","""As promised, here's your reward.""
+
+Credits are transfered into your account.
+
+""According to the info you've recovered.. looks like they often resupply in a pirate base. It's hard to imagine an UAF Fleet can just dock in pirate's territory like it's their backyard..""
+
+""Wait a second..""",0:UAFTDTellWreckage_2:Continue,
+UAFYimieTellWreckage_withoutReward,DialogOptionSelected,"$option == UAFTDTellWreckage
+!$player.UAFTDAskedReward",$player.UAFTDTellYimieWreckage = true,"""According to the info you've recovered.. looks like they often resupply in a pirate base. It's hard to imagine an UAF Fleet can just dock in pirate's territory like it's their backyard..""
+
+""Wait a second..""",0:UAFTDTellWreckage_2:Continue,
+,,,,,,
+UAFYimieTellWreckage_2,DialogOptionSelected,$option == UAFTDTellWreckage_2,UAFTiltedDagger GetPirateBase,"She is sending a set of coordinates to your holopad, after checking the location, it is confirmed to be $UAFTDMS2Target.
+
+""Found it.. the pirate base is located in this system, if you go there you should be able to find the defected fleet.""",0:UAFTDTellWreckage_3:Continue,
+UAFYimieTellWreckage_3,DialogOptionSelected,$option == UAFTDTellWreckage_3,,"Suddenly, someone else interrupted the conversation between you and her from her side.
+
+""It's time, they want to talk.""
+An unknown voice rings through from her side.
+
+""Sorry, superiors in UAF are still doing their routine checking on me, I know you just helped me, but I hope you can do me another favor..""
+
+""Help me find the whereabouts of that defected fleet in the pirate base.""","0:UAFTDMS2_A:Agree
+1:UAFTDMS2_B:Ask for reward
+2:UAFTDMS2_C:Reject",
+UAFYimieTDAskReward,DialogOptionSelected,$option == UAFTDMS2_A,,"""Sorry, I've ran out of money..""
+
+She said with a frowned look.
+
+""Even though I managed to escape from the defected fleet, those superiors in UAF think that they can't prove the defection of my fleet judging only from my testimony. To make things worse, my fighter was severly damaged, blackbox and radio comms records were all unable to decrypt. It will take a long time for them to restore the intel.""",10:UAFTDMS2_A_2:Continue,
+UAFYimieTDAskReward_2,DialogOptionSelected,$option == UAFTDMS2_A_2,,"""Besides, all ships that are over 10LY from here can't be reached so no one else can prove the fleet I used to serve defected.. those UAF superiors believe I'm a deserter now, not only they froze my bank account but also put me under station arrest until they have decrypted the content of recoverable keycards.""
+
+""I'm afraid I can't give you any more payments for now.""","1:UAFTDMS2_B:Ask for reward
+2:UAFTDMS2_C:Reject",
+UAFYimieTDAccept,DialogOptionSelected,$option == UAFTDMS2_B,"UAFTiltedDagger SpawnPirateBase
+$player.UAFTDMS2OnGoing = true","""Thank you, I really don't know what to do if it wasn't for your help.""
+
+She sighed with a depressed look on her face.
+
+""The bartender of the bar where we met last time, his signature blend cocktail is amazing... after all things finished let me buy you a drink.""
+
+She then turned off the communiction device after the conversation.
+
+The approximate location of the pirate base is sent to your intel manager.",0:cutCommLinkPolite:Cut the comm link,
+UAFYimieTDReject,DialogOptionSelected,$option == UAFTDMS2_C,UAFTiltedDagger YimieLeave,"""So that's your answer..""
+
+She looked frustrated after you rejected her request.
+
+""Don't worry, I won't blame you.. I'm already grateful for the information about pirate base that you provided. I will figure the rest by myself, good bye.""
+
+She disconnected from the communication device.",0:cutCommLinkPolite:Cut the comm link,
+,,,,,,
+UAFYimieTDMS2DoneGreeting,PickGreeting,"$id == uaf_yimie score:110
+$player.UAFTDTellYimieWreckage
+$player.UAFTDMS2OnGoing
+$global.UAFDefectorDestroyed",,"As you are about to contact her, you received her request for communication right away. You can hear her screaming out happily the moment you connected.","0:UAFYimieTDPT1Done_tell:Tell her about the battle and give her the informations
+1:cutCommLinkPolite:Cut the comm link",
+UAFYimieTDMS2DoneTell,DialogOptionSelected,$option == UAFYimieTDPT1Done_tell,,"""The battle result you provided is more than enough to prove my innocence! soon I can become free again.""
+
+She then return to a calm expression quickly.
+
+""Since you return safely, which means those traitors are destroyed by you right? I'll take the report of the battle you gave me and hand them to my superiors in UAF...""
+
+Her tone shifted again.
+
+""Although I promised you a drink.. I still can't get away from here yet, but my bank account will get unlocked soon, how much reward you need? I'll send them right away.""","0:UAFYimieTDPT1Done_rejectPay:Reject the payment.
+1:UAFYimieTDPT1Done_suggestPay:Suggest 10.000.000 as reward",
+UAFYimieTDMS2DoneRejectPay,DialogOptionSelected,$option == UAFYimieTDPT1Done_rejectPay,"AdjustRepActivePerson COOPERATIVE 20
+$UAFYimieUnavailable = true
+unset $player.UAFTDMS2OnGoing","""Are you some kind of yesman or what? I thought people like you only do your job after receiving enough payment, you really changed my impression.""
+
+""Still.. I appreciate your effort a lot, let's have a drink someday after all this done, back in that bar again""
+
+She smiles happily.
+
+""I'll have something to do, I better get going""
+
+She disconnected from the communication after the conversation.",0:cutCommLinkPolite:Cut the comm link,
+UAFYimieTDMS2DoneSuggestPay,DialogOptionSelected,$option == UAFYimieTDPT1Done_suggestPay,"AddCredits 10000000
+$UAFYimieUnavailable = true
+unset $player.UAFTDMS2OnGoing","""Sure, I will do it right away.""
+
+She then taps on her holopad, after a while, a notification of your balance account has been increased.
+
+""I'll get going then, there are lots to do after this, I'll never forget your effort.""
+
+She disconnected from the communication after the conversation.",0:cutCommLinkPolite:Cut the comm link,
+,,,,,,
+UAFYimieUnavailable,PickGreeting,"$id == uaf_yimie score:200
+$player.UAFTDTellYimieWreckage
+$global.UAFDefectorDestroyed
+$UAFYimieUnavailable",,"The person you are trying to reach is currently not in position, please call again later.",0:cutCommLinkPolite:Cut the comm link,
+#Yimie's end!,,,,,,
+,,,,,,
+"# The start of vnsector, lets go!",,,,,,
+,,,,,,
+# Kitten Business,,,,,,
+UAFNiaFirstGreeting,PickGreeting,"$id == uaf_niaauroria score:100
+!$player.metUAFNiaAuroria","ShowPersonVisual
+FireAll PopulateOptions
+$player.metUAFNiaAuroria = true
+AddText ""You see many people from numerous worlds seems to be queueing in front of you, took the ticket and wait in the queue bench. Looking up there is a large sign laced with neon lights underneath with a text saying \""Aurora Diplomatic Bureau\"".""
+
+AddText ""Not long after, your number got called, you walk over to the counter and open the communication device that is now available to you""
+
+AddText """"\""Bzzt!!""\"""" highlight
+
+AddText ""A woman with a tied up white hair can now be seen appearing in your monitor, wearing a dark officer uniform with badges that appear quite high in rank on her shawl. A small text also appeared on the down-left side of your screen, identifying the person as Nia Auroria, the Administrator of this station as well as the current Head of The Bureau.""
+
+AddText ""\""Well, you may speak your business now, if not then I'll have something else to do.\"" the woman speaks in a strict manner, only slightly staring at you.""",,0:cutCommLinkPolite:Cut the comm link,
+UAFPlayerSawKitten,PopulateOptions,"$id == uaf_niaauroria score:100
+!$player.sawNiaKittenAlready
+UAFHasTag uaf_hasKitten
+UAFRelationCheck -1 51
+!$hasAsked",$hasAsked = true 1,,"10:UAFKittenAsk:""Is that what I think it is?!""",
+UAFPlayerSawKittenAgain,PopulateOptions,"$id == uaf_niaauroria score:100
+$player.sawNiaKittenAlready
+UAFHasTag uaf_hasKitten
+UAFRelationCheck -1 51
+!$hasAsked",$hasAsked = true 1,,"10:UAFKittenAskAgain:""I can see her being adventurous again..""",
+UAFNiaAskedAboutKitten,DialogOptionSelected,$option == UAFKittenAsk,"AddText ""\""Oh my! Inna, stop being so adventurous will you?!\""""
+AddTextSmall ""\""Nya!!\"""" highlight
+
+AddText ""Reputation Increased with Administrator""
+
+AdjustRepActivePerson NEUTRAL 5
+FireAll PopulateOptions
+AddPotentialContact
+$niaContact = true
+$player.sawNiaKittenAlready = true",,,
+UAFNiaAskedAboutKittenAgain,DialogOptionSelected,$option == UAFKittenAskAgain,"AddText ""\""Yeah, inna is always adventurous after she eats.\"" the woman chuckles.""
+AddTextSmall ""\""Nya!\"""" highlight
+
+AddText ""Reputation Increased with Administrator""
+
+AdjustRepActivePerson NEUTRAL 1
+FireAll PopulateOptions",,,
+,,,,,,
+UAFDefaultNiaGreeting,PickGreeting,"$id == uaf_niaauroria
+$player.metUAFNiaAuroria
+UAFRelationCheck -1 51","ShowPersonVisual
+FireAll PopulateOptions
+SetShortcut cutCommLinkPolite ""ESCAPE""
+SetTextHighlights ""Nya!""","""Well, speak."" The woman with a tied-up white hair appears shortly after you insert your queue ticket. She seems disinterested with you, better talk quickly.
+OR
+The woman with tied-up white hair appears after a brief static, she appears to be busy with documents can be seen piling behind her, maybe you should speak.
+OR
+The woman with tied-up white hair appears after a brief static. There are piles of documents seen behind her, but for some reason, one of the pile falls over to topple the other document piles.
+
+""Ahhh!!! Inna!!!""
+""Nya!""",0:cutCommLinkPolite:Cut the comm link,
+UAFDefaultNiaGreetingFriendly,PickGreeting,"$id == uaf_niaauroria
+$player.metUAFNiaAuroria
+UAFRelationCheck 50 76","ShowPersonVisual
+FireAll PopulateOptions
+SetShortcut cutCommLinkPolite ""ESCAPE""","""Speak."" The woman with a tied-up white hair says in strict manner, appearing to not looking at the monitor.
+
+""Hmm? oh its you again $playerName . Well, what do you need?"" She stares at you, having gotten the administrator attention, you better speak quickly.
+OR
+You wait for a moment after you insert your queue ticket.
+
+""Hello $playerName, what brings you to the bureau today? hope its not a problem."" The woman with tied-up hair asks in a welcoming tone.",0:cutCommLinkPolite:Cut the comm link,
+UAFDefaultNiaGreetingCooperative,PickGreeting,"$id == uaf_niaauroria
+$player.metUAFNiaAuroria
+UAFRelationCheck 75 101","ShowPersonVisual
+FireAll PopulateOptions
+SetShortcut cutCommLinkPolite ""ESCAPE""","You wait for a moment after you submitted the queue ticket, a brief static appears in the monitor as it forms the image.
+
+""Ah, hello $playerName, what can I do for you? today's been really busy for me, there are forms and taxes that people need to fill, and also commercial papers that needs followup, my division been contacting them but they are barely answering, so frustrating right?! ugh! I really want to relax a bit but this station needs more approval and overseeing as it is still growing, there is also this merchant that has been screwing things up near the dock, like who bring their Lava-pet around?! it absolutely melts the railing and now we need to have engineer to repair that thing! -""
+
+The woman with a white tied-up hair seems to be chatty today as she keep talking about stuffs around the station, you better state your intention before the queue line getting too long behind you.
+OR
+""Oh, $playerName, can you wait for a bit, I am feeding Inna right now, I'll come back to you soon"" The woman with a tied-up hair seen to be leaving her desk, and momentarily you can see a pair of cat ears perked up on the screen. 
+
+Not long after, the Administrator back and move the kitten off from the desk, giving her the food before paying attention to you
+""Well, sorry for the delay, what do you need?""",0:cutCommLinkPolite:Cut the comm link,
+,,,,,,
+UAFDefaultNiaShutOff,PickGreeting,"$id == uaf_niaauroria score:105
+$entity.isHostile",,"Your queue ticket to direct line with administrator was rejected.
+OR
+Securities came into the Bureau and removed you from the premise.",,
+#END Kitten Business,,,,,,
+,,,,,,
+UAFNiaAskFleet,PopulateOptions,"$id == uaf_niaauroria score:100
+!$player.UAFHasEscortFleet
+RepIsAtWorst $faction.id COOPERATIVE",,,20:UAFFleetInit:I want to request UAF fleet,
+UAFNiaFleetInit,DialogOptionSelected,"$id == uaf_niaauroria score:100
+$option == UAFFleetInit","FireAll PopulateFleetChoices
+SetShortcut cutCommLinkPolite ""ESCAPE""",,,
+UAFFleetChoiceMary,PopulateFleetChoices,$id == uaf_niaauroria score:100,,,0:UAFFleetMary:Mary's Fleet,
+UAFFleetChoiceMarty,PopulateFleetChoices,$id == uaf_niaauroria score:100,,,0:UAFFleetMarty:Marty's Fleet,
+UAFFleetChoiceBack,PopulateFleetChoices,$id == uaf_niaauroria score:100,,,0:UAFFleetBack:Back [ESC],
+UAFNiaGiveFleetMary,DialogOptionSelected,$option == UAFFleetMary,"UAFSpawnFleet viewFleet uaf_escort_fleet_mary
+$player.UAFHasEscortFleet = true","""There you go, the best fleet I can assemble, take it or leave it.""","0:AcceptFleet:Yes, thank you.",
+UAFNiaGiveFleetMarty,DialogOptionSelected,$option == UAFFleetMarty,"UAFSpawnFleet viewFleet uaf_escort_fleet_marty
+$player.UAFHasEscortFleet = true","""There you go, the best fleet I can assemble, take it or leave it.""","0:AcceptFleet:Yes, thank you.",
+UAFNiaFleetAccepted,DialogOptionSelected,$option == AcceptFleet,"ShowPersonVisual
+FireAll PopulateOptions
+UAFSpawnFleet spawnFleet","""Take them with care""",,
+UAFFleetBackSelected,DialogOptionSelected,$option == UAFFleetBack,"ShowPersonVisual
+FireAll PopulateOptions",,,
+,,,,,,
+# Commissions,,,,,,
+UAFNiaAskAboutAccess,PopulateOptions,"$id == uaf_niaauroria score:100
+UAFRelationCheck ""<"" 30
+!Commission hasFactionCommission",,,"0:uaf_askhowtocomm:""How do I gain access to UAF infrastructures?""",
+UAFNiaAskAboutAccessAsked,DialogOptionSelected,$option == uaf_askhowtocomm,"AddText ""\""Oh, you are interested in accessing those? Well..\""""
+AddText ""\""I'll need to assess your capability first, most people don't really get to access UAF infrastructure, you see. We only grant those with UAF Commissions the access. Unfortunately, you are not a suitable candidate for now, if you can help this station with some of its problem, I'll consider it.""
+SetTextHighlights ""UAF Commissions\""""",,,
+UAFNiaAskForCommissionOpt,PopulateOptions,"$id == uaf_niaauroria score:100
+UAFRelationCheck "">"" 29
+!Commission hasFactionCommission",,,"20:cmsn_askCommission:""I'd like to be commissioned by United Aurora Federation""",
+UAFNiaAskForCommissionOptRec,PopulateOptions,"$id == uaf_niaauroria score:100
+UAFRelationCheck "">"" 9
+!Commission hasFactionCommission
+$player.hasUAFRecommendation",,,"20:cmsn_askCommissionRec:""I have a recommendation to apply for UAF Commission from $global.UAF_RecommendationSeal""",
+,,,,,,
+UAFNiaResignCommissionOpt,PopulateOptions,"$id == uaf_niaauroria score:100
+Commission hasFactionCommission",,,"20:cmsn_resignCommission:""I'd like to resign my United Aurora Federation commission""",
+UAFNiaAskForCommissionOptCriteriaMet,DialogOptionSelected,"$id == uaf_niaauroria score:100
+$option == cmsn_askCommission
+Commission playerMeetsCriteria",FireBest CMSNTextSuitedPart1,,0:cmsn_continueMeetsReq:Continue,
+UAFNiaAskForCommissionOptCriteriaMetRec,DialogOptionSelected,"$id == uaf_niaauroria score:100
+$option == cmsn_askCommissionRec
+Commission playerMeetsCriteria
+$player.hasUAFRecommendation",FireBest CMSNTextSuitedPart1Rec,,0:cmsn_continueMeetsReq:Continue,
+,,,,,,
+UAFNiaTextRejectHostile,CMSNTextRejectHostile,$id == uaf_niaauroria ,,"""No. You have been banned due to recent behaviors. Denied""
+The administrator said in stern voice.",,
+UAFNiaTextHasOther,CMSNTextHasOther,$id == uaf_niaauroria ,,"""According to my record, you are currently commissioned by $theOtherCommissionFaction. You need to understand that you can only be commissioned one at a time, either resign from their commission or we can't accept you.""",,
+UAFNiaTextUnsuited,CMSNTextUnsuited,$id == uaf_niaauroria ,,"""I am sorry, but the analysis of your data shown your potential to be lacking.""",,
+UAFNiaTextSuitedP1,CMSNTextSuitedPart1,$id == uaf_niaauroria ,,"""According to the record and the papers you have submitted, you are one of the suitable candidate to accept our commission, however, I must remind you that UAF Commission doesn't come in lightly and it's a heavy responsibility to take on.
+
+You have to remain vigilant as UAF might have more enemies than you expected should you accept this commission.
+
+Also, you are free to resign, of course, as you're just a freelance contractor and not permanently attached to the federation. Personally I wouldn't recommend backing off from your word though.""",,
+UAFNiaTextSuitedP1WithRecommendation,CMSNTextSuitedPart1Rec,$id == uaf_niaauroria,"SetTextHighlights ""$global.UAF_RecommendationSeal""","""According to the record and the papers you have submitted along with the recommendation you received from $global.UAF_RecommendationSeal, you are one of the suitable candidate to accept our commission, however, I must remind you that UAF Commission doesn't come in lightly and it's a heavy responsibility to take on.
+
+You have to remain vigilant as UAF might have more enemies than you expected should you accept this commission.
+
+Also, you are free to resign, of course, as you're just a freelance contractor and not permanently attached to the federation. Personally I wouldn't recommend backing off from your word though.""",,
+UAFNiaTextSuitedP2,CMSNTextSuitedPart2,$id == uaf_niaauroria ,,"""If you are absolutely sure, then you may sign the tablet in front of you""
+A tablet appears just below the monitor, with a pen for you to sign the contract.",,
+UAFNiaTextWelcomeP1,CMSNTextWelcomePart1,$id == uaf_niaauroria ,,"""Alright, with this you are now welcomed to UAF, access and privileges will now be available to you for UAF's Infrastructure and Facilities. Don't disappoint me, $playerName""
+The administrator smiles at you as she welcomes you to the faction.",,
+UAFNiaTextWelcomeP2,CMSNTextWelcomePart2,$id == uaf_niaauroria ,,"""Anything else I can do for you?""",,
+UAFNiaTextChangeMind,CMSNTextChangeMind,$id == uaf_niaauroria ,AdjustRepActivePerson NEUTRAL -2,"""Ah, okay, I always have a suspicion that you were not ready for it anyway, as long as nothing is signed you are not bound to anything, don't worry.""
+
+""Anything else?""",,
+UAFNiaResignAskToConfirm,CMSNResignAskToConfirm,$id == uaf_niaauroria ,,"""You are sure about this?""
+The administrator glares at you sharply.",,
+UAFNiaResignConfirmed,CMSNResignConfirmed,$id == uaf_niaauroria ,"AdjustRepActivePerson NEUTRAL -100
+
+$player.betrayedUAF = true","""Well, alright, your access to $theFaction 's Infrastructure and Facilities are now revoked, you are now free to go""
+The administrator has a disappointed look after hearing your decision, might not be the smartest thing to do in your career, hopefully nothing bad comes of it.",,
+UAFNiaResignCancelled,CMSNResignCancelled,$id == uaf_niaauroria ,AdjustRepActivePerson NEUTRAL -3,"""Well, maybe stop playing pranks like this next time.""",,
+,,,,,,
+UAFNiaDoesNotMeetCriteria,DialogOptionSelected,"$id == uaf_niaauroria
+$option == cmsn_askCommission
+!UAFCommission playerMeetsCriteria","SetEnabled cmsn_askCommission false
+FireBest CMSNTextUnsuited
+UAFCommission printRequirements",,,
+UAFNiaMeetsCriteria,DialogOptionSelected,"$id == uaf_niaauroria
+$option == cmsn_askCommission
+UAFCommission playerMeetsCriteria",FireBest CMSNTextSuitedPart1,,0:cmsn_continueMeetsReq:Continue,
+UAFNiaMeetsCriteria2,DialogOptionSelected,"$id == uaf_niaauroria
+$option == cmsn_continueMeetsReq","Commission printInfo
+FireBest CMSNTextSuitedPart2",,"0:cmsn_accept:Accept UAF commission
+1:cmsn_cancel:""Perhaps I'm not quite ready for this.""",
+UAFNiaAccept,DialogOptionSelected,"$id == uaf_niaauroria
+$option == cmsn_accept","FireBest CMSNTextWelcomePart1
+UAFCommission accept
+FireBest CMSNTextWelcomePart2
+FireAll PopulateOptions",,,
+#END Commissions,,,,,,
+,,,,,,
+"# Missions, change text for mission todo",,,,,,
+UAFNiaNoMissions,ContactPreMissionListText,"$id == uaf_niaauroria score:100
+$mh_count <= 0","SetTextHighlights ""Nya!""","""There are no available missions for you at the moment, try coming back later.""
+OR
+You can see Nia is being distracted by something off-screen.
+""Ah, yeah, there are none at the moment, I'll inform you if I have anything""
+
+""Nya!""",,
+UAFNiaNoMissionsSuspend,ContactPreMissionListText,"$id == uaf_niaauroria score:100
+$mh_count <= 0
+$mHub_contactSuspended",,"""According to my files, there are no suitable mission that outsider like you might take right now."" She said in stern voice.",,
+UAFNiaOneMission,ContactPreMissionListText,"$id == uaf_niaauroria score:100
+$mh_count == 1
+$mh_firstInlineBlurb != null",$mh_doNotPrintBlurbs = true 0,"""That's one mission available, you might want to take it."" Nia said as the prompt appears on your screen.
+OR
+""Just in time for this mission, you are lucky."" Nia drags over the mission details to you, allowing you to see the detail if you wish to.",,
+UAFNiaMultipleMission,MHPostMissionListText,"$id == uaf_niaauroria score:100
+$mh_count > 1",,"""So, anything sounds good for you right now?"" Prompts appear shortly after her explaination.
+OR
+""Pick one and I'll explain about them"" Prompts appear shortly after her explaination.
+OR
+She quickly drags over the missions prompt to you after explaining as she is feeding Inna. ""I'll be back to you in a sec, I'll have to do something, just pick one you are interested in""",,
+UAFNiaContactPrintAcceptText,ContactPrintAcceptText,$id == uaf_niaauroria score:100,,"""Alright, hopefully you can do it well, $playerName.""
+OR
+""Don't disappoint me, alright?""
+OR
+""Well, that's one headache off of me"" Nia smiles as you picked the missions.
+OR
+""I'll be back to these paperwork then, try not to mess up badly."" Nia said as her gaze slowly back to her paperwork after you accepted the mission.",,
+#END Missions,,,,,,
+,,,,,,
+# VNSector Stuffs,,,,,,
+UAFNiaOfferGift,PopulateVNSector,"$id == uaf_niaauroria score:100
+!$NiaGifted
+UAFRelationCheck -51 101",,,1:NiaGift:Offer gifts to Nia,
+UAFNiaGift,DialogOptionSelected,"$id == uaf_niaauroria
+$option == NiaGift
+","FireAll NiaAvailableGiftOptions
+","""What is it?""
+OR
+""What do you want?""",,
+UAFNiaGiftItem1,NiaAvailableGiftOptions,PlayerHasCargo uaf_bakery_choco_lava,,,"1:UAFNiaCake:""Would you a cake I got from New Auroria?""",
+UAFNiaGiftItem1Gifted,DialogOptionSelected,"$option == UAFNiaCake
+PlayerHasCargo uaf_bakery_choco_lava","FireAll PopulateOptions
+$NiaGifted = true 5
+AddPotentialContact
+AdjustRepActivePerson WELCOMING 10
+AddRemoveCommodity uaf_bakery_choco_lava -1 true
+","Upon hearing your offer, a basket appears below the monitor for you to put the goods in. After you put it in, the cake is now arrived to Nia as she inspects it closely.
+
+""Ah, this is the authentic choco-lava cake, this is so nostalgic, I really miss my home now"" Nia smiles happily as she unwrap the choco lava box, quickly taking a bite from the cake like a little girl enjoying her cakes.",,
+UAFNiaGiftItem2,NiaAvailableGiftOptions,"PlayerHasCargo food
+$player.sawNiaKittenAlready",,,"2:UAFNiaCatFood:""I happened to have a stack of cat food, do you want it?""",
+UAFNiaGiftItem2Gifted,DialogOptionSelected,"$option == UAFNiaCatFood
+PlayerHasCargo food","FireAll PopulateOptions
+$NiaGifted = true 5
+AdjustRepActivePerson WELCOMING 1
+AddRemoveCommodity food -1 true
+","""Ah? cat food for Inna, you said? well, put it in the basket, truthfully, I already have stocked up food for Inna in my office, she has her own piles of cat food I imported back from home. But thanks! I appreciate your gift."" 
+
+Nia smiles warmly at you as she raises Inna the Kitten to be able to be seen through monitor before she puts it down again, both of them looks satisfied with your gift.",,
+UAFNiaGiftNevermind,NiaAvailableGiftOptions,,,,"100:UAFNiaGiftNevermind:""Never mind, its nothing.""",
+UAFNiaGiftNevermindSelected,DialogOptionSelected,$option == UAFNiaGiftNevermind,FireAll PopulateOptions,,,
+,,,,,,
+#END VNSector Stuffs,,,,,,
+"#END The start of vnsector, lets go!",,,,,,
+,,,,,,
+#Inari Conv,,,,,,
+UAFDefaultInariGate,PickGreeting,"$id == uaf_inari score:100
+!$player.UAFNiaRecommendation",,"""Access denied, we are currently limiting contact with unknown spacefarer, for more information please visit ""Aurora Diplomatic Bureau"".""
+
+Someone said from the other end of the speaker.",,
+UAFDefaultInariFirstGreeting,PickGreeting,"$id == uaf_inari score:100
+$player.UAFNiaRecommendation
+!$player.metUAFInari",,"You begin to make your approach towards an opulent white building with an exterior silver lettered sign that reads ""Stjarna's House of Nobles. Home to House LaFayette Genetics'."" You show your official invitation paperwork to a group of UAF soldiers guarding the door who analyze your credentials thoroughly before they nod and allowed you passage while giving directions to access the Main director's office. 
+
+Passing the main lobby and through a clean white hallway, what you do notice apart from the occasional noble representation is the number of scientists walking by you, some of them having animalistic features like the ears of a dog or tails like a cat, etc. Until finally, make it to the office of the current ruling noble of the station.",0:InariGreetingCont:Continue,
+UAFDefaultInariFirstGreetingCont,DialogOptionSelected,$option == InariGreetingCont,"ShowPersonVisual
+$player.metUAFInari = true
+AddPotentialContact
+AdjustRepActivePerson NEUTRAL 10","What sits behind that futuristic desk was a woman with hair that was lush, sunrise-gold hair, an elegant face that gives off a tender smile, a fit well-formed figure with a close-fitting uniform that appears to be custom-made compared to the standard uniforms you have seen so far, and a personality radiates with ladylike temperament. You get a good look at her features and what was more baffling was that this woman that sits before you has both large pointed ears and a very soft, fluffy, well-groomed tail that swings left and right casually like a fox; similar to her hair color. She suddenly clears her throat and sits straight to address you.
+
+""Welcome $playerName, I have heard of a freelance captain rising in popularity within the UAF, My files describe you to be steadfast and courageous at your best when the situation demands it with a more loose connection with the other factions, truly a free spirit compared to the other ruling factions of the universe.""",0:InariGreetingCont2:Continue,
+UAFDefaultInariFirstGreetingCont2,DialogOptionSelected,$option == InariGreetingCont2,"$player.metUAFInari = true
+AddPotentialContact
+AdjustRepActivePerson NEUTRAL 10
+FireAll PopulateOptions","She smiles cordially as she nods with approval
+
+""Nia was right about you being a captain of potential and respectable qualities, and I sure hope such talents could aid not only her majesty, but myself included.""
+
+She suddenly burst into a hearty laugh as she realized she forgot some important details to tell you. ""OH! Forgive me, where are my manners.~ My name is Inari ""Masoko"" LaFayette, the current leading administrator and the main ruling house of the Stjarna Sector. Anyways, shall we discuss important business captain?",,
+UAFDefaultInariGreeting,PickGreeting,"$id == uaf_inari score:100
+$player.UAFNiaRecommendation
+$player.metUAFInari",ShowPersonVisual,"You wait for your turn to be called when front desk finally mention that Inari may see them now, you walk down the same hallway and go through the automated doors to see her.
+OR
+You approach the front desk only for the secretary to hand you a communication tablet and tells you that Inari is open to talk however she is currently busy with interplanetary affairs. You sit down in one of the sofa's and turn the communicator on.",0:InariDefaultGreetingCont:Continue,
+UAFDefaultInariContinueNormal,DialogOptionSelected,"$option == InariDefaultGreetingCont
+UAFRelationCheck -1 51",FireAll PopulateOptions,"Inari stares at you professionally ""Greetings to you captain $playerName, what would you wish to ask from the nobles?""
+OR
+Inari is busy with some paperwork, she glances at you quickly and waves her hand swiftly before focusing on what she's writing on. ""Kindly skip the pleasantries for now captain, interplanetary affairs can be such a chore."" 
+OR
+Inari looks back at you attentively, her ears perked up listening. ""House Fayette may now hear your request captain.""",,
+UAFDefaultInariContinueFriendly,DialogOptionSelected,"$option == InariDefaultGreetingCont
+UAFRelationCheck 50 76",FireAll PopulateOptions,"You watch Inari quickly fix up her uniform before you took notice. ""Apologize captain, just doing my best to look my best."" She said with a wink. ""Now then, is there anything you wish to discuss with me?""
+OR
+Inari was on call with Nia as soon as she notice $playerName in her presence ""We can discuss about the situation later Nia, I have other matters to attend too."" she ends the call and places her hands together ""The joys to be a freelance~ Anyways, do you need anything captain?""
+OR
+""Why hello Captain~"" she smiles as she brush her hair over her ears with her hand. ""Have you considered joining my genetics program? You would make a great volunteers."" She smiles as she moves on to other matters that you wish to tell her.
+",,
+UAFDefaultInariContinueCordial,DialogOptionSelected,"$option == InariDefaultGreetingCont
+UAFRelationCheck -1 51
+UAFRelationCheck 75 101",FireAll PopulateOptions,"She turns to you with a joyful smile, her tail shoot up in excitement when she notice you. ""Well, if it isn't my favorite captain.~ Is there something you need or mayhaps something you want to tell me personally~."" Her ears flick with interest.
+OR
+""Captain $playerName, It makes me happy you would come back to talk to me again.~"" Her tail wags side to side. ""Shall we talk about your adventures over some wine and cheese?"" 
+OR
+""From the distance stars, he returns to me."" she chuckles softly with a tender hearted smile ""I would give you a hug captain to give you some comfort from the burden space travel can bring But I'm afraid that is not within my status to do so."" She says observantly ""Now~ How are you feeling?""",,
+#END Inari Conv,,,,,,
+,,,,,,
+#Alexandra Conv,,,,,,
+UAFDefaultAlexandraGate,PickGreeting,"$id == uaf_alexandra score:100
+!$player.UAFNiaRecommendation",,"""Access denied, direct communication to the administrator of this station region is restricted, for more information please visit ""Aurora Diplomatic Bureau"".""
+
+Your request to speak to the administrator of this station has been rejected, you probably need to go to the bureau office they mentioned earlier and get some sort of permit.",,
+UAFDefaultAlexandraFirstGreeting,PickGreeting,"$id == uaf_alexandra score:100
+$player.UAFNiaRecommendation
+!$player.metUAFAlexandra","ShowPersonVisual
+FireAll AlexandraMineAsk
+$player.metUAFAlexandra = true
+","""So, you've finally come to the Nur Station, huh? The Administrator in the diplomatic bureau recommended your services to me, no idea what you did to gain such recognition, but we will see what you can do.""
+
+A woman with raspy voice approaches you, followed by multiple guards with various cybernetics installed on their body, it's better to not mess with her or get on her bad side.
+
+""Don't be so tense, welcome to Nur Refining Facility, here we ensure that UAF always get the resources they need, especially rare ores and minerals, we also do processing in this facility. We treat everyone that can mine as equals, as long as you fill your quota, the station will welcome you no matter where you came from. I hope we get along, $playerName.""
+
+Despite saying that, her face stays serious the whole time she introduces you to the facility.
+
+""Oh and, here is the tools that you need to mine on the asteroid, we will send it to your ship down in the dock""
+
+One of her bodyguard comes forward with a holopad describing the MTX-072 Mining Device and its features along with the instruction on how to install it to a ship or a shuttle.",,
+UAFAlexandraMiningAsk,AlexandraMineAsk,$id == uaf_alexandra score:100,,,"0:AlexandraMineHesitant:""H-huh? what? mining?""
+1:AlexandraMineOk:""Alright, you can leave that to me, I'll do my best.""
+2:AlexandraMineNo:""I don't think I am here just to mine asteroids.""",
+UAFAlexandraMiningAnswerHesitant,DialogOptionSelected,$option == AlexandraMineHesitant,"$player.UAFMiningAssignment = true
+AddPotentialContact
+AddRemoveCommodity heavy_machinery 1 true
+$player.UAFMiningAssignmentCooldown = true 3","""Well, I'll leave that to you, do your best and we will meet again, $playerName. Do contact me if you have any difficulties.""
+
+The woman then take her leave with dozens of her bodyguards, leaving you with a receipt from the holopad one of the bodyguard show you earlier, guess you are now one of the miners in this station.",0:cutCommLinkPolite:Cut the comm link,
+UAFAlexandraMiningAnswerOk,DialogOptionSelected,$option == AlexandraMineOk,"$player.UAFMiningAssignment = true
+AddPotentialContact
+AdjustRepActivePerson NEUTRAL 10
+AddRemoveCommodity heavy_machinery 1 true
+$player.UAFMiningAssignmentCooldown = true 3","Her serious face fades for a moment as she chuckles.
+
+""I get why bureau administrator likes you, I'll take care of you when you are in my station, meanwhile, do your best to fill up your quota, $playerName""
+
+The woman smiles at your eagerness to accept the task she gave you. Not long after, she left you with a receipt from the holopad one of her bodyguard was showing you, it contains the mining equipment redeem codes and take-off ticket from this station.",0:cutCommLinkPolite:Cut the comm link,
+UAFAlexandraMiningAnswerNo,DialogOptionSelected,$option == AlexandraMineNo,,"""Well, that's too bad isn't it? Probably you are not ready yet. Until then, do tell me if you changed your mind.""
+
+You can hear a clear shift in her tone, perhaps it's not a good idea to turn her down, although she still looks lenient as usual. She soon leave you on your own to explore the station.",0:cutCommLinkPolite:Cut the comm link,
+UAFDefaultAlexandraGreetingMine,PickGreeting,"$id == uaf_alexandra score:100
+$player.UAFNiaRecommendation
+$player.metUAFAlexandra
+$player.UAFMiningAssignment","ShowPersonVisual
+FireAll PopulateOptions
+FireBest AlexandraMiningOptions","""Empress is inside.""
+
+Said one of the bodyguard guarding the entrance to the administrator's building, her office seemed to be designed in an oriental alien fashion, a kind you've never seen in the times you've been spacefaring. A while after you enter the palace, you soon greeted by a woman with a raspy voice, appearing as regal as the first time you meet her.
+
+""Greetings, $playerName, how's the mining doing?""
+OR
+You wanders around the station to find the administrator office when you suddenly stopped by a huge muscular guy, suited in black, for a moment you thought he is a hostile enemy, but a raspy familiar voice soon follows.
+
+""You again, I hope mining goes well for you today.""
+
+You noticed the familiar voice, followed by the administrator that appears behind the bulky bodyguard.
+OR
+As you wander around the station, you finally meet the administrator, she appears to be doing examinations around the station before she notices and approaches you
+
+""Remember to not kill yourself when mining too deep, it will be hard for us to clear the bodies.""
+
+You hear her mutter those words to you, wondering what does that mean or what event give rise to such sentence. You nod as you agree.
+
+""According to my assistant, you've been looking for me?""
+OR
+You are soon directed to the industrial side of the station, entering factories as you wonder if the administrator is even here. A bulky guy taps on your shoulder, you didn't notice his presence at all at first, you looked behind to him as he silently tell you which direction the administrator currently is.
+
+You followed the direction and soon you meet the administrator, surrounded by her bodyguards just like the first time you meet her.
+
+""Oh hello, we are on a target to increase our mineral output this month, have you filled your quota?""
+
+She asked you nonchalantly, ignoring the loud industrial engine and machine crashing against each other as if she's been here before.",,
+UAFDefaultAlexandraGreetingMineFriendly,PickGreeting,"$id == uaf_alexandra score:100
+$player.UAFNiaRecommendation
+$player.metUAFAlexandra
+$player.UAFMiningAssignment
+UAFRelationCheck "">"" 54","ShowPersonVisual
+FireAll PopulateOptions
+FireBest AlexandraMiningOptions","You are directed to the Alexandra's palace when you asked to meet her. The bodyguard opens the gate for you as you approached her palace without question, as if they have been expecting you. You enters and sees her on the palace court, looking at you.
+
+""Hello, $playerName, I have been waiting for you, how you been doing?""
+
+The empress smiled, she hasn't been talking about mining everytime you meet her nowadays, you wonder if its a good sign or not.
+OR
+You are now directed to the industrial factory zone, listening to the melody of metal crashing and crushing against each other like a dizzying harmony. You see Alexandra is currently talking to someone, he appears to be important as he wears a a different colour of hard hat compared to the rest of the staff.
+
+""Okay? hold on a second"" 
+Alexandra halt their conversation and turns around to approach you.
+
+""Sorry, $playerName, that took a while, what do you need?""
+OR
+You are told to go meet her another time as the administrator is currently not in her office. You wanders off around the station when finally you see a group of familiar bulky bodyguards. The woman in the middle notices you, she weaves through her own bodyguards as she is approaching.
+
+""Oh, $playerName! I heard you were looking for me? sorry I was busy with examining the station, anything I can do for you?""
+
+Alexandra asked.",,
+UAFDefaultAlexandraGreeting,PickGreeting,"$id == uaf_alexandra score:100
+$player.UAFNiaRecommendation
+$player.metUAFAlexandra
+!$player.UAFMiningAssignment
+","ShowPersonVisual
+FireAll PopulateOptions
+","The assistant that you meet in the station directs you to a holo-board, the similar kind of device you used back in the bureau but its much more accessible and less queue. Soon after, you can see the administrator appearing on the monitor.
+
+""What brings you here, $playerName?""
+OR
+You are directed to go to the administrator office, or rather palace as it says in your ticket. Moments after you get there, a group of people, following the administrator walks out of the gate, she notices you on the corner and turns around, approaching you.
+
+""Oh, its you again, have you changed your mind to do mining now?""
+OR
+You can see the administrator in the office as you asked for the direction to meet her, you approaches her, she seems to be alone without those bulky bodyguards following her, however, something does feel a bit off, it feels as if you are being watched by dozens of eyes all at the same time despite people here are definitely ordinary people, working the administrative task.
+
+""Anything you need in this station?""
+
+The administrator asks as you approach her.",,
+UAFAlexandraMiningOptionsWant,PopulateOptions,"$id == uaf_alexandra score:100
+$player.UAFNiaRecommendation
+$player.metUAFAlexandra
+!$player.UAFMiningAssignment",,,"0:AlexandraMiningJoin:""I changed my mind, I'll do the mining.""",
+UAFAlexandraMiningOptionsResign,PopulateOptions,"$id == uaf_alexandra score:100
+$player.UAFNiaRecommendation
+$player.metUAFAlexandra
+$player.UAFMiningAssignment
+!$player.UAFMiningAssignmentCooldown",,,"0:AlexandraMiningResign:""I am resigning my mining duty.""",
+UAFAlexandraMiningJoin,DialogOptionSelected,$option == AlexandraMiningJoin,"AddPotentialContact
+$player.UAFMiningAssignment = true
+$player.UAFMiningAssignmentCooldown = true 3
+FireAll PopulateOptions","""Alright, do sign the papers here and you can buy the heavy machinery needed from the market yourself, I'll be expecting a lot from you.""
+
+A smile can be seen on her face as you signed the papers, you wonder why she seems to be so fixated on getting people to mine.",,
+UAFAlexandraMiningResign,DialogOptionSelected,$option == AlexandraMiningResign,"$player.UAFMiningAssignment = false
+FireAll PopulateOptions","""That's too bad, but I guess there is nothing to do then. I'll revoke your mining permit and your accommodation in this station.""
+
+You can see her opening her holopad, getting your entry amongst thousands of others, presumed to be miners before deleting your entry.
+
+""Do tell me if you changed your mind though.""",,
+,,,,,,
+ExerelinMarketSpecialMiningOption,ExerelinMarketSpecial,"$id == uaf_stjarna_nur score:1000
+!$player.hasMinedNur
+!$player.UAFNurMiningCooldown
+PlayerHasCargo heavy_machinery",,,0:UAFNurBeginMining:Start Mining Operation (will consume 1 heavy machinery),
+ExerelinMarketSpecialMiningOptionDisabled,ExerelinMarketSpecial,"$id == uaf_stjarna_nur score:1000
+!$player.hasMinedNur
+!$player.UAFNurMiningCooldown
+!PlayerHasCargo heavy_machinery","SetEnabled UAFNurBeginMining false
+SetTooltip UAFNurBeginMining ""Your fleet does not have the necessary resources to run a proper mining operation here.""",,0:UAFNurBeginMining:Start Mining Operation (will consume 1 heavy machinery),
+ExerelinMarketSpecialMiningMined,DialogOptionSelected,$option == UAFNurBeginMining,"ExerelinShowDefaultVisual
+$menuState = main 0
+FireAll PopulateOptions
+AddRemoveCommodity heavy_machinery -1 true
+$player.hasMinedNur = true
+$player.UAFNurMiningCooldown = true 3
+$player.UAFCurrentlyMining = true 2
+UAFMining LockPlayerInOrbit","You begin mining operation for today, hopefully you can finish this soon. Don't forget to turn in these ores once you are done with mining.
+OR
+While mining, you saw something shiny, hopefully this pays out good for when you submit it to the administrator",,
+UAFAlexandraMiningReport,PopulateOptions,"$id == uaf_alexandra score:100
+$player.UAFNiaRecommendation
+$player.metUAFAlexandra
+$player.UAFMiningAssignment
+$player.hasMinedNur
+!$player.UAFCurrentlyMining",,,"0:AlexandraMiningReport:""I am here to report my mining progress.""",
+UAFAlexandraMiningReported,DialogOptionSelected,$option == AlexandraMiningReport,"$player.hasMinedNur = false
+AdjustRepActivePerson COOPERATIVE 1
+UAFMining GrantRandomCredits
+FireAll PopulateOptions","""Great work on your progress""
+The administrator smiles happily with your progress, she then sends a handful of credits into your account.
+OR
+""These minerals will help us greatly, thank you for your effort""
+The administrator smiles happily with your progress, she then sends a handful of credits into your account.",,
+#END Alexandra Conv,,,,,,
+,,,,,,
+#Alexandra Mission,,,,,,
+UAFAlexandraNoMissions,ContactPreMissionListText,"$id == uaf_alexandra score:100
+$mh_count <= 0
+$player.UAFNiaRecommendation",,"""There are no currently available missions, try another time, okay?""
+OR
+""We are currently focusing on metal production, try again next time, $playerName""
+OR
+""I have no task to give you at the moment... hmm.. what about mining?""",,
+UAFAlexandraNoMissionsSuspend,ContactPreMissionListText,"$id == uaf_alexandra score:100
+$mh_count <= 0
+$player.UAFNiaRecommendation
+$mHub_contactSuspended",,"""None.""",,
+UAFAlexandraOneMission,ContactPreMissionListText,"$id == uaf_alexandra score:100
+$mh_count == 1
+$mh_firstInlineBlurb != null
+$player.UAFNiaRecommendation",$mh_doNotPrintBlurbs = true 0,"""Well, I do have a mission for you, if you are really bored with mining that is.""
+OR
+""There is one I have in our backlog, you might want to take it.""
+OR
+""Let me see..""
+She opens her holopad and scrolls through hundreds of documents.
+""Ah, this one, I have this one if you want.""",,
+UAFAlexandraMultipleMission,MHPostMissionListText,"$id == uaf_alexandra score:100
+$mh_count > 1
+$player.UAFNiaRecommendation",,"""Missions, huh? let me check first..""
+She opens her holopad and appears to be contacting someone, after a while, she is back at you.
+""I spoke to my assistant, there are missions available to you.""
+OR
+""Oh, I do have some missions for you, lets see..""
+OR
+""What a coincidence, I was about to give you these missions anyway since we are mostly busy with this month's production, here are your available missions.""
+
+She sends you the mission brief to your holopad before explaining.",,
+UAFAlexandraContactPrintAcceptText,ContactPrintAcceptText,"$id == uaf_alexandra score:100
+$player.UAFNiaRecommendation",,"""Alright, thanks for taking one burden off of us, hopefully you'll do well.""
+OR
+""I know you won't disappoint me, $playerName"" She smiled at you after you accepts.
+OR
+""Best of luck! I'll be here in the station if you need me""
+OR
+""Alright, thanks. We should have a tea together sometimes in the palace"" She smiles happily.",,
+#End Alexandra Mission,,,,,,
+,,,,,,
+#Roboqueen Conv,,,,,,
+UAFDefaultRoboQueenIsAway,PickGreeting,$id == uaf_roboqueen score:100,"ShowPersonVisual
+SetShortcut cutCommLinkPolite ""ESCAPE""","Robo Queen is busy managing this station, come back in the next patch",0:cutCommLinkPolite:Cut the comm link,
+#END Roboqueen Conv,,,,,,
+,,,,,,
+#Queen Conv,,,,,,
+UAFDefaultQueenGated,PickGreeting,"$id == uaf_queen score:100
+!$player.metUAFQueen",FireBest GateCheck,,,
+UAFQueenGateOK,GateCheck,"$id == uaf_queen score:100
+Commission hasFactionCommission
+UAFQueenIntro ShouldPlayQueenIntro",FireAll PopulateOptions,"""Access granted. Please proceed to the space elevator to begin the descend into aurora.""",,
+UAFQueenGateReject,GateCheck,$id == uaf_queen score:100,"AddText ""Access Denied, please gain access through \""Aurora Diplomatic Bureau\"" in Vermilion Station.""",,,
+UAFDefaultQueenIsAway,PickGreeting,$id == uaf_queen score:100,"ShowPersonVisual
+SetShortcut cutCommLinkPolite ""ESCAPE""","Queen is currently away, please come back in the next patch.",0:cutCommLinkPolite:Cut the comm link,
+,,,,,,
+#END Queen Conv,,,,,,

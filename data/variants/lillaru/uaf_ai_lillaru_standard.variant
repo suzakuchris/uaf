@@ -1,0 +1,64 @@
+{
+  "variantId": "uaf_ai_lillaru_standard",
+  "hullId": "uaf_ai_lillaru",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "uaf_cyrexa"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_ivory",
+        "WS0004": "uaf_ivory",
+        "WS0012": "uaf_medlav_quad",
+        "WS0014": "uaf_medlav_dual",
+        "WS0015": "uaf_medlav_dual"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "PD_DECO1": "uaf_exoscar_torpedo_base",
+        "PD_DECO4": "uaf_exoscar_torpedo_base",
+        "WS0018": "uaf_amazoch_light_asrm_dual",
+        "WS0019": "uaf_amazoch_light_asrm_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "PD_DECO2": "uaf_claris_cn",
+        "PD_DECO5": "uaf_claris_cn",
+        "WS0016": "uaf_claris_cn",
+        "WS0017": "uaf_claris_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "PD_DECO3": "uaf_pd_reina",
+        "PD_DECO6": "uaf_pd_reina",
+        "WS0001": "uaf_weiss_flk",
+        "WS0002": "uaf_weiss_flk",
+        "WS0011": "uaf_weiss_flk"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

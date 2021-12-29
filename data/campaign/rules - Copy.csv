@@ -1,0 +1,216 @@
+id,trigger,conditions,script,text,options,notes
+#UAF Fleet Greeting Lines,,,,,,
+greetingUAFFriendly,OpenCommLink,"$faction.id == uaf
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""UAF-type DNS Code received and confirmed over secured channel, greetings $playerName - I bid you good luck and fair sea.""",,
+greetingUAFHostileWeaker,OpenCommLink,"$faction.id == uaf
+$entity.isHostile
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"""Send out the signal and call for reinforcement! We may not be enough to bring you down, but the next one will. For the Queen!""",cutCommLink:Cut the comm link,
+greetingUAFHostileWeakerDefiant,OpenCommLink,"$faction.id == uaf
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"""The Aurorian Navy does not surrender that easily, we will fight you to the very end. For the brighter future that the Queen promised to all of us!""",cutCommLink:Cut the comm link,
+greetingUAFHostileStronger,OpenCommLink,"$faction.id == uaf
+$entity.isHostile
+$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""Attention, hostile fleet - you are outnumbered and cannot win this fight. Surrender immediately or face the might of the Aurorian Navy.""",cutCommLink:Cut the comm link,
+greetingUAFNeutral,OpenCommLink,"$faction.id == uaf
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Domain-type AIS Code confirmed, this is $personRank $personName of the Aurorian Federation - state your intentions and send over transmission, over.""",,
+,,,,,,
+flavorTextMarketAvroria,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$id == uaf_new_auroria score:1000","AddText""They say that this world is reminiscent of a homeworld called 'Aurora' which lies beyond the Sector or even the universe itself. An Earth-like world where these Aurorian people came from. The Aurorians have made themselves clear, they're here to stay and make themselves at home as tall, sleek skyscrapers were built in designated residential zones surrounded by pristine yet relatively untouched natural earthly landscape. It also gives you an impression that they're not here to invade and conquer due to the lack of obvious military infrastructure and instead, open for trading and other peaceful intentions. Promoters and other sorts of entrepeneurs came to greet you as they guide you to the nearby trade zones not far from the spaceport."" textGrayColor",,,
+flavorTextMarketLunamun,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$id == uaf_lunamun score:1000","AddText""The moon serves as the guardian angel of the New Avroria. There are all sorts of spaceships flying by and military structures can be seen around you as they seems to be surrounding a single, massive naval staging base within a large crater. You think you noticed an oddly large ship parked far beyond the dark side of the moon but you might be fooled by your own eyes. Nevertheless, you have arrived at the designated trading post that provides amenities and comfort for people deciding to stay for a night or two; albeit with limited or no access to the surrounding region."" textGrayColor",,,
+flavorTextMarketVermilionPort,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$id == uaf_station_vermilion score:1000","AddText""Port Vermillion is the UAF's government-approved trade-free zone. People of all sorts, regardless of their origins are allowed to stay here and try to make a living so long as nobody cause any problems for anyone. Half of the station's trading zone are dedicated for selling Aurorian goods, even those that came from beyond the 'Mirror Universe' as they say while the other are your usual good ol' Starsector material and goodies. There are even those exquisite black market stuff available if you look around hard enough."" textGrayColor",,,
+flavorTextMarketEntiaris,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$id == uaf_ryoko score:1000","AddText""Not everything is bright and shine in the Aoi Ayama system obviously. Entiaris is a world dedicated for miners to reside in while mining volatiles at the neighboring gas giant. However, piracy and other sort of criminal oddities have infested this world and make themselves known due to far distance and remote nature. Stolen ships are being stripped apart and cannibalized as black market thrives in a place such as this."" textGraycolor",,,
+,,,,,,
+,,,,,,
+CMSNTextRejectHostile_uaf,CMSNTextRejectHostile,$faction.id == uaf,,"""You do realize that we are known for out vast Intelligence network right? And that there is no way we wouldn't be aware of your are against $TheFaction right?""",,
+CMSNTextHasOther_uaf,CMSNTextHasOther,$faction.id == uaf,,"""Your file mention a current association with $theOtherCommissionFaction, and frankly there is no way we would ever work with someone that has such obvious ties to another authority.""",,
+CMSNTextUnsuited_uaf,CMSNTextUnsuited,$faction.id == uaf,,"""While expanding our network of collaborators is of utmost importance to $TheFaction, we cannot allow individuals we do not fully trust in our ranks.""",,
+CMSNTextSuitedPart1_uaf,CMSNTextSuitedPart1,$faction.id == uaf,,"""Ah, I see - you're certainly qualified to participate in our program according to your most recent contribution and friendly actions towards our cause. I'm sure the Queen would be pleased to know there's a local Domain starship captain who wished to serve and assist her."" ",,
+CMSNTextSuitedPart2_uaf,CMSNTextSuitedPart2,$faction.id == uaf,,"""However, due to our 'out-of-this-sector' nature - the local politics and relations might change at anytime which will affect you as well. You will receive our standard monthly stipent of #incomehere and accessibility to our facilities throughout the sector.""",,
+CMSNTextWelcomePart1_uaf,CMSNTextWelcomePart1,$faction.id == uaf,,"""Splendid! Welcome to the UAF and thank you for joining us. In return, you will be given access to our more military facilities and equipment stockpiles. Please help yourselves to our quartermasters for further enquiries."" ",,
+CMSNTextWelcomePart2_uaf,CMSNTextWelcomePart2,$faction.id == uaf,,"""Ah hold on, I've received a message.. Aeria Charlotte wishes to send her personal gratitude to you and good luck in the Sector. Is there anything else I could help you with?""",,
+CMSNTextChangeMind_uaf,CMSNTextChangeMind,$faction.id == uaf,,"""Understandable, this option would remain open for you. Should you ever return in foreseeable future - of course.""",,
+CMSNResignAskToConfirm_uaf,CMSNResignAskToConfirm,$faction.id == uaf,,"""Are you sure, Captain $playerName? Not everyone have the privilege to come up this far. The Royal Navy won't take this lightly and your privilege access will be stripped and limited.""",,
+CMSNResignConfirmed_uaf,CMSNResignConfirmed,$faction.id == uaf,,"""I see.. what a shame. Your resignation is confirmed. Good luck and fair seas.""",,
+CMSNResignCancelled_uaf,CMSNResignCancelled,$faction.id == uaf,,"""I'm glad you've changed your mind. If you haven't given up on us. So will we.""",,
+,,,,,,
+,,,,,,
+uafkeycard_turnInOption,PopulateOptions,"$isPerson
+UAFKeycard personCanAcceptKeys",FireBest DisableTurnInUAFKeycardOptionIfNeeded,,"10:UAFKeycard_startTurnIn:""I'd like to turn in these UAF Keycards that I've acquired...""",
+uafkeycard_disableTurnInOption,DisableTurnInUAFKeycardOptionIfNeeded,!AICores playerHasKeys,"SetTooltip UAFKeycard_startTurnIn ""You do not have any Keycard in your posession.""
+SetEnabled UAFKeycard_startTurnIn false",,,
+uafkeycard_turnInOptionSelGeneric,DialogOptionSelected,$option == UAFKeycard_startTurnIn,FireAll PopulateUAFKeycardTurnInOptions,"""A fascinating offer. Why, if one of the major factions caught you with these, they might just seize them outright. Tell you what - I'll do you a favour and give you a good price.""",,
+uafkeycard_playerHasOption,PopulateUAFKeycardTurnInOptions,,,,0:UAFKeycard_selectKeys:Select Keycard to turn in,
+uafkeycard_turnInOptionSelected,DialogOptionSelected,$option == UAFKeycard_selectKeys,UAFKeycard selectKeys,,,
+uafkeycard_turnInResponseDefault,UAFKeycardTurnedIn,,FireAll PopulateOptions,$PersonRank $personLastName thanks you and the conversation moves on to other matters.,,
+uafkeycard_neverMindOption,PopulateUAFKeycardTurnInOptions,,,,"100:UAFKeycard_neverMind:""Never mind, I don't actually have any.""",
+uafkeycard_neverMindOptionSelected,DialogOptionSelected,$option == UAFKeycard_neverMind,FireAll PopulateOptions,,,
+,,,,,,
+"#The start of vnsector, lets go!",,,,,,
+#Kitten Business,,,,,,
+UAFNiaFirstGreeting,PickGreeting,"$id == uaf_niaauroria score:100
+!$player.metUAFNiaAuroria","ShowPersonVisual
+FireAll PopulateOptions
+$player.metUAFNiaAuroria = true
+AddText ""You see many people from numerous worlds seems to be queueing in front of you, took the ticket and wait in the queue bench. Looking up there is a large sign laced with neon lights underneath with a text saying \""Aurora Diplomatic Bureau\"".""
+
+AddText ""Not long after, your number got called, you walk over to the counter and open the communication device that is now available to you""
+
+AddText """"\""Bzzt!!""\"""" highlight
+
+AddText ""A woman with a tied up white hair can now be seen appearing in your monitor, wearing a dark officer uniform with badges that appear quite high in rank on her shawl. A small text also appeared on the down-left side of your screen, identifying the person as Nia Auroria, the Administrator of this station as well as the current Head of The Bureau.""
+
+AddText ""\""Well, you may speak your business now, if not then I'll have something else to do.\"" the woman speaks in a strict manner, only slightly staring at you.""",,0:cutCommLinkPolite:Cut the comm link,
+UAFPlayerSawKitten,PopulateOptions,"$id == uaf_niaauroria score:100
+!$player.sawNiaKittenAlready
+UAFHasTag uaf_hasKitten
+!$hasAsked","$player.sawNiaKittenAlready = true
+$hasAsked = true 1",,"10:UAFKittenAsk:""Is that what I think it is?!""",
+UAFPlayerSawKittenAgain,PopulateOptions,"$id == uaf_niaauroria score:100
+$player.sawNiaKittenAlready
+UAFHasTag uaf_hasKitten
+!$hasAsked",$hasAsked = true 1,,"10:UAFKittenAskAgain:""I can see her being adventurous again..""",
+UAFNiaAskedAboutKitten,DialogOptionSelected,$option == UAFKittenAsk,"AddText ""\""Oh my! Inna, stop being so adventurous will you?!\""""
+AddTextSmall ""\""Nya!!\"""" highlight
+
+AddText ""Reputation Increased with Administrator""
+
+AdjustRepActivePerson NEUTRAL 1
+FireAll PopulateOptions",,,
+UAFNiaAskedAboutKittenAgain,DialogOptionSelected,$option == UAFKittenAskAgain,"AddText ""\""Yeah, inna is always adventurous after she eats.\"" the woman chuckles.""
+AddTextSmall ""\""Nya!\"""" highlight
+
+AddText ""Reputation Increased with Administrator""
+
+AdjustRepActivePerson NEUTRAL 1
+FireAll PopulateOptions",,,
+,,,,,,
+UAFDefaultNiaGreeting,PickGreeting,"$id == uaf_niaauroria
+$player.metUAFNiaAuroria
+UAFRelationCheck -1 51","ShowPersonVisual
+FireAll PopulateOptions
+SetShortcut cutCommLinkPolite ""ESCAPE""
+SetTextHighlights ""Nya!""","""Well, speak."" The woman with a tied-up white hair appears shortly after you insert your queue ticket. She seems disinterested with you, better talk quickly.
+OR
+The woman with tied-up white hair appears after a brief static, she appears to be busy with documents can be seen piling behind her, maybe you should speak.
+OR
+The woman with tied-up white hair appears after a brief static. There are piles of documents seen behind her, but for some reason, one of the pile falls over to topple the other document piles.
+
+""Ahhh!!! Inna!!!""
+""Nya!""",0:cutCommLinkPolite:Cut the comm link,
+UAFDefaultNiaGreetingFriendly,PickGreeting,"$id == uaf_niaauroria
+$player.metUAFNiaAuroria
+UAFRelationCheck 50 76","ShowPersonVisual
+FireAll PopulateOptions
+SetShortcut cutCommLinkPolite ""ESCAPE""","""Speak."" The woman with a tied-up white hair says in strict manner, appearing to not looking at the monitor.
+
+""Hmm? oh its you again $playerName . Well, what do you need?"" She stares at you, having gotten the administrator attention, you better speak quickly.
+OR
+You wait for a moment after you insert your queue ticket.
+
+""Hello $playerName, what brings you to the bureau today? hope its not a problem."" The woman with tied-up hair asks in a welcoming tone.",0:cutCommLinkPolite:Cut the comm link,
+UAFDefaultNiaGreetingCooperative,PickGreeting,"$id == uaf_niaauroria
+$player.metUAFNiaAuroria
+UAFRelationCheck 75 101","ShowPersonVisual
+FireAll PopulateOptions
+SetShortcut cutCommLinkPolite ""ESCAPE""","You wait for a moment after you submitted the queue ticket, a brief static appears in the monitor as it forms the image.
+
+""Ah, hello $playerName, what can I do for you? today's been really busy for me, there are forms and taxes that people need to fill, and also commercial papers that needs followup, my division been contacting them but they are barely answering, so frustrating right?! ugh! I really want to relax a bit but this station needs more approval and overseeing as it is still growing, there is also this merchant that has been screwing things up near the dock, like who bring their Lava-pet around?! it absolutely melts the railing and now we need to have engineer to repair that thing! -""
+
+The woman with a white tied-up hair seems to be chatty today as she keep talking about stuffs around the station, you better state your intention before the queue line getting too long behind you.
+OR
+""Oh, $playerName, can you wait for a bit, I am feeding Inna right now, I'll come back to you soon"" The woman with a tied-up hair seen to be leaving her desk, and momentarily you can see a pair of cat ears perked up on the screen. 
+
+Not long after, the Administrator back and move the kitten off from the desk, giving her the food before paying attention to you
+""Well, sorry for the delay, what do you need?""",0:cutCommLinkPolite:Cut the comm link,
+,,,,,,
+UAFDefaultNiaShutOff,PickGreeting,"$id == uaf_niaauroria score:105
+$entity.isHostile",,"Your queue ticket to direct line with administrator was rejected.
+OR
+Securities came into the Bureau and removed you from the premise.",,
+,,,,,,
+#Commissions,,,,,,
+UAFNiaAskForCommissionOpt,PopulateOptions,"$id == uaf_niaauroria score:100
+UAFRelationCheck 50 76
+!Commission hasFactionCommission",,,"20:cmsn_askCommission:""I'd like to be commissioned by $theFaction""",
+UAFNiaResignCommissionOpt,PopulateOptions,"$id == uaf_niaauroria score:100
+Commission hasFactionCommission",,,"20:cmsn_resignCommission:""I'd like to resign my $faction commission""",
+,,,,,,
+UAFNiaOutrightRejectCommission,DialogOptionSelected,"$id == uaf_niaauroria
+$option == cmsn_askCommission
+$faction.isHostile score:100","SetEnabled cmsn_askCommission false
+FireBest CMSNTextRejectHostile",,,
+UAFNiaHasOtherCommission,DialogOptionSelected,"$id == uaf_niaauroria
+$option == cmsn_askCommission
+!$faction.isHostile
+Commission hasOtherCommission","SetEnabled cmsn_askCommission false
+FireBest CMSNTextHasOther",,,
+UAFNiaCommissionNotMeetCriteria,DialogOptionSelected,"$id == uaf_niaauroria
+$option == cmsn_askCommission
+!Commission playerMeetsCriteria","SetEnabled cmsn_askCommission false
+FireBest CMSNTextUnsuited
+Commission printRequirements",,,
+UAFNiaCommissionMeetCriteria,DialogOptionSelected,"$id == uaf_niaauroria
+$option == cmsn_askCommission
+Commission playerMeetsCriteria",FireBest CMSNTextSuitedPart1,,0:cmsn_continueMeetsReq:Continue,
+UAFNiaCommissionMeetCriteria2,DialogOptionSelected,"$id == uaf_niaauroria
+$option == cmsn_continueMeetsReq","Commission printInfo
+FireBest CMSNTextSuitedPart2",,"0:cmsn_accept:Accept $factionAOrAn $faction commission
+1:cmsn_cancel:""Perhaps I'm not quite ready for this.""",
+UAFNiaCommissionAccepted,DialogOptionSelected,"$id == uaf_niaauroria
+$option == cmsn_accept","FireBest CMSNTextWelcomePart1
+Commission accept
+FireBest CMSNTextWelcomePart2
+FireAll PopulateOptions",,,
+UAFNiaCommissionCanceled,DialogOptionSelected,"$id == uaf_niaauroria
+$option == cmsn_cancel","FireBest CMSNTextChangeMind
+FireAll PopulateOptions",,,
+UAFNiaCommissionResignOptions,DialogOptionSelected,"$id == uaf_niaauroria
+$option == cmsn_resignCommission",FireBest CMSNResignAskToConfirm,,"0:cmsn_resignConfirm:""Yes, I'm sure.""
+1:cmsn_resignCancel:""Never mind, I've reconsidered.""",
+UAFNiaCommissionResignAccept,DialogOptionSelected,"$id == uaf_niaauroria
+$option == cmsn_resignConfirm","FireBest CMSNResignConfirmed
+Commission resign
+FireAll PopulateOptions",,,
+UAFNiaCommissionResignCancel,DialogOptionSelected,"$id == uaf_niaauroria
+$option == cmsn_resignCancel","FireBest CMSNResignCancelled
+FireAll PopulateOptions",,,
+,,,,,,
+CMSNTextRejectHostile_default,CMSNTextRejectHostile,,,"""Is this some kind of joke? If you are who you say you are, you're on several $faction wanted lists.""",,
+CMSNTextHasOther_default,CMSNTextHasOther,,,"""You're already commissioned by $theOtherCommissionFaction. You'll have to resign that commission before you can be commissioned by $theFaction.""",,
+CMSNTextUnsuited_default,CMSNTextUnsuited,,,"""I'm sorry, but you don't meet our criteria for receiving a commission.""",,
+CMSNTextSuitedPart1_default,CMSNTextSuitedPart1,,,"""Hmm, yes, you're a suitable candidate.
+
+Accepting a commission is a serious matter. You will be required to fight enemies of $theFaction, wherever they may be found.
+
+You'll be able to resign your commission at any time, though I don't imagine doing so would win you any friends.""",,
+CMSNTextSuitedPart2_default,CMSNTextSuitedPart2,,,"""So, how about it? Still want to sign on?""",,
+CMSNTextWelcomePart1_default,CMSNTextWelcomePart1,,,"""Excellent! Welcome to the service.""",,
+CMSNTextWelcomePart2_default,CMSNTextWelcomePart2,,,"""Anything else I can do for you?""",,
+CMSNTextChangeMind_default,CMSNTextChangeMind,,,"""Yes, not everyone has it in them to uphold the values of $theFaction to such a high standard. No shame in it.
+
+Anything else I can do for you?""",,
+CMSNResignAskToConfirm_default,CMSNResignAskToConfirm,,,"""Are you sure? $TheFaction needs people it can rely on, and turning your back like this won't be easily forgotten.""",,
+CMSNResignConfirmed_default,CMSNResignConfirmed,,,"""I can see there's no changing your mind. Well, at least you had the courtesy to tender your resignation in person.""",,
+CMSNResignCancelled_default,CMSNResignCancelled,,,"""A good decision. We can use people like you.""",,
+,,,,,,
+#Missions,,,,,,
+UAFNiaNoMissions,ContactPreMissionListText,"$id == uaf_niaauroria score:100
+$mh_count <= 0",,,,
+UAFNiaNoMissionsSuspend,ContactPreMissionListText,"$id == uaf_niaauroria score:100
+$mh_count <= 0
+$mHub_contactSuspended",,,,
+UAFNiaOneMission,ContactPreMissionListText,"$id == uaf_niaauroria score:100
+$mh_count == 1
+$mh_firstInlineBlurb != null",$mh_doNotPrintBlurbs = true 0,,,
+UAFNiaMultipleMission,MHPostMissionListText,"$id == uaf_niaauroria score:100
+$mh_count > 1",,,,
+UAFNiaContactPrintAcceptText,ContactPrintAcceptText,$id == eisava score:100,,,,
+,,,,,,
+#VNSector Stuffs,,,,,,
+,,,,,,

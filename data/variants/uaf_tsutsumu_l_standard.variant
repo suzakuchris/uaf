@@ -13,9 +13,6 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "uaf_triyia_pdx",
-        "WS0005": "uaf_pd_reina",
-        "WS0006": "uaf_pd_reina",
         "WS0009": "uaf_tona_i",
         "WS0010": "uaf_tona_i"
       }
@@ -24,15 +21,36 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "uaf_ivory",
+        "WS0001": "uaf_ivory"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "uaf_pd_reina",
+        "WS0016": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_pd_reina",
+        "WS0006": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0002": "uaf_weiss_flk",
         "WS0003": "uaf_weiss_flk",
+        "WS0004": "uaf_triyia_pdx",
         "WS0007": "uaf_weiss_flk",
         "WS0008": "uaf_weiss_flk",
         "WS0011": "uaf_weiss_flk",
-        "WS0012": "uaf_weiss_flk",
-        "WS0015": "uaf_pd_reina",
-        "WS0016": "uaf_pd_reina"
+        "WS0012": "uaf_weiss_flk"
       }
     }
   ],

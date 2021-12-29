@@ -3,16 +3,45 @@
     "corvusCompatible":true,
     "startingFaction":true,
     
+    "ngcTooltip":"The Permaisuri's wishes must survive the onslaught of the Starsector, at all cost. We must see through to the end, no matter how grim it might be.",
+    "rebelFleetSuffix":"Renegades",
+
+    "asteroidMiningFleetName":"Mining Flotilla",
+    "gasMiningFleetName":"Gas Mining Flotilla",
+    "invasionFleetName":"Invasion Fleet",
+    "responseFleetName":"Planetary Defense Fleet ",
+    "invasionSupportFleetName":"Support Squadron",
+    "defenceFleetName":"Defense Fleet",
+	"noSyncRelations":false,
+
+    "marketSpawnWeight":2,
+
     "startRelationships":{
         "independent":0.5,
-        "player":0.5,
+        "player":-0.15,
+        "scalartech":0.3,
         "pirates":-0.5,
         "hegemony":-1,
-        "luddic_church":-0.15,
-        "luddic_path":-0.15,
-        "persean":-0.15,
-        "tritachyon":-0.15,
-        "sindrian_diktat":-0.35
+        "luddic_church":-0.65,
+        "luddic_path":-0.65,
+        "persean":-0.35,
+        "tritachyon":-0.35,
+        "sindrian_diktat":-0.55,
+        "diableavionics":-0.35, 
+		"sylphon":-0.65,
+		"tiandong":-1.0,
+        "blackrock_driveyards":-0.5,
+        "dassault_mikoyan":-0.5,
+        "aic":-0.5,
+		"brighton":-0.5,
+		"hmi":-0.5,
+		"interstellarimperium":-1.0,
+		"kadur_remnant":-0.5,
+		"al_ars":-0.5,
+		"ora":-0.5,
+		"shadow_industry":-0.5,
+        "ironshell":-0.45
+
     },
     "morality":"good",
     "alignments":{
@@ -22,10 +51,78 @@
         "technocratic":1
     },
     "diplomacyTraits":["pacifist", "stalwart", "helps_allies", "likes_ai"],
+    
+    "freeMarket":true,
+
+    "factionIdForHqResponse":"uaf_november",
+
+    # chance of the faction being picked to send a colony expedition. Default 0 (disabled)
+    "colonyExpeditionChance":0.3,	# We prefer to sell bakery products, for now.
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+
+    "specialForcesNamerClass":"exerelin.campaign.intel.specialforces.namer.PlanetNamer",
+
     "startShipsSolo":[
-        ["uaf_m_nakiha_standard"]
+        ["uaf_m_nakiha_standard"],
+		["uaf_m_rama_corvette_standard"],
+        ["uaf_lovela_standard"],
+        ["uaf_minoria_standard"],
+        ["uaf_akatsuzuma_standard"]
+    ],
+
+    "startShipsCombatSmall":[
+        ["uaf_nakiha_standard", "uaf_nakiha_standard", "uaf_rama_corvette_standard", "uaf_inazuma_standard"],
+        ["uaf_rama_corvette_standard", "uaf_rama_corvette_standard", "uaf_akatsuzuma_standard"]
+    ],
+    "startShipsTradeSmall":[
+        ["uaf_supolev_alpha_standard", "uaf_sekai_s_standard", "uaf_nakiha_standard"]
     ],
     "startShipsCarrierSmall":[
-        ["uaf_m_minoria_standard"]
-    ]
+        ["uaf_minoria_standard", "uaf_nakiha_standard", "uaf_sekai_s_standard", "uaf_supolev_alpha_standard"],
+        ["uaf_exoria_standard", "uaf_nakiha_standard, uaf_sekai_s_standard"],
+        ["uaf_shinoria_standard", "uaf_rama_corvette_standard, uaf_supolev_alpha_standard"]
+    ],
+
+    "startShipsTradeMedium":[
+        ["uaf_miyo_juliet_standard", "uaf_wo_m_standard", "uaf_nakiha_standard", "uaf_nakiha_standard"]
+    ],    
+
+    "startShipsCombatLarge":[
+        ["uaf_rillaru_standard", "uaf_lillaru_standard", "uaf_miyo_juliet_standard"],
+        ["uaf_reisen_standard", "uaf_lovela_standard", "uaf_wo_m_standard"],
+        ["uaf_lillaru_standard", "uaf_lovela_standard", "uaf_nakiha_standard", "uaf_sekai_s_standard", "uaf_supolev_alpha_standard"],
+        ["uaf_inazuma_standard", "uaf_akatsuzuma_standard", "uaf_nakiha_standard", "uaf_novayu_standard", "uaf_rama_corvette_standard", "uaf_rama_corvette_standard"]
+    ],
+    "startShipsTradeLarge":[
+        ["uaf_junyo_delta_standard", "uaf_akatsuzuma_standard", "uaf_sekai_s_standard"],
+        ["uaf_tsutsumu_l_standard", "uaf_minoria_standard", "uaf_supolev_alpha_standard"]
+    ],
+    "startShipsExplorerSmall":[
+        ["uaf_osela_suv_standard", "uaf_rama_corvette_standard", "uaf_sekai_s_standard"],
+        ["uaf_scinaut_suv_standard", "uaf_nakiha_standard", "uaf_supolev_alpha_standard"]
+    ],
+
+    "startShipsSuper":[
+        ["uaf_m_fusoreina_standard"],
+        ["uaf_isenoria_prototype_standard"],
+    ],
+
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"], "weight":0.5},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"population_upsize", "count":1},
+        {"id":"uaf_servosync_pump", "count":1},
+        {"id":"uaf_dimen_nanoforge", "count":1},
+        {"id":"uaf_modular_purrifier", "count":1},
+    ],
+}
 }

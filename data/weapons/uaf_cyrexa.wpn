@@ -10,9 +10,9 @@
 	"hardpointGunSprite":"graphics/weapons/CYREXA/cyrexa_508mm_quad_turret_recoil.png",	
 	"visualRecoil":10.0,  # the gun sprites are only used if this is non-0
 	"renderHints":[RENDER_BARREL_BELOW],
-	"turretOffsets":[20, -15, 28, -3, 28, 3, 20, 15],
+	"turretOffsets":[28, 13, 29, 7, 29, -7, 28, -13],
 	"turretAngleOffsets":[0, 0],
-	"hardpointOffsets":[20, -15, 28, -3, 28, 3, 20, 15],
+	"hardpointOffsets":[28, 13, 29, 7, 29, -7, 28, -13],
 	"hardpointAngleOffsets":[0, 0],
 	"specialWeaponGlowWidth":15,
 	"specialWeaponGlowHeight":40,
@@ -26,6 +26,7 @@
 					   "particleCount":35,
 					  "particleColor":[165,225,185,175]},
 	"projectileSpecId":"uaf_pu_ash_lg",  # projectile that will be fired
-	"fireSoundTwo":"cyrexa_cannon4",
+	"fireSoundOne":"uaf_ru_cyrexa_452",
+	"fireSoundTwo":"uaf_cyrexa_452",
 	"everyFrameEffect":"data.scripts.weapons.uaf_laserPrecannon",	
 }

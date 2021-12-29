@@ -26,5 +26,5 @@
 					   "particleCount":7,
 					  "particleColor":[100,165,255,175]},
 	"projectileSpecId":"uaf_pu_pd_sm",
-	"fireSoundTwo":"chaingun_fire",
+	"fireSoundTwo":"uaf_reina_20",
 }

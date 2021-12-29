@@ -7,9 +7,9 @@
   "height": 227,
   "width": 136,
   "center": [68, 113.5],
-  "collisionRadius": 118,
+  "collisionRadius": 163,
   "shieldCenter": [0, 0],
-  "shieldRadius": 135,
+  "shieldRadius": 130,
   "viewOffset": 0,
   "builtInMods": [
     "uaf_auroranEngineering",
@@ -21,7 +21,7 @@
       "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 235,
+      "arc": 227,
       "angle": 180,
       "locations": [-79.5, -0]
     },
@@ -39,7 +39,7 @@
       "size": "MEDIUM",
       "type": "HYBRID",
       "mount": "TURRET",
-      "arc": 230,
+      "arc": 250,
       "angle": 0,
       "locations": [76.5, -0]
     },
@@ -48,7 +48,7 @@
       "size": "MEDIUM",
       "type": "COMPOSITE",
       "mount": "TURRET",
-      "arc": 253,
+      "arc": 217,
       "angle": -62,
       "locations": [1.5, -48]
     },
@@ -57,7 +57,7 @@
       "size": "MEDIUM",
       "type": "COMPOSITE",
       "mount": "TURRET",
-      "arc": 253,
+      "arc": 217,
       "angle": 62,
       "locations": [1.5, 48]
     },
@@ -66,7 +66,7 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 307,
+      "arc": 287,
       "angle": -153.5,
       "locations": [-63.5, -50]
     },
@@ -75,7 +75,7 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 307,
+      "arc": 287,
       "angle": 153.5,
       "locations": [-63.5, 50]
     },
@@ -101,35 +101,35 @@
   "engineSlots": [
     {
       "location": [-26, 49],
-      "length": 22.5,
-      "width": 10,
+      "length": 40,
+      "width": 24,
       "angle": -180,
-      "contrailSize": 10,
-      "style": "LOW_TECH"
+      "contrailSize": 24,
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-26, -49],
-      "length": 22.5,
-      "width": 10,
+      "length": 40,
+      "width": 24,
       "angle": 180,
-      "contrailSize": 10,
-      "style": "LOW_TECH"
+      "contrailSize": 24,
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-36, 34],
-      "length": 27,
-      "width": 14,
+      "length": 75,
+      "width": 27,
       "angle": 180,
-      "contrailSize": 14,
-      "style": "LOW_TECH"
+      "contrailSize": 27,
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-36, -34],
-      "length": 27,
-      "width": 14,
+      "length": 75,
+      "width": 27,
       "angle": -180,
-      "contrailSize": 14,
-      "style": "LOW_TECH"
+      "contrailSize": 27,
+      "style": "MELODY_ENGINE"
     }
   ],
   "bounds": [

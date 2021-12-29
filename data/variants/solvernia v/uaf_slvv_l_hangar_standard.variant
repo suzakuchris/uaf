@@ -4,22 +4,44 @@
   "displayName": "Standard",
   "goalVariant": false,
   "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "uaf_auroranEngineering",
+    "uaf_militaryGrade"
+  ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "uaf_weiss_flk",
+        "WS0001": "uaf_weiss_flk"
       }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "uaf_claris_cn"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_decor_mg",
+        "WS0003": "uaf_decor_mg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
     }
   ],
   "modules": [],
   "wings": [
-    "uaf_wing_superaria",
-    "uaf_wing_superaria",
+    "uaf_wing_exoscar"
   ]
 }

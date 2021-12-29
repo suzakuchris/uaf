@@ -1,19 +1,25 @@
 {
   "hullName": "Rillaru",
   "hullId": "uaf_rillaru",
-  "hullSize": "CRUISER",
+  "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/ships/Rillaru_Standard.png",
   "style": "MIDLINE",
   "height": 374,
   "width": 284,
   "center": [142, 187],
-  "collisionRadius": 226,
+  "collisionRadius": 257.5,
   "shieldCenter": [0, 0],
-  "shieldRadius": 185.5,
+  "shieldRadius": 202.5,
   "viewOffset": 0,
   "builtInMods": [
-    "uaf_auroranEngineering"
+    "uaf_auroranEngineering",
+    "uaf_fighterManager"
   ],
+  "builtInWeapons": {
+    "REACTOR_ENGINE": "uaf_rillaru_reactor",
+    "SIRENE_1":"uaf_blinker_sirene_2",
+    "SIRENE_2":"uaf_blinker_sirene_2"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -263,6 +269,33 @@
         -3.5, -51.5,
         -1.5, -53.5
       ]
+    },
+    {
+      "id": "REACTOR_ENGINE",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "SIRENE_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [4, 0]
+    },
+    {
+      "id": "SIRENE_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [12, -0]
     }
   ],
   "engineSlots": [
@@ -272,7 +305,7 @@
       "width": 21.147308,
       "angle": -158.5,
       "contrailSize": 21.147308,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-118.5, 71],
@@ -280,7 +313,7 @@
       "width": 20.467409,
       "angle": 158.5,
       "contrailSize": 20.467409,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-125, -57],
@@ -288,7 +321,7 @@
       "width": 21.11898,
       "angle": -158.5,
       "contrailSize": 21.11898,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-125, 57],
@@ -296,7 +329,7 @@
       "width": 20.100908,
       "angle": 158.5,
       "contrailSize": 20.100908,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-60.5, -93],
@@ -304,7 +337,7 @@
       "width": 10,
       "angle": -158.5,
       "contrailSize": 30,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-60.5, 93],
@@ -312,7 +345,7 @@
       "width": 10,
       "angle": 158.5,
       "contrailSize": 30,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-171, 23.5],
@@ -320,7 +353,7 @@
       "width": 10,
       "angle": 180,
       "contrailSize": 30,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-171, -23.5],
@@ -328,7 +361,7 @@
       "width": 10,
       "angle": -180,
       "contrailSize": 30,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-167, 10],
@@ -336,7 +369,7 @@
       "width": 15,
       "angle": 180,
       "contrailSize": 15,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-167, -10],
@@ -344,7 +377,7 @@
       "width": 15,
       "angle": -180,
       "contrailSize": 15,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-166.5, -0],
@@ -352,7 +385,7 @@
       "width": 36,
       "angle": 180,
       "contrailSize": 36,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     }
   ],
   "bounds": [

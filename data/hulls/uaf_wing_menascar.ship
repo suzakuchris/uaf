@@ -19,7 +19,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [-7.5, -20.5]
+      "locations": [-10, -12.5]
     },
     {
       "id": "WS0002",
@@ -28,7 +28,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [-7.5, 20.5]
+      "locations": [-10, 12.5]
     },
     {
       "id": "WS0003",
@@ -47,24 +47,33 @@
       "arc": 0,
       "angle": -0,
       "locations": [0, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-7.5, -0]
     }
   ],
   "engineSlots": [
     {
       "location": [-19, -7],
-      "length": 37,
-      "width": 27,
+      "length": 84.5,
+      "width": 21,
       "angle": 180,
-      "contrailSize": 27,
-      "style": "LOW_TECH"
+      "contrailSize": 21,
+      "style": "MELODY_ENGINE_D"
     },
     {
       "location": [-19, 7],
-      "length": 37,
-      "width": 27,
+      "length": 84.5,
+      "width": 21,
       "angle": -180,
-      "contrailSize": 27,
-      "style": "LOW_TECH"
+      "contrailSize": 21,
+      "style": "MELODY_ENGINE_D"
     }
   ],
   "bounds": [

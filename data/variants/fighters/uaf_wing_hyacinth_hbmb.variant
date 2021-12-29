@@ -1,7 +1,7 @@
 {
   "variantId": "uaf_wing_hyacinth_hbmb",
   "hullId": "uaf_wing_hyacinth",
-  "displayName": "Hyacinth HBMB",
+  "displayName": "Strategic Heavy Bomber",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,
@@ -13,25 +13,25 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "uaf_bombs_medium",
-        "WS0005": "uaf_bombs_medium",
-        "WS0006": "uaf_bombs_heavy",
-        "WS0007": "uaf_bombs_heavy"
+        "WS0004": "uaf_fw_usb_class_ii",
+        "WS0005": "uaf_fw_usb_class_ii",
+        "WS0006": "uaf_fw_usb_class_iii",
+        "WS0007": "uaf_fw_usb_class_iii"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "uaf_weiss_flk",
-        "WS0002": "uaf_pd_reina"
+        "WS0001": "uaf_pd_reina",
+        "WS0002": "uaf_weiss_flk"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "flarelauncher2"
+        "WS0003": "uaf_fighterflare"
       }
     }
   ],

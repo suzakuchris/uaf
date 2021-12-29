@@ -13,12 +13,12 @@
   "hardpointSprite": "graphics/weapons/fighter_cannon.png",
   "id": "uaf_decor_mg",  "interruptibleBurst": true,
   "muzzleFlashSpec": {
-    "length": 35,
+    "length": 5,
     "particleColor": [100,165,255,175],
     "particleCount": 7,
     "particleDuration": 0.15,
-    "particleSizeMin": 6,
-    "particleSizeRange": 8,
+    "particleSizeMin": 1,
+    "particleSizeRange": 2,
     "spread": 6
   },
   "projectileSpecId": "uaf_pu_pd_sm",

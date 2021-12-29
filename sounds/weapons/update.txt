@@ -1,0 +1,31 @@
+====fixed ( rework )====
+uaf_herexa_608
+uaf_hikone_125
+uaf_claris_50
+uaf_deco_mg
+
+-fighter
+uaf_aa_small_explosion_1
+uaf_aa_small_explosion_2
+uaf_aa_small_explosion_2
+
+-antair
+Small AA fire 1
+Small AA fire 2
+Small AA fire 3
+
+====New====
+uaf_herexa_608 - ready up
+uaf_cyrexa_452 - ready up
+uaf_tona_iii_608 - ready up
+uaf_tona_iii_452 - ready up
+uaf_tona_iii_254 - ready up
+uaf_tona_iii_125 - ready up
+
+-engine (try this on sSolvernia)
+uaf_engine_boost_01
+uaf_engine_boost_02
+uaf_engine_boost_03
+uaf_flagship _engine
+
+

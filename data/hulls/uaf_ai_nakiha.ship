@@ -7,8 +7,8 @@
   "height": 153,
   "width": 104,
   "center": [52, 71.5],
-  "collisionRadius": 104,
-  "shieldCenter": [0, 2],
+  "collisionRadius": 112,
+  "shieldCenter": [0, -0],
   "shieldRadius": 87.5,
   "viewOffset": 0,
   "builtInMods": [
@@ -100,7 +100,7 @@
       "width": 16,
       "angle": 180,
       "contrailSize": 16,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-29.5, 26.5],
@@ -108,7 +108,7 @@
       "width": 14,
       "angle": 153.5,
       "contrailSize": 14,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-30, -27.5],
@@ -116,7 +116,7 @@
       "width": 14,
       "angle": -153.5,
       "contrailSize": 14,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     }
   ],
   "bounds": [

@@ -3,6 +3,7 @@
 	"specClass":"missile",	
 	"missileType":"ROCKET",
 	"sprite":"graphics/weapons/Missiles/semibreve_astnm_l/missile_semibreve_tacticalnuke.png",
+	"onHitEffect":"data.scripts.weapons.uaf_nukeHit",
 	"size":[14,40],	
 	"center":[7,20],
 	"collisionRadius":50,
@@ -32,8 +33,23 @@
 				  "acc":250,
 				  "dec":5},
 	"engineSlots":[{"id":"ES1",
-					"loc":[-7, 0],
-				    "style":"MISSILE_HIGH_TECH",
+					"loc":[-16, 0],
+				    #"style":"MELODY_ENGINE",
+					"style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[255,100,100,255],
+						"glowSizeMult":2.5,
+						"contrailDuration":2.0,
+						"contrailWidthMult":0.5,
+						"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.75f,
+						"contrailAngularVelocityMult":0.1f,
+						"contrailColor":[255,100,100,50],
+						"glowAlternateColor":[255,0,0,255],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
 				    "width":10.0,
 				    "length":60.0,
 				    "angle":180.0},

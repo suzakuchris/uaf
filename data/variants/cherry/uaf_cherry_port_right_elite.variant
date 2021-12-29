@@ -1,0 +1,41 @@
+{
+  "variantId": "uaf_cherry_port_right_elite",
+  "hullId": "uaf_cherry_port_right",
+  "displayName": "Cherry Right Port",
+  "goalVariant": false,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "uaf_auroranEngineering"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_claris_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_weiss_flk",
+        "WS0003": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_deco_mg",
+        "WS0005": "uaf_deco_mg",
+        "WS0006": "uaf_deco_mg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

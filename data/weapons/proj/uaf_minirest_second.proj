@@ -36,8 +36,8 @@
 						"glowAlternateColor":[0,0,139,75],
 						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
 					},
-				    "width":3.0,
-				    "length":40.0,
+				    "width":5.0,
+				    "length":60.0,
 				    "angle":150.0},
 					{"id":"ES3",
 					"loc":[10, -3],
@@ -58,7 +58,7 @@
 						"glowAlternateColor":[0,0,139,75],
 						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
 					},
-				    "width":3.0,
-				    "length":40.0,
+				    "width":5.0,
+				    "length":60.0,
 				    "angle":210.0}]
 }

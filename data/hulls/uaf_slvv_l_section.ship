@@ -1,7 +1,7 @@
 {
   "hullName": "Left Section",
   "hullId": "uaf_slvv_l_section",
-  "hullSize": "CAPITAL_SHIP",
+  "hullSize": "CRUISER",
   "spriteName": "graphics/ships/SLV/uaf_solverniav_left_large_section.png",
   "style": "MIDLINE",
   "height": 142,
@@ -13,7 +13,10 @@
   "viewOffset": 0,
   "builtInMods": [
     "never_detaches",
-    "uaf_noExplosion"
+    "uaf_noExplosion",
+	"uaf_flagship_armouring",
+	"uaf_auroranEngineering",
+	"uaf_militaryGrade",
   ],
   "weaponSlots": [
     {

@@ -15,7 +15,11 @@
     "hiressensors",
     "surveying_equipment",
     "uaf_auroranEngineering",
+    "shielded_holds"
   ],
+  "builtInWeapons": {
+    "WS0002": "uaf_pulse_generator"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -25,6 +29,15 @@
       "arc": 260,
       "angle": 0,
       "locations": [46, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 354,
+      "angle": -177,
+      "locations": [-69.5, -0]
     }
   ],
   "engineSlots": [
@@ -34,7 +47,7 @@
       "width": 21,
       "angle": 180,
       "contrailSize": 21,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-13, 30],
@@ -42,7 +55,7 @@
       "width": 21,
       "angle": -180,
       "contrailSize": 21,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     }
   ],
   "bounds": [

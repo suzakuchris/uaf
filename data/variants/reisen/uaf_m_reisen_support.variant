@@ -4,7 +4,7 @@
   "displayName": "Support",
   "goalVariant": true,
   "fluxCapacitors": 30,
-  "fluxVents": 10,
+  "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
@@ -15,16 +15,26 @@
       "weapons": {
         "WS0001": "uaf_ivory",
         "WS0002": "uaf_ivory",
-        "WS0005": "uaf_pd_reina",
-        "WS0006": "uaf_pd_reina",
         "WS0011": "uaf_tona_iii",
         "WS0012": "uaf_tona_iii",
-        "WS0013": "uaf_weiss_iii_flk",
-        "WS0014": "uaf_weiss_iii_flk",
         "WS0015": "uaf_tona_ii",
-        "WS0016": "uaf_tona_ii",
-        "WS0019": "uaf_rhythm_base",
-        "WS0020": "uaf_rhythm_base"
+        "WS0016": "uaf_tona_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "uaf_weiss_iii_flk",
+        "WS0014": "uaf_weiss_iii_flk"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0019": "uaf_chorus_l_amm",
+        "WS0020": "uaf_chorus_l_amm"
       }
     },
     {
@@ -32,7 +42,15 @@
       "mode": "LINKED",
       "weapons": {
         "WS0003": "uaf_claris_cn",
-        "WS0004": "uaf_claris_cn",
+        "WS0004": "uaf_claris_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_pd_reina",
+        "WS0006": "uaf_pd_reina",
         "WS0007": "uaf_weiss_flk",
         "WS0008": "uaf_weiss_flk",
         "WS0009": "uaf_pd_reina",

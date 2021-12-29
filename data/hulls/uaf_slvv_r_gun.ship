@@ -1,7 +1,7 @@
 {
   "hullName": "Right Gun Platform",
   "hullId": "uaf_slvv_r_gun",
-  "hullSize": "CAPITAL_SHIP",
+  "hullSize": "CRUISER",
   "spriteName": "graphics/ships/SLV/uaf_solverniav_right_gun_section.png",
   "style": "MIDLINE",
   "height": 249,
@@ -14,7 +14,9 @@
   "builtInMods": [
     "never_detaches",
     "uaf_noExplosion",
-    "uaf_flagship_armouring"
+    "uaf_flagship_armouring",
+	"uaf_auroranEngineering",
+	"uaf_militaryGrade"
   ],
   "builtInWeapons": {
     "WS0001": "uaf_decor_mg",

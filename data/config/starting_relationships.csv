@@ -1,6 +1,6 @@
 factionId,relationshipStart
 independent,0.5
-player,0.5
+player,-0.15
 pirates,-0.5
 hegemony,-1
 luddic_church,-0.15

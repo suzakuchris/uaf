@@ -3,14 +3,14 @@
   "hullId": "uaf_sentry",
   "displayName": "Military",
   "goalVariant": false,
-  "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
   "weaponGroups": [
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0006": "uaf_tona_iv"
@@ -20,10 +20,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "uaf_weiss_flk",
-        "WS0003": "uaf_weiss_flk",
-        "WS0004": "uaf_weiss_flk",
-        "WS0005": "uaf_weiss_flk",
+        "WS0002": "uaf_tona_i",
+        "WS0003": "uaf_tona_i"
       }
     },
     {
@@ -32,6 +30,14 @@
       "weapons": {
         "WS0007": "uaf_missile_barrage",
         "WS0008": "uaf_missile_barrage"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_weiss_flk",
+        "WS0005": "uaf_weiss_flk"
       }
     }
   ],

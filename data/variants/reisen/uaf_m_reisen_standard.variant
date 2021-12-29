@@ -3,8 +3,8 @@
   "hullId": "uaf_m_reisen",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxCapacitors": 10,
+  "fluxVents": 35,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
@@ -13,16 +13,19 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "uaf_medlav_dual",
-        "WS0002": "uaf_medlav_dual",
         "WS0011": "uaf_cyrexa_triple",
         "WS0012": "uaf_cyrexa_triple",
         "WS0013": "uaf_cyrexa_triple",
         "WS0014": "uaf_cyrexa_triple",
-        "WS0015": "uaf_medlav_quad",
-        "WS0016": "uaf_weiss_ii_flk",
-        "WS0019": "uaf_rhythm_base",
-        "WS0020": "uaf_rhythm_base"
+        "WS0015": "uaf_medlav_quad"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0019": "uaf_vocal_l_srm",
+        "WS0020": "uaf_vocal_l_srm"
       }
     },
     {
@@ -32,11 +35,26 @@
         "WS0003": "uaf_claris_cn",
         "WS0004": "uaf_claris_cn",
         "WS0005": "uaf_claris_cn",
-        "WS0006": "uaf_claris_cn",
+        "WS0006": "uaf_claris_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_medlav_dual",
+        "WS0002": "uaf_medlav_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0007": "uaf_weiss_flk",
         "WS0008": "uaf_weiss_flk",
         "WS0009": "uaf_pd_reina",
         "WS0010": "uaf_pd_reina",
+        "WS0016": "uaf_weiss_ii_flk",
         "WS0017": "uaf_weiss_flk",
         "WS0018": "uaf_weiss_flk"
       }

@@ -5,7 +5,7 @@
 	"collisionClass":"PROJECTILE_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
 	#"onHitEffect":"data.scripts.weapons.uaf_flakLargeHit",
-	"length":160.0,
+	"length":55.0,
 	"hitGlowRadius":38,
 	"width":12.5,
 	"fadeTime":3,

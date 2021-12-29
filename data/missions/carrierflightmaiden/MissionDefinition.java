@@ -27,58 +27,23 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addToFleet(FleetSide.PLAYER, "uaf_wing_lynx_ahft", FleetMemberType.SHIP, "UAF Raptor", true);
 		//exorias
 		api.addToFleet(FleetSide.PLAYER, "uaf_exoria_standard", FleetMemberType.SHIP, "UAF Exoria", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_exoria_bomber", FleetMemberType.SHIP, "UAF Exoria Bomber", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_exoria_superiority", FleetMemberType.SHIP, "UAF Exoria superiority", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_exoria_surgical", FleetMemberType.SHIP, "UAF Exoria Surgical", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_m_exoria_bomber", FleetMemberType.SHIP, "UAF Exoria Bomber", false);
 		api.addToFleet(FleetSide.PLAYER, "uaf_m_exoria_standard", FleetMemberType.SHIP, "UAF Exoria Military", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_m_exoria_strike", FleetMemberType.SHIP, "UAF Exoria Strike", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_m_exoria_superiority", FleetMemberType.SHIP, "UAF Exoria superiority", false);
 
 		//minorias
 		api.addToFleet(FleetSide.PLAYER, "uaf_minoria_standard", FleetMemberType.SHIP, "UAF Minoria", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_minoria_bomber", FleetMemberType.SHIP, "UAF Minoria Bomber", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_minoria_superiority", FleetMemberType.SHIP, "UAF Minoria Superiority", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_minoria_surgical", FleetMemberType.SHIP, "UAF Minoria Surgical", false);
-
 		api.addToFleet(FleetSide.PLAYER, "uaf_m_minoria_standard", FleetMemberType.SHIP, "UAF Minoria M", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_m_minoria_strike", FleetMemberType.SHIP, "UAF Minoria M Strike", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_m_minoria_bomber", FleetMemberType.SHIP, "UAF Minoria M Bomber", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_m_minoria_superiority", FleetMemberType.SHIP, "UAF Minoria M superiority", false);
-
-
 		api.addToFleet(FleetSide.PLAYER, "uaf_ai_minoria_standard", FleetMemberType.SHIP, "UAF Minoria AI", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_ai_minoria_strategic", FleetMemberType.SHIP, "UAF Minoria AI Strategic", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_ai_minoria_strike", FleetMemberType.SHIP, "UAF Minoria AI Strike", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_ai_minoria_superiority", FleetMemberType.SHIP, "UAF Minoria AI superiority", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_ai_minoria_surgical", FleetMemberType.SHIP, "UAF Minoria AI Surgical", false);
 
 		//neuxorias
 		api.addToFleet(FleetSide.PLAYER, "uaf_ai_neuxoria_standard", FleetMemberType.SHIP, "UAF Neuxoria AI", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_ai_neuxoria_bomber", FleetMemberType.SHIP, "UAF Neuxoria AI Bomber", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_ai_neuxoria_strategic", FleetMemberType.SHIP, "UAF Neuxoria AI Strategic", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_ai_neuxoria_superiority", FleetMemberType.SHIP, "UAF Neuxoria AI Superiority", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_ai_neuxoria_suppressor", FleetMemberType.SHIP, "UAF Neuxoria AI Suppressor", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_ai_neuxoria_surgical", FleetMemberType.SHIP, "UAF Neuxoria AI Surgical", false);
 
 		//zepporias
 		api.addToFleet(FleetSide.PLAYER, "uaf_m_zepporia_standard", FleetMemberType.SHIP, "UAF Zepporia M", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_m_zepporia_bomber", FleetMemberType.SHIP, "UAF Zepporia M Bomber", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_m_zepporia_strike", FleetMemberType.SHIP, "UAF Zepporia M Strike", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_m_zepporia_superiority", FleetMemberType.SHIP, "UAF Zepporia M Superiority", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_m_zepporia_multirole", FleetMemberType.SHIP, "UAF Zepporia M Multirole", false);
 
 		//shinorias
 		api.addToFleet(FleetSide.PLAYER, "uaf_ai_shinoria_standard", FleetMemberType.SHIP, "UAF Shinoria AI", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_ai_shinoria_superiority", FleetMemberType.SHIP, "UAF Shinoria AI superiority", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_ai_shinoria_strike", FleetMemberType.SHIP, "UAF Shinoria AI Strike", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_ai_shinoria_surgical", FleetMemberType.SHIP, "UAF Shinoria AI Surgical", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_ai_shinoria_suppressor", FleetMemberType.SHIP, "UAF Shinoria AI Suppressor", false);
 
 		api.addToFleet(FleetSide.PLAYER, "uaf_shinoria_standard", FleetMemberType.SHIP, "UAF Shinoria", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_shinoria_superiority", FleetMemberType.SHIP, "UAF Shinoria Superiority", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_shinoria_strike", FleetMemberType.SHIP, "UAF Shinoria Strike", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_shinoria_surgical", FleetMemberType.SHIP, "UAF Shinoria Surgical", false);
 
 		//machis
 		api.addToFleet(FleetSide.PLAYER, "uaf_m_machi_apa_transport", FleetMemberType.SHIP, "Machi-I", false);
@@ -86,9 +51,6 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 
 		//battlecarrier
 		api.addToFleet(FleetSide.PLAYER, "uaf_isenoria_prototype_standard", FleetMemberType.SHIP, "Isenoria", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_isenoria_prototype_bomber", FleetMemberType.SHIP, "Isenoria Bomber", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_isenoria_prototype_surgical", FleetMemberType.SHIP, "Isenoria Surgical", false);
-		api.addToFleet(FleetSide.PLAYER, "uaf_isenoria_prototype_assault", FleetMemberType.SHIP, "Isenoria Assault", false);
 
 
 		api.addToFleet(FleetSide.ENEMY, "uaf_novaeria_elite", FleetMemberType.SHIP, true);

@@ -1,10 +1,18 @@
 {
 	"id":"uaf", # internal id
 	"name":"United Aurora Federation", # displayed to the player
-	"version":"0.0.1a",
-	"description":"This is an attempt to revive UAF ",
-	"gameVersion":"0.95a-RC12",
+	"version":"0.5.5",
+	"description":"A faction that found themselves in an entirely different dimensional timeline, far far away from their own.",
+	"author":"Created by CY / Milkydromeda, Co-developed by Vermillion, Assisted by Yimie, Naggy, Techpriest, Selkie, Avanitia, Histidine, Nia Tahl and many others. ",
+	"gameVersion":"0.95a-RC15",
 	"modPlugin":"data.scripts.plugins.uaf_baseModPlugin",
-	"jars":["jars/UAF.jar"]
+	"jars":["jars/UAF.jar"],
+	"dependencies": [
+		{"id": "lw_lazylib", "name": "LazyLib"},
+		{"id": "MagicLib", "name": "MagicLib"},
+		{"id": "nexerelin", "name": "Nexerelin"},
+		{"id": "shaderLib", "name": "GraphicsLib"},
+		{"id": "timid_xiv", "name": "Iron Shell"}
+	]
 	
 }

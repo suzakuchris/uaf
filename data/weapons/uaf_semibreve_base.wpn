@@ -35,5 +35,5 @@
 				 "particleColor":[170,160,150,130]},
 	"projectileSpecId":"uaf_semibreve_nuke",
 	"fireSoundTwo":"reaper_fire",
-	"everyFrameEffect":"data.scripts.weapons.uaf_nuke",	
+	#"everyFrameEffect":"data.scripts.weapons.uaf_nuke",	
 }

@@ -1,9 +1,9 @@
 {
   "hullName": "Right Engine",
   "hullId": "uaf_slvv_r_engine",
-  "hullSize": "CAPITAL_SHIP",
+  "hullSize": "CRUISER",
   "spriteName": "graphics/ships/SLV/uaf_solverniav_right_engine_section.png",
-  "style": "MIDLINE",
+  "style": "UAF_FLAGSHIP",
   "height": 292,
   "width": 233,
   "center": [113.5, 222],
@@ -106,7 +106,7 @@
       "width": 19,
       "angle": 180,
       "contrailSize": 19,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-94.5, 64],
@@ -114,7 +114,7 @@
       "width": 11,
       "angle": 180,
       "contrailSize": 11,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-91, 77.5],
@@ -122,7 +122,7 @@
       "width": 23,
       "angle": 180,
       "contrailSize": 23,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-168, -6.5],
@@ -130,7 +130,7 @@
       "width": 11,
       "angle": -171.5,
       "contrailSize": 11,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-172, 17],
@@ -138,7 +138,7 @@
       "width": 11,
       "angle": -172.5,
       "contrailSize": 11,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-139.5, 11],
@@ -146,7 +146,7 @@
       "width": 28.949776,
       "angle": -171,
       "contrailSize": 28.949776,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-187, -36],
@@ -154,7 +154,7 @@
       "width": 11,
       "angle": -168.5,
       "contrailSize": 11,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-180.5, -72.5],
@@ -162,7 +162,7 @@
       "width": 11,
       "angle": -169.5,
       "contrailSize": 11,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-182.5, -55.5],
@@ -170,7 +170,7 @@
       "width": 47.884613,
       "angle": -171,
       "contrailSize": 47.884613,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-164, -102.5],
@@ -178,7 +178,7 @@
       "width": 11,
       "angle": -169,
       "contrailSize": 11,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-166.5, -95],
@@ -186,7 +186,7 @@
       "width": 11,
       "angle": -169,
       "contrailSize": 11,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     }
   ],
   "bounds": [

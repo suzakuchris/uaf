@@ -18,7 +18,7 @@
 
 
 	"useSound":"system_emp_emitter_activate",
-	#"loopSound":"rubia",
+	"loopSound":"rubia",
 	"impactSound":"system_emp_emitter_impact",
 	"outOfUsesSound":"gun_out_of_ammo",
 	

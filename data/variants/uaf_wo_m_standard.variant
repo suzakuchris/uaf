@@ -4,17 +4,16 @@
   "displayName": "Standard",
   "goalVariant": true,
   "fluxCapacitors": 10,
-  "fluxVents": 0,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
   "weaponGroups": [
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0003": "uaf_ivory",
-        "WS0004": "uaf_weiss_ii_flk",
         "WS0005": "uaf_ivory"
       }
     },
@@ -24,6 +23,13 @@
       "weapons": {
         "WS0001": "uaf_weiss_flk",
         "WS0002": "uaf_weiss_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_weiss_ii_flk"
       }
     }
   ],

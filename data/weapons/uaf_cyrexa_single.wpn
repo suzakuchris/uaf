@@ -35,7 +35,8 @@
 		"particleColor":[150,200,255,128]},
 	"autocharge":true,
 	"projectileSpecId":"uaf_pu_ash_lg",  # projectile that will be fired
-    "fireSoundOne":"245mm_Blast",
-	"fireSoundTwo":"grand_cannon_1",
+    #"fireSoundOne":"245mm_Blast",
+	"fireSoundOne":"uaf_ru_cyrexa_452",
+	"fireSoundTwo":"uaf_cyrexa_452",
 	#"everyFrameEffect":"data.scripts.weapons.uaf_cyrexa_muzzle",	
 }

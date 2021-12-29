@@ -10,10 +10,10 @@
 	"collisionClass":"MISSILE_NO_FF",
 	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":60, # purely visual
-	"engineSpec":{"turnAcc":360,
-				  "turnRate":500,
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
 				  "acc":2500,
-				  "dec":800},
+				  "dec":0},
 	"engineSlots":[{"id":"ES1",
 					"loc":[-7.5, 0],
 					#"loc":[-1, -2.5],

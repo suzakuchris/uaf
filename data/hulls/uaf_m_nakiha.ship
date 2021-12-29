@@ -7,7 +7,7 @@
   "height": 153,
   "width": 104,
   "center": [52, 74],
-  "collisionRadius": 91,
+  "collisionRadius": 100.5,
   "shieldCenter": [0, -0],
   "shieldRadius": 80.5,
   "viewOffset": 0,
@@ -101,7 +101,7 @@
       "width": 24,
       "angle": 180,
       "contrailSize": 24,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-32.5, 26.5],
@@ -109,7 +109,7 @@
       "width": 14,
       "angle": 153.5,
       "contrailSize": 14,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-32.5, -26],
@@ -117,7 +117,7 @@
       "width": 14,
       "angle": -153.5,
       "contrailSize": 14,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     }
   ],
   "bounds": [

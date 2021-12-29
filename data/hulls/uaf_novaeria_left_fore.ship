@@ -1,7 +1,7 @@
 {
   "hullName": "LEFT HULL",
   "hullId": "uaf_novaeria_left_fore",
-  "hullSize": "CAPITAL_SHIP",
+  "hullSize": "CRUISER",
   "spriteName": "graphics/ships/Novaeria/uaf_novaeria_left_hull.png",
   "style": "MIDLINE",
   "height": 380,
@@ -11,6 +11,11 @@
   "shieldCenter": [0, -0],
   "shieldRadius": 0,
   "viewOffset": 0,
+  "builtInMods": [
+  "uaf_auroranEngineering",
+  "uaf_automataSpec",
+  "uaf_flagship_armouring"
+  ],  
   "builtInWeapons": {
     "LFOREMBLINKER1": "uaf_blinker_foremost_1",
     "LFOREMBLINKER2": "uaf_blinker_foremost_2",

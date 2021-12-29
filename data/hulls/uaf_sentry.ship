@@ -16,8 +16,8 @@
   ],
   "builtInWeapons": {
     "WS0006": "uaf_tona_iv",
-    "WS0007": "uaf_missile_barrage",
-    "WS0008": "uaf_missile_barrage"
+    "WS0007": "uaf_clemente_s_mrm_double",
+    "WS0008": "uaf_clemente_s_mrm_double"
   },
   "weaponSlots": [
     {
@@ -91,7 +91,7 @@
       "width": 25,
       "angle": 180,
       "contrailSize": 25,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-132.5, 41.5],
@@ -99,7 +99,7 @@
       "width": 25,
       "angle": -180,
       "contrailSize": 25,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-134.5, -9.5],
@@ -107,7 +107,7 @@
       "width": 25,
       "angle": 180,
       "contrailSize": 25,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-134.5, 9.5],
@@ -115,7 +115,7 @@
       "width": 25,
       "angle": -180,
       "contrailSize": 25,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     }
   ],
   "bounds": [

@@ -1,0 +1,152 @@
+{
+    "availableCaptains":[
+        {
+            "captainId":"uaf_solvernia",
+            "captainNameFirst":"Solvernia",
+            "captainNameLast":"Auroria",
+            "captainGender":"female",
+            "captainTags":["VNSector"],
+            "captainFaction":"uaf",
+            "captainRankId":"spaceCommander",
+            "captainPostId":"",
+            "captainPhotoSprite":"graphics/portraits/uaf_sup_solvernia_128.png",
+            "captainPersonalities":"steady",
+            "captainSkills":[
+                {
+                    "skillId":"space_operations",
+                    "skillLevel":2
+                }
+            ]
+        },
+        {
+            "captainId":"uaf_marysue",
+            "captainNameFirst":"Mary Sue",
+            "captainNameLast":"Yi-Su",
+            "captainGender":"female",
+            "captainTags":["VNSector"],
+            "captainFaction":"uaf",
+            "captainRankId":"spaceCommander",
+            "captainPostId":"",
+            "captainPhotoSprite":"graphics/portraits/uaf_sup_maggy_128.png",
+            "captainPersonalities":"steady",
+            "captainSkills":[
+                {
+                    "skillId":"space_operations",
+                    "skillLevel":2
+                }
+            ]
+        },
+        {
+            "captainId":"uaf_marty",
+            "captainNameFirst":"Marty",
+            "captainNameLast":"D Janai",
+            "captainGender":"male",
+            "captainTags":["VNSector"],
+            "captainFaction":"uaf",
+            "captainRankId":"spaceCommander",
+            "captainPostId":"",
+            "captainPhotoSprite":"graphics/portraits/uaf_sup_marty_128.png",
+            "captainPersonalities":"aggressive",
+            "captainSkills":[
+                {
+                    "skillId":"space_operations",
+                    "skillLevel":2
+                }
+            ]
+        }
+    ],
+    "availableFleets":[
+        {
+            "fleetId":"uaf_escort_fleet_mary",
+            "fleetName":"Strike Cruiser Squadron",
+            "fleetType":"patrolLarge",
+            "fleetDuration":365,
+            "fleetDescription":"JSON Loaded UAF Escort Description",
+            "fleetCaptain":"uaf_marysue",
+            "fleetFlagship":"uaf_rillaru_assault",
+            "fleetGreeting":"Hello, I am mary sue yi su and will escort you throughout this year, thank you.",
+            "fleetAssignment":"aggressive",
+            "fleetComposition":[
+                "uaf_rillaru_assault",
+                "uaf_rillaru_assault",
+                "uaf_rillaru_defense",
+                "uaf_lillaru_assault",
+                "uaf_lillaru_suppressor",
+                "uaf_lillaru_suppressor",
+                "uaf_m_exoria_superiority",
+                "uaf_m_exoria_superiority",
+                "uaf_m_lovela_standard",
+                "uaf_m_lovela_standard",
+                "uaf_m_lovela_assault",
+                "uaf_m_lovela_suppressor",
+                "uaf_m_lovela_suppressor",
+                "uaf_m_nakiha_standard",
+                "uaf_m_nakiha_standard",
+                "uaf_m_nakiha_standard",
+                "uaf_m_nakiha_standard",
+                "uaf_m_nakiha_standard",
+                "uaf_m_nakiha_raider"
+            ]
+        },
+        {
+            "fleetId":"uaf_escort_fleet_marty",
+            "fleetName":"Heavy Battleship Fleet",
+            "fleetType":"patrolLarge",
+            "fleetDuration":365,
+            "fleetDescription":"JSON Loaded UAF Escort Description",
+            "fleetCaptain":"uaf_marty",
+            "fleetFlagship":"uaf_m_reisen_assault",
+            "fleetGreeting":"Hello, I am Marty and will escort you throughout this year, thank you.",
+            "fleetAssignment":"steady",
+            "fleetComposition":[
+                "uaf_m_reisen_assault"
+            ]
+        },
+        {
+            "fleetId":"uaf_solvernia_fleet_remnant",
+            "fleetName":"Capital Fleet Remnants",
+            "fleetType":"patrolLarge",
+            "fleetDuration":365,
+            "fleetDescription":"What was left of the forward capital fleet",
+            "fleetCaptain":"uaf_solvernia",
+            "fleetFlagship":"uaf_slvv_core_elite",
+            "fleetFlagshipName":"S3-LF",
+            "fleetGreeting":"I am in dire situation right now",
+            "fleetAssignment":"steady",
+            "fleetComposition":[
+                
+            ]
+        }
+    ],
+    "defectorFleets":[
+        {
+            "fleetId":"uaf_defector_fleet_main",
+            "fleetName":"Dagger Assault Group",
+            "fleetType":"patrolLarge",
+            "fleetDuration":365,
+            "fleetDescription":"A defector fleet from UAF Faction",
+            "fleetCaptain":"uaf_mizuki",
+            "fleetFlagship":"uaf_m_reisen_assault",
+            "fleetGreeting":"Die.",
+            "fleetAssignment":"steady",
+            "fleetComposition":[
+                "uaf_m_reisen_assault",
+                "uaf_rillaru_assault",
+                "uaf_rillaru_assault",
+                "uaf_eyeseau_defense",
+                "uaf_m_exoria_superiority",
+                "uaf_m_exoria_superiority",
+                "uaf_m_minoria_bomber",
+                "uaf_m_minoria_bomber",
+                "uaf_m_minoria_standard",
+                "uaf_m_minoria_standard",
+                "uaf_m_minoria_strike",
+                "uaf_m_minoria_strike",
+                "uaf_m_minoria_superiority",
+                "uaf_m_minoria_superiority",
+                "uaf_m_inazuma_assault",                
+                "uaf_m_inazuma_assault"
+            ]
+        },
+    ]
+}

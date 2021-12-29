@@ -3,21 +3,30 @@
   "hullId": "uaf_slvv_r_gun",
   "displayName": "Standard",
   "goalVariant": false,
-  "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "uaf_enhanced_pd",
+    "uaf_auroranEngineering",
+    "uaf_militaryGrade"
+  ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "uaf_tona_i",
-        "WS0004": "uaf_tona_i",
+        "WS0001": "uaf_decor_mg",
+        "WS0002": "uaf_decor_mg",
+        "WS0003": "uaf_claris_cn",
+        "WS0004": "uaf_claris_cn",
         "WS0005": "uaf_medlav_dual",
         "WS0006": "uaf_medlav_quad",
-        "WS0008": "uaf_tona_i"
+        "WS0007": "uaf_decor_mg",
+        "WS0008": "uaf_tona_i",
+        "WS0009": "uaf_weiss_flk",
+        "WS0010": "uaf_pd_reina"
       }
     }
   ],

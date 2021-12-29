@@ -25,8 +25,8 @@
 				 "blowbackLength":80.0,
 				 "blowbackSpread":15.0,
 				 "particleColor":[100,100,100,200]},
-	"projectileSpecId":"uaf_railgun_large",  # projectile that will be fired
-	"fireSoundOne":"laser_intro",
-	"fireSoundTwo":"Railgun_large",
+	"projectileSpecId":"uaf_pu_ash_xl_piercing",  # projectile that will be fired
+	"fireSoundOne":"uaf_ru_tona_iii_608",
+	"fireSoundTwo":"uaf_tona_iv_608",
 	"everyFrameEffect":"data.scripts.weapons.uaf_laserPrerailgun",	
 }

@@ -35,7 +35,7 @@
 				 "blowbackSpread":15.0,
 				 "particleColor":[128,128,128,105]},	
 	"projectileSpecId":"uaf_typhoon_missile",
-	"fireSoundTwo":"reaper_fire",
+	"fireSoundTwo":"uaf_missile_2",
 }
 
 

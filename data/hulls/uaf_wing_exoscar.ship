@@ -38,7 +38,7 @@
       "width": 4,
       "angle": -180,
       "contrailSize": 4,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE_E"
     },
     {
       "location": [-17.5, -3],
@@ -46,7 +46,7 @@
       "width": 4,
       "angle": 180,
       "contrailSize": 4,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE_E"
     }
   ],
   "bounds": [

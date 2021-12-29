@@ -3,7 +3,7 @@
   "hullId": "uaf_slvv_core",
   "hullSize": "CAPITAL_SHIP",
   "spriteName": "graphics/ships/SLV/uaf_solverniav_core.png",
-  "style": "MIDLINE",
+  "style": "UAF_FLAGSHIP",
   "height": 286,
   "width": 314,
   "center": [157, 217.5],
@@ -15,9 +15,10 @@
     "uaf_parentEngine",
     "never_detaches",
     "uaf_noExplosion",
-    "uaf_flagship_eccm",
     "uaf_flagship",
     "uaf_auroranEngineering",
+    "uaf_militaryGrade",
+    "uaf_fighterManager"
   ],
   "builtInWeapons": {
     "SYSTEM_ENGINE": "uaf_solvernia_reactor",

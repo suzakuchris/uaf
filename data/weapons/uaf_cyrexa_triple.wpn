@@ -26,6 +26,7 @@
 					   "particleCount":35,
 					  "particleColor":[165,225,185,175]},
 	"projectileSpecId":"uaf_pu_ash_lg",  # projectile that will be fired
-	"fireSoundTwo":"cyrexa_cannon3",
+	"fireSoundOne":"uaf_ru_cyrexa_452",
+	"fireSoundTwo":"uaf_cyrexa_452",
 	"everyFrameEffect":"data.scripts.weapons.uaf_laserPrecannon",	
 }

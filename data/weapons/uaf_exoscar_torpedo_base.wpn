@@ -31,5 +31,5 @@
 				 "blowbackSpread":10.0,
 				 "particleColor":[170,160,150,130]},
 	"projectileSpecId":"uaf_exoscar_torp",
-	"fireSoundTwo":"reaper_fire",
+	"fireSoundTwo":"uaf_exoscar_missile",
 }

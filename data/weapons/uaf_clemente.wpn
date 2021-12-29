@@ -26,5 +26,5 @@
 				 "blowbackSpread":10.0,
 				 "particleColor":[100,100,100,200]},
 	"projectileSpecId":"uaf_clemente_mssl",
-	"fireSoundTwo":"harpoon_fire",
+	"fireSoundTwo":"uaf_missile_1",
 }

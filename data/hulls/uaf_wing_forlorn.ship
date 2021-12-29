@@ -1,15 +1,15 @@
 {
-  "hullName": "UAF Forlorn",
+  "hullName": "Superiority Heavy Fighter",
   "hullId": "uaf_wing_forlorn",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/forlorn_hft.png",
   "style": "MIDLINE",
-  "height": 72,
-  "width": 53,
-  "center": [26.5, 36],
-  "collisionRadius": 75,
-  "shieldCenter": [0, 0],
-  "shieldRadius": 36,
+  "height": 73,
+  "width": 59,
+  "center": [29.5, 34],
+  "collisionRadius": 40.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 44,
   "viewOffset": 0,
   "weaponSlots": [
     {
@@ -19,7 +19,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [23.5, 2]
+      "locations": [4, 8.5]
     },
     {
       "id": "WS0002",
@@ -28,66 +28,74 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [23.5, -2]
+      "locations": [4, -8.5]
     },
     {
       "id": "WS0003",
-      "size": "MEDIUM",
-      "type": "BALLISTIC",
-      "mount": "HIDDEN",
-      "arc": 0,
-      "angle": 0,
-      "locations": [30, -0]
-    },
-    {
-      "id": "WS0004",
       "size": "MEDIUM",
       "type": "MISSILE",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [-8.5, 15.5]
+      "locations": [-0.5, 13.5]
     },
     {
-      "id": "WS0005",
+      "id": "WS0007",
       "size": "MEDIUM",
       "type": "MISSILE",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [-8.5, -15.5]
+      "locations": [-0.5, -13.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-4, 17]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-4, -17]
     }
   ],
   "engineSlots": [
     {
-      "location": [-27, 5],
+      "location": [-24, 5.5],
       "length": 30,
       "width": 10,
       "angle": 180,
-      "contrailSize": 30,
-      "style": "LOW_TECH"
+      "contrailSize": 10,
+      "style": "MELODY_ENGINE_G"
     },
     {
-      "location": [-27, -5],
+      "location": [-24, -5.5],
       "length": 30,
       "width": 10,
       "angle": -180,
-      "contrailSize": 30,
-      "style": "LOW_TECH"
+      "contrailSize": 10,
+      "style": "MELODY_ENGINE_G"
     }
   ],
   "bounds": [
-    34, -1.5,
-    11, -7,
-    -20, -27,
-    -21.5, -18,
-    -34.5, -15,
-    -29, -9,
-    -29, 9,
-    -34.5, 15,
-    -21.5, 18,
-    -20, 27,
-    11, 7,
-    34, 1.5
+    13, -4.5,
+    -16.5, -28,
+    -19.5, -15,
+    -32.5, -12.5,
+    -27, -9,
+    -27, 9,
+    -32.5, 13,
+    -18, 14,
+    -15, 26.5,
+    13, 4.5,
+    37, -0
   ]
 }

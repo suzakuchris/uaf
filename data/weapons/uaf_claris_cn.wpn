@@ -25,6 +25,6 @@
 					   "particleDuration":0.15,
 					   "particleCount":7,
 					  "particleColor":[100,165,255,175]},
-	"projectileSpecId":"uaf_pu_ash_sm",
-	"fireSoundTwo":"75mm_Blast",
+	"projectileSpecId":"uaf_pu_ash_sm_claris",
+	"fireSoundTwo":"uaf_claris_50",
 }

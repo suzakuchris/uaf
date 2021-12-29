@@ -7,9 +7,9 @@
   "height": 154,
   "width": 114,
   "center": [57, 77],
-  "collisionRadius": 90,
+  "collisionRadius": 117,
   "shieldCenter": [0, 0],
-  "shieldRadius": 99,
+  "shieldRadius": 98.5,
   "viewOffset": 0,
   "builtInMods": [
     "uaf_auroranEngineering",
@@ -48,7 +48,7 @@
       "size": "MEDIUM",
       "type": "HYBRID",
       "mount": "HARDPOINT",
-      "arc": 0,
+      "arc": 20,
       "angle": 0,
       "locations": [12, -40.5]
     },
@@ -57,7 +57,7 @@
       "size": "MEDIUM",
       "type": "HYBRID",
       "mount": "HARDPOINT",
-      "arc": 0,
+      "arc": 20,
       "angle": -0,
       "locations": [12, 40.5]
     },
@@ -66,7 +66,7 @@
       "size": "MEDIUM",
       "type": "HYBRID",
       "mount": "HARDPOINT",
-      "arc": 0,
+      "arc": 20,
       "angle": 0,
       "locations": [32.5, -24]
     },
@@ -75,7 +75,7 @@
       "size": "MEDIUM",
       "type": "HYBRID",
       "mount": "HARDPOINT",
-      "arc": 0,
+      "arc": 20,
       "angle": -0,
       "locations": [32.5, 24]
     }
@@ -83,19 +83,19 @@
   "engineSlots": [
     {
       "location": [-33, -29.5],
-      "length": 28.5,
-      "width": 16,
+      "length": 45.5,
+      "width": 21,
       "angle": 180,
-      "contrailSize": 16,
-      "style": "LOW_TECH"
+      "contrailSize": 21,
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-33, 29.5],
-      "length": 28.5,
-      "width": 16,
+      "length": 45.5,
+      "width": 21,
       "angle": -180,
-      "contrailSize": 16,
-      "style": "LOW_TECH"
+      "contrailSize": 21,
+      "style": "MELODY_ENGINE"
     }
   ],
   "bounds": [

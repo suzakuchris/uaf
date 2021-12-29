@@ -3,20 +3,44 @@
   "hullId": "uaf_slvv_l_section",
   "displayName": "Standard",
   "goalVariant": false,
-  "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "uaf_auroranEngineering",
+    "uaf_militaryGrade",
+    "uaf_enhanced_pd",
+    "uaf_flagship_armouring"
+  ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "uaf_cyrexa_triple",
-        "WS0002": "uaf_cyrexa_triple",
-        "WS0003": "uaf_weiss_flk",
-        "WS0004": "uaf_weiss_flk"
+        "WS0001": "uaf_cyrexa",
+        "WS0002": "uaf_cyrexa"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_weiss_flk"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_claris_cn"
       }
     }
   ],

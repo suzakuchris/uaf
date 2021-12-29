@@ -28,8 +28,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0011": "uaf_rhythm_base",
-        "WS0012": "uaf_rhythm_base"
+        "WS0011": "uaf_rhythm_base_triple",
+        "WS0012": "uaf_rhythm_base_triple"
       }
     },
     {

@@ -13,7 +13,7 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0009": "uaf_vocals_swarmer_base",
+        "WS0009": "uaf_vocal_s_srm",
         "WS0010": "uaf_weiss_ii_flk"
       }
     },
@@ -29,8 +29,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0011": "uaf_rhythm_base",
-        "WS0012": "uaf_rhythm_base"
+        "WS0011": "uaf_rhythm_base_triple",
+        "WS0012": "uaf_rhythm_base_triple"
       }
     },
     {

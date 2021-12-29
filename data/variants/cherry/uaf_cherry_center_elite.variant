@@ -1,0 +1,66 @@
+{
+  "variantId": "uaf_cherry_center_elite",
+  "hullId": "uaf_cherry_center",
+  "displayName": "Cherry Center Port",
+  "goalVariant": false,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "uaf_auroranEngineering"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_herexa",
+        "WS0004": "uaf_herexa"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_vocal_l_srm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "uaf_selemene_s_mrm",
+        "WS0010": "uaf_selemene_s_mrm",
+        "WS0011": "uaf_chorus_s_amm",
+        "WS0012": "uaf_chorus_s_amm",
+        "WS0020": "uaf_medlav_dual"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_weiss_flk",
+        "WS0006": "uaf_weiss_flk",
+        "WS0007": "uaf_pd_reina",
+        "WS0008": "uaf_pd_reina",
+        "WS0013": "uaf_pd_reina",
+        "WS0014": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "uaf_deco_mg",
+        "WS0016": "uaf_deco_mg",
+        "WS0017": "uaf_deco_mg",
+        "WS0018": "uaf_deco_mg",
+        "WS0019": "uaf_deco_mg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

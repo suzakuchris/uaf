@@ -19,7 +19,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [23, -0]
+      "locations": [8.5, 3]
     },
     {
       "id": "WS0002",
@@ -28,7 +28,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [-0.5, 9.5]
+      "locations": [-1, 9.5]
     },
     {
       "id": "WS0003",
@@ -37,7 +37,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [-0.5, -9.5]
+      "locations": [-1, -9.5]
     },
     {
       "id": "WS0004",
@@ -46,7 +46,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [-3, 12.5]
+      "locations": [-4, 12.5]
     },
     {
       "id": "WS0005",
@@ -55,7 +55,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [-3, -12.5]
+      "locations": [-4, -12.5]
     }
   ],
   "engineSlots": [
@@ -65,7 +65,7 @@
       "width": 6,
       "angle": 180,
       "contrailSize": 6,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE_H"
     },
     {
       "location": [-19, -6],
@@ -73,7 +73,7 @@
       "width": 6,
       "angle": -180,
       "contrailSize": 6,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE_H"
     }
   ],
   "bounds": [

@@ -7,9 +7,9 @@
   "height": 115,
   "width": 72,
   "center": [36, 57.5],
-  "collisionRadius": 69.5,
+  "collisionRadius": 81,
   "shieldCenter": [0, 0],
-  "shieldRadius": 60,
+  "shieldRadius": 64.5,
   "viewOffset": 0,
   "builtInMods": [
     "uaf_melodyEngine",
@@ -61,7 +61,7 @@
       "width": 9,
       "angle": 180,
       "contrailSize": 9,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-43.5, 9],
@@ -69,7 +69,7 @@
       "width": 9,
       "angle": -180,
       "contrailSize": 9,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-42.5, -0],
@@ -77,7 +77,7 @@
       "width": 24,
       "angle": 180,
       "contrailSize": 24,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-26, -20],
@@ -85,7 +85,7 @@
       "width": 13.405186,
       "angle": -157.5,
       "contrailSize": 13.405186,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-26, 20],
@@ -93,7 +93,7 @@
       "width": 13.405186,
       "angle": 157.5,
       "contrailSize": 13.405186,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     }
   ],
   "bounds": [

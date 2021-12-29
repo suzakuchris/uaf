@@ -31,5 +31,5 @@
 				 "blowbackSpread":10.0,
 				 "particleColor":[128,128,128,105]},	
 	"projectileSpecId":"uaf_amazoch_light",
-	"fireSoundTwo":"reaper_fire",
+	"fireSoundTwo":"uaf_missile_2",
 }

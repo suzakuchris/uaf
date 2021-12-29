@@ -3,11 +3,14 @@
   "hullId": "uaf_novaeria_engine",
   "displayName": "Standard",
   "goalVariant": false,
-  "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "uaf_automataSpec",
+    "uaf_enhanced_pd"
+  ],
   "weaponGroups": [
     {
       "autofire": true,

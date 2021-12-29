@@ -5,6 +5,18 @@ Melody Frequency Overcharge,uaf_melodyOvercharge,,,,,,,,,,0.1,10,0.1,10,,,,,,,,,
 #Detach Ship,uaf_detachShip,,,,,,,,,,0.1,50,0.1,2,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png
 Ravenya Troop Carrier,uaf_ravenya_troop_carrier,,,,,,,,10,,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
 ,,,,,,,,,,,,,,,,,,,,,,,,,
-EMP Pulse,uaf_emp,1,,,,,,,,,1,,1,1,TRUE,,,,,,,,TRUE,TRUE,graphics/icons/hullsys/infernium_injector.png
+EMP Pulse,uaf_emp,1,,,,,,,,,1,110,1,160,,,,,,,,,,TRUE,graphics/icons/hullsys/infernium_injector.png
+EMP Pulse,uaf_emp_small,1,,,,,,,,,1,90,1,160,,,,,,,,,,TRUE,graphics/icons/hullsys/infernium_injector.png
 ,,,,,,,,,,,,,,,,,,,,,,,,,
-UAF FCS Rangefinder,uaf_rangeFinder,,,,,,0.5,,,,0.5,20,0.5,10,,,,,,,,,,,
+Ship Flare System,uaf_flarelauncher,,,,,,,,5,,,,,5,,,,,,,,,,,
+Compact Flare Launcher,uaf_fighterflare,,,,,,,,5,,,,,2,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+UAF FCS Rangefinder,uaf_rangeFinder,,,,,,,,,,0.5,20,0.5,40,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Melody Burn Drive,uaf_burnDrive,1,,,,,,,,,2,30,1,10,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+ANGEL Dispersion System,uaf_angelSystem,,,,,,,,1,0.1,,,,3,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Burn Drive,uaf_burndrive_2,1,,,,,,,,,2,5,1,10,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,
+Maneuvering Jets,uaf_maneuveringjets_2,,,,,,,,,,1,5,1,5,,,,,,,,,,,
+Plasma Jets,uaf_plasmajets_2,,,,,,,,,,1,3,2,5,,,,,,,,,,,

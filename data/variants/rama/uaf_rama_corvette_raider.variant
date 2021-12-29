@@ -13,15 +13,22 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "uaf_pd_reina",
-        "WS0002": "uaf_hikone_quad",
-        "WS0004": "uaf_exoscar_torpedo_base"
+        "WS0002": "uaf_hikone_quad"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0004": "uaf_typhoon_s_sasm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_pd_reina"
+      }
     }
   ],
   "modules": [],

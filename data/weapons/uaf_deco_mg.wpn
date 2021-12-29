@@ -8,6 +8,7 @@
 	"hardpointSprite":"graphics/weapons/Deco MG/pd_deco_mg_turret.png",
 	"hardpointGunSprite":"graphics/weapons/Deco MG/pd_deco_mg_recoil.png",
 	"visualRecoil":3.0,  # the gun sprites are only used if this is non-0
+	"everyFrameEffect": "data.scripts.weapons.uaf_flakExplosion",
 	"turretOffsets":[12, 0],
 	"turretAngleOffsets":[0],
 	"hardpointOffsets":[17, 0],
@@ -24,5 +25,5 @@
 					   "particleColor":[255,240,165,200]},
 	"projectileSpecId":"uaf_pu_pd_sm",  # projectile that will be fired
 	#"fireSoundOne":"light_machinegun_intro",
-	"fireSoundTwo":"light_machinegun_fire",
+	"fireSoundTwo":"uaf_deco_mg",
 }

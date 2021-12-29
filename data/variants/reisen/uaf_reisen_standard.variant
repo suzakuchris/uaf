@@ -4,7 +4,7 @@
   "displayName": "Standard",
   "goalVariant": true,
   "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxVents": 15,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
@@ -15,28 +15,49 @@
       "weapons": {
         "WS0001": "uaf_medlav_dual",
         "WS0002": "uaf_medlav_dual",
+        "WS0011": "uaf_cyrexa_triple",
+        "WS0012": "uaf_cyrexa_triple",
+        "WS0013": "uaf_cyrexa_triple",
+        "WS0014": "uaf_cyrexa_triple"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0019": "uaf_vocal_l_srm",
+        "WS0020": "uaf_vocal_l_srm"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "uaf_medlav_quad",
+        "WS0016": "uaf_ivory"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "uaf_tona_i",
+        "WS0010": "uaf_tona_i"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0003": "uaf_weiss_flk",
         "WS0004": "uaf_weiss_flk",
         "WS0005": "uaf_deco_mg",
         "WS0006": "uaf_deco_mg",
         "WS0007": "uaf_weiss_flk",
         "WS0008": "uaf_weiss_flk",
-        "WS0009": "uaf_tona_i",
-        "WS0010": "uaf_tona_i",
-        "WS0011": "uaf_cyrexa_triple",
-        "WS0012": "uaf_cyrexa_triple",
-        "WS0013": "uaf_cyrexa_triple",
-        "WS0014": "uaf_cyrexa_triple",
-        "WS0015": "uaf_medlav_quad",
-        "WS0016": "uaf_ivory",
         "WS0017": "uaf_pd_reina",
         "WS0018": "uaf_pd_reina"
       }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {}
     }
   ],
   "modules": [],

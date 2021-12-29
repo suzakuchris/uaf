@@ -1,6 +1,7 @@
 {
 	"starSystemLocations":{
-		"uaf_aoi":[7200,0],
+		"uaf_aoi":[-28400,-40000],
+		"uaf_stjarna":[-35400,-41000]
 	}
 }
 

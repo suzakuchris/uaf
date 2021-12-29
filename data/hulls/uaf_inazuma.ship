@@ -7,9 +7,9 @@
   "height": 227,
   "width": 136,
   "center": [68, 113.5],
-  "collisionRadius": 116,
+  "collisionRadius": 167.5,
   "shieldCenter": [0, 0],
-  "shieldRadius": 122,
+  "shieldRadius": 127,
   "viewOffset": 0,
   "builtInMods": [
     "uaf_auroranEngineering"
@@ -65,7 +65,7 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 307,
+      "arc": 233,
       "angle": -153.5,
       "locations": [-63.5, -50]
     },
@@ -74,7 +74,7 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 307,
+      "arc": 233,
       "angle": 153.5,
       "locations": [-63.5, 50]
     },
@@ -104,7 +104,7 @@
       "width": 10,
       "angle": -180,
       "contrailSize": 10,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-30, -49],
@@ -112,7 +112,7 @@
       "width": 10,
       "angle": 180,
       "contrailSize": 10,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-42, 34],
@@ -120,7 +120,7 @@
       "width": 7,
       "angle": 180,
       "contrailSize": 7,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-42, -34],
@@ -128,7 +128,7 @@
       "width": 7,
       "angle": -180,
       "contrailSize": 7,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     }
   ],
   "bounds": [

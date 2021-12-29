@@ -2,7 +2,7 @@
   "animationType": "MUZZLE_FLASH",
   "barrelMode": "ALTERNATING",
   "displayArcRadius": 650,
-  "fireSoundTwo": "medium_cannons",
+  "fireSoundTwo": "uaf_medlav_254",
   "hardpointAngleOffsets": [
     0,
     0

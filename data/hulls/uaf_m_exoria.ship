@@ -7,14 +7,15 @@
   "height": 310,
   "width": 170,
   "center": [85, 155],
-  "collisionRadius": 202,
+  "collisionRadius": 191,
   "shieldCenter": [0, 0],
-  "shieldRadius": 189.5,
+  "shieldRadius": 170.5,
   "viewOffset": 0,
   "builtInMods": [
     "uaf_melodyEngine",
     "uaf_auroranEngineering",
-    "uaf_militaryGrade"
+    "uaf_militaryGrade",
+    "uaf_fighterManager"
   ],
   "weaponSlots": [
     {
@@ -184,7 +185,7 @@
       "width": 17.961084,
       "angle": 163,
       "contrailSize": 17.961084,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-105.5, -55],
@@ -192,7 +193,7 @@
       "width": 17.961084,
       "angle": -163,
       "contrailSize": 17.961084,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-128, 0.5],
@@ -200,7 +201,7 @@
       "width": 33,
       "angle": 180,
       "contrailSize": 33,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-119.5, -17.5],
@@ -208,7 +209,7 @@
       "width": 19,
       "angle": 180,
       "contrailSize": 19,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-119.5, 17.5],
@@ -216,7 +217,7 @@
       "width": 19,
       "angle": -180,
       "contrailSize": 19,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     }
   ],
   "bounds": [

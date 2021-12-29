@@ -23,7 +23,7 @@
 					   "particleCount":7,
 					   "particleColor":[255,240,165,200]},
 	"projectileSpecId":"uaf_pu_ash_sm",  # projectile that will be fired
-	#"fireSoundOne":"light_machinegun_intro",
-	"fireSoundTwo":"Railgun_small",
+	"fireSoundOne":"uaf_ru_tona_iii_125",
+	"fireSoundTwo":"uaf_tona_iii_125",
 	"everyFrameEffect":"data.scripts.weapons.uaf_laserPrerailgun",	
 }

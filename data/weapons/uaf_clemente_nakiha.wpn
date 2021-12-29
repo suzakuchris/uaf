@@ -1,7 +1,7 @@
 {
   "animationType": "SMOKE",
   "barrelMode": "ALTERNATING",
-  "fireSoundTwo": "harpoon_fire",
+  "fireSoundTwo": "uaf_missile_1",
   "hardpointSprite": "graphics/weapons/null_hardpoint_base.png",
   "id": "uaf_clemente_nakiha",
   "projectileSpecId": "uaf_clemente_mssl",

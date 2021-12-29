@@ -1,0 +1,15 @@
+{
+    "portraits":{
+        "standard_male":[
+            "graphics/portraits/uaf_male10_128.png",
+			"graphics/portraits/uaf_male11_128.png",
+			"graphics/portraits/uaf_male9_128.png",
+        ],
+
+        "standard_female":[
+			"graphics/portraits/uaf_female9_128.png",
+			"graphics/portraits/uaf_female11_128.png",
+			"graphics/portraits/uaf_female13_128.png",
+        ]
+    }
+}

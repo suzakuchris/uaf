@@ -1,84 +1,209 @@
 id,type,text1,text2,text3,notes
 #WEAPONS,,,,,
-uaf_ivory,WEAPON,"Cheaper and smaller medium guns issued by UAF Military, developed as an alternative to the expensive and larger caliber Medlav Cannon Battery.",Assault,,
-uaf_medlav_dual,WEAPON,"Issued as UAF Military as a sub-caliber cannon battery on larger ship or the main battery on smaller ship. The cannon features a long range and 4 barrels, providing high enough firepower for most of smaller ship and decent firepower to the biggest of UAF ships.",Assault,,
-uaf_medlav_quad,WEAPON,"Issued as UAF Military as a sub-caliber cannon battery on larger ship or the main battery on smaller ship. The cannon features a long range and 2 barrels, providing alternative to the costly quad-barrel version of the same gun.",Assault,,
+uaf_ivory,WEAPON,"The standard issue general purpose naval gun, it comes with classic high explosive rounds which is perfect against armored targets.",Assault,,
+uaf_medlav_dual,WEAPON,"The standard issue general purpose naval gun, it fires disruptive kinetic rounds that will suppress enemy shields and weapons but doesn't do well against a well armored target.",Assault,,
+uaf_medlav_quad,WEAPON,"The standard issue general purpose naval gun, this one comes with additional barrels for enhanced fire rate at the cost of more flux generation.",Assault,,
 uaf_20mm_autocannon,WEAPON,"Developed specifically as a primary armament for UAF's fighter wings, this autocannon uses six barrels, operating in a gatling-style manner, which allows extremely high rate of fire.
 
 In comparison to it's Vulcan counterpart, this autocannon has been modified to be fitted straight into the airframe of any aircraft, which makes it a very accurate and reliable weapon.",Anti-Aircraft,,
-uaf_pd_reina,WEAPON,The standard issue double-barrel machine gun mounted on most UAF Ship as a point defense with piercing shells.,Point Defense,,
-uaf_claris_cn,WEAPON,"The small cannon in UAF Weaponry, can punch through armours even with its small caliber.",Point Defense,,
-uaf_weiss_flk,WEAPON,"The main double-barrel anti-missile and anti-fighter defend for most of UAF ships, loaded with exploding flak shells.",Point Defense,,
-uaf_weiss_ii_flk,WEAPON,"Medium sized double-barrel flak cannon, functions as an anti-missile and anti-fighter point defense. It is loaded with more fragmentation than the smaller Weiss Flak-Cannon.",Point Defense,,
-uaf_weiss_iii_flk,WEAPON,"The largest double-barrel flak cannon within UAF Military arsenal, the cannon shoots out a large shells that explodes into smaller shells with fragmentation explosive within the smaller shell, expanding the point defense area significantly than its smaller similar point defenses.",Point Defense,,
-uaf_tona_i,WEAPON,"The modified tona railgun to be used on small mounted weapon turrets, this tona has a slightly lower penetrating capability than the medium variant but with the same speed.",,,
-uaf_tona_ii,WEAPON,"Developed as an anti-armour guns, tona is the standard railgun to be used in UAF Fleet, provides a very fast projectile with capability to punch through reinforced armor, also leaves a crack on enemy's shields.",,,
-uaf_tona_iii,WEAPON,"Enlarged tona railgun for bigger mounted weapon turrets as anti-armour guns, this enlarged tona has the highest velocity and can house bigger shell, punching through reinforced armor even better than the medium variant.",,,
-uaf_cyrexa,WEAPON,"The largest mass-production ballistic capital weaponry in the UAF arsenal, its long range and high destructive capabilities makes it a typical choice for a capital ship.",Strike,,
-uaf_cyrexa_triple,WEAPON,"The largest triple-barrel mass-production ballistic capital weaponry in the UAF arsenal, its long range and high destructive capabilities makes it a typical choice for a capital ship.",Strike,,
+uaf_pd_reina,WEAPON,"The standard issue general purpose autocannon, its rapid firing and tracking capabilities made it suitable as a defensive weapon.",Point Defense,,
+uaf_claris_cn,WEAPON,"The standard issue general purpose weapon system, its large caliber kinetic rounds are suitable against anything up until frigate-size. ",Point Defense,,
+uaf_weiss_flk,WEAPON,"The standard issue anti-air defense autocannon, performs well against missiles and fighters but unsuitable when it comes to anything bigger than a corvette.",Point Defense,,
+uaf_weiss_ii_flk,WEAPON,"The enlarged version of the Weiss weapon system, boasts slightly better performance against missiles and fighters. Its extended barrels also increases its range slightly.",Point Defense,,
+uaf_weiss_iii_flk,WEAPON,"The Weiss III is the largest of the old reliable anti-air defense series, its equipped with experimental beehive shrapnel and incendiary rounds that will disperse in a 20-degree cone forward.",Point Defense,,
+uaf_tona_i,WEAPON,"This small yet humble standard-issue railgun may not pack the biggest punch, but with enough of these; it will punish anyone who underestimated it.",Suppression,,
+uaf_tona_ii,WEAPON,"The intermediate choice of a railgun, a suitable weapon to suppress the enemy with constant barrage of kinetic rounds while keeping away at safe range.",Suppression,,
+uaf_tona_iii,WEAPON,"The biggest of the Tona railgun series, this enlarged weapon will devastate enemy defensive shields or potentially disable weapons temporarily. However, such firepower comes at the cost of slower fire rate as each round fired would generate high amount of flux.",Suppression,,
+uaf_cyrexa,WEAPON,"The standard issue capital weapon system, an additional barrel was installed for greater fire rate which will overwhelm the enemy defenses rather quickly.",Strike,,
+uaf_cyrexa_triple,WEAPON,"The standard issue capital weapon system, it fires the largest caliber disruptive kinetic round at high rate of fire.",Strike,,
 uaf_cyrexa_single_experimental,WEAPON,"A single-barrel Cyrexa caliber gun, modified to be extremely light while preserving its firepower. The gun was said to be mounted on some kind of experimental fighter and drone",Experimental,,
+uaf_phenex_lrg,WEAPON,"An experimental weapon specifically designed for Solvernia, triple barreled electromagnetic-powered railguns that fires disruptive high-penetration rocket-boosted rounds which made it highly effective against anything but the smallest targets. ",Experimental,,
+uaf_triyia_pdx,WEAPON,"An experimental Close-In Weapon System armed with quadriple rotary autocannons, capable of intercepting incoming threats with devastating barrage of high explosive fragmentation rounds.",Experimental,,
+uaf_herexa,WEAPON,"The standard issue capital weapon system, it fires high explosive rounds that will deliver the necessary blow against unarmored targets.",Strike,,
 ,,,,,
 #WEAPONSMISSILE,,,,,
-uaf_clemente_base,WEAPON,A standard issue anti-ship torpedo missile issued by UAF Military to be used on frigate and destroyer ships owned by UAF.,Close Support,,
-uaf_clemente_nakiha,WEAPON,Clemente missile built into the ship,Close Support,,
-uaf_vocals_swarmer_base,WEAPON,"A launcher for dozens of smaller missiles that homes to the target automatically after being fired. It has a low explosives but make up for it in numbers, especially useful to cover a bigger missile or torpedo by keeping enemy point defenses busy.",,,
-uaf_selemene_base_single,WEAPON,Low explosive missile with the capability of heavily disrupting electronics of the impacted ship. The missile has a very low destructive capability and only loaded specially on selected ships within UAF Military.,,,
-uaf_rhythm_base_single,WEAPON,"A support long range missile with better target tracking than other similar missiles, it packs a decent amount of explosives and has quite moderate damage. This variant has a single loaded Rhythm missile with 5 missiles replenishments.",,,
-uaf_rhythm_base_triple,WEAPON,"A support long range missile with better target tracking than other similar missiles, it packs a decent amount of explosives and has quite moderate damage. This variant can load three Rhythm missiles at once due to bigger racks and can fire faster than the single variant.",,,
-uaf_rhythm_base,WEAPON,"A support long range missile with better target tracking than other similar missiles, it packs a decent amount of explosives and has quite moderate damage. This variant can load two Rhythm missile at once in a modified missile turret and can be reloaded from the missile rack automatically.",,,
-uaf_exoscar_torpedo_base,WEAPON,"A fast long-range anti capital torpedo with decent tracking, this variant loads just one single-use torpedo.",,,
-uaf_exoscar_torpedo_quad,WEAPON,"A fast long range anti capital torpedo with decent tracking, this variant uses special modified turret base which allows for more torpedo storage, as well as automatic reloading from the ship missile racks, increasing the torpedo output quantity.",,,
+uaf_vocal_s_srm,WEAPON,Rapid-firing missile system that will overwhelm the enemy with pure numbers. It also comes with decent tracking capabilities which allowed it to intercept incoming spacecrafts as well.,Strike,,
+uaf_vocal_m_srm,WEAPON,Rapid-firing missile system that will overwhelm the enemy with pure numbers. It also comes with decent tracking capabilities which allowed it to intercept incoming spacecrafts as well.,Strike,,
+uaf_vocal_l_srm,WEAPON,Rapid-firing missile system that will overwhelm the enemy with pure numbers. It also comes with decent tracking capabilities which allowed it to intercept incoming spacecrafts as well.,Strike,,
+uaf_clemente_base,WEAPON,"Standard-issue anti-ship torpedo, filled with high explosive filler that will penetrate through armored targets.",Finisher,,
+uaf_clemente_nakiha,WEAPON,"Standard-issue anti-ship torpedo, filled with high explosive filler that will penetrate through armored targets.",Finisher,,
+uaf_clemente_s_mrm_double,WEAPON,"Standard-issue anti-ship torpedo, filled with high explosive filler that will penetrate through armored targets. This particular system is loaded on a self-reloading pod that allowed rapid-firing capability.",Finisher,,
+uaf_typhoon_l_sasm,WEAPON,"Large anti-ship torpedo, installed on a self-reloading turret that will devastate any targets that are too slow to evade.",Finisher,,
+uaf_typhoon_s_sasm,WEAPON,"Large anti-ship torpedo, filled with disruptive high explosive filler which allowed it to perform well against shielded and armored targets alike.",Finisher,,
+uaf_semibreve_base,WEAPON,"Experimental large anti-everything torpedo, usually used as a last-resort weapon as it will show no mercy to friendly or foe. Its fusion megaton warhead will evaporate anything in its explosion radius.",Area of Effect Suppression,,
+uaf_rhythm_base_triple,WEAPON,"Standard-issue suppressive missile system, its unguided high explosive missile will accelerate and ambush the enemy with a triple-volley fire.",Strike,,
+uaf_exoscar_torpedo_base,WEAPON,"Standard-issue anti-ship torpedo, highly capable against ships and space structures. It also comes with fairly capable tracking system which will guide it to its target.",Finisher,,
+uaf_exoscar_torpedo_base_shield,WEAPON,"Standard-issue anti-ship torpedo, highly capable against ships and space structures. It also comes with fairly capable tracking system which will guide it to its target and a miniaturized shield to protect against incoming intercepting armaments.",Finisher,,
+uaf_selemene_m_mrm,WEAPON,"Standard-issue anti-ship torpedo, equipped with better avionics and disruptive explosive filler which is suitable to ambush and disable the enemy. This one is installed on a self-reloading pod.",Strike,,
+uaf_selemene_s_mrm,WEAPON,"Standard-issue anti-ship torpedo, equipped with better avionics and disruptive explosive filler which is suitable to ambush and disable the enemy.",Strike,,
+,,,,,
+uaf_amazoch_light_asrm_dual,WEAPON,"Lightweight unguided torpedo, installed on a self-reloading pod. it will accelerate forward and could potentially take advantage of anyone whom are unaware of its forthcoming demise.",Strike,,
+uaf_amazoch_s_asrm_single,WEAPON,"Lightweight unguided torpedo, it will accelerate forward and could potentially take advantage of anyone whom are unaware of its forthcoming demise.",Strike,,
+,,,,,
+uaf_chorus_l_amm,WEAPON,"Standard issue anti-air missile system, capable of intercepting incoming threats and potentially neutralize enemy spacecrafts thanks to its highly capable avionic technology and tracking capabilities.",Point Defense,,
+uaf_chorus_m_amm,WEAPON,"Standard issue anti-air missile system, capable of intercepting incoming threats and potentially neutralize enemy spacecrafts thanks to its highly capable avionic technology and tracking capabilities.",Point Defense,,
+uaf_chorus_s_amm,WEAPON,"Standard issue anti-air missile system, capable of intercepting incoming threats and potentially neutralize enemy spacecrafts thanks to its highly capable avionic technology and tracking capabilities.",Point Defense,,
+,,,,,
+uaf_minirest_asm_l,WEAPON,"An experimental two-staged anti-ship torpedo system, it will try to flank the enemy from the side on the first stage and separate its high explosive warhead that will accelerate toward its target.",STRIKE,,
+,,,,,
+uaf_fw_30mm_class_i,WEAPON,"Standard issue rotary rapid-fire weapon system, equipped with high explosive incendiary rounds which is commonly found among Auroran fighters.",,,
+uaf_fw_30mm_class_ii,WEAPON,"Standard issue rotary rapid-fire weapon system, equipped with high explosive disruptive rounds that will potentially stun and eventually neutralize the enemy.",,,
+uaf_fw_40mm_class_i,WEAPON,Rotary rapid-fire weapon system that comes in larger caliber which proven to be very effective against all kinds of targets.,,,
+,,,,,
+uaf_fw_76mm_class_i,WEAPON,"Miniaturized version of the Tona railgun weapon system to be installed on a fighter-size spacecraft, its smaller size allows it to fire much faster than its ship counterpart.",,,
+uaf_fw_76mm_class_ii,WEAPON,"Miniaturized version of the Tona railgun weapon system to be installed on a fighter-size spacecraft, its smaller size allows it to fire much faster than its ship counterpart.",,,
+,,,,,
+uaf_fw_hvar_class_i,WEAPON,Classic rocket pod for anti-ship purposes.,,,
+uaf_fw_hvar_class_ii,WEAPON,Classic rocket pod for anti-ship purposes.,,,
+,,,,,
+uaf_fw_amssm_class_i,WEAPON,"Standard issue anti-air missile system, capable of intercepting incoming threats and potentially neutralize enemy spacecrafts thanks to its highly capable avionic technology and tracking capabilities.",,,
+uaf_fw_amssm_class_ii,WEAPON,"Standard issue anti-air missile system, capable of intercepting incoming threats and potentially neutralize enemy spacecrafts thanks to its highly capable avionic technology and tracking capabilities.",,,
+uaf_fw_amssm_class_iii,WEAPON,"Standard issue anti-air missile system, capable of intercepting incoming threats and potentially neutralize enemy spacecrafts thanks to its highly capable avionic technology and tracking capabilities.",,,
+,,,,,
+uaf_fw_exoscar_class_i,WEAPON,"Standard-issue anti-ship torpedo, highly capable against ships and space structures. It also comes with fairly capable tracking system which will guide it to its target.",,,
+uaf_fw_exoscar_class_ii,WEAPON,"Standard-issue anti-ship torpedo, highly capable against ships and space structures. It also comes with fairly capable tracking system which will guide it to its target.",,,
 ,,,,,
 #SHIPS,,,,,
-uaf_nakiha,SHIP,"The Nakiha is the backbone of the Aurora. She was designed to serve as a standard issue midline destroyer, that is capable of maneuvering at flanking speed. Nakiha has seen action in various systems and sectors alike. A nimble yet deadly adversary should the enemy underestimate her.",,,
-uaf_ai_nakiha,SHIP,"An experimental variant. This ship have been refitted to accommodate a handful amount of Auroran humanoid artificial intelligence androids. Leaving a lot of space for even more upgrades including the experimental composite carbon nano-materialized armor.
+uaf_nakiha,SHIP,"The Nakiha class is a leader class of frigate commissioned by the Auroran Federation Navy. The class is also highly regarded to be a successful design as it quickly become the backbone of the navy for its above average overall performance and its atmospheric flight capability. 
 
-The Nakiha is the backbone of the Aurora. She was designed to serve as a standard issue midline destroyer, that is capable of maneuvering at flanking speed. Nakiha has seen action in various systems and sectors alike. A nimble yet deadly adversary should the enemy underestimate her.",,,
-uaf_m_nakiha,SHIP,"This ship is the militarized version of the standard nakiha, serving the same role as the standard nakiha with improved survivability and new reactor engine issued by the research and department.",,,
+The fourth generation Nakiha first came out during the desperate defensive war over Aurora against the onslaught of combined sector invasion forces. Its modular design and ability to fly in planetary conditions allowed it to be a vital contribution to the homeworld defense as it can be produced en masse from ground production facilities, then launch into space via its own power or mass drive. This nimble and versatile warship should never be underestimated by its foe, or suffer the consequences as it may hold a couple of hidden surprises against any oblivious enemies.",,,
+uaf_ai_nakiha,SHIP,"The Nakiha class is a leader class of frigate commissioned by the Auroran Federation Navy. The class is also highly regarded to be a successful design as it quickly become the backbone of the navy for its above average overall performance and its atmospheric flight capability. 
+
+The fourth generation Nakiha first came out during the desperate defensive war over Aurora against the onslaught of combined sector invasion forces. Its modular design and ability to fly in planetary conditions allowed it to be a vital contribution to the homeworld defense as it can be produced en masse from ground production facilities, then launch into space via its own power or mass drive. This nimble and versatile warship should never be underestimated by its foe, or suffer the consequences as it may hold a couple of hidden surprises against any oblivious enemies.
+
+This ship was retrofitted and heavily modified to meet the specifications required by the Auroran-Automata Expeditionary Division. It is equipped with the latest avionics and prototype upgrades; which allowed it to perform even better than its predecessors while also boasting lower sensor profile thanks to its durable stealth coating technology.",,,
+uaf_m_nakiha,SHIP,"The Nakiha class is a leader class of frigate commissioned by the Auroran Federation Navy. The class is also highly regarded to be a successful design as it quickly become the backbone of the navy for its above average overall performance and its atmospheric flight capability. 
+
+The fourth generation Nakiha first came out during the desperate defensive war over Aurora against the onslaught of combined sector invasion forces. Its modular design and ability to fly in planetary conditions allowed it to be a vital contribution to the homeworld defense as it can be produced en masse from ground production facilities, then launch into space via its own power or mass drive. This nimble and versatile warship should never be underestimated by its foe, or suffer the consequences as it may hold a couple of hidden surprises against any oblivious enemies.
+
+This ship was given up-to-date military-grade upgrades and a unique camouflage pattern belonging to the Auroran Royal Navy's November Fleet which is led personally by the Queen of Yuria herself. Additional armor plating and durable protective coating were installed to enhance the survivability of this ship; albeit at the cost of slightly lowered maneuverability and speed due to additional weight.
+
+",,,
 ,,,,,
-uaf_m_perwira,SHIP,,,,
+uaf_novayu,SHIP,"The Novayu was designed alongside the Nakiha class Frigate Leader as part of the advanced frigate procurement program. Unlike the other one, it sacrificed ballistic firepower in exchange for the versatility of missile weaponry. its medium-sized twin missile compartment could potentially deliver a bigger punch depending on the loadout of the ship itself. Its commonly mistaken as the Nakiha as it shared too many similarities in terms of performance and visual aesthetics.",,,
 ,,,,,
-uaf_reisen,SHIP,"The main capital ship issued by the UAF Military, the ship has a good firepower capability as well as point defense mounts.",,,
-uaf_m_reisen,SHIP,"The main capital ship issued by the UAF Military, the ship has a good firepower capability as well as point defense mounts. This version is installed with upgraded military subsystem, new reactor engine, and improved hull integrity, allowing repairs on the ship hulls.",,,
+uaf_m_perwira,SHIP,This compact aeroshuttle is a common sight in Auroran space as its a famous choice among starting spacefarers and traders alike as it come equipped with a single weapon mount for self-defense along with two side-mounted missile compartment. Allowing it to defend itself against an opponent of its own size to a certain extent and getting away with it. ,,,
 ,,,,,
-uaf_exoria,SHIP,"The backbone carrier issued by the UAF Military, the carrier is designed to be mass produced while still having decent fighter support.",,,
+uaf_reisen,SHIP,"The Reisen class Pocket Battleship is one of the standard issue capital warship commissioned by the Auroran Federation Navy. It is developed to emphasize on overwhelming ballistic firepower which makes it suitable in a naval combat or siege battles. It is also the first large capital class to be ever constructed with ""guns blazing-or-nothing"" offensive doctrine in mind.
+
+It will typically outrange and outgun any foes long before they come within range to engage the Reisen thanks to its advanced rangefinder systems. It is also designed with rather uncommon weapon layout where the main weapons are positioned alongside each other but with the rear at slightly higher elevation which allowed all guns to converge on the same target, so long as the target stays at optimal angle of engagement. This frontline battleship will require its escorts to protect her flanks, its poor mobility doesn't allow her to disengage easily from combat as it is equipped with super-heavy armor plating to protect itself against incoming fire.",,,
+uaf_m_reisen,SHIP,"The Reisen class Pocket Battleship is one of the standard issue capital warship commissioned by the Auroran Federation Navy. It is developed to emphasize on overwhelming ballistic firepower which makes it suitable in a naval combat or siege battles. It is also the first large capital class to be ever constructed with ""guns blazing-or-nothing"" offensive doctrine in mind.
+
+It will typically outrange and outgun any foes long before they come within range to engage the Reisen thanks to its advanced rangefinder systems. It is also designed with rather uncommon weapon layout where the main weapons are positioned alongside each other but with the rear at slightly higher elevation which allowed all guns to converge on the same target, so long as the target stays at optimal angle of engagement. This frontline battleship will require its escorts to protect her flanks, its poor mobility doesn't allow her to disengage easily from combat as it is equipped with super-heavy armor plating to protect itself against incoming fire.
+
+This ship was given up-to-date military-grade upgrades and a unique camouflage pattern belonging to the Auroran Royal Navy's November Fleet which is led personally by the Queen of Yuria herself. Additional armor plating and durable protective coating were installed to enhance the survivability of this ship; albeit at the cost of slightly lowered maneuverability and speed due to additional weight.",,,
+,,,,,
+uaf_rillaru,SHIP,"The standard-issue battlecruiser that would become the most reliable capital ship to have ever served the Auroran Federation Navy. Famously known for its versatility in terms of firepower and agility, along with its sleek-ish design aesthetics which makes it a common favorite among crewmates and commanding officers alike.
+
+If firepower and survivability aren't the issues, half of the fleet admirals and captains would typically favor the Rillaru as their flagship, regardless of the fleet composition or formation. Not only is it nimble enough to maneuver around the enemy formation and strike from favorable angle of attack. It's also large and heavily armed enough to pose a threat to or ward off the enemy due to its balanced weapon layout with the possibility of engaging in successful duels with proper battleships given the right armaments and a skillfull captain.",,,
+uaf_ai_rillaru,SHIP,"The standard-issue battlecruiser that would become the most reliable capital ship to have ever served the Auroran Federation Navy. Famously known for its versatility in terms of firepower and agility, along with its sleek-ish design aesthetics which makes it a common favorite among crewmates and commanding officers alike.
+
+If firepower and survivability aren't the issues, half of the fleet admirals and captains would typically favor the Rillaru as their flagship, regardless of the fleet composition or formation. Not only is it nimble enough to maneuver around the enemy formation and strike from favorable angle of attack. It's also large and heavily armed enough to pose a threat to or ward off the enemy due to its balanced weapon layout with the possibility of engaging in successful duels with proper battleships given the right armaments and a skillfull captain.
+
+A rare variant of the Rillaru, this post-production battlecruiser was upgraded with extended side-mounted weapon platforms next to its flight decks. It is also installed with a reverse-engineered phase skimmer system which would give her unparalleled agility unlike its stock version.
+
+This ship was retrofitted and heavily modified to meet the specifications required by the Auroran-Automata Expeditionary Division. It is equipped with the latest avionics and prototype upgrades; which allowed it to perform even better than its predecessors while also boasting lower sensor profile thanks to its durable stealth coating technology.",,,
+,,,,,
+uaf_purcellyra,SHIP,"A newcomer among the already established capital formation of the Auroran Federation Navy. this unproven missile battlecruiser could potentially yield devastating amount of firepower to anyone facing against her, should all of her missiles are left untouched and reach their targets.
+
+The Purcellyra was built with ""guns blazing-or-nothing"" doctrine in mind with a twist of missile weaponry instead of ballistics. It was designed specifically to be a missile platform that carries strategic weapon of mass destruction on the table. If conventional or diplomatic means are no longer viable, bringforth the Purcellyra and her righteous instruments - she will bring the music of death straight to the enemy.",,,
+uaf_m_fusoreina,SHIP,"After witnessing the pure might of the Onslaught and Paragon class Battleships, it become clear that the Auroran Navy wouldn't stand a chance if they don't have a suitable frontline capital ship that can fight them head-on or at least, hold the line long enough until reinforcement are able to support them.
+
+The Fusoreina was designed as the stopgap solution to such capital problem. She is equipped with super-heavy armor plating and forward facing weaponry along with reverse-engineered 'fortress'-like shield technology, ripped from the carcass of a former Tri-Tachyon battleship. These upgrades will ensure longevity and survivability to the absolute limit but it was proven to be too costly of a niche investment for the Navy to fully commission into the capital formation.
+
+This rare ship is part of the 'Prototypes' that are declined into service of the Auroran Federation Navy, but still chosen to be produced in limited numbers. It is painted with the navy dazzle camouflage patterns with gold stripes along the forward bow to signify its prototype status.",,,
+uaf_isenoria_prototype,SHIP,"Although the Navy generally favored aircraft carriers over classic warships, they wouldn't deny the significance of having ships that can stand their ground and exchange fire without being taken out of the fight quickly.. but what if you can combine both roles into one? Isenoria is the result of such curiosity. 
+
+The plan was to ensure that a fleet would benefit from having a battleship and aircraft carrier from a single capital ship. A large deck was installed on the rear part of the ship with the superstructure and flux vent funnel intergrated in the middle, while the opposite bit will have all sizes of ballistic weaponry facing forward. Such design would be fitting of the term, 'glass cannon' as this ship is the jack of all trades, the master of none.
+
+This rare ship is part of the 'Prototypes' that are declined into service of the Auroran Federation Navy, but still chosen to be produced in limited numbers. It is painted with the navy dazzle camouflage patterns with gold stripes along the forward bow to signify its prototype status.",,,
+uaf_sentry,SHIP,"Before the secretive Trio Naval Plan come to fruition, the Navy needed a siege ship that can stay well out of enemy range while bombarding them from safe distance. The existing capital ships are unable to meet such demand as both sides are already within range of each other by the time they're armed and ready.
+
+The Sentry class Artillery Cruiser isn't really a ship in itself, it is merely a flying glass cannon warship with engines and weapons strapped around it. Its dual-barreled railguns are customized to be able to fire from extreme range while still retaining its penetrative capabilities. Once the crew compartments and other necessities are installed, the remaining space are used to add additional weapons to serve as complementary back-up. This left no room for further improvements as the existing shield emitter can only protect so much when most of the flux capacitors are dedicated for the main guns.
+
+This rare ship is part of the 'Prototypes' that are declined into service of the Auroran Federation Navy, but still chosen to be produced in limited numbers.",,,
+uaf_m_sentry,SHIP,"Before the secretive Trio Naval Plan come to fruition, the Navy needed a siege ship that can stay well out of enemy range while bombarding them from safe distance. The existing capital ships are unable to meet such demand as both sides are already within range of each other by the time they're armed and ready.
+
+The Sentry class Artillery Cruiser isn't really a ship in itself, it is merely a flying glass cannon warship with engines and weapons strapped around it. Its dual-barreled railguns are customized to be able to fire from extreme range while still retaining its penetrative capabilities. Once the crew compartments and other necessities are installed, the remaining space are used to add additional weapons to serve as complementary back-up. This left no room for further improvements as the existing shield emitter can only protect so much when most of the flux capacitors are dedicated for the main guns.
+
+This variant comes with a unique paintjob, dedicated to a certain woman with distinguished service record with further possible modifications to enhance its survivability. Filling her to the brim effectively.
+
+This rare ship is part of the 'Prototypes' that are declined into service of the Auroran Federation Navy, but still chosen to be produced in limited numbers.",,,
+uaf_eyeseau,SHIP,"The Eyeseau class is an auxillary command ship that serves as a floating platform for overall command and support purposes such as Electronic Warfare, Countermeasures and Command Control.
+ 
+Its powerful sensors will not only detect anything man-made within its extreme range, but also emit disruptive frequencies that will disable any unprotected spacecraft or warships so long as the signal continues to be transmitted. The ship is also capable of conducting planetary survey and perform exploration missions as the necessary equipment come in by default.
+Such advanced technologies may grant amazing capabilities. However, it requires frequent maintenance cycles and reliable logistical support to keep them functional. Rest assured, the cost might be worth it however as the name goes - She can see you. No matter where you are.
+
+This rare ship is part of the 'Prototypes' that are declined into service of the Auroran Federation Navy, but still chosen to be produced in limited numbers. It is painted with the navy dazzle camouflage patterns with gold stripes along the forward bow to signify its prototype status.",,,
+,,,,,
+,,,,,
+uaf_slvv_core,SHIP,"The Solvernia V is the pinnacle of Auroran space engineering. It was developed as part of the secretive naval super capital project, a plan that will carry the exploration force far beyond into the Sector and away from home. The ship was designed to be a flagship for the navy that could possibly overwhelm and outlive any rivals. Although it is by all means a combat ship, its secondary purpose is to also accompany an exploration fleet deep into the Sector, expect the unexpected they say. Her frontal firepower isn’t just for show either, she will bite anyone who dares to threaten.
+
+She is the first of the trio super capitals to be drafted and constructed, just in time to join the first and bold few who dared to blindly sail into the unknown. 
+
+The Solvernia possessed an unholy combination of immense firepower and impenetrable defenses that could only be powered by the most powerful Melody nuclear fusion reactor available to the Auroran. The signature dazzle camouflage pattern could not only confuse enemies but also possibly intimidate anyone into fearing her. She needn’t to hide, she wants to be seen by all. Only the bravest navy admiral and mightiest armada would dare to challenge her as the dreadnought even alone without escorts are able to defend herself, should the need ever arise.
+
+“The Solvernia is our embodiment of might and prosperity. Welcoming with open arms to those who wish to be peaceful with us but also stand fast and fight if anyone dares to challenge us. Even a pen and sword can be mutually beneficial if used right together. “ Aeria Charlotte Yuki, Permaisuri of the United Auroran Federation.",,,
+uaf_novaeria,SHIP,"The Novaeria on the other hand is the opposite of Solvernia. If one is specialized in firepower and intimidation, the other is more an overall strategic command and control. The crown jewel and mastermind of the trio. Currently commissioned as a flagship type for the autonomous semi-faction of the United Aurora Federation.
+
+She is the bigger one of the two twin sisters. Her lack of direct firepower is compensated with rather impressive numbers of fighter wings for maximum power projection, all thanks to her massive twin forward hulls as they’re capable of housing even a couple smaller destroyers. She is also equipped with the most advanced communications and surveillance technologies to be use for both military and space exploration purposes.
+
+Needless to say, the Novaeria are both militarily and diplomatically strategic asset. A perfect tool to spread influence across any region as her mighty presence can be felt where ever she goes; she is after all a mobile base of operations that carries along a vast spherical form of autonomous territory. Anyone or anything will be dealt with accordingly, should they somehow decided to do something she doesn’t like.
+
+“Novaeria is the mechanical extension of our royal influence. We are Novaeria.“ AER-1A, Command AI of the Auroran Expeditionary Automata Division.",,,
+,,,,,
+,,,,,
+uaf_exoria,SHIP,A standard-issue medium carrier,,,
 uaf_m_exoria,SHIP,"The backbone carrier issued by the UAF Military, the carrier is designed to be mass produced while still having decent fighter support. This version may be installed with upgraded military subsystems, new reactor engine, and improved hull integrity, allowing for the ship hull to repair.",,,
 ,,,,,
-uaf_minoria,SHIP,,,,
-uaf_m_minoria,SHIP,,,,
+uaf_minoria,SHIP,"Minoria is a humble and light aircraft carrier designed to be atmospheric-capable, it relies completely on its fighter wings for offensive and defensive capabilities.",,,
+uaf_m_minoria,SHIP,"Minoria is a humble and light aircraft carrier designed to be atmospheric-capable, it relies completely on its fighter wings for offensive and defensive capabilities.",,,
+uaf_ai_minoria,SHIP,"Minoria is a humble and light aircraft carrier designed to be atmospheric-capable, it relies completely on its fighter wings for offensive and defensive capabilities.",,,
 ,,,,,
-uaf_ai_neuxoria,SHIP,,,,
+uaf_ai_neuxoria,SHIP,"The experimental fleet supercarrier class currently serving as the carrier of choice for the Auroran Expeditionary Automata Division, the Neuxoria is one-of-a-kind beast that distinguished itself from many others as it features various unusual but bold design concepts.
+
+It is optimally designed to be as efficient as possible for the Automata Fleet as they require less manpower thanks to their autonomous semi-sentient 'Neuko' model androids. This opened up large amount of room for further modifications and top-of-the-line upgrades that normally wouldn't be possible on a normal ship. A reverse-engineered recall teleport system was also installed into the ship which allowed it to summon its deployed fighter wings back to instantly re-arm and re-fit without delay.
+
+This ship was retrofitted and heavily modified to meet the specifications required by the Auroran-Automata Expeditionary Division. It is equipped with the latest avionics and prototype upgrades; which allowed it to perform even better than its predecessors while also boasting lower sensor profile thanks to its durable stealth coating technology.",,,
+uaf_m_zepporia,SHIP,"The advanced fleet supercarrier of the Auroran Federation Navy, a battlecarrier designed to stand and fight alongside the Solvernia in her time of needs. Its vast number of fighter wings and battleship-like armaments will ensure that no one would dare to approach her without getting punished for it.
+
+The carrier was exclusively commissioned and used by the Royal November Fleet as they require a capital class carrier ship with enough firepower and armor to stay at the frontline for a prolonged time. Its streamlined air operations were made easier thanks to its runway which runs along its spine. Spacecrafts may take off from the front while the returning ones would enter from the side hangar bays. Despite its own capability to be independent from needing any escorts, its rarely seen without one as the Zepporia II would require tremendous amount of resources and effort to even construct a single one of them. Making it a rarity among fleet admirals who are lucky enough to have one as their flagship.
+
+This ship was given up-to-date military-grade upgrades and a unique camouflage pattern belonging to the Auroran Royal Navy's November Fleet which is led personally by the Queen of Yuria herself. Additional armor plating and durable protective coating were installed to enhance the survivability of this ship; albeit at the cost of slightly lowered maneuverability and speed due to additional weight.",,,
 ,,,,,
-uaf_m_nebula_bravo,SHIP,,,,
-uaf_machi_apa,SHIP,,,,
-uaf_sekai_s,SHIP,"A fast and nimble tanker ship usually used in small fleet within UAF Military, providing sufficient amount of tanker supplies.",,,
-uaf_wo_m,SHIP,"An armored and agile fuel tanker with balanced weapon emplacements, used in medium to large fleet of UAF Military, providing bigger amount of tanker supplies.",,,
-uaf_tsutsumu_l,SHIP,"An armored, upgunned with an addition of small flight deck hangar at the cost of its maneuverability and being a bigger target than the other UAF Tanker Ships. This ship has the largest tanker capacity.",,,
+uaf_m_nebula_bravo,SHIP,"Manufactured and leased by Vanguard Enterprise, she is designed to breakthrough blockades and outrun any pursuers with its high performance engines. Its modular design also allowed its captain to carry various types of cargo.",,,
+uaf_machi_apa,SHIP,"A standard issue landing ship that carries ground combat units into battle or to simply transport large number of personnel from one point to another. Its flight bay also houses a wing of support spacecrafts designed to provide air cover for assault teams or even to protect the landing ship itself, should the need ever arises. ",,,
+uaf_sekai_s,SHIP,"Manufactured by the KOKIA Industries, Sekai is an armored and nimble tanker ship designed to avoid and survive any engagements. Unlike any typical logistic ships, the KOKIA-series were designed to look aggressive with their silhouette and also armed with enough armaments to be mistaken as combat ships which often successfully discouraged anyone into engaging them head-on without support.",,,
+uaf_wo_m,SHIP,"Manufactured by the KOKIA Industries. After the successful introduction of the Sekai-class M-Tanker into the Navy, the corporation were tasked to further continue the development of more tanker ships with enough requirements to survive the unknown dangers of the Starsector. Wo-class M-Tanker quickly became the backbone of the logistic fleets thanks to its outstanding performance as a logistic ship and relatively-cheap production cost. ",,,
+uaf_tsutsumu_l,SHIP,"Manufactured by the KOKIA Industries, the Tsutsumu-class L-Tanker is the last of the trios. It is heavily armored and armed to the equivalent firepower of a light cruiser, a mandatory requirement for a ship that carries enough fuel to maintain a combat fleet for several sorties across the sector.",,,
 ,,,,,
 #FIGHTERS,,,,,
-uaf_wing_aria,SHIP,,,,
-uaf_wing_superaria,SHIP,,,,
-uaf_wing_fisoyuz,SHIP,,,,
-uaf_wing_mitsurei,SHIP,,,,
+uaf_wing_aria,SHIP,"A standard-issue fighter that earned the trust of many admirals. It is also atmospheric flight capable, armed with autocannons and high velocity rockets.",,,
+uaf_wing_superaria,SHIP,"An upgraded variant of the existing Aria with updated avionic technologies, increased survivability and even better armaments; however at higher production cost.",,,
+uaf_wing_fisoyuz,SHIP,A light attacker spacecraft that will strafe the enemy ships with its anti-ship rockets.,,,
+uaf_wing_mitsurei,SHIP,A light interceptor spacecraft meant for mass-production with the mindset of overwhelming the enemy with pure quantity instead of quality.,,,
 ,,,,,
-uaf_wing_forlorn,SHIP,,,,
-uaf_wing_nekoyan,SHIP,,,,
-uaf_wing_lynx,SHIP,"An Experimental ace fighter issued by the department of research and technology, fitted with unique melody engine reactor and counter-weight for experimental single-barrel cyrexa mount.",,,
+uaf_wing_forlorn,SHIP,The next-generation heavy fighter armed with heavy autocannons and anti-air missiles meant to secure air superiority with enough endurance to survive a few direct hits.,,,
+uaf_wing_nekoyan,SHIP,An experimental strike fighter loaded with miniature sized phase skimmer which allowed them toengage from unexpected angles with their disruptive autocannons.,,,
+uaf_wing_lynx,SHIP,"An experimental ace fighter issued by the department of research and technology, fitted with unique melody engine reactor and counter-weight for experimental single-barrel cyrexa mount.",,,
 ,,,,,
-uaf_wing_minersky,SHIP,,,,
-uaf_wing_noversky,SHIP,,,,
+uaf_wing_minersky,SHIP,A standard-issue attacker designed to attack enemy ships with its trusty railgun and rockets.,,,
+uaf_wing_noversky,SHIP,A heavy attacker spacecraft with twice the amount of firepower of its predecessor for anti-ship purposes but still lacking in anti-air capabilities.,,,
 ,,,,,
-uaf_wing_exoscar,SHIP,"Torpedo bomber issued by UAF Military with the carrying capacity of two high-velocity exoscar torpedo, capable of punching through even capital ships.",,,
-uaf_wing_menascar,SHIP,"Fast Torpedo Bomber issued by UAF Military, equipped by three high-velocity and maneuverable missile. The fighter features a very high speed for strategical bombing.",,,
+uaf_wing_exoscar,SHIP,"A high speed and versatile standard-issue torpedo bomber, suitable for attacking isolated targets with its deadly anti-ship torpedoes but relies on its maneuverability to avoid enemy attacks.",,,
+uaf_wing_menascar,SHIP,An experimental large spacecraft powered by twin high performance cruise engines meant to provide enough speed and maneuverability to quickly launch its payload and hurry back home.,,,
 ,,,,,
-uaf_wing_sakurai,SHIP,,,,
-uaf_wing_hibiscus,SHIP,,,,
-uaf_wing_hyacinth,SHIP,,,,
+uaf_wing_sakurai,SHIP,"A standard-issue bomber spacecraft with high-capacity bomb bays, capable of saturating the enemy with high explosive bombs and get away with it as it is also armored.",,,
+uaf_wing_hibiscus,SHIP,A relatively light bomber spacecraft that sacrificed survivability in return for enough firepower to disable enemy frigates or bomb ground-based targets.,,,
+uaf_wing_hyacinth,SHIP,"A large, heavily armored bomber spacecraft armed with all sorts of bombs that will severely punish anyone that allowed it to sneak past defenses and devastate its target.",,,
 ,,,,,
 #CAMPAIGN,,,,,
-uaf,FACTION,"United Aurora Federation, symbolizes the unity of Auroran people from their homeworld 'Aurora', rumored to be from alternate 'mirror universe' which isn't from this timeline.  United Aurora Federation or UAF for short is a constitutional monarch led by Queen Aeria Charlotte, an elegant yet charismatic monarch whose mandate is to explore the stars and beyond.",,,
+uaf,FACTION,"United Aurora Federation, symbolizes the unity of Auroran people from their homeworld 'Aurora', rumored to be from alternate 'mirror universe' which isn't from this timeline. The United Aurora Federation or UAF for short is a constitutional monarchy led by Permaisuri Aeria Charlotte, a charismatic monarch whose mandate is to explore the stars and beyond.",,,
 uaf_auroria_planet,CUSTOM,"The new home of United Aurora Federation after their first wave of arrival into the Sector, it has a habitable climate and thrives in farming, rich in minerals and ores, as well as balanced floras and faunas. The people of Auroran colonizes the planet and named it New Auroria, symbolizing the new homeworld in the sector which marked the planet as the first foothold in the Sector. New Auroria is also one of the many, but also the only habitable planet that orbits the twin star Aoi-Ayama.",,,
 uaf_choco_lava,RESOURCE,This choco lava sauce is one of the special commodities found in the planet of Auroria as people inhabiting the planet loves sweet foods. The sauce is made from a processed kokoa and packaged in bottles ready to use.,,,
 uaf_diced_pineapple,RESOURCE,"This diced and dried goods are made from processed pineapple fruit, usually found in tropical planets, coated with a little bit of sugars before being packaged into bags of pineapple goods. This food is good for snacking while giving a comparable nutritional value for space-faring civilization, the diced pineapple being dried also helped with preserving the food itself.",,,
-uaf_abandoned_decom_space_habitat,CUSTOM,"A decommissioned station from the early days of UAF space-faring age. The station starts to deteoriate and has been abandoned since in favour of the new EVA station orbitting around the New Avroria. Even though its considered as a space hunk, small portion of its function is still alive and functional.",,,
+uaf_abandoned_decom_space_habitat,CUSTOM,"A Domain-era space station that was abandoned long before the arrival of the UAF into the Sector, it was deemed irreparable by many but some might be able to take advantage of its virtually vast storage capacity.",,,
 uaf_eva,CUSTOM,Eva Station,,,
+uaf_wreck_desc,CUSTOM,"A wreckage of once was an UAF Fleet, it wails a corrupted emergency beacon again and again.",,,
+uaf_favonius_planet,CUSTOM,"Favonius is one of the most evocative and popular tourist planet within the system of 6064 Caeli Celestial Object. A visit here sparks the senses. The bright relaxing yellow sun that  isn't scorching thanks to a quite dense atmosphere of the planet, as well as constant breeze circling slowly around the planet, especially on the equator region, can quickly calm any tensions present in this planet, making it an ideal place for peaceful negotiations. The intoxicating fragrance of incense and clove oil also hangs in the thick tropical air. Peanuts sizzle at roadside stalls, petal-strewn offerings smolder on busy sidewalks, and traditional dance and music jangles against the buzz of people chatters.",,,
+uaf_favonius_station,CUSTOM,"A station for directly managing The Favonius, also a place to park spaceships while visiting the world. Direct access to Favonius bypassing this station is illegal.",,,

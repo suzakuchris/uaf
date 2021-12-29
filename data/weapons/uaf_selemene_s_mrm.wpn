@@ -31,5 +31,5 @@
 				 "blowbackSpread":10.0,
 				 "particleColor":[128,128,128,105]},	
 	"projectileSpecId":"uaf_selemene_missile",
-	"fireSoundTwo":"salamander_fire",
+	"fireSoundTwo":"uaf_missile_1",
 }

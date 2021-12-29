@@ -13,15 +13,22 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "uaf_weiss_flk",
-        "WS0002": "uaf_medlav_dual",
-        "WS0004": "uaf_vocals_swarmer_base"
+        "WS0002": "uaf_medlav_dual"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0004": "uaf_vocal_s_srm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_weiss_flk"
+      }
     }
   ],
   "modules": [],

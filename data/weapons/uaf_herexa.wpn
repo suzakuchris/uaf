@@ -10,9 +10,9 @@
 	"hardpointGunSprite":"graphics/weapons/Herexa 609mm Dual/herexa_609mm_dual_hardpoint_recoil.png",	
 	"visualRecoil":7.0,  # the gun sprites are only used if this is non-0
 	"renderHints":[RENDER_BARREL_BELOW],
-	"turretOffsets":[-1, 5, -1, -5],
+	"turretOffsets":[25, 5, 25, -5],
 	"turretAngleOffsets":[0, 0],
-	"hardpointOffsets":[-1, 5, -1, -5],
+	"hardpointOffsets":[25, 5, 25, -5],
 	"hardpointAngleOffsets":[0, 0],
 	"specialWeaponGlowWidth":15,
 	"specialWeaponGlowHeight":40,
@@ -25,7 +25,8 @@
 					   "particleDuration":0.13,
 					   "particleCount":35,
 					  "particleColor":[165,225,185,175]},
-	"projectileSpecId":"uaf_pu_aarm_lg",  # projectile that will be fired
-	"fireSoundTwo":"cyrexa_cannon3",
-	"everyFrameEffect":"data.scripts.weapons.uaf_laserPrecannon",	
+	"projectileSpecId":"uaf_pu_aarm_lg_herexa",  # projectile that will be fired
+	"fireSoundOne":"uaf_ru_herexa_608",
+	"fireSoundTwo":"uaf_herexa_608",
+	"everyFrameEffect":"data.scripts.weapons.uaf_laserPrecannon",
 }

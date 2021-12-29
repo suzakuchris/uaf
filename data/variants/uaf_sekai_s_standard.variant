@@ -3,17 +3,23 @@
   "hullId": "uaf_sekai_s",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
   "weaponGroups": [
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "uaf_weiss_flk",
+        "WS0001": "uaf_weiss_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0002": "uaf_weiss_flk"
       }
     }

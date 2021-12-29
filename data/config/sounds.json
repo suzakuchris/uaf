@@ -1,26 +1,100 @@
 {        
 	#CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK 
 	"music":{
-		"northern_cross":[
-			#{"file":"Northern Cross.ogg","source":"sounds/ost","volume":0.6}, 
-		],
 		"narumi_30":[
-			{"file":"loop3_30sec_x2.ogg","source":"sounds/music","volume":0.7}
+			{"file":"loop3_30sec_x2.ogg","source":"sounds/music","volume":0.4}
 		],
 		"narumi_60":[
-			{"file":"loop3_60sec_x2.ogg","source":"sounds/music","volume":0.7}
+			{"file":"loop3_60sec_x2.ogg","source":"sounds/music","volume":0.4}
+		],
+		"music_default_market_neutral":[
+			{
+				"source":"sounds/music/music.bin",
+				"volume":0.2,
+				"files":[
+					"faction_generic_market_01_neutral_var01.ogg",
+					"faction_generic_market_01_neutral_var02.ogg",
+				],
+				"randomStart":true, 
+			},
 		],
 		"narumi_market_friendly":[
-			{"file":"uaf_final_friendly_market_loop1.ogg", "source":"sounds/music","volume":0.7}
-			#{"file":"uaf_final_friendly_market_loop2.ogg", "source":"sounds/music","volume":0.7}
+			{
+				"source":"sounds/music",
+				"volume":0.7,
+				"files":[
+					"uaf_final_friendly_market_loop1.ogg",
+					"uaf_final_friendly_market_loop2.ogg",
+				],
+				"randomStart":true, 
+			}
+			#{"file":"uaf_final_friendly_market_loop1.ogg", "source":"sounds/music","volume":0.4}
+			#{"file":"uaf_final_friendly_market_loop2.ogg", "source":"sounds/music","volume":0.4}
 		],
 		"narumi_market_hostile":[
-			{"file":"uaf_final_hostile_market_loop1.ogg", "source":"sounds/music","volume":0.7}
-			#{"file":"uaf_final_hostile_market_loop2.ogg", "source":"sounds/music","volume":0.7}
+			{
+				"source":"sounds/music",
+				"volume":0.7,
+				"files":[
+					"uaf_final_hostile_market_loop1.ogg",
+					"uaf_final_hostile_market_loop2.ogg",
+				],
+				"randomStart":true, 
+			}
+			#{"file":"uaf_final_hostile_market_loop1.ogg", "source":"sounds/music","volume":0.4}
+			#{"file":"uaf_final_hostile_market_loop2.ogg", "source":"sounds/music","volume":0.4}
 		],
 		"narumi_market_neutral":[
-			{"file":"uaf_final_neutral_market_loop1.ogg", "source":"sounds/music","volume":0.7}
-			#{"file":"uaf_final_neutral_market_loop2.ogg", "source":"sounds/music","volume":0.7}
+			{
+				"source":"sounds/music",
+				"volume":0.7,
+				"files":[
+					"uaf_final_neutral_market_loop1.ogg",
+					"uaf_final_neutral_market_loop2.ogg",
+				],
+				"randomStart":true, 
+			}
+			#{"file":"uaf_final_neutral_market_loop1.ogg", "source":"sounds/music","volume":0.4}
+			#{"file":"uaf_final_neutral_market_loop2.ogg", "source":"sounds/music","volume":0.4}
+		],
+		"narumi_encounter_friendly":[
+			{
+				"source":"sounds/music/encounter",
+				"volume":0.7,
+				"files":[
+					"uaf_friendly_encounter_loop1.ogg",
+					"uaf_friendly_encounter_loop2.ogg",
+				],
+				"randomStart":true, 
+			}
+			#{"file":"uaf_friendly_encounter_loop1.ogg", "source":"sounds/music/encounter","volume":0.4}
+			#{"file":"uaf_friendly_encounter_loop2.ogg", "source":"sounds/music/encounter","volume":0.4}
+		],
+		"narumi_encounter_neutral":[
+			{
+				"source":"sounds/music/encounter",
+				"volume":0.7,
+				"files":[
+					"uaf_neutral_encounter_loop_1.ogg",
+					"uaf_neutral_encounter_loop_2.ogg",
+				],
+				"randomStart":true, 
+			}
+			#{"file":"uaf_neutral_encounter_loop_1.ogg", "source":"sounds/music/encounter","volume":0.4}
+			#{"file":"uaf_neutral_encounter_loop_2.ogg", "source":"sounds/music/encounter","volume":0.4}
+		],
+		"narumi_encounter_hostile":[
+			{
+				"source":"sounds/music/encounter",
+				"volume":0.7,
+				"files":[
+					"uaf_hostile_encounter_loop_1.ogg",
+					"uaf_hostile_encounter_loop_2.ogg",
+				],
+				"randomStart":true, 
+			}
+			#{"file":"uaf_hostile_encounter_loop_1.ogg", "source":"sounds/music/encounter","volume":0.4}
+			#{"file":"uaf_hostile_encounter_loop_2.ogg", "source":"sounds/music/encounter","volume":0.4}
 		],
 	},
 	"uaf_nuke_semibreve":[
@@ -40,24 +114,21 @@
 	"uaf_nuke_fake":[
 		{"file":"sounds/weapons/nuke_ex_fake.ogg", "pitch":1, "volume":0.3},
 	],
-	"rubia":[
-		#{"file":"sounds/ost/rubia2.ogg", "pitch":1, "volume":0.3},
+	"uaf_phenex":[
+		{"file":"sounds/weapons/BBgun.ogg", "pitch":1, "volume":0.5},
 	],
-	"phenex":[
-		{"file":"sounds/weapons/BBgun.ogg", "pitch":1, "volume":0.3},
-	],
-	"phenex_ready":[
+	"uaf_phenex_ready":[
 		{"file":"sounds/weapons/BBgun_ready.ogg", "pitch":1, "volume":0.3},
 	],
-	"245mm_Blast":[
-		{"file":"sounds/weapons/245mm_Blast.ogg","pitch":1, "volume":0.13},
+	#"uaf_245mm_Blast":[
+		##{"file":"sounds/weapons/245mm_Blast.ogg","pitch":1, "volume":0.13},
 		#{"file":"sounds/weapons/245mm_Blast.ogg","pitch":0.95, "volume":0.14},
 		#{"file":"sounds/weapons/245mm_Blast.ogg","pitch":0.90, "volume":0.15}
-	],
+	#],
 	"yimies_flak_large":[
-		{"file":"sounds/weapons/antiair/Large AA shot 1.ogg","pitch":1,"volume":0.15},
-		{"file":"sounds/weapons/antiair/Large AA shot 2.ogg","pitch":1,"volume":0.15},
-		{"file":"sounds/weapons/antiair/Large AA shot 3.ogg","pitch":1,"volume":0.15},
+		{"file":"sounds/weapons/antiair/Large AA shot 1.ogg","pitch":1,"volume":0.30},
+		{"file":"sounds/weapons/antiair/Large AA shot 2.ogg","pitch":1,"volume":0.30},
+		{"file":"sounds/weapons/antiair/Large AA shot 3.ogg","pitch":1,"volume":0.30},
 	],
 	"yimies_flak_large_explosion":[
 		{"file":"sounds/weapons/antiair/Large AA exp 1.ogg","pitch":1,"volume":0.15},
@@ -79,50 +150,210 @@
 
 	],
 	"yimies_flak_small":[
-		{"file":"sounds/weapons/antiair/Small AA fire 1.ogg","pitch":1,"volume":0.15},
-		{"file":"sounds/weapons/antiair/Small AA fire 2.ogg","pitch":1,"volume":0.15},
-		{"file":"sounds/weapons/antiair/Small AA fire 3.ogg","pitch":1,"volume":0.15},
-		{"file":"sounds/weapons/antiair/verka/Small AA fire 1.ogg","pitch":1,"volume":0.15},
-		#{"file":"sounds/weapons/antiair/verka/Small AA fire 2.ogg","pitch":1,"volume":0.3},
-		#{"file":"sounds/weapons/antiair/verka/Small AA fire 3.ogg","pitch":1,"volume":0.3},
+		{"file":"sounds/weapons/antiair/Small AA fire 1.ogg","pitch":1,"volume":0.10},
+		{"file":"sounds/weapons/antiair/Small AA fire 2.ogg","pitch":1,"volume":0.10},
+		{"file":"sounds/weapons/antiair/Small AA fire 3.ogg","pitch":1,"volume":0.10},
+		#{"file":"sounds/weapons/antiair/verka/Small AA fire 1.ogg","pitch":1,"volume":0.10},
+		#{"file":"sounds/weapons/antiair/verka/Small AA fire 2.ogg","pitch":1,"volume":0.25},
+		#{"file":"sounds/weapons/antiair/verka/Small AA fire 3.ogg","pitch":1,"volume":0.25},
 	],
 	"yimies_flak_small_explosion":[
 		{"file":"sounds/weapons/antiair/Small AA Exp 1.ogg","pitch":1,"volume":0.15},
 		{"file":"sounds/weapons/antiair/Small AA Exp 2.ogg","pitch":1,"volume":0.15},
 		{"file":"sounds/weapons/antiair/Small AA Exp 3.ogg","pitch":1,"volume":0.15},
 	],
-	"cyrexa_cannon4":[
-		{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":1, "volume":0.95},
-		{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":0.95, "volume":0.85},
-		{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":0.9, "volume":0.75},
-		{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":0.85, "volume":0.85}
+	#"uaf_cyrexa_cannon4":[
+	#	{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":1, "volume":0.2},
+	#	{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":0.95, "volume":0.22},
+	#	{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":0.9, "volume":0.18},
+	#	{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":0.85, "volume":0.2}
+	#],
+	#"uaf_cyrexa_cannon3":[
+	#	{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":1, "volume":0.2},
+	#	{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":0.95, "volume":0.22},
+	#	{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":0.9, "volume":0.18}
+	#],
+	#"uaf_medium_cannons":[
+	#	{"file":"sounds/weapons/med_cannons.ogg", "pitch":1, "volume":0.55},
+	#	{"file":"sounds/weapons/med_cannons.ogg", "pitch":0.9, "volume":0.45},
+	#	{"file":"sounds/weapons/med_cannons.ogg", "pitch":0.8, "volume":0.45}
+	#],
+	#"uaf_75mm_Blast":[
+	#	{"file":"sounds/weapons/75mm_Blast.ogg", "pitch":1, "volume": 0.15}
+	#],
+	#"uaf_railgun_small":[
+	#	{"file":"sounds/weapons/uaf_railgun_fire.ogg", "pitch":1, "volume":0.25}
+	#],
+	#"uaf_railgun_medium":[
+	#	{"file":"sounds/weapons/uaf_railgun_fire.ogg", "pitch":1.2, "volume":0.65},
+	#],
+	#"uaf_railgun_large":[
+	#	{"file":"sounds/weapons/uaf_railgun_fire.ogg", "pitch":0.5, "volume":1.5},
+	#],
+
+	"uaf_30mm_mg":[
+		{"file":"sounds/weapons/fighters/uaf_30mm_mg.ogg", "pitch":1, "volume":0.12},
 	],
-	"cyrexa_cannon3":[
-		{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":1, "volume":0.95},
-		{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":0.95, "volume":0.85},
-		{"file":"sounds/weapons/cyrexa_grand_cannon.ogg", "pitch":0.9, "volume":0.75}
+	"uaf_40mm_cannon":[
+		{"file":"sounds/weapons/fighters/uaf_40mm_cannon.ogg", "pitch":1, "volume":0.12},
 	],
-	"medium_cannons":[
-		{"file":"sounds/weapons/med_cannons.ogg", "pitch":1, "volume":0.85},
-		{"file":"sounds/weapons/med_cannons.ogg", "pitch":0.9, "volume":0.75},
-		{"file":"sounds/weapons/med_cannons.ogg", "pitch":0.8, "volume":0.95}
+	"uaf_uaf_76mm_rg":[
+		{"file":"sounds/weapons/fighters/uaf_uaf_76mm_rg.ogg", "pitch":1, "volume":0.1},
 	],
-	"75mm_Blast":[
-		{"file":"sounds/weapons/75mm_Blast.ogg", "pitch":1, "volume": 0.15}
+
+	"uaf_bomb_drop":[
+		{"file":"sounds/weapons/fighters/uaf_bomb_drop.ogg", "pitch":1, "volume":0.2},
 	],
-	"Railgun_small":[
-		{"file":"sounds/weapons/uaf_railgun_fire.ogg", "pitch":1, "volume":0.25}
+	"uaf_bomb_explosion_large":[
+		{"file":"sounds/weapons/fighters/uaf_ugb_explosion_large.ogg", "pitch":1, "volume":0.5},
 	],
-	"Railgun_medium":[
-		{"file":"sounds/weapons/uaf_railgun_fire.ogg", "pitch":1.2, "volume":0.65},
+	"uaf_bomb_explosion_medium":[
+		{"file":"sounds/weapons/fighters/uaf_ugb_explosion_medium.ogg", "pitch":1, "volume":0.4},
 	],
-	"Railgun_large":[
-		{"file":"sounds/weapons/uaf_railgun_fire.ogg", "pitch":0.5, "volume":1.5},
+	"uaf_bomb_explosion_small":[
+		{"file":"sounds/weapons/fighters/uaf_ugb_explosion_small.ogg", "pitch":1, "volume":0.3},
 	],
-	"Flak_fire_medium":[
-		{"file":"sounds/weapons/uaf_flak_fire.ogg", "pitch":1, "volume":0.25}
+
+	"uaf_exoscar_missile":[
+		{"file":"sounds/weapons/fighters/uaf_asm_missile_fire.ogg", "pitch":1, "volume":0.5},
 	],
-	"Flak_fire_large":[
-		{"file":"sounds/weapons/uaf_flak_fire.ogg", "pitch":0.5, "volume":0.6},
+
+	"uaf_missile_1":[
+		{"file":"sounds/weapons/fighters/uaf_missile_fire_1.ogg", "pitch":1, "volume":0.3},
 	],
+	"uaf_missile_2":[
+		{"file":"sounds/weapons/fighters/uaf_missile_fire_2.ogg", "pitch":1, "volume":0.1},
+	],
+	"uaf_missile_3":[
+		{"file":"sounds/weapons/fighters/uaf_missile_fire_3.ogg", "pitch":1, "volume":0.1},
+	],
+	"uaf_missile_4":[
+		{"file":"sounds/weapons/fighters/uaf_missile_fire_4.ogg", "pitch":1, "volume":0.2},
+	],
+	"uaf_missile_5":[
+		{"file":"sounds/weapons/fighters/uaf_missile_fire_5.ogg", "pitch":1, "volume":0.3},
+	],
+	"uaf_sakura_missile":[
+		{"file":"sounds/weapons/uaf_sakura_missile.ogg", "pitch":1, "volume":0.1},
+	],
+	#new ready-up sounds
+	"uaf_ru_herexa_608":[
+		{"file":"sounds/weapons/uaf_herexa_608 - ready up.ogg", "pitch":1, "volume":0.3}
+	],
+	"uaf_ru_tona_iii_125":[
+		{"file":"sounds/weapons/uaf_tona_iii_125 - ready up.ogg", "pitch":1, "volume":0.1}
+	],
+	"uaf_ru_tona_iii_254":[
+		{"file":"sounds/weapons/uaf_tona_iii_254 - ready up.ogg", "pitch":1, "volume":0.2}
+	],
+	"uaf_ru_tona_iii_452":[
+		{"file":"sounds/weapons/uaf_tona_iii_452 - ready up.ogg", "pitch":1, "volume":0.1}
+	],
+	"uaf_ru_tona_iii_608":[
+		{"file":"sounds/weapons/uaf_tona_iii_608 - ready up.ogg", "pitch":1, "volume":0.2}
+	],
+	"uaf_ru_cyrexa_452":[
+		{"file":"sounds/weapons/uaf_cyrexa_452 - ready up.ogg", "pitch":1, "volume":0.3}
+	],
+	#new sounds
+	"uaf_deco_mg":[
+		{"file":"sounds/weapons/uaf_deco_mg.ogg", "pitch":1, "volume":0.1}
+	],
+	"uaf_decor_mg":[
+		{"file":"sounds/weapons/uaf_deco_mg.ogg", "pitch":1, "volume":0.1}
+	],
+	"uaf_claris_50":[
+		{"file":"sounds/weapons/uaf_claris_50.ogg", "pitch":1, "volume":0.2},
+	],
+	"uaf_reina_20":[
+		{"file":"sounds/weapons/uaf_reina_20.ogg", "pitch":1, "volume":0.1},
+	],
+	"uaf_cyrexa_452":[
+		{"file":"sounds/weapons/uaf_cyrexa_452.ogg", "pitch":1, "volume":0.4},
+	],
+	"uaf_herexa_608":[
+		{"file":"sounds/weapons/uaf_herexa_608.ogg", "pitch":1, "volume":0.4},
+	],
+	"uaf_hikone_125":[
+		{"file":"sounds/weapons/uaf_hikone_125.ogg", "pitch":1, "volume":0.1},
+	],
+	"uaf_ivory_254":[
+		{"file":"sounds/weapons/uaf_ivory_254.ogg", "pitch":1, "volume":0.3},
+	],
+	"uaf_medlav_254":[
+		{"file":"sounds/weapons/uaf_medlav_254.ogg", "pitch":1, "volume":0.3},
+	],
+	"uaf_tona_iii_125":[
+		{"file":"sounds/weapons/uaf_tona_iii_125.ogg", "pitch":1, "volume":0.2},
+	],
+	"uaf_tona_iii_254":[
+		{"file":"sounds/weapons/uaf_tona_iii_254.ogg", "pitch":1, "volume":0.3},
+	],
+	"uaf_tona_iii_452":[
+		{"file":"sounds/weapons/uaf_tona_iii_452.ogg", "pitch":1, "volume":0.3},
+	],
+	"uaf_tona_iv_608":[
+		{"file":"sounds/weapons/uaf_tona_iv_608.ogg", "pitch":1, "volume":0.35},
+	],
+	"uaf_triyia_30":[
+		{"file":"sounds/weapons/uaf_triyia_30.ogg", "pitch":1, "volume":0.3},
+	],
+	#engine sounds
+	"uaf_slv_engine_boost":[
+		{"file":"sounds/weapons/engine/uaf_engine_boost_01.ogg", "pitch":1, "volume":0.3}
+	],
+	"uaf_slv_engine_boost_2":[
+		{"file":"sounds/weapons/engine/uaf_engine_boost_02.ogg", "pitch":1, "volume":0.5}
+	],
+	"uaf_slv_engine_boost_3":[
+		{"file":"sounds/weapons/engine/uaf_engine_boost_03.ogg", "pitch":1, "volume":0.5}
+	],
+	"uaf_slv_engine_boost_end":[
+		{"file":"sounds/weapons/engine/uaf_engine_boost_end.ogg", "pitch":1, "volume":0.5}
+	],
+	"uaf_flagship_engine":[
+		{"file":"sounds/weapons/engine/uaf_flagship_engine.ogg", "pitch":1, "volume":0.2}
+	],
+	"uaf_flagship_engine_boost_loop":[
+		{"file":"sounds/weapons/engine/uaf_flagship_engine.ogg", "pitch":1, "volume":0.4}
+	],
+	"rubia":[
+		{"file":"sounds/sfx/uaf_eyeseau_broadcast.ogg", "pitch":1, "volume":0.4}
+	],
+
+	"ui_cargo_pickup_custom":[
+		{"file":"sounds/sfx/uaf_chocolava_pickup.ogg", "pitch":1, "volume":0.4}
+	],
+	"ui_cargo_drop_custom":[
+		{"file":"sounds/sfx/uaf_chocolava_drop.ogg", "pitch":1, "volume":0.4}
+	],
+
+	"uaf_bakery_product_1_pickup":[
+		{"file":"sounds/sfx/uaf_bakery_product_1_pickup.ogg", "pitch":1, "volume":0.4}
+	],
+	"uaf_bakery_product_1_drop":[
+		{"file":"sounds/sfx/uaf_bakery_product_1_drop_mx.ogg", "pitch":1, "volume":0.4}
+	],
+
+	"uaf_bakery_product_2_pickup":[
+		{"file":"sounds/sfx/uaf_bakery_product_2_pickup.ogg", "pitch":1, "volume":0.4}
+	],
+	"uaf_bakery_product_2_drop":[
+		{"file":"sounds/sfx/uaf_bakery_product_2_drop_mx.ogg", "pitch":1, "volume":0.4}
+	],
+
+	"uaf_bakery_product_3_pickup":[
+		{"file":"sounds/sfx/uaf_bakery_product_3_pickup.ogg", "pitch":1, "volume":0.4}
+	],
+	"uaf_bakery_product_3_drop":[
+		{"file":"sounds/sfx/uaf_bakery_product_3_drop_mx.ogg", "pitch":1, "volume":0.4}
+	],
+
+
+	#"Flak_fire_medium":[
+	#	{"file":"sounds/weapons/uaf_flak_fire.ogg", "pitch":1, "volume":0.25}
+	#],
+	#"Flak_fire_large":[
+	#	{"file":"sounds/weapons/uaf_flak_fire.ogg", "pitch":0.5, "volume":0.6},
+	#],
 }

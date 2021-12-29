@@ -7,9 +7,9 @@
   "height": 366,
   "width": 291,
   "center": [145.5, 183],
-  "collisionRadius": 230,
+  "collisionRadius": 260.5,
   "shieldCenter": [0, 0],
-  "shieldRadius": 202,
+  "shieldRadius": 207,
   "viewOffset": 120,
   "builtInMods": [
     "uaf_melodyEngine",
@@ -113,7 +113,7 @@
     {
       "id": "WS0011",
       "size": "LARGE",
-      "type": "UNIVERSAL",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 100,
       "angle": -30,
@@ -122,7 +122,7 @@
     {
       "id": "WS0012",
       "size": "LARGE",
-      "type": "UNIVERSAL",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 100,
       "angle": 30,
@@ -131,7 +131,7 @@
     {
       "id": "WS0013",
       "size": "LARGE",
-      "type": "UNIVERSAL",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 100,
       "angle": -30,
@@ -140,7 +140,7 @@
     {
       "id": "WS0014",
       "size": "LARGE",
-      "type": "UNIVERSAL",
+      "type": "HYBRID",
       "mount": "TURRET",
       "arc": 100,
       "angle": 30,
@@ -217,7 +217,7 @@
       "width": 27.07613,
       "angle": -156.5,
       "contrailSize": 27.07613,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-126.5, 84],
@@ -225,7 +225,7 @@
       "width": 27.07613,
       "angle": 156.5,
       "contrailSize": 27.07613,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-133, -69],
@@ -233,7 +233,7 @@
       "width": 22.610392,
       "angle": -156.5,
       "contrailSize": 22.610392,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-133, 69],
@@ -241,7 +241,7 @@
       "width": 22.610392,
       "angle": 156.5,
       "contrailSize": 22.610392,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-168, -0.5],
@@ -249,7 +249,7 @@
       "width": 41,
       "angle": 180,
       "contrailSize": 41,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-162, -17],
@@ -257,7 +257,7 @@
       "width": 15,
       "angle": 180,
       "contrailSize": 15,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-162, 17],
@@ -265,7 +265,7 @@
       "width": 15,
       "angle": -180,
       "contrailSize": 15,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [74.5, -88],
@@ -273,7 +273,7 @@
       "width": 12.598676,
       "angle": -137.5,
       "contrailSize": 12.598676,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [74.5, 88],
@@ -281,7 +281,7 @@
       "width": 12.598676,
       "angle": 137.5,
       "contrailSize": 12.598676,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [13, 101.5],
@@ -289,7 +289,7 @@
       "width": 12.598676,
       "angle": 146.5,
       "contrailSize": 12.598676,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [13, -101.5],
@@ -297,7 +297,7 @@
       "width": 12.598676,
       "angle": -146.5,
       "contrailSize": 12.598676,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-102.5, -105],
@@ -305,7 +305,7 @@
       "width": 27.07613,
       "angle": -156.5,
       "contrailSize": 27.07613,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-102.5, 105],
@@ -313,7 +313,7 @@
       "width": 27.07613,
       "angle": 156.5,
       "contrailSize": 27.07613,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     }
   ],
   "bounds": [

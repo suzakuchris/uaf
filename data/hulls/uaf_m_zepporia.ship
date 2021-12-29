@@ -14,8 +14,29 @@
   "builtInMods": [
     "uaf_melodyEngine",
     "uaf_auroranEngineering",
-    "uaf_militaryGrade"
+    "uaf_militaryGrade",
+    "uaf_fighterManager"
   ],
+  "builtInWeapons": {
+    "DOME_1": "uaf_zepporia_radar_dome",
+    "DOME_2": "uaf_zepporia_radar_dome",
+    "DISH": "uaf_zepporia_radar_dish",
+    "BACKLEFT_BLINKER1":"uaf_blinker_forward_vertical_1",
+    "BACKLEFT_BLINKER2":"uaf_blinker_forward_vertical_2",
+    "BACKLEFT_BLINKER3":"uaf_blinker_forward_vertical_3",
+    "BACKRIGHT_BLINKER1":"uaf_blinker_forward_vertical_1",
+    "BACKRIGHT_BLINKER2":"uaf_blinker_forward_vertical_2",
+    "BACKRIGHT_BLINKER3":"uaf_blinker_forward_vertical_3",
+    "FORELEFT_BLINKER1":"uaf_blinker_forward_vertical_2",
+    "FORELEFT_BLINKER2":"uaf_blinker_forward_vertical_3",
+    "FORELEFT_BLINKER3":"uaf_blinker_forward_vertical_4",
+    "FORELEFT_BLINKER4":"uaf_blinker_forward_vertical_5",
+    "FORERIGHT_BLINKER1":"uaf_blinker_forward_vertical_2",
+    "FORERIGHT_BLINKER2":"uaf_blinker_forward_vertical_3",
+    "FORERIGHT_BLINKER3":"uaf_blinker_forward_vertical_4",
+    "FORERIGHT_BLINKER4":"uaf_blinker_forward_vertical_5",
+    "REACTOR_ENGINE": "uaf_zepporia_reactor"
+  },
   "weaponSlots": [
     {
       "id": "WS0001",
@@ -300,6 +321,168 @@
         -101, -0,
         -132, -0
       ]
+    },
+    {
+      "id": "REACTOR_ENGINE",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "DOME_1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 30,
+      "locations": [-82, 84.5]
+    },
+    {
+      "id": "DOME_2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 175,
+      "locations": [-136, 63]
+    },
+    {
+      "id": "DISH",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-80, -90]
+    },
+    {
+      "id": "BACKRIGHT_BLINKER1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-114.5, -21.5]
+    },
+    {
+      "id": "BACKLEFT_BLINKER1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-114.5, 21.5]
+    },
+    {
+      "id": "BACKRIGHT_BLINKER2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-99.5, -21.5]
+    },
+    {
+      "id": "BACKLEFT_BLINKER2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-99.5, 21.5]
+    },
+    {
+      "id": "BACKRIGHT_BLINKER3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-86.5, -21.5]
+    },
+    {
+      "id": "BACKLEFT_BLINKER3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-86.5, 21.5]
+    },
+    {
+      "id": "FORERIGHT_BLINKER1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [59.5, -15.5]
+    },
+    {
+      "id": "FORELEFT_BLINKER1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [59.5, 15.5]
+    },
+    {
+      "id": "FORERIGHT_BLINKER2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [83.5, -15.5]
+    },
+    {
+      "id": "FORELEFT_BLINKER2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [83.5, 15.5]
+    },
+    {
+      "id": "FORERIGHT_BLINKER3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [125.5, -15.5]
+    },
+    {
+      "id": "FORELEFT_BLINKER3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [125.5, 15.5]
+    },
+    {
+      "id": "FORERIGHT_BLINKER4",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [149.5, -15.5]
+    },
+    {
+      "id": "FORELEFT_BLINKER4",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [149.5, 15.5]
     }
   ],
   "engineSlots": [
@@ -309,7 +492,7 @@
       "width": 18,
       "angle": 180,
       "contrailSize": 18,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-223, 65.5],
@@ -317,7 +500,7 @@
       "width": 18,
       "angle": -180,
       "contrailSize": 18,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-222, -90],
@@ -325,7 +508,7 @@
       "width": 27,
       "angle": 180,
       "contrailSize": 27,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-222, 90],
@@ -333,7 +516,7 @@
       "width": 27,
       "angle": -180,
       "contrailSize": 27,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-242.5, -25],
@@ -341,7 +524,7 @@
       "width": 17,
       "angle": 180,
       "contrailSize": 17,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-242.5, 25],
@@ -349,7 +532,7 @@
       "width": 17,
       "angle": -180,
       "contrailSize": 17,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-242, -48.5],
@@ -357,7 +540,7 @@
       "width": 15,
       "angle": 180,
       "contrailSize": 15,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-242, 48.5],
@@ -365,7 +548,7 @@
       "width": 15,
       "angle": -180,
       "contrailSize": 15,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-244, -36],
@@ -373,7 +556,7 @@
       "width": 35,
       "angle": 180,
       "contrailSize": 35,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-244, 36],
@@ -381,7 +564,7 @@
       "width": 35,
       "angle": -180,
       "contrailSize": 35,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     }
   ],
   "bounds": [

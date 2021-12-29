@@ -13,19 +13,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "uaf_weiss_ii_flk",
-        "WS0002": "uaf_medlav_quad",
-        "WS0003": "uaf_hikone_quad",
-        "WS0004": "uaf_ivory",
-        "WS0005": "uaf_ivory"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0006": "uaf_weiss_flk",
-        "WS0007": "uaf_weiss_flk"
+        "WS0004": "uaf_selemene_m_mrm",
+        "WS0005": "uaf_selemene_m_mrm"
       }
     },
     {
@@ -34,6 +23,29 @@
       "weapons": {
         "WS0008": "uaf_cyrexa_single_experimental",
         "WS0009": "uaf_cyrexa_single_experimental"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_ivory"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_medlav_quad"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_weiss_ii_flk",
+        "WS0006": "uaf_weiss_flk",
+        "WS0007": "uaf_weiss_flk"
       }
     }
   ],

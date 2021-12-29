@@ -1,7 +1,7 @@
 {
   "hullName": "Right Hangar",
   "hullId": "uaf_slvv_r_hangar",
-  "hullSize": "CAPITAL_SHIP",
+  "hullSize": "CRUISER",
   "spriteName": "graphics/ships/SLV/uaf_solverniav_right_hangar_section.png",
   "style": "MIDLINE",
   "height": 142,
@@ -15,7 +15,10 @@
     "never_detaches",
     "uaf_linkedHangar",
     "uaf_noExplosion",
-    "uaf_flagship_exthangar"
+    "uaf_flagship_exthangar",
+	"uaf_auroranEngineering",
+	"uaf_militaryGrade",
+    "uaf_fighterManager"
   ],
   "builtInWeapons": {
     "WS0002": "uaf_decor_mg",

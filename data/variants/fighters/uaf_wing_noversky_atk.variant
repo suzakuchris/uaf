@@ -1,7 +1,7 @@
 {
   "variantId": "uaf_wing_noversky_atk",
   "hullId": "uaf_wing_noversky",
-  "displayName": "Noversy Attack",
+  "displayName": "Heavy Attacker",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,
@@ -11,17 +11,24 @@
   "weaponGroups": [
     {
       "autofire": false,
-      "mode": "LINKED",
+      "mode": "ALTERNATING",
       "weapons": {
-        "WS0001": "uaf_hv_kinetic_railgun",
-        "WS0002": "uaf_hv_kinetic_railgun"
+        "WS0001": "uaf_fw_76mm_class_ii",
+        "WS0002": "uaf_fw_76mm_class_ii"
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "uaf_30mm_gatling"
+        "WS0003": "uaf_fw_30mm_class_ii"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_fw_30mm_class_ii"
       }
     }
   ],

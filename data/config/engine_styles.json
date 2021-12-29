@@ -1,4 +1,17 @@
 {
+	"UAF_FLARE":{
+		"mode":"QUAD_STRIP",
+		"engineColor":[	147,112,219,255],
+		"contrailParticleSizeMult":8,
+		"contrailParticleDuration":2,
+		"contrailParticleFinalSizeMult":0.5,
+		"contrailMaxSpeedMult":0.1,
+		"contrailAngularVelocityMult":0,
+		"contrailColor":[200,200,200,75],
+		"contrailWidthMult":1,
+		"contrailDuration":1.5,
+		"type":"GLOW" # GLOW or SMOKE
+	},
 	"MELODY_1":{
 		#"glowSprite":"graphics/fx/engineglow32.png", # not implemented
 		#"glowShape":"graphics/fx/engineflame32.png",
@@ -15,10 +28,38 @@
 		#"contrailCampaignColor":[120,50,50,50],
 		"type":"GLOW" # GLOW or SMOKE
 	},
-	"MELODY_ENGINE":{
+	"MELODY_ENGINE_D":{
 		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
 		"engineColor":[238,130,238,255],
-		"contrailDuration":5,
+		"contrailDuration":3,
+		"contrailWidthMult":0.5,
+		"contrailParticleSizeMult":0.8,
+		"contrailParticleDuration":10,
+		"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":2, # min segment length, in pixels
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0.5f,
+		"contrailColor":[156, 129, 238,75],
+		"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+	},
+	"MELODY_ENGINE_E":{
+		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"engineColor":[173, 216, 230,155],
+		"glowAlternateColor":[138,183,248,100],
+		"engineCampaignColor":[173, 216, 230,35],
+		"contrailDuration":2,
+		"contrailWidthMult":1.5,
+		"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":5, # min segment length, in pixels
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0.5f,
+		"contrailColor":[138,183,248,100],
+		"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+	},
+	"MELODY_ENGINE_F":{
+		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"engineColor":[238,130,238,255],
+		"contrailDuration":1.5,
 		"contrailWidthMult":1,
 		"contrailParticleSizeMult":2.5,
 		"contrailParticleDuration":10,
@@ -26,8 +67,96 @@
 		"contrailMinSeg":2, # min segment length, in pixels
 		"contrailMaxSpeedMult":0.5f,
 		"contrailAngularVelocityMult":0.5f,
-		"contrailColor":[0,0,139,75],
+		"contrailColor":[156, 129, 238,75],
 		"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+	},
+	"MELODY_ENGINE_G":{
+		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"engineColor":[238,130,238,255],
+		"contrailDuration":1,
+		"contrailWidthMult":1,
+		"contrailParticleSizeMult":2.5,
+		"contrailParticleDuration":10,
+		"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":2, # min segment length, in pixels
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0.5f,
+		"contrailColor":[156, 129, 238,75],
+		"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+	},
+	"MELODY_ENGINE_H":{
+		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"engineColor":[173, 216, 230,255],
+		"glowAlternateColor":[138,183,248,200],
+		"engineCampaignColor":[173, 216, 230,75],
+		"contrailDuration":0.7,
+		"contrailWidthMult":1,
+		"contrailParticleSizeMult":2.5,
+		"contrailParticleDuration":10,
+		"contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":2, # min segment length, in pixels
+		"contrailMaxSpeedMult":0.5f,
+		"contrailAngularVelocityMult":0.5f,
+		"contrailColor":[138,183,248,200],
+		"glowSizeMult":1,
+		"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+	},
+	
+	"MELODY_MK2_ENGINE":{
+		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+		"contrailDuration":1.5,
+		"contrailWidthMult":0.67,
+		"contrailWidthAddedFractionAtEnd":-1f,  # can be negative. makes trail spread out/narrow at the end
+		"contrailMinSeg":5, # min segment length, in pixels
+		"contrailMaxSpeedMult":1f,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[50,50,255,75],
+		"type":"GLOW", # GLOW or SMOKE; additive or regular blend mode
+						
+		"glowSprite":"graphics/fx/engines/uaf_engineglow.png",
+		"glowOutline":"graphics/fx/engines/uaf_engineflame.png",
+		"omegaMode":true,
+		"glowSizeMult":1,
+		"glowAlternateColor":[50,50,255,255],
+		"engineColor":[238,130,238,255],
+	},
+	"MELODY_ENGINE":{
+		"engineColor":[81, 40, 136,255],
+		"glowAlternateColor":[238,130,238,200],
+		"engineCampaignColor":[81, 40, 136,75],
+		"engineGlowGlowMult":3,
+		"glowSizeMult":1,
+		"contrailParticleSizeMult":1.5,
+		"contrailParticleDuration":2.5,
+		"contrailParticleFinalSizeMult":2,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0.5,
+		"contrailColor":[156, 129, 238,15],
+		#"contrailCampaignColor":[156, 129, 238,75],
+		#"contrailCampaignColor":[120,50,50,50],
+		"omegaMode":"true",
+		"glowSprite":"graphics/fx/engines/uaf_engineglow.png",
+		"glowOutline":"graphics/fx/engines/uaf_engineflame.png",
+		"type":"SMOKE" # GLOW or SMOKE
+	},
+	"TUNE_ENGINE":{
+		"engineColor":[173, 216, 230,255],
+		"glowAlternateColor":[138,183,248,200],
+		"engineCampaignColor":[173, 216, 230,75],
+		"engineGlowGlowMult":3,
+		"glowSizeMult":1,
+		"contrailParticleSizeMult":1.5,
+		"contrailParticleDuration":2.5,
+		"contrailParticleFinalSizeMult":2,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0.5,
+		"contrailColor":[156, 129, 238,15],
+		#"contrailCampaignColor":[156, 129, 238,75],
+		#"contrailCampaignColor":[120,50,50,50],
+		"omegaMode":"true",
+		"glowSprite":"graphics/fx/engines/uaf_engineglow.png",
+		"glowOutline":"graphics/fx/engines/uaf_engineflame.png",
+		"type":"SMOKE" # GLOW or SMOKE
 	}
 }
 

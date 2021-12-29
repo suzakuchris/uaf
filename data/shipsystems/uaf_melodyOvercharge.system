@@ -16,9 +16,9 @@
 	"clampTurnRateAfter":true,
 	"clampMaxSpeedAfter":false,
 
-	"useSound":"system_maneuvering_jets",
-	"loopSound":"system_maneuvering_jets_loop",
-	"outOfUsesSound":"engine_disabled",
+	"useSound":"uaf_slv_engine_boost_2",
+	"loopSound":"uaf_flagship_engine_boost_loop",
+	"outOfUsesSound":"uaf_engine_boost_end",
 	
 	"aiHints":{
 		"activeSpeedIncrease":65,

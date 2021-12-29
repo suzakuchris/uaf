@@ -37,7 +37,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": -0,
-      "locations": [-6, -12.5]
+      "locations": [2, 9]
     },
     {
       "id": "WS0004",
@@ -46,34 +46,33 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [-6, 12.5]
-    },
-    {
-      "id": "WS0005",
-      "size": "MEDIUM",
-      "type": "MISSILE",
-      "mount": "HIDDEN",
-      "arc": 0,
-      "angle": -0,
-      "locations": [2.5, -0.5]
+      "locations": [2, -9]
     }
   ],
   "engineSlots": [
     {
-      "location": [-16.5, 5],
-      "length": 10.5,
-      "width": 4,
-      "angle": -180,
-      "contrailSize": 4,
-      "style": "LOW_TECH"
+      "location": [-13.5, 4.5],
+      "length": 16,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_G"
     },
     {
-      "location": [-16.5, -5],
-      "length": 10.5,
-      "width": 4,
+      "location": [-13.5, -4.5],
+      "length": 16,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_G"
+    },
+    {
+      "location": [-15, -0],
+      "length": 16,
+      "width": 6,
       "angle": 180,
-      "contrailSize": 4,
-      "style": "LOW_TECH"
+      "contrailSize": 6,
+      "style": "MELODY_ENGINE_G"
     }
   ],
   "bounds": [

@@ -1,0 +1,108 @@
+{
+  "hullName": "Novayu",
+  "hullId": "uaf_novayu",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Novayu_Standard.png",
+  "style": "MIDLINE",
+  "height": 150,
+  "width": 102,
+  "center": [51, 75],
+  "collisionRadius": 107.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 86,
+  "viewOffset": 0,
+  "builtInMods": [
+    "uaf_auroranEngineering"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 113,
+      "angle": 45,
+      "locations": [-8, 25]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 113,
+      "angle": -45,
+      "locations": [-8, -25]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 32,
+      "angle": -1.5,
+      "locations": [14, 15]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 32,
+      "angle": 1.5,
+      "locations": [14, -15]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 281,
+      "angle": 0,
+      "locations": [40.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-31.5, 25],
+      "length": 20.033861,
+      "width": 8.86441,
+      "angle": 145.5,
+      "contrailSize": 8.86441,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-31.5, -25],
+      "length": 20.033861,
+      "width": 8.86441,
+      "angle": -145.5,
+      "contrailSize": 8.86441,
+      "style": "TUNE_ENGINE"
+    },
+    {
+      "location": [-61, -0],
+      "length": 41.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "TUNE_ENGINE"
+    }
+  ],
+  "bounds": [
+    72.5, -4.5,
+    43, -13.5,
+    26, -22,
+    21, -20,
+    -5, -38,
+    -14.5, -38,
+    -39.5, -22,
+    -57, -9.5,
+    -57, 9.5,
+    -39.5, 22,
+    -14.5, 38,
+    -5, 38,
+    21, 20,
+    26, 22,
+    43, 13.5,
+    72.5, 4.5
+  ]
+}

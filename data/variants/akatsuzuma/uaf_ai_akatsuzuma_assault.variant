@@ -1,0 +1,57 @@
+{
+  "variantId": "uaf_ai_akatsuzuma_assault",
+  "hullId": "uaf_ai_akatsuzuma",
+  "displayName": "Assault`",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001 ": "uaf_herexa"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "uaf_ivory",
+        "WS0003": "uaf_ivory"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_clemente_base",
+        "WS0011": "uaf_clemente_base"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_claris_cn",
+        "WS0005": "uaf_claris_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "uaf_weiss_flk",
+        "WS0007": "uaf_weiss_flk",
+        "WS0008": "uaf_weiss_flk",
+        "WS0009": "uaf_weiss_flk",
+        "WS0010": "uaf_chorus_s_amm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

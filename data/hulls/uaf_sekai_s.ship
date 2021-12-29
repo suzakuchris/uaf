@@ -42,7 +42,7 @@
       "width": 12,
       "angle": 180,
       "contrailSize": 12,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [12.5, 42],
@@ -50,7 +50,7 @@
       "width": 12,
       "angle": -180,
       "contrailSize": 12,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     }
   ],
   "bounds": [

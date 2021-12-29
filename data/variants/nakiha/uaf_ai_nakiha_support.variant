@@ -13,10 +13,6 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "uaf_claris_cn",
-        "WS0002": "uaf_claris_cn",
-        "WS0003": "uaf_weiss_ii_flk",
-        "WS0004": "uaf_weiss_flk",
         "WS0005": "uaf_rhythm_base_triple",
         "WS0006": "uaf_rhythm_base_triple"
       }
@@ -24,12 +20,32 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0003": "uaf_hikone_quad"
+      }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0001": "uaf_claris_cn",
+        "WS0002": "uaf_claris_cn"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_weiss_flk"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_chorus_l_amm",
+        "WS0008": "uaf_chorus_l_amm"
+      }
     }
   ],
   "modules": [],

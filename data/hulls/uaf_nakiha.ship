@@ -7,12 +7,12 @@
   "height": 153,
   "width": 104,
   "center": [52, 74],
-  "collisionRadius": 96.5,
+  "collisionRadius": 116,
   "shieldCenter": [-2.5, 2],
   "shieldRadius": 84.5,
   "viewOffset": 70,
   "builtInMods": [
-    "uaf_auroranEngineering",
+    "uaf_auroranEngineering"
   ],
   "weaponSlots": [
     {
@@ -77,7 +77,7 @@
       "width": 21,
       "angle": 180,
       "contrailSize": 21,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-39, -25],
@@ -85,7 +85,7 @@
       "width": 11.651438,
       "angle": -158,
       "contrailSize": 11.651438,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-39, 29],
@@ -93,7 +93,7 @@
       "width": 11.651438,
       "angle": 158,
       "contrailSize": 11.651438,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     }
   ],
   "bounds": [

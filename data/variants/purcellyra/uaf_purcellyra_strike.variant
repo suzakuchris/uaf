@@ -1,0 +1,70 @@
+{
+  "variantId": "uaf_purcellyra_strike",
+  "hullId": "uaf_purcellyra",
+  "displayName": "Strike",
+  "goalVariant": false,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "uaf_auroranEngineering",
+    "uaf_enhanced_pd"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "uaf_chorus_m_amm",
+        "WS0017": "uaf_clemente_s_mrm_double",
+        "WS0018": "uaf_clemente_s_mrm_double",
+        "WS0019": "uaf_vocal_l_srm",
+        "WS0020": "uaf_vocal_l_srm",
+        "WS0021": "uaf_vocal_l_srm",
+        "WS0022": "uaf_vocal_l_srm"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "uaf_typhoon_s_sasm",
+        "WS0010": "uaf_typhoon_s_sasm",
+        "WS0013": "uaf_amazoch_s_asrm_single",
+        "WS0014": "uaf_amazoch_s_asrm_single"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "uaf_chorus_s_amm",
+        "WS0002": "uaf_chorus_s_amm",
+        "WS0003": "uaf_chorus_s_amm",
+        "WS0004": "uaf_chorus_s_amm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_claris_cn",
+        "WS0008": "uaf_claris_cn",
+        "WS0016": "uaf_weiss_ii_flk"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_weiss_flk",
+        "WS0006": "uaf_weiss_flk",
+        "WS0011": "uaf_weiss_flk",
+        "WS0012": "uaf_weiss_flk"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

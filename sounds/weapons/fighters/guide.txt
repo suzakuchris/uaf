@@ -1,0 +1,24 @@
+bomb_drop
+- used in all bomb related weapons
+
+missile_fire
+- you can use em randomly in all missile weapons in both ship and fighter weapon types
+
+asm_missile_fire
+- used on exoscar
+
+ugb_explosion
+- pretty straight forward, used when the bombs find their marks on target.
+
+aa_explosion
+- I'm honestly not sure what are these for. are they to replace to the previous weiss flak explosions? Im not sure, but you can be creative and perhaps use them for missile explosion sfx.
+
+
+note
+
+adjust the volume of sfx attached ( via sounds.json ) accordingly to what weapon they're used on.
+
+if its a small weapon, then low volume would suffice.
+
+this needs to be adjusted especially to fighter weapons.
+

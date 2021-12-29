@@ -3,40 +3,63 @@
   "hullId": "uaf_novaeria_left_hangar",
   "displayName": "Standard",
   "goalVariant": false,
-  "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "uaf_auroranEngineering",
+    "uaf_automataSpec",
+    "uaf_enhanced_pd"
+  ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0001": "uaf_weiss_flk",
-        "WS0002": "uaf_claris_cn",
-        "WS0003": "uaf_weiss_ii_flk",
-        "WS0004": "uaf_tona_i",
-        "WS0005": "uaf_decor_mg",
-        "WS0006": "uaf_decor_mg",
-        "WS0007": "uaf_decor_mg",
-        "WS0008": "uaf_decor_mg"
+        "WS0002": "uaf_medlav_quad",
+        "WS0003": "uaf_weiss_ii_flk"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0009": "uaf_missile_barrage",
-        "WS0010": "uaf_missile_barrage"
+        "WS0004": "uaf_tona_i"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "uaf_pd_reina",
+        "WS0006": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "uaf_claris_cn",
+        "WS0008": "uaf_claris_cn"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "uaf_selemene_m_mrm",
+        "WS0010": "uaf_vocal_l_srm"
       }
     }
   ],
   "modules": [],
   "wings": [
+    "uaf_wing_menascar",
+    "uaf_wing_hyacinth",
     "uaf_wing_forlorn",
-    "uaf_wing_forlorn",
-    "uaf_wing_forlorn",
-    "uaf_wing_forlorn",
+    "uaf_wing_aria",
+    "uaf_wing_nekoyan"
   ]
 }

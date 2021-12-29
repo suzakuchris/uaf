@@ -12,7 +12,7 @@
 	"explosionRadius":35, # purely visual
 	"engineSpec":{"turnAcc":360,
 				  "turnRate":500,
-				  "acc":2500,
+				  "acc":1750,
 				  "dec":800},
 	"engineSlots":[{"id":"ES1",
 					"loc":[-4.5, 0],
@@ -21,18 +21,18 @@
 				    "style":"CUSTOM",
 					"styleSpec":{
 						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
-						"engineColor":[220,20,60,150],
-						"contrailDuration":0.5,
-						"contrailWidthMult":1,
-						"contrailWidthAddedFractionAtEnd":1,  # can be negative. makes trail spread out/narrow at the end
-						"contrailMinSeg":7, # min segment length, in pixels
-						"contrailMaxSpeedMult":0f,
-						"contrailAngularVelocityMult":0.5f,
-						"contrailSpawnDistMult":0f, # how far away from engine it starts
-						"contrailColor":[255,255,255,100],
+						"engineColor":[255,255,255,255],
+						"glowSizeMult":1,
+						"contrailDuration":2.0,
+						"contrailWidthMult":0.5,
+						"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.75f,
+						"contrailAngularVelocityMult":0.1f,
+						"contrailColor":[255,255,255,125],
 						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
 					},
-				    "width":8.0,
+				    "width":4.0,
 				    "length":30.0,
 				    "angle":180.0}],
 }

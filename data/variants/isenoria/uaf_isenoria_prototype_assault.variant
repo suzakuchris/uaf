@@ -13,21 +13,65 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0006": "uaf_herexa",
+        "WS0007": "uaf_herexa"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "uaf_ivory",
+        "WS0009": "uaf_ivory"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_triyia_pdx",
+        "WS0004": "uaf_triyia_pdx"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0001": "uaf_weiss_flk",
         "WS0002": "uaf_weiss_flk",
-        "WS0003": "uaf_triyia_pdx",
-        "WS0004": "uaf_triyia_pdx",
-        "WS0005": "uaf_exoscar_torpedo_quad",
-        "WS0006": "uaf_herexa",
-        "WS0007": "uaf_herexa",
-        "WS0008": "uaf_ivory",
-        "WS0009": "uaf_ivory",
-        "WS0010": "uaf_tona_i",
-        "WS0011": "uaf_pd_reina",
+        "WS0010": "uaf_pd_reina",
+        "WS0011": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
         "WS0012": "uaf_weiss_flk",
         "WS0013": "uaf_weiss_flk",
         "WS0022": "uaf_medlav_dual",
         "WS0023": "uaf_pd_reina"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "DECOMG1": "uaf_deco_mg",
+        "DECOMG10": "uaf_deco_mg",
+        "DECOMG2": "uaf_deco_mg",
+        "DECOMG3": "uaf_deco_mg",
+        "DECOMG4": "uaf_deco_mg",
+        "DECOMG5": "uaf_deco_mg",
+        "DECOMG6": "uaf_deco_mg",
+        "DECOMG7": "uaf_deco_mg",
+        "DECOMG8": "uaf_deco_mg",
+        "DECOMG9": "uaf_deco_mg"
       }
     }
   ],

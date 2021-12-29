@@ -13,11 +13,6 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "uaf_weiss_ii_flk",
-        "WS0002": "uaf_ivory",
-        "WS0003": "uaf_weiss_ii_flk",
-        "WS0004": "uaf_weiss_ii_flk",
-        "WS0005": "uaf_weiss_ii_flk",
         "WS0008": "uaf_tona_ii",
         "WS0009": "uaf_tona_ii"
       }
@@ -26,14 +21,20 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "uaf_weiss_flk",
-        "WS0007": "uaf_weiss_flk"
+        "WS0002": "uaf_ivory"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0001": "uaf_weiss_ii_flk",
+        "WS0003": "uaf_weiss_ii_flk",
+        "WS0004": "uaf_weiss_ii_flk",
+        "WS0005": "uaf_weiss_ii_flk",
+        "WS0006": "uaf_weiss_flk",
+        "WS0007": "uaf_weiss_flk"
+      }
     }
   ],
   "modules": [],

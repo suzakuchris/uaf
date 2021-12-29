@@ -6,6 +6,27 @@
         "data.campaign.rulecmd",
     ],
     "graphics":{
+        "illustrations":{
+            "hyperaria_hangar":"graphics/illustrations/hyper_aria_hangar.png"
+        },
+        "blueprint_packages":{
+			"uaf_automata_bp":"graphics/icons/cargo/bp_auroran_auto.png",
+			"uaf_military_bp":"graphics/icons/cargo/bp_auroran_mil.png",
+			"uaf_standard_bp":"graphics/icons/cargo/bp_auroran_std.png",
+			"uaf_prototype_bp":"graphics/icons/cargo/bp_auroran_prt.png",
+			"uaf_elite_bp":"graphics/icons/cargo/bp_auroran_elite.png",
+			"uaf_missile_package":"graphics/icons/cargo/bp_auroran_msl.png",
+			"uaf_weapon_bp":"graphics/icons/cargo/bp_auroran_wpn.png"
+        },
+        "uaf_overdrive":{
+            "cherry":"graphics/ships/Cherry/uaf_cherry_xxl_core_overdrive.png"
+        },
+        "uaf_normal":{
+            "cherry":"graphics/ships/Cherry/uaf_cherry_xxl_core.png"
+        },
+        "uaf_herexa_flash":{
+            "herexa_flash":"graphics/weapons/Herexa 609mm Dual/uaf_herexa_flash.png"
+        },
         "uaf_nuke":{
             "aftermath_1":"graphics/fx/semibreve_gfx/nuke_aftermath_1.png",
             "aftermath_2":"graphics/fx/semibreve_gfx/nuke_aftermath_2.png",
@@ -21,10 +42,16 @@
             "shockwave_3":"graphics/fx/semibreve_gfx/nuke_shockwave_3.png"
         },
         "uaf_person":{
-            "uafnia":"graphics/portraits/uaf_nia_128.png",
+            "uafnia":"graphics/portraits/uaf_nia.png",
+            "uafnia2":"graphics/portraits/Old/secret/access_denied/uaf_nia.png",
             "uafroboqueen":"graphics/portraits/uaf_roboqueen.png",
             "uafqueen":"graphics/portraits/uaf_queen.png",
-            "nia2":"graphics/portraits/LN.png"
+            "uafalexandra":"graphics/portraits/uaf_alexandra.png",
+            "uafinari":"graphics/portraits/uaf_inari.png",
+            "uafmaggy":"graphics/portraits/uaf_sup_maggy_128.png",
+            "uafmarty":"graphics/portraits/uaf_sup_marty_128.png",
+            "uafyimie":"graphics/portraits/uaf_yimie.png",
+            "uafmizuki":"graphics/portraits/uaf_mizuki.png"
         },
         "emp":{
             "uaf_eyeseau_pulse":"graphics/fx/uaf_eyeseau_suv_radar_ring.png",

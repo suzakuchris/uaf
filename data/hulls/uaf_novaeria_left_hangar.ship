@@ -1,7 +1,7 @@
 {
   "hullName": "Hangar 02",
   "hullId": "uaf_novaeria_left_hangar",
-  "hullSize": "CAPITAL_SHIP",
+  "hullSize": "CRUISER",
   "spriteName": "graphics/ships/Novaeria/uaf_novaeria_left_hangar.png",
   "style": "MIDLINE",
   "height": 354,
@@ -15,7 +15,9 @@
     "never_detaches",
     "uaf_linkedHangar",
     "uaf_noExplosion",
-    "uaf_flagship_exthangar"
+    "uaf_flagship_exthangar",
+    "uaf_fighterManager",
+    "uaf_automataSpec"
   ],
   "builtInWeapons": {
     "LFOREBLINKER1": "uaf_blinker_left_forward_1",
@@ -108,7 +110,7 @@
     },
     {
       "id": "WS0002",
-      "size": "SMALL",
+      "size": "MEDIUM",
       "type": "UNIVERSAL",
       "mount": "TURRET",
       "arc": 249,
@@ -117,7 +119,7 @@
     },
     {
       "id": "WS0003",
-      "size": "SMALL",
+      "size": "MEDIUM",
       "type": "UNIVERSAL",
       "mount": "TURRET",
       "arc": 255,
@@ -173,7 +175,7 @@
       "id": "WS0009",
       "size": "LARGE",
       "type": "MISSILE",
-      "mount": "HARDPOINT",
+      "mount": "TURRET",
       "arc": 90,
       "angle": 45,
       "locations": [-202, 65]
@@ -182,7 +184,7 @@
       "id": "WS0010",
       "size": "LARGE",
       "type": "MISSILE",
-      "mount": "HIDDEN",
+      "mount": "TURRET",
       "arc": 90,
       "angle": 45,
       "locations": [-168.5, 66]

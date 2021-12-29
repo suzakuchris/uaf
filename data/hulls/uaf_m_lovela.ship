@@ -7,7 +7,7 @@
   "height": 154,
   "width": 114,
   "center": [57, 77],
-  "collisionRadius": 88.5,
+  "collisionRadius": 116,
   "shieldCenter": [0, 0],
   "shieldRadius": 96,
   "viewOffset": 0,
@@ -49,7 +49,7 @@
       "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "HARDPOINT",
-      "arc": 0,
+      "arc": 20,
       "angle": 0,
       "locations": [12, -40.5]
     },
@@ -58,7 +58,7 @@
       "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "HARDPOINT",
-      "arc": 0,
+      "arc": 20,
       "angle": -0,
       "locations": [12, 40.5]
     },
@@ -84,19 +84,19 @@
   "engineSlots": [
     {
       "location": [-33, -29.5],
-      "length": 28.5,
-      "width": 16,
+      "length": 56,
+      "width": 24,
       "angle": 180,
-      "contrailSize": 16,
-      "style": "LOW_TECH"
+      "contrailSize": 24,
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-33, 29.5],
-      "length": 28.5,
-      "width": 16,
+      "length": 56,
+      "width": 24,
       "angle": -180,
-      "contrailSize": 16,
-      "style": "LOW_TECH"
+      "contrailSize": 24,
+      "style": "MELODY_ENGINE"
     }
   ],
   "bounds": [

@@ -7,13 +7,14 @@
   "height": 430,
   "width": 290,
   "center": [145, 206.5],
-  "collisionRadius": 308,
+  "collisionRadius": 270,
   "shieldCenter": [0, -0],
-  "shieldRadius": 217,
+  "shieldRadius": 243,
   "viewOffset": 150,
   "builtInMods": [
     "uaf_auroranEngineering",
-    "uaf_automataSpec"
+    "uaf_automataSpec",
+    "uaf_fighterManager"
   ],
   "builtInWeapons": {
     "BLINKER1": "blinker_green",
@@ -282,7 +283,7 @@
       "width": 50,
       "angle": 180,
       "contrailSize": 50,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-178.5, 32],
@@ -290,7 +291,7 @@
       "width": 50,
       "angle": -180,
       "contrailSize": 50,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-135.5, 80],
@@ -298,7 +299,7 @@
       "width": 26.723417,
       "angle": 156,
       "contrailSize": 26.723417,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-135.5, -80],
@@ -306,7 +307,7 @@
       "width": 26.723417,
       "angle": -156,
       "contrailSize": 26.723417,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-129.5, 93.5],
@@ -314,7 +315,7 @@
       "width": 26.723417,
       "angle": 156.5,
       "contrailSize": 26.723417,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-129.5, -93.5],
@@ -322,7 +323,7 @@
       "width": 26.723417,
       "angle": -156.5,
       "contrailSize": 26.723417,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-178.5, -38],
@@ -330,7 +331,7 @@
       "width": 15,
       "angle": 180,
       "contrailSize": 15,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-178.5, 38],
@@ -338,7 +339,7 @@
       "width": 15,
       "angle": -180,
       "contrailSize": 15,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-178.5, -26],
@@ -346,7 +347,7 @@
       "width": 18,
       "angle": 180,
       "contrailSize": 18,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     },
     {
       "location": [-178.5, 26],
@@ -354,7 +355,7 @@
       "width": 18,
       "angle": -180,
       "contrailSize": 18,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE"
     }
   ],
   "bounds": [

@@ -1,6 +1,11 @@
 name,id,demand class,base price,export value,price variability,utility,origin,tags,stack size,cargo space,icon,sound id,sound id drop,order,economyTier,econUnitOrigUnused,econUnit,baseRaidDanger,eU * base value,iconWidthMult,plugin,desc
-Packaged Choco Lava,uaf_choco_lava,luxury_goods,,,,1,uaf_new_auroria,"exotic, luxury, expensive",50,1,graphics/icons/cargo/uaf_lavacake.png,ui_cargo_food,ui_cargo_food_drop,1.1,2.8,200,200,,,1,,
-Packaged Diced Dried Pineapple,uaf_diced_pineapple,food,15,600,3,1,uaf_new_auroria,food,50,1,graphics/icons/cargo/uaf_pineapple.png,ui_cargo_food,ui_cargo_food_drop,13,1,500,500,,40000,1,,
+Premium Choco Lava,uaf_bakery_choco_lava,luxury_goods,150,1000,,1,uaf_new_auroria,"exotic, luxury, expensive",50,1,graphics/icons/cargo/uaf_lavacake.png,uaf_bakery_product_1_pickup,uaf_bakery_product_1_drop,1.1,2.8,200,200,,,1,,
+Half-Dozen Donuts Box,uaf_bakery_product_2,food,235,2000,3,1,uaf_new_auroria,"exotic, luxury, food",50,1,graphics/icons/cargo/uaf_package.png,uaf_bakery_product_2_pickup,uaf_bakery_product_2_drop,1.2,2.5,200,200,,,1,,
+Pretzels & Croissant Bundle,uaf_bakery_product_3,food,300,1500,3,1,uaf_new_auroria,"exotic, luxury, food",50,1,graphics/icons/cargo/uaf_package.png,uaf_bakery_product_3_pickup,uaf_bakery_product_3_drop,1.3,2.3,200,200,,,1,,
+#Bag of Cookies,,,,,,,,,,,,,,,,,,,,,,
+#Freshly Baked Loaf of Bread,,,,,,,,,,,,,,,,,,,,,,
+Packaged Diced Dried Pineapple,uaf_diced_pineapple,food,15,600,3,1,uaf_new_auroria,food,50,1,graphics/icons/cargo/uaf_pineapple.png,ui_cargo_pickup_custom,ui_cargo_drop_custom,13,1,500,500,,40000,1,,
+,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,

@@ -7,15 +7,17 @@
   "height": 426,
   "width": 308,
   "center": [154, 213],
-  "collisionRadius": 227.5,
+  "collisionRadius": 309,
   "shieldCenter": [0, 0],
-  "shieldRadius": 256,
+  "shieldRadius": 243,
   "viewOffset": 0,
   "builtInMods": [
-    "uaf_auroranEngineering"
+    "uaf_auroranEngineering",
+    "uaf_fighterManager"
   ],
-  "builtInWeapons":{
+  "builtInWeapons": {
     "DECOMG1": "uaf_deco_mg",
+    "DECOMG10": "uaf_deco_mg",
     "DECOMG2": "uaf_deco_mg",
     "DECOMG3": "uaf_deco_mg",
     "DECOMG4": "uaf_deco_mg",
@@ -23,8 +25,7 @@
     "DECOMG6": "uaf_deco_mg",
     "DECOMG7": "uaf_deco_mg",
     "DECOMG8": "uaf_deco_mg",
-    "DECOMG9": "uaf_deco_mg",
-    "DECOMG10": "uaf_deco_mg",
+    "DECOMG9": "uaf_deco_mg"
   },
   "weaponSlots": [
     {
@@ -299,7 +300,7 @@
       "width": 24,
       "angle": 180,
       "contrailSize": 24,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-97, -115.5],
@@ -307,7 +308,7 @@
       "width": 24,
       "angle": -180,
       "contrailSize": 24,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-97, 98],
@@ -315,7 +316,7 @@
       "width": 22,
       "angle": 180,
       "contrailSize": 22,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-97, -98],
@@ -323,23 +324,23 @@
       "width": 22,
       "angle": -180,
       "contrailSize": 22,
-      "style": "LOW_TECH"
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-136, -71.5],
-      "length": 92,
-      "width": 40,
+      "length": 151.5,
+      "width": 46,
       "angle": -180,
-      "contrailSize": 40,
-      "style": "LOW_TECH"
+      "contrailSize": 46,
+      "style": "TUNE_ENGINE"
     },
     {
       "location": [-136, 71.5],
-      "length": 92,
-      "width": 40,
+      "length": 151.5,
+      "width": 46,
       "angle": 180,
-      "contrailSize": 40,
-      "style": "LOW_TECH"
+      "contrailSize": 46,
+      "style": "TUNE_ENGINE"
     }
   ],
   "bounds": [

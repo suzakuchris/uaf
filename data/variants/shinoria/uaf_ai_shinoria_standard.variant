@@ -4,7 +4,7 @@
   "displayName": "Standard",
   "goalVariant": true,
   "fluxCapacitors": 20,
-  "fluxVents": 15,
+  "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
@@ -14,7 +14,7 @@
       "mode": "LINKED",
       "weapons": {
         "WS0008": "uaf_ivory",
-        "WS0009": "uaf_vocals_swarmer_base",
+        "WS0009": "uaf_vocal_s_srm",
         "WS0010": "uaf_medlav_quad"
       }
     },
@@ -29,8 +29,8 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0011": "uaf_rhythm_base",
-        "WS0012": "uaf_rhythm_base"
+        "WS0011": "uaf_rhythm_base_triple",
+        "WS0012": "uaf_rhythm_base_triple"
       }
     },
     {
@@ -49,7 +49,7 @@
   "modules": [],
   "wings": [
     "uaf_wing_aria",
-    "uaf_wing_minersky",
+    "uaf_wing_fisoyuz",
     "uaf_wing_sakurai"
   ]
 }

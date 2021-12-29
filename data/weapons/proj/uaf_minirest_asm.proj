@@ -31,7 +31,7 @@
 						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
 					},
 				    "width":11.0,
-				    "length":40.0,
+				    "length":35.0,
 				    "angle":180.0}],
 	"behaviorSpec":{"behavior":"MIRV",
 					"splitRange":250,
@@ -39,7 +39,7 @@
 					"canSplitEarly":true,
 					"splitSound":"hurricane_mirv_fire",
 					"numShots":1,
-					"damage":500,
+					"damage":800,
 					"impact":5,
 					"emp":0,
 					"damageType":HIGH_EXPLOSIVE,

@@ -3,23 +3,32 @@
   "hullId": "uaf_slvv_l_missile",
   "displayName": "Standard",
   "goalVariant": false,
-  "fluxCapacitors": 0,
-  "fluxVents": 0,
+  "fluxCapacitors": 20,
+  "fluxVents": 30,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "uaf_auroranEngineering",
+    "uaf_enhanced_pd",
+    "uaf_militaryGrade",
+    "uaf_ordnanceAssembly"
+  ],
   "weaponGroups": [
     {
-        "autofire": true,
-        "mode": "LINKED",
-        "weapons": {
-            "WS0001": "uaf_missile_barrage",
-            "WS0002": "uaf_missile_barrage",
-            "WS0003": "uaf_weiss_flk",
-            "WS0004": "uaf_exoscar_torpedo_base_shield",
-            "WS0005": "uaf_exoscar_torpedo_base_shield",
-        }
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "uaf_weiss_flk"
+      }
     },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "uaf_chorus_s_amm",
+        "WS0005": "uaf_chorus_s_amm"
+      }
+    }
   ],
   "modules": [],
   "wings": []

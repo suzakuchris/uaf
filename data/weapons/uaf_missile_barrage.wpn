@@ -52,7 +52,7 @@
     "particleSizeMin": 12,
     "particleSizeRange": 12,
     "cloudParticleCount": 6,
-    "cloudDuration": 1.5,
+    "cloudDuration": 0.5,
     "cloudRadius": 10,
     "blowbackParticleCount": 4,
     "blowbackDuration": 2,
@@ -62,9 +62,9 @@
       100,
       100,
       100,
-      35
+      15
     ]
   },
   "textureType": ROUGH,
-  "fireSoundTwo": "harpoon_fire"
+  "fireSoundTwo": "uaf_sakura_missile"
 }

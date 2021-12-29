@@ -25,8 +25,8 @@
 					   "particleDuration":0.5,
 					   "particleCount":20,
 					  "particleColor":[165,225,185,175]},
-	"projectileSpecId":"uaf_shot_heavy",  # projectile that will be fired
-	"fireSoundOne":"phenex_ready",
-	"fireSoundTwo":"phenex",
+	"projectileSpecId":"uaf_shot_heavy_piercing",  # projectile that will be fired
+	"fireSoundOne":"uaf_phenex_ready",
+	"fireSoundTwo":"uaf_phenex",
 	"everyFrameEffect":"data.scripts.weapons.uaf_laserPrecannon",	
 }

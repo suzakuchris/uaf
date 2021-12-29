@@ -12,17 +12,17 @@
 	#"numFrames":4,	
 	#"frameRate":20,
 	"turretOffsets":[
-		5, 6,
 		6, 3,
-		6, -3,
-		5, -6
+		5, 6,
+		5, -6,
+		6, -3
 	],
 	"turretAngleOffsets":[0,0,0,0],
 	"hardpointOffsets":[
-		5, 6,
 		6, 3,
-		6, -3,
-		5, -6
+		5, 6,
+		5, -6,
+		6, -3
 	],
 	"hardpointAngleOffsets":[0,0,0,0],	
 	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
@@ -39,5 +39,5 @@
 	#"noShieldImpactSounds":true,
 	#"noNonShieldImpactSounds":true,
 	#"fireSoundOne":"chaingun_intro",	
-	"fireSoundTwo":"chaingun_fire",	
+	"fireSoundTwo":"uaf_hikone_125",	
 }

@@ -17,15 +17,23 @@
 	"frameRate":0,
 	"turretOffsets":[
 		12, 4.5,
-		12, -4.5	
+		12, -4.5,
+		42, 6.5,
+		42, -6.5,
+		-18, 2.5,
+		-18, -2.5	
 	],
 	"turretAngleOffsets":[0],
 	"hardpointOffsets":[
 		12, 4.5,
-		12, -4.5	
+		12, -4.5,
+		42, 6.5,
+		42, -6.5,
+		-18, 2.5,
+		-18, -2.5	
 	],
 	"hardpointAngleOffsets":[0],	
-	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
 	"animationType":"SMOKE",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
 	"smokeSpec":{"particleSizeMin":1.0,
 				 "particleSizeRange":1.0,
@@ -37,11 +45,11 @@
 				 "blowbackLength":20.0,
 				 "blowbackSpread":10.0,
 				 "particleColor":[170,160,150,130]},
-	"projectileSpecId":"uaf_pu_pd_sm",  # projectile that will be fired
+	"projectileSpecId":"uaf_pu_pd_lg",  # projectile that will be fired
 	#"noImpactSounds":true,
 	#"noShieldImpactSounds":true,
 	#"noNonShieldImpactSounds":true,
 	#"fireSoundOne":"chaingun_intro",	
-	"fireSoundTwo":"chaingun_fire",	
+	"fireSoundTwo":"uaf_triyia_30",	
 	"everyFrameEffect": "data.scripts.weapons.uaf_Triyiagfx",
 }

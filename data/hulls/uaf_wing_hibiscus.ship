@@ -3,7 +3,7 @@
   "hullId": "uaf_wing_hibiscus",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/Hibiscus.png",
-  "style": "LOW_TECH",
+  "style": "MIDLINE",
   "height": 40,
   "width": 40,
   "center": [20, 20],
@@ -19,16 +19,7 @@
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [11, 11]
-    },
-    {
-      "id": "WS0002",
-      "size": "MEDIUM",
-      "type": "MISSILE",
-      "mount": "HIDDEN",
-      "arc": 0,
-      "angle": -0,
-      "locations": [11, -11]
+      "locations": [7.5, -0]
     }
   ],
   "engineSlots": [
@@ -38,7 +29,7 @@
       "width": 6,
       "angle": 180,
       "contrailSize": 6,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE_H"
     },
     {
       "location": [-10, -7.5],
@@ -46,7 +37,7 @@
       "width": 6,
       "angle": -180,
       "contrailSize": 6,
-      "style": "LOW_TECH"
+      "style": "MELODY_ENGINE_H"
     }
   ],
   "bounds": [

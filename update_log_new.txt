@@ -1,0 +1,269 @@
+30/07/2020 - ver 0.0.1a
+-First iteration alpha version
+-Added Runnable ships without weapons
+-Added Virtual field mission to test ship's maneuverability
+-Added compatibility with newest starsector version
+-Fighter wings TBA on next iteration
+-Ship Weapons TBA on next iteration
+-Cake ingrediants TBA on next iteration
+
+05/09/2020 - ver 0.9.1.a
+-Second iteration of alpha version
+-Added more ships and fighters
+-Added more effects on ships
+-Added choco lava
+-UAF Keycard implemented
+-Aoi-Ayama star system implemented
+-UAF Faction implemented
+-Added modular ship
+-Fixed wrong gun placements
+-Added more sounds
+
+25/09/2020 - ver 0.9.2.a
+-Third iteration of alpha version
+-Added sekai tanker class
+-Added wo tanker class
+-Added tsutsumu tanker class
+-Added machi apa class
+-Added solvernia V modular ship
+-Added modular engine hullmod, as well as many other buffs hullmod
+-Adjusting the sounds and putting in extra sounds for cyrexa, medlav, tona, and weiss
+-Added new flak weapons, weiss I, weiss II, weiss III
+-Added special proximity fuse and fragmentation mechanic for weiss III
+-Added new railgun weapons, tona I, tona II, tona III
+-Added new graphical laser sight to tona I, tona II, tona III, Quad cyrexa, triple cyrexa
+-Added new medium mount weapon, hikone
+-Added turret version of exoscar, rhythm, clemente, selene and vocals
+-Added xs weapon mount decorative MG
+-Added missile barrage weapon for solvernia V
+-Adjusted missile barrage stats for solvernia V
+-Rebalancing escort mission to make it harder and test the solvernia V
+-Fixed some bugs regarding third weiss new mechanic
+-Fixed some bugs that causes crash in campaign
+-Improved gfx for weiss III fragmentation, adding randomity into the subminition
+-Added custom sprite for weiss III explosion
+-Buffed some old weapons
+-Adding dozens of description to various entity in game (weapons, planets, faction) (wip)
+-Added diced dried pineapple
+-Added working Nexerelin dependencies
+-Adding an experimental shielded torpedo
+
+22/02/2021
+-Added Lovela assault frigate
+-Added Sentry class artillery destroyer
+-Added RAVENYA and VERNYA drones
+-Added Rama Corvette
+-Replaced nakiha frigate sprites
+-Added egg pudding
+-Added Isenoria hybrid battleship
+-Added Novaeria class command dreadnought
+-Added foundation for blinker decoration systems
+-Added Osela light exploration vessel
+-Added Eyeseau command vessel
+-Experimental Sonar pulse with song abroad Eyeseau
+-Experimental extreme hull modifications for Eyeseau
+-Added a few portraits
+-Shielded Torpedo message Fix
+-Fixed bug existing in Weiss III
+-Replaced Auroria planet's sprite with the new one
+
+
+22/03/2021
+-Added Shinoria and the variants
+-Added Zepporia and variants
+-Added donuts
+-Added Semibreve weapon
+-Added Triyia PDX
+-Added Herexa
+-Updated some ship sprites to the remade one
+-Added new 8 sprites
+
+26/04/2021
+-Added more portraits
+-Remade Aoi-Ayama star system
+-Remake the market into a workable market
+-Added choco lava (real)
+-Adjusted uaf as a faction
+-Readjusted uaf with nex
+-Added dynamic starting relation of uaf and various factions
+-Remaking gfx for lower tier weiss
+-Remaking laser of cannons and railguns
+-Remaking projectile of various versions
+-Discarded all missions and added two mission for warship and carrier each
+-Added CY's rebalancing
+
+04/05/2021
+-Adjusted stations and station names
+-Added Cy's hulls
+-Added Cy's Variants
+-Rebalanced a few weapons
+-Rebalanced fighters
+-Added shipsystem to the ships
+-Added keycard to droprates
+-Fixed Triyia
+-Nerfed reisen system
+-Correcting automata and military spec descriptions
+
+07/07/2021
+-Added minirest
+-Added chorus
+-Minor adjustments to missile stats
+-Added purcyllera
+-Added scinaut
+-Added music
+-Added new sfx
+
+21/07/2021
+-Remade weapons for fighter with streamlined naming convention and stats
+-Reworked and rebalanced fighters
+-Added new ships and fighters
+-Pending variants on osela and purcellyra
+
+25/07/2021
+-Added new sounds
+-Removed old weapons
+-Tweaking some weapons stats
+-Adjusted sounds
+-Added tracers and readjusting bullet tracers
+
+27/07/2021
+-Fixed bug on scinaut
+-Added new sounds
+-Adjusted some sounds volume
+
+09/08/2021
+-Added new Stjarna system
+-Added 2 more administrators
+
+20/08/2021
+-Sounds update!
+
+13/09/2021
+-New ships update, fusoreina and junyo
+-Rebalanced solv maneuverability
+-Buffed Machi's drones
+-Replaced various variants and tweaked ship files with CY's and naggy's
+
+20/09/2021
+-Reduced chargeups for 1s+ weapons by 60%-ish to help with AI
+-Added new tags to some weapons to prevent them from showing in the game as lootable
+-Readjusted stjarna indusries
+-Added piercing capabilities (v1) to Tona I - IV + Phenex
+-Added new sfx for eyeseau
+-Switched decom space to uaf instead of neutral
+
+26/09/2021
+-Cleaned files for unused sounds
+-Merged with Cy updates
+-Fixed semibreve bugs
+-Fixed auroran engineering missing
+-Fixed planet size bugs
+-Added new industry in new auroria and condition in vermilion market
+-Switched decom station back to neutral
+-Fixed stjarna population
+-Changed tona tracer to match phenex
+-Uaf Flagship now grants 100% ballistic weapon range and 50% ballistic projectile speed
+
+11/10/2021
+" Ever since Vermy doesn't wanna write this one, I'll do it myself. :T "
+
+-Added Novayu class Frigate
+-Added Supolev Alpha class S-Freighter
+-Added Miyo Juliet class M-Freighter
+-Adjusted all S/M/L-Tankers back to normal stats ( placeholder cargo capacity have been removed )
+-Added new portraits
+-Readjusted some minor stats
+
+12/10/2021
+"Hotfix Edition"
+
+-Added Solvernia, Novaeria and Cherry Vanguard into campaign
+-Added Purcellyra into campaign
+-Fixed Minoria and Exoria's stats
+-Improved Rillaru and Sentry's stats slightly
+-UAF will now deploy nuclear weapons in large ships
+
+17/10/2021
+"CY been pouting because I didn't write this last time xD"
+
+-Reworked UAF Bakery into Confectionery
+-Reworked naming for all UAF Bakery items to now have a "uaf_bakery_" prefix for compatibility purpose
+-Renamed Packaged Choco Lava to Premium Choco Lava
+-Added Half-Dozen Donuts Box and Pretzels & Croissant Bundle with temporary icon placeholder
+-Added Kitten
+-Added 3 new installable items with various effects
+-Rewritten some script to tidy things up a little bit
+-Centralized Communication no longer causes crash
+-Fixed Stjarna's stations problem
+-Aoi - Stjarna is no longer cloudy
+-Added gravity well for Auroria
+-Readjusted namnlos station to be more outwards
+-Fixed keycard drop rates
+-Added new sound effects for bakery items
+-Added Orbital/Battle/Star stations to some planets
+-Added minerals condition to vermilion market
+-Fixed decom space habitat (hopefully this one fix it for real)
+-Removed high tech stations from several planets
+
+18/10/21
+"What do you mean I'm pouting? I'm just doing you a favor and write it on your behalf. :V"
+
+-more stat changes
+
+24/10/2021
+-Attempting to fix semibreve nuke, I hope my additional line works
+-Added new mini emp pulse for osela centered on its tail
+-Removed Angel System for now
+-Added black market to lunamun
+-Added UAF November Royal Navy and Automata Expeditionary Division as their own sub-faction that spawns through structure, similar to Sindikat's Lions
+-Added both subfaction into nex
+-Added blueprint package, hopefully they work as intended
+-Remade Eyeseau System by merging 3 different hullmods + a sensor buff
+-Buffed automata specification with sensor profile -20%
+-Added new hullmod Atmospheric entry to help with ground assault
+-Buffed auroran engineering
+-Relocated both star systems to down right of starmaps
+-Added new texture for lunamun
+
+27/10/2021
+" Vermy worked overtime for this one. "
+
+Note: Not all ships have their descriptions yet, sorry!
+
+-Added descriptions to various ships
+-Adjusted NexerelinConfig for the new mini-factions
+-Mini factions will now field their own ships and exports from the main faction.
+
+31/10/2021
+-Added market for november military and automata logistics
+-Added gravity well for auroria and nur
+-Fixed bug regarding piercing attribute
+-Buffed piercing attribute of Tona to also damage on exit
+-Reduced eyeseau's sensor range to 350
+-Separated 4 prototype ships to have their own tags
+-Changed the default trigger for semibreve to on hit instead of proximity
+-Changed anti armour (HE) weapon tracers
+-Changed chorus and semibreve tracer
+-Added Rillaru lil sister
+-Added new trails for fighters 
+
+11/12/2021 - Release Ver
+-Erased loggings except the important ones
+-Added compatibility with VNSector
+-Added new questlines
+-Added new interactions with admins of UAF
+-Added Xenenhu and Tarandii star system
+-Added new ship
+-Rebalanced ship stats
+-Rebalanced weapon stats
+-Added first part of Yimie's quest
+
+12/12/2021 - Hotfix
+-Fixed galaxy naming systems showing incorrect
+
+28/12/2021
+-Added Caelia system
+-Added favonius resort world
+-Added new akatsuzuma cruiser
+-Added tourism event for favonius
+-Added strawberries

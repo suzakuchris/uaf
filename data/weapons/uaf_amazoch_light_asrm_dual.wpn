@@ -3,7 +3,7 @@
 	"specClass":"projectile",
 	"type":"MISSILE",
 	"size":"MEDIUM",
-	"renderHints":[RENDER_LOADED_MISSILES],
+	#"renderHints":[RENDER_LOADED_MISSILES],
 	"turretSprite":"graphics/weapons/Missiles/amazoch_light_asrm_dual/launcher_rack_2x_s.png",
 	"hardpointSprite":"graphics/weapons/Missiles/amazoch_light_asrm_dual/launcher_rack_2x_s.png",
 	"hardpointOffsets":[
@@ -33,5 +33,5 @@
 				 "blowbackSpread":10.0,
 				 "particleColor":[128,128,128,105]},	
 	"projectileSpecId":"uaf_amazoch_light",
-	"fireSoundTwo":"reaper_fire",
+	"fireSoundTwo":"uaf_missile_2",
 }
